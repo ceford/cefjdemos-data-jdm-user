@@ -1,5 +1,4 @@
-Joomla!  4.0 / 5.0 <span id="main-portal-heading">**Tutorial**  
-Adding a New Article</span>
+<!-- Filename: J4.x:Adding_a_New_Article / Display title: Adding a New Article -->
 
 ## Introduction
 
@@ -11,7 +10,7 @@ using the default content editor.
 
 For more information on the different editors available in Joomla read:
 [Content
-Editors](https://docs.joomla.org/Content_creators#Content_Editors "Special:MyLanguage/Content creators").
+Editors](https://docs.joomla.org/Special:MyLanguage/Content_creators#Content_Editors "Content Editors").
 
 Before starting, in addition to the content, if you use them, you will
 need to know what category and any tags you will assign to the article.
