@@ -121,32 +121,31 @@ user=help=joomla-help-system.md
 user=help=what-are-help-screens-3f.md
 
 heading=hosting=Hosting
-user=installation-variations=how-to-build-your-free-joomla-website.md
+user=hosting=free-hosting.md
+user=hosting=cpanel-hosting.md
+user=hosting=local-hosting-on-windows.md
+user=hosting=local-hosting-with-xampp.md
 user=hosting=local-hosting-on-linux.md
-user=hosting=optional-technical-requirements.md
+user=hosting=installing-joomla-on-debian-linux.md
+user=hosting=freebsd-installation.md
+user=hosting=installing-joomla-using-bitnami-joomla-stack.md
+user=hosting=installing-joomla-on-a-raspberry-pi.md
+user=hosting=installing-joomla-using-an-auto-installer.md
 user=hosting=moving-the-site-among-directories-sub-directories.md
-user=hosting=multiple-domains-and-web-sites-in-a-single-joomla-installation.md
-user=hosting=nginx.md
-user=hosting=should-php-run-as-a-cgi-script-or-as-an-apache-module-3f.md
-user=hosting=what-is-the-difference-between-a-sub-domain-parked-domain-and-an-add-on-domain-3f.md
-user=hosting=how-do-unix-file-permissions-work-3f.md
-user=hosting=how-do-windows-file-permissions-work-3f.md
-user=hosting=how-do-phpsuexec-file-permissions-work-3f.md
-user=hosting=how-do-you-recursively-adjust-file-and-directory-permissions-3f.md
-user=hosting=how-do-you-restrict-directory-access-by-ip-address-using-htaccess-3f.md
-user=hosting=how-to-check-if-mod-rewrite-is-enabled-on-your-server.md
-user=hosting=using-an-ftp-client-to-upload-files.md
 
-heading=installation-variations=Installation Variations
-user=installation-variations=freebsd-installation.md
-user=installation-variations=ibm-cloud-installation.md
-user=installation-variations=iis.md
-user=installation-variations=installing-joomla-using-bitnami-joomla-stack.md
-user=installation-variations=installing-joomla-on-debian-linux.md
-user=installation-variations=installing-joomla-on-a-raspberry-pi.md
-user=installation-variations=installing-joomla-on-a-local-web-server.md
-user=installation-variations=installing-joomla-on-a-rented-web-server.md
-user=installation-variations=installing-joomla-using-an-auto-installer.md
+heading=hosting-notes=Hosting Notes
+user=hosting-notes=multiple-domains-and-web-sites-in-a-single-joomla-installation.md
+user=hosting-notes=what-is-the-difference-between-a-sub-domain-parked-domain-and-an-add-on-domain-3f.md
+user=hosting-notes=optional-technical-requirements.md
+user=hosting-notes=nginx.md
+user=hosting-notes=should-php-run-as-a-cgi-script-or-as-an-apache-module-3f.md
+user=hosting-notes=how-do-unix-file-permissions-work-3f.md
+user=hosting-notes=how-do-windows-file-permissions-work-3f.md
+user=hosting-notes=how-do-phpsuexec-file-permissions-work-3f.md
+user=hosting-notes=how-do-you-recursively-adjust-file-and-directory-permissions-3f.md
+user=hosting-notes=how-do-you-restrict-directory-access-by-ip-address-using-htaccess-3f.md
+user=hosting-notes=how-to-check-if-mod-rewrite-is-enabled-on-your-server.md
+user=hosting-notes=using-an-ftp-client-to-upload-files.md
 
 heading=languages=Languages
 user=languages=setup-a-multilingual-site.md
@@ -161,7 +160,7 @@ user=media=media-image-crop-resize-rotate.md
 user=media=media-options.md
 user=media=media-uploading-svg-files.md
 
-heading=menus=Menua
+heading=menus=Menus
 user=menus=adding-a-new-menu.md
 user=menus=menu-items.md
 user=menus=menu-item-types.md
@@ -169,7 +168,7 @@ user=menus=menu-item-order.md
 user=menus=submenus.md
 user=menus=menu-positions.md
 user=menus=auto-redirect-guests-to-login.md
-user=menus=how-to-create-a-menu-item-to-view-archived-articles.md
+user=menus=menu-item-type-archived-articles.md
 user=menus=adding-a-custom-administrator-menu.md
 
 heading=migration=Migration
@@ -199,7 +198,7 @@ user=modules=changing-the-login-form-module-settings.md
 user=modules=customising-the-login-form-module.md
 user=modules=module-class-suffix.md
 user=modules=standard-module-chromes.md
-user=modules=how-to-show-a-calendar-month-list-of-archived-articles-using-a-module.md
+user=modules=articles-archived-module.md
 user=modules=how-do-you-create-a-custom-module-3f.md
 user=modules=how-to-control-module-display-when-linking-to-an-article-with-no-menu-item.md
 user=modules=how-do-you-add-a-paypal-button-3f.md

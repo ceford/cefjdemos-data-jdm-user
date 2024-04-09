@@ -1,5 +1,7 @@
 <!-- Filename: Multiple_Domains_and_Web_Sites_in_a_single_Joomla!_installation / Display title: Multiple Domains and Web Sites in a single Joomla! installation -->
 
+**Note:** This article was last updated in 2012!
+
 Although it's a best-practice to give every Website its own domain,
 Joomla! installation and database there can be special conditions in
 which a multi-site solution under a single Joomla! install is warranted.
@@ -47,7 +49,7 @@ Joomla! Administrator area.
 
 ### Add a Redirect
 
-#### Option \#1: Create an .htaccess (Apache) redirect
+#### Option #1: Create an .htaccess (Apache) redirect
 
 **Note** *Enable SEF URLs in Joomla! First*
 
@@ -59,18 +61,18 @@ given page on the Joomla! site. In this example, we redirect any
 inquiries to www.redjohnsoncandy.com to a category-blog page. You would
 have previously assigned the 'red candy' template to this menu item, to
 create the illusion of a separate site.
-
-    #The following rule works, but it changes which domain name displays.
-    RewriteCond %{HTTP_HOST} ^(www\.)?redjohnsoncandy\.com$
-    RewriteRule (.*) http://www.yellowjohnsoncandy.com/index.php?option=com_content&view=category&layout=blog&id=3&Itemid=12 [R=301,L]
-
+```
+#The following rule works, but it changes which domain name displays.
+RewriteCond %{HTTP_HOST} ^(www\.)?redjohnsoncandy\.com$
+RewriteRule (.*) http://www.yellowjohnsoncandy.com/index.php?option=com_content&view=category&layout=blog&id=3&Itemid=12 [R=301,L]
+```
 Well, that works - but you can see the drawback immediately. Although
 the user is successfully viewing the Red Candy site, they will still see
 the Yellow Candy domain name. Unfortunately, if you are using both
 .htaccess and domain-parking (technically a redirect) - this is
 necessary in order to avoid creating a LOOP.
 
-#### Option \#2: Create a PHP Header Redirect
+#### Option #2: Create a PHP Header Redirect
 
 This solution has the benefit of keeping the illusion of separate
 domains/web sites apparent to the visitor. Instead of using .htaccess
@@ -80,6 +82,20 @@ In this example, the base domain is www.redjohnsoncandy.com. You have
 created a template for that area named *Red Template*. The trick is to
 open 'Red Template's' index.php file and add the following AS THE VERY
 FIRST LINES of the install's primary index.php.
+
+```php
+<?php
+$domain = $_SERVER["HTTP_HOST"];
+$uri = $_SERVER["REQUEST_URI"];
+$url = $domain . $uri;
+
+if (($url == "redjohnsoncandy.com/") ||
+   ($url == "www.redjohnsoncandy.com/")) {
+   header("Status: 301 Moved Permanently");
+   header("Location: http://www.redjohnsoncandy.com/index.php?option=com_content&view=category&layout=blog&id=3&Itemid=12");
+}
+?>
+```
 
 Here's the benefit: The visitor will now be redirected to the
 appropriate *Red Site* page, that has the *Red Template* assigned to it
@@ -94,7 +110,7 @@ why you have to compare your pure url with a "/" sign at the end. This
 way you´ll be able to make 301 redirects in the same domain. Otherwise
 you´ll create an infinite loop in the redirection process.
 
-#### Option \#3: Create a PHP Header Redirect, for multiple domains with specific domain redirects for custom templates
+#### Option #3: Create a PHP Header Redirect, for multiple domains with specific domain redirects for custom templates
 
 Solution for single webspace, with different domains, one Joomla install
 and depending on the user landing domain, redirects to a different
@@ -105,3 +121,14 @@ domain in the same fashion. Further to setup the template views, you
 will have to assign different module item/link alias and setup template
 views within the Joomla! template manager. The alias setting is needed
 when you use SEF settings.
+```php
+<?php
+$domain = $_SERVER["SERVER_NAME"];
+$requri = $_SERVER['REQUEST_URI'];
+if (($domain == "www.example.de" && $requri == "/" ||
+   $domain == "example.de"))  {
+   header("Status: 301 Moved Permanently");
+   header("Location: http://www.example.de/index.php?option=com_content&view=article&id=6");
+}
+?>
+```

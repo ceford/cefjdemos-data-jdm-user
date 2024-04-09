@@ -1,9 +1,8 @@
-<!-- Filename: How_to_build_your_free_Joomla_Website / Display title: How to build your free Joomla Website -->
+<!-- Filename: How_to_build_your_free_Joomla_Website / Display title: Free Hosting -->
 
 ## What is joomla.com?
 
 joomla.com is a domain name used to allow individuals to create personal instances of the Joomla CMS in subdomains of the form alice.joomla.com, bob.joomla.com and so on. The subdomains are managed by the CloudAccess.net hosting service. With your own subdomain you can build and maintain a completely free Joomla website for an unlimited time. The free site features all of the Joomla CMS core functionalities that make building a website easy and flexible.
-
 
 ## Launching your first Joomla.com site
 
@@ -84,10 +83,10 @@ Since most of the platform’s functionality overlaps with that of the Joomla! C
 
 ### Test upcoming releases with joomla.com
 
-Tests are important in an open source project like Joomla as they provide quality assurance for upcoming releases. You can help with testing of new features and bug fixes by installing the [Joomla Patchtester](https://github.com/joomla-extensions/patchtester/releases) extension in your free Joomla site. No special skills are required to become a tester! If you have never tested pull requests, the Joomla Documentation provides all the [tutorials](https://docs.joomla.org/Special:MyLanguage/Testing_Joomla!_patches) you need. So be part of it, start testing Joomla today. 
+Tests are important in an open source project like Joomla as they provide quality assurance for upcoming releases. You can help with testing of new features and bug fixes by installing the [Joomla Patchtester](https://github.com/joomla-extensions/patchtester/releases) extension in your free Joomla site. No special skills are required to become a tester! If you have never tested pull requests, the Joomla Documentation provides all the [tutorials](https://docs.joomla.org/Special:MyLanguage/Testing_Joomla!_patches) you need. So be part of it, start testing Joomla today.
 
 <p class="center">
 <img alt="Launch-Joomla-patch-tester.png" src="https://docs.joomla.org/images/thumb/a/ab/Launch-Joomla-patch-tester.png/800px-Launch-Joomla-patch-tester.png" decoding="async" width="800" height="384" srcset="https://docs.joomla.org/images/thumb/a/ab/Launch-Joomla-patch-tester.png/1200px-Launch-Joomla-patch-tester.png 1.5x, https://docs.joomla.org/images/a/ab/Launch-Joomla-patch-tester.png 2x" data-file-width="1440" data-file-height="691" class="border">
 </p>
 
-Caveats: You will need a GitHub account and a GitHub token. You will not be able to test pull requests involving CSS and JavaScript changes requiring NPM Resource Changes. 
+Caveats: You will need a GitHub account and a GitHub token. You will not be able to test pull requests involving CSS and JavaScript changes requiring NPM Resource Changes.

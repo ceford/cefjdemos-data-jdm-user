@@ -69,7 +69,7 @@ follows:
 - Select the Home menu item.
 - Select the Blog Layout tab.
 
-There are lots of tabs for settings various aspects of the display. Most
+There are lots of tabs for setting various aspects of the display. Most
 will be covered elsewhere. Here is a screenshot of the Blog Layout:
 
 <img
@@ -98,7 +98,7 @@ Try these:
 - **\# Columns:** the number of side-by-side Intro Articles. Try 2 or 3.
 - **Multi Column Direction:** The tops of each Intro Article align
   differently depending on whether the Down or Across option is chosen.
-- **Links:**: is the number of article titles to show that that were not
+- **Links:** is the number of article titles to show that that were not
   Leading or Intro Articles. If there are eight Featured articles in
   total, with one Leadin and two Intro Articles then the number of links
   would be five, or whatever the maximum number set in the **Links**

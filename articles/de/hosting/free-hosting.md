@@ -1,4 +1,4 @@
-<!-- Filename: How_to_build_your_free_Joomla_Website / Display title: Wie kann eine kostenlose Joomla-Webseite erstellt werden? -->
+<!-- Filename: How_to_build_your_free_Joomla_Website / Display title: Kostenloses Hosting -->
 
 ## Was ist joomla.com?
 
@@ -28,7 +28,7 @@ Installation testen. In wenigen Minuten ist auf
 target="_blank" rel="noreferrer noopener">Launch.joomla.org</a> die
 eigene, vollständige Joomla-Installation verfügbar.
 
-Es war nie einfacher, eine eigene Joomla-Webseite zu erstellen!  
+Es war nie einfacher, eine eigene Joomla-Webseite zu erstellen!
 Um zu beginnen, auf
 <a href="https://launch.joomla.org/" class="external text"
 target="_blank" rel="noreferrer noopener">launch.joomla.org</a> gehen
@@ -50,7 +50,7 @@ alt="Launch-Joomla-homepage-information.png" />
 - **Country:** Diese Information wird für Anmeldestatistiken verwendet.
 
 Um unseren Dienst zu nutzen, muss man die Nutzungsbedingungen
-akzeptieren.  
+akzeptieren.
 Wer an unseren Marketing-Kampagnen teilnehmen will, kann uns hier
 erlauben, E-Mails zuzusenden.
 

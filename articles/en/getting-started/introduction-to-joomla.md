@@ -5,8 +5,7 @@
 Joomla! is one of the most popular, free and open-source content
 management systems (CMS) available for publishing web content. It is
 user friendly, extendable, multilingual, accessible, responsive, search
-engine optimised and so much more. **Joomla! 4** is the current version,
-released in August 2021.
+engine optimised and so much more.
 
 There are thousands of free and commercial Joomla! Extensions available
 from third parties for all sorts of special purposes. However, Joomla!
