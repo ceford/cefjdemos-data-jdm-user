@@ -10,12 +10,9 @@ features such as a header, body, footer and captions. Tables can be
 nested!
 
 By default, table cells expand to accommodate their content. The only
-styling comes from the table markup: header cells (
-
-) have centred text while data cells (
-
-) have left aligned text. However, Joomla provides a range of table
-styles via Bootstrap.
+styling comes from the table markup: header cells (`<th>`) have centred
+text while data cells (`<td>`) have left aligned text. However, Joomla
+provides a range of table styles via Bootstrap.
 
 Table usage should be reserved for strictly tabular data, such as a
 Timetable or a Calendar, where it is important to maintain the row and
@@ -67,7 +64,7 @@ The TinyMCE editor is not a Joomla-specific editor and it adds in-line
 styles to each table cell. It is best to remove these styles and use
 Bootstrap styles instead.
 
-- Select the Source code (\<\>) icon from the editor toolbar.
+- Select the Source code (`<>`) icon from the editor toolbar.
 - In the Source code popup dialog, scroll down to the table.
 - Remove all of the style statements and the border="1" statement.
 - Select OK. Then Save the article.

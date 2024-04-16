@@ -12,7 +12,7 @@ Articles: Options form.
 
 To set appropriate Article Options:
 
-- Select **Content **→** Articles **→** ** from the Administrator menu.
+- Select **Content → Articles** from the Administrator menu.
 - Select the **Options** button from the Toolbar.
 - Set **Linked Titles** to **Yes** to use Titles as links. Or set to
   **No** to rely on the Read More button only
@@ -33,11 +33,10 @@ combination.
 For individual articles you can change the Read More: text. For example,
 you could shorten it to `Read On:` or `More:`:
 
-- Select **Content **→** Articles **→** ** from the Administrator menu.
+- Select **Content → Articles** from the Administrator menu.
 - Select the article you wish to edit.
 - Select the **Options** tab.
-- Scroll down to the **Read More Text** field and enter your new
-  wording.
+- Scroll down to the **Read More Text** field and enter your new wording.
 - Save and check the result in your site view.
 
 ## Language Override
@@ -45,7 +44,7 @@ you could shorten it to `Read On:` or `More:`:
 If you wish to change the default wording of the Read more button,
 proceed as follows:
 
-- Select **System **→** Manage panel **→** Language Overrides**.
+- Select **System → Manage panel → Language Overrides**.
 - Select **English (United Kingdom) - Site** for the
   `Select Language and Client` list.
 - Select the **New** button.

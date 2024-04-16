@@ -1,8 +1,5 @@
 <!-- Filename: J4.x:Adding_a_menu_link_in_an_article / Display title: Adding a menu link in an article -->
 
-<span id="main-portal-heading">**Tutorial**  
-How to add a Menu Item from an Article</span> Joomla!  4.x
-
 ## Introduction
 
 Joomla! allows you to add your articles to a menu without leaving the
@@ -17,15 +14,14 @@ article is edited:
 
 Edit your article by:
 
-- Going to **Content**  **→**  **Articles** and click on an existing one
+- Go to **Content** **→** **Articles** and select an existing article
   to edit it ***or***
-- Create a new one. See how to do this here: [Adding a new
-  Article](https://docs.joomla.org/J4.x:Adding_a_New_Article "Special:MyLanguage/J4.x:Adding a New Article").
+- Create a new article using the **New** button in the Toolbar.
 
 ## Adding the Article to a Menu
 
-Once you are ready to save your changes, choose the option **Save to
-Menu**
+Once you are ready to save your changes, select **Save to Menu** from the
+**Save & Close** dropdown list.
 
 <img
 src="https://docs.joomla.org/images/thumb/1/19/Article_Edit_page-en.png/800px-Article_Edit_page-en.png"

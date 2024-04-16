@@ -53,9 +53,12 @@ To create a definition list:
 
 - Select the `Toggle Editor` button to see the HTML article markup.
 - Type in the Definition List mark up. Here is an example:
-    Amphibian
-    Cold-blooded vertebrate that lays eggs in water and has an aquatic laval stage.
-    Reptile
-    Cold-blooded vertebrate that lays eggs on land.
-
+```html
+<dl>
+<dt>Amphibian</dt>
+<dd>Cold-blooded vertebrate that lays eggs in water and has an aquatic laval stage.</dd>
+<dt>Reptile</dt>
+<dd>Cold-blooded vertebrate that lays eggs on land.</dd>
+</dl>
+```
 Save and view the result in Site display.

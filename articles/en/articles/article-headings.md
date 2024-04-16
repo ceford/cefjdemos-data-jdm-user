@@ -68,3 +68,9 @@ alt="Article Headings" />
 Note: by convention, all HTML tags use lower case letters. If you select
 `Toggle Editor` to look at the source you will see the paragraphs and
 headings set in tags with lower case.
+
+## Tips
+
+- Select a single word in a heading to see a popup with a list of formatting
+options, including a toggle for H2 or H3 to turn the whole paragraph into a
+heading.
