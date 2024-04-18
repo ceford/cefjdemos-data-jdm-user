@@ -15,7 +15,7 @@ The content provider on whose page the banner is displayed receives a small paym
 
 If banners are too attention-grabbing, users become annoyed with them and employ an ad-blocker to prevent the display of banners.
 
-More information:
+## More information
 
+* On banners in Joomla: see this [Magazine Article](https://magazine.joomla.org/all-issues/september/explore-the-core-joomla-4-banner-manager).
 * On banners in general: [Wikipedia: Web banner](https://en.wikipedia.org/wiki/Web_banner).
-* On banners in Joomla: see the Help page for each of the five Banner component pages.

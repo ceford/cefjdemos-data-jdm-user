@@ -7,7 +7,7 @@ of other dashboards. There are numerous panels with links to different
 types of Help information. All but Joomla Help link to Joomla related
 sites and open in new Tabs or Windows. **Joomla Help** opens a page
 containing links to most of the Help screens that can be opened from the
-title bar in Joomla component list or edit pages.
+Toolbar in Joomla component list or edit pages.
 
 ## Screenshot
 
