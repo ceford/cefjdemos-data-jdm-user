@@ -30,6 +30,7 @@ user=articles=read-more-links.md
 user=articles=article-lists.md
 user=articles=article-pagination.md
 user=articles=article-tables.md
+user=articles=article-metadata.md
 
 heading=articles-access=Articles - Access
 user=articles-access=article-check-out-and-check-in.md
@@ -37,9 +38,6 @@ user=articles-access=article-preview.md
 user=articles-access=scheduling-the-publication-of-an-article.md
 user=articles-access=restricting-access-to-an-article.md
 user=articles-access=restricting-access-to-read-more.md
-user=articles-metadata=entering-search-engine-meta-data.md
-user=articles-metadata=using-the-meta-description.md
-user=articles-metadata=using-the-title-tag.md
 
 heading=banners=Banners
 user=banners=banners.md

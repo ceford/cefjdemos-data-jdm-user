@@ -23,6 +23,7 @@ articles=read-more-links.md=https://docs.joomla.org/J4.x:Read_More_Links
 articles=article-lists.md=https://docs.joomla.org/J4.x:Article_Lists
 articles=article-pagination.md=https://docs.joomla.org/J4.x:Article_Pagination
 articles=article-tables.md=https://docs.joomla.org/J4.x:Article_Tables
+articles=article-metadata.md=jdocmanual?manual=user&heading=articles&filename=article-metadata.md
 articles-access=article-check-out-and-check-in.md=https://docs.joomla.org/J4.x:Article_Check-out_and_Check-in
 articles-access=article-preview.md=https://docs.joomla.org/J4.x:Article_Preview
 articles-access=scheduling-the-publication-of-an-article.md=https://docs.joomla.org/J4.x:Scheduling_the_publication_of_an_article

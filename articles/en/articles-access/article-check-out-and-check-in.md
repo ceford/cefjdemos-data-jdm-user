@@ -13,7 +13,7 @@ Sometimes an article edit form is not closed properly, for example by
 using the browser back button or by having the user session time out. In
 this case the checked_out field is left set. This is marked in article
 lists with a small padlock icon. The padlock icon is also seen where an
-edit link should be when logged in to the site.
+edit link should be when logged in to the site frontend.
 
 To restore normal operation, checked out items need to be checked in.
 
@@ -77,7 +77,7 @@ used in phpMyAdmin:
 
 And the result should be like this:
 
-    TABLE_NAME     
+    TABLE_NAME
     bi2hb_banner_clients
     bi2hb_banners
     bi2hb_categories

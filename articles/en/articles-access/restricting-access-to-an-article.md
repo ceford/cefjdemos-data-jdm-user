@@ -1,16 +1,6 @@
 <!-- Filename: J4.x:Restricting_access_to_an_Article / Display title: Restricting access to an Article -->
 
-<span id="main-portal-heading">**Tutorial**  
-How to Restrict Access to an Article</span> Joomla!  4.0
-
 ## Introduction
-
-A key part of a Content Management System (CMS), is its ability to do
-just that - manage content. Joomla! provides an easy way for you to
-deliver your content to who you want to, when you want to.
-
-This Tutorial looks specifically at restricting access to articles,
-either completely or for specific types of users.
 
 Utilising it's powerful Access Control List (ACL), Joomla! provides you
 with an easy way to control who can see your articles by restricting
@@ -30,19 +20,15 @@ Consider why you want to restrict access to the article:
     access level.
 
 **Note:** Joomla! 4 has introduced a new feature, *Workflows* allowing
-you to define specific stages for article creation through to
-publication.
+you to define specific stages for article creation through to publication.
 
 ## Changing the Access Level of the Article
 
 If you are changing the access level of an existing article:
 
-- Log in to the Administrator Home Dashboard.
-- From the Home Dashboard Site Panel click on Articles or from the
-  Sidebar Menu navigate to **Content **→** Articles** to open the
-  Articles List.
-- Find the article you want to restrict access to and click its title to
-  open it.
+- Select **Articles** From the Home Dashboard Site Panel. Or...
+- Select **Content → Articles** from the Administrator menu. Then...
+- Find and select the article you want to schedule.
 
 Under most circumstances you would normally set access levels on an
 article when you create it. Remember that the default access level of an
@@ -76,8 +62,8 @@ are required to access additional content.
 **Super Users:** Setting this level means only a Super User can access
 the article.
 
-Once you have the set the relevant access level select the **Save &
-Close** button in the toolbar.
+Once you have the set the relevant access level select the
+**Save & Close** button in the Toolbar.
 
 ## Quick Tips
 
