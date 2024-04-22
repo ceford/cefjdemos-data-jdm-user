@@ -1,20 +1,26 @@
-<!-- Filename: How_do_you_password_protect_directories_using_htaccess%3F / Display title: How do you password protect directories using htaccess? -->
+<!-- Filename: How_do_you_password_protect_directories_using_htaccess%3F / Display title: Password protect directories -->
 
-This FAQ explains how to protect the Joomla! */administrator/* directory
-on Apache servers using the *htpasswd* utility. You can easily adapt
-these instructions to protect other directories. If you need help
-finding or creating your *.htaccess* file, start here.
+## Introduction
 
-### Caveat (From Apache.org)
+You may wish to protect a directory or an entire site from public access. One
+reason for this is to deny public access to a Development site. Only those
+who know the username and password will be granted access. Another reason is
+paranoia - for example protection of the administrator folder so users have to
+enter a username and password just to gain access to the Joomla Administrator
+login form.
+
+The method described here is for Apache servers using a *.htaccess* file.
+
+### Caveat from Apache.org
 
 Basic authentication should not be considered secure for any
 particularly rigorous definition of secure. Although the password is
-stored on the server in encrypted format, it is passed from the client
+stored on the server in encrypted format, it may be passed from the client
 to the server in plain text across the network. Anyone listening with
 any variety of packet sniffer will be able to read the username and
 password as it goes across.
 
-Remember that the username and password are passed with every request,
+The username and password are passed with every request,
 not just when the user first types them in. So the packet sniffer need
 not be listening at a particularly strategic time, but just for long
 enough to see any single request come across the wire.
@@ -35,58 +41,66 @@ Basic authentication across an SSL connection, however, will be secure,
 since everything is going to be encrypted, including the username and
 password.
 
-### Directions
+## Using cPanel
 
-1.  If you are unfamiliar with the Apache *htpasswd* utility, read the
-    <a href="https://httpd.apache.org/docs/2.4/howto/auth.html"
-    class="external text" target="_blank"
-    rel="nofollow noreferrer noopener">Apache Authentication and
-    Authorization</a> page first.
+If you are using a hosting service you should use its method for directory
+protection. For example, cPanel has an option named Directory Privacy. On
+selection you may navigate to any directory and set a name for it. You will
+then have the opportunity to create a User Username and Password for the
+named directory. Simple?
 
-2.  Check to be sure your site is configured to use *.htaccess* files.
-    If not sure, ask your host.
+If you now look in the directory you protected you will find a new .htaccess
+file containing something like the following set up to protect the Joomla
+api folder:
 
-3.  Decide where to put your *.htaccess* file. Because Apache
-    recursively searches all directories in a path for *.htaccess*
-    files, the higher in your directory structure you place this file,
-    the more directories it will control. If there is already an
-    *.htaccess* file in the directory you choose, it's best to add the
-    new code to it.
+```
+#----------------------------------------------------------------cp:ppd
+# Section managed by cPanel: Password Protected Directories     -cp:ppd
+# - Do not edit this section of the htaccess file!              -cp:ppd
+#----------------------------------------------------------------cp:ppd
+AuthType Basic
+AuthName "API"
+AuthUserFile "/home/username/.htpasswds/public_html/[jroot]/api/passwd"
+Require valid-user
+#----------------------------------------------------------------cp:ppd
+# End section managed by cPanel: Password Protected Directories -cp:ppd
+#----------------------------------------------------------------cp:ppd
+```
+It is important to be aware that cPanel directory protection may use the
+same .htaccess file being used by Joomla for other purposes.
 
-4.  Decide where to store your *.htpasswd* and *.htgroups* files. These
-    files should **never** be publicly accessible through the web. Below
-    is an example directory structure showing good locations for each
-    file. Note that the */auth/* directory in this example is **not**
-    accessible from the web.
-    - */home/mysite/public_html/.htaccess*
-    - */home/mysite/auth/.htpasswd/*
-    - */home/mysite/auth/.htgroups/*
+If you look in the quoted passwd file you will see the Username you provided
+and the encrypted version of the password.
 
-5.  Create the *.htpasswd* and *.htgroups* files as explained in the
-    official Apache HowTo referenced above.
+The protection can be removed by repeating the process and unchecking the
+`Password protect this directory.` checkbox. That removes the authentication
+section from the .htaccess file. It does not remove the .htaccess file!
 
-6.  If a *.htaccess* file already exists in the directory you have
-    chosen, make a backup copy. If the file does not exist, create a new
-    file with that name now. (Don't forget the dot at the beginning of
-    the name.)
+## .htaccess Rules
 
-7.  Add the following code to the *.htaccess* file. Adjust the example
-    paths (marked in red) as needed for your server. Adjust the group
-    name that you created in step 5 if it differs from the below
-    example.
+You can do all of the required steps manually. This tool may help:
 
-        AuthUserFile /home/auth/.htpasswd
-        AuthGroupFile /home/auth/.htgroups
-        AuthType Basic
-        AuthName "LWS"
-        require group admins
-
-8.  Test carefully.
-
-If you cannot use the Apache *htpasswd* utility, there's a free
 <a href="https://www.htaccessredirect.net/" class="external text"
 target="_blank" rel="nofollow noreferrer noopener"><em>.htaccess</em>
-generator</a> that creates the necessary files for you. You'll need to
-know the user name, password, and path. The script does the rest for
-you. Note that for more advanced configurations, such as the use of
-groups, you'll need to edit the resulting files.
+generator</a>
+
+It creates the necessary files for you. You need to specify the user name,
+password, and path.
+
+Fill out the two sections: **Password Protect File** and **htpasswd Generator**
+and then select the `Generate Code` button. You get back the text for the
+.htaccess file and the text for the .htpasswd file in separate boxes.
+Examples:
+```
+//Password Protect file
+<Files /admin>
+AuthName "Prompt"
+AuthType Basic
+AuthUserFile /home/user/.htpasswd
+Require valid-user
+</Files>
+```
+
+```
+John:$apr1$a3dbt6j7$KJQr137CY9QuN6tYl6M4Z1
+```

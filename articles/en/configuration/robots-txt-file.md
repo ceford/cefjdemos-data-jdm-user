@@ -101,6 +101,3 @@ one of these:
   class="external text" target="_blank"
   rel="nofollow noreferrer noopener">Robots meta tag, data-nosnippet, and
   X-Robots-Tag specifications</a>
-- <a href="https://searchtools.com/robots/robots-txt.html"
-  class="external text" target="_blank"
-  rel="nofollow noreferrer noopener">Robots.txt and Search Indexing</a>

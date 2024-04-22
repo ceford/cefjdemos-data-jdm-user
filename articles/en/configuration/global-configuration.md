@@ -225,9 +225,8 @@ against markup commonly associated with website attacks.
 ## Permissions tab
 
 Permissions control what users in each User Group can do and see. The
-entries in Permissions tab set the default permissions for the site.
+entries in the Permissions tab set the default permissions for the site.
 
 There are comprehensive descriptions of the use of the settings under
 this tab and the general principles of operation and set-up of
-permissions here: [ACL Tutorial for Joomla
-3.x](https://docs.joomla.org/J3.x:Access_Control_List_Tutorial#Global_Configuration "Special:MyLanguage/J3.x:Access Control List Tutorial").
+permissions in an [Access Control List Tutorial](https://docs.joomla.org/J3.x:Access_Control_List_Tutorial#Global_Configuration "Special:MyLanguage/J3.x:Access Control List Tutorial").

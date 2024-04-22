@@ -57,8 +57,6 @@ user=configuration=robots-txt-file.md
 user=configuration=adding-www-to-a-url.md
 user=configuration=how-do-you-block-direct-hot-linking-to-image-files-using-htaccess-3f.md
 user=configuration=how-do-you-block-directory-scans-using-htaccess-3f.md
-user=configuration=what-are-the-recommended-file-and-directory-permissions-3f.md
-user=configuration=how-do-you-convert-an-htaccess-txt-file-into-a-htaccess-file-3f.md
 user=configuration=how-do-you-password-protect-directories-using-htaccess-3f.md
 
 heading=contacts=Contacts

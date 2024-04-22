@@ -1,4 +1,4 @@
-<!-- Filename: How_do_I_use_Gmail_as_my_mail_server%3F / Display title: How do I use Gmail as my mail server? -->
+<!-- Filename: How_do_I_use_Gmail_as_my_mail_server%3F / Display title: Gmail as a mail server? -->
 
 If you have a working Gmail account you can use Gmail as your mail
 server by setting it in the global configuration.

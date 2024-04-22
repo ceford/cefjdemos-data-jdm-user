@@ -1,4 +1,4 @@
-<!-- Filename: How_to_debug_SMTP_mail_in_Joomla_4 / Display title: How to debug SMTP mail in Joomla 4 -->
+<!-- Filename: How_to_debug_SMTP_mail_in_Joomla_4 / Display title: How to debug SMTP mail -->
 
 Go to **Home Dashboard **→** Site **→** Plugins**. Enable the *System -
 Debug* plugin and configure it with the following setting, which

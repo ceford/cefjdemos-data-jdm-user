@@ -63,7 +63,7 @@ the stack trace for your Forum question.
 
 Setting Debug to Yes has several effects:
 
-- Joomla delivers uncompressed versions of javascript and css files that
+- Joomla delivers uncompressed versions of JavaScript and CSS files that
   are human readable for debugging purpose.
 - At the bottom left of the screen there is a button to open a panel of
   information about your site. This is a potential security risk so only
