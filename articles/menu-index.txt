@@ -60,8 +60,7 @@ user=configuration=how-do-you-block-directory-scans-using-htaccess-3f.md
 user=configuration=how-do-you-password-protect-directories-using-htaccess-3f.md
 
 heading=contacts=Contacts
-user=contacts=listing-a-user-on-a-contacts-page.md
-user=contacts=what-is-the-contact-creator-3f.md
+user=contacts=contacts.md
 
 heading=dashboards=Dashboards
 user=dashboards=home-dashboard.md
