@@ -61,6 +61,7 @@ user=configuration=how-do-you-password-protect-directories-using-htaccess-3f.md
 
 heading=contacts=Contacts
 user=contacts=contacts.md
+user=contacts=category-list-override.md
 
 heading=dashboards=Dashboards
 user=dashboards=home-dashboard.md

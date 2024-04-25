@@ -49,6 +49,7 @@ configuration=what-are-the-recommended-file-and-directory-permissions-3f.md=http
 configuration=how-do-you-convert-an-htaccess-txt-file-into-a-htaccess-file-3f.md=https://docs.joomla.org/J4.x:How_do_you_convert_an_htaccess.txt_file_into_a_.htaccess_file?
 configuration=how-do-you-password-protect-directories-using-htaccess-3f.md=https://docs.joomla.org/J4.x:How_do_you_password_protect_directories_using_htaccess?
 contacts=contacts.md=jdocmanual?manual=user&heading=contacts&filename=contacts.md
+contacts=category-list-override.md=jdocmanual?manual=user&heading=contacts&filename=contacts.md
 contacts=listing-a-user-on-a-contacts-page.md=https://docs.joomla.org/J4.x:Listing_a_user_on_a_contacts_page
 contacts=what-is-the-contact-creator-3f.md=https://docs.joomla.org/J4.x:What_is_the_contact_creator?
 dashboards=home-dashboard.md=https://docs.joomla.org/J4.x:Home_Dashboard
