@@ -1,4 +1,4 @@
-<!-- Filename: J3.x:Adding_custom_fields/Overrides / Display title: Adding custom fields/Overrides -->
+<!-- Filename: J3.x:Adding_custom_fields/Overrides / Display title: Overrides -->
 
 ## How to use custom fields in your overrides
 
@@ -24,7 +24,7 @@ following data per field, where one field looks like this example:
                 [name] => article-editor
                 [checked_out] => 0
                 [checked_out_time] => 0000-00-00 00:00:00
-                [note] => 
+                [note] =>
                 [state] => 1
                 [access] => 1
                 [created_time] => 2017-04-07 12:08:59
@@ -35,10 +35,10 @@ following data per field, where one field looks like this example:
                     (
                         [data:protected] => stdClass Object
                             (
-                                [buttons] => 
-                                [width] => 
-                                [height] => 
-                                [filter] => 
+                                [buttons] =>
+                                [width] =>
+                                [height] =>
+                                [filter] =>
                             )
 
                         [initialized:protected] => 1
@@ -49,13 +49,13 @@ following data per field, where one field looks like this example:
                     (
                         [data:protected] => stdClass Object
                             (
-                                [hint] => 
-                                [render_class] => 
-                                [class] => 
+                                [hint] =>
+                                [render_class] =>
+                                [class] =>
                                 [showlabel] => 1
                                 [disabled] => 0
                                 [readonly] => 0
-                                [show_on] => 
+                                [show_on] =>
                                 [display] => 2
                             )
 
@@ -64,20 +64,20 @@ following data per field, where one field looks like this example:
                     )
 
                 [type] => editor
-                [default_value] => 
+                [default_value] =>
                 [context] => com_content.article
                 [group_id] => 0
                 [label] => article-editor
-                [description] => 
+                [description] =>
                 [required] => 0
-                [language_title] => 
-                [language_image] => 
-                [editor] => 
+                [language_title] =>
+                [language_image] =>
+                [editor] =>
                 [access_level] => Public
                 [author_name] => Super User
-                [group_title] => 
-                [group_access] => 
-                [group_state] => 
+                [group_title] =>
+                [group_access] =>
+                [group_state] =>
                 [value] => Bar
                 [rawvalue] => Bar
             )

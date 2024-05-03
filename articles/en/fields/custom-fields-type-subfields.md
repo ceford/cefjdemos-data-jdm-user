@@ -106,12 +106,9 @@ Turning this off will have consequences for subfield types for which the
 value, which is saved in the database, is not equal to the rendered
 string which is normally being used in the Frontend: E.g. the *media*
 type stores a path to a media file in the database, but normally renders
-as an
-
--tag. Turning this option off would mean that the default rendering
-process of the subfield will now show the path the file instead of the
-
--tag.
+as an `<img>` tag. Turning this option off would mean that the default
+rendering process of the subfield will now show the path the file instead
+of the `<img>` tag.
 
 So, why does this option exist? Because rendering of multiple fields,
 maybe multiple hundreds of fields, costs performance, and rendering of
@@ -172,15 +169,15 @@ which we use to get access to the rendered value of the *media* field
 HTML tag):
 
     name == 'ingredients'): ?>
-      
+
         subfields_rows as $row): ?>
-          
+
             Description: rawvalue); ?>
 
             Image: value; ?>
-          
-        
-      
+
+
+
 
 Additionally, you could disable the rendering of the *description*
 subfield in this example (because the rendered value is not being used,

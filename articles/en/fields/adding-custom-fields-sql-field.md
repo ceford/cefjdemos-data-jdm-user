@@ -1,66 +1,46 @@
-<!-- Filename: J3.x:Adding_custom_fields/Sql_Field / Display title: Adding custom fields/Sql Field -->
+<!-- Filename: J3.x:Adding_custom_fields/Sql_Field / Display title: SQL Field -->
 
-## Sql Field
+## Purpose
 
-Provides a drop down list of entries obtained by running a query on the
-Joomlaǃ Database. The first results column returned by the query
-provides the values for the drop down box.
+The SQL field provides a drop down list of entries obtained from a database
+query. To use this field you need to know how to construct a query and you
+should test it in phpMyAdmin.
 
-### Options
+## Field Creation
 
 Special options within this field are:
 
-- Multiple  
-  Allow multiple values to be selected - if activated.
-- Query  
-  The SQL query which will provide the data for the dropdown list. The
-  query must return two columns; one called 'value' which will hold the
-  values of the list items; the other called 'text' containing the text
-  in the drop-down list.
+- **Multiple** Allow multiple values to be selected. If set to *Yes* the list
+displays 4 items. Otherwise it displays 1 item. In either case there is a long
+list to scroll through to make selections - if activated.
+- **Query** The SQL query which will provide the data for the dropdown list.
+The query must return two columns; one called 'value' which will hold the
+values of the list items; the other called 'text' containing the text
+in the drop-down list.
 
-### Related Information
+In this example a table containing a list of country names is used. This is
+the query:
+```
+SELECT `id` AS value, `title` AS text
+FROM `#__countrybase_countries`
+WHERE `state` = 1
+ORDER BY `title` ASC
+```
+![SQL Field](../../../images/en/fields/fields-sql.png "SQL Field")
 
-See [SQL form field
-type](https://docs.joomla.org/SQL_form_field_type "Special:MyLanguage/SQL form field type")
+## Data Entry
 
-### Screenshots
+Simple - select from the list.
 
-#### Creating the field
+## Data Display
 
-Let's say you create a field with the options shown in the next figure.
+The following Site screenshot shows the field displayed in an article. The
+option *Automatic display* is responsible for the position of the field and
+your template is responsible for the design of the field.
 
-<img
-src="https://docs.joomla.org/images/thumb/c/cf/Sql_field_create-en.png/800px-Sql_field_create-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/c/cf/Sql_field_create-en.png/1200px-Sql_field_create-en.png 1.5x, https://docs.joomla.org/images/c/cf/Sql_field_create-en.png 2x"
-data-file-width="1291" data-file-height="661" width="800" height="410"
-alt="Sql field create-en.png" />
+Look for the **Country of Origin** item.
 
-#### Using the field in the backend
+![Display of all fields](../../../images/en/fields/fields-display.png "Fields display")
 
-In the backend while creating an article or a contact you see the field
-like in the following imageː
-
-<img
-src="https://docs.joomla.org/images/thumb/4/4a/Sql-en.png/800px-Sql-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/4/4a/Sql-en.png/1200px-Sql-en.png 1.5x, https://docs.joomla.org/images/4/4a/Sql-en.png 2x"
-data-file-width="1291" data-file-height="661" width="800" height="410"
-alt="Sql-en.png" />
-
-#### Using the field in the frontend
-
-In the frontend, you can see the field as you see in the following
-image. The option *Automatic display* is responsible for the position of
-the field and your template is responsible for the design of the
-field.
-
-Fields are only displayed in the frontend if you have filled them with
-data in the article. If it is not a required field, can you forget it?
-
-<img
-src="https://docs.joomla.org/images/thumb/6/66/Sql_field_frontend-en.png/800px-Sql_field_frontend-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/6/66/Sql_field_frontend-en.png/1200px-Sql_field_frontend-en.png 1.5x, https://docs.joomla.org/images/6/66/Sql_field_frontend-en.png 2x"
-data-file-width="1291" data-file-height="661" width="800" height="410"
-alt="Sql field frontend-en.png" />
+The output is a single item or comma separated list of items (country names)
+following the Field label (Country of Origin).

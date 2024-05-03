@@ -1,59 +1,36 @@
-<!-- Filename: J3.x:Adding_custom_fields/Radio_Field / Display title: Adding custom fields/Radio Field -->
+<!-- Filename: J3.x:Adding_custom_fields/Radio_Field / Display title: Radio Field -->
 
-## Radio Field
+## Purpose
 
-Provides radio buttons to select different options.
+The Radio Field provides radio buttons only one of which may be selected.
 
-### Options
+## Field Creation
 
-Special options within this field are:
+* The **Label** is based on the Title and appears in the output before the
+selected value.
+* Radio buttons are added one at a time, each with Text and Value. The Text
+appears in the output. The value is used in the data entry form and each must
+be different. The first item in the list should have the Text set to
+*- Select -* and its Value left empty. This allows for the field to be unset
+and so not appear in the output.
+* Use the drag icons to change the radio button list order.
 
-- Radio Values  
-  The values of the radio list.
+![Radio Buttons](../../../images/en/fields/fields-radio.png "Radio Buttons")
 
-### Related Information
+## Data Entry
 
-See [Radio form field
-type](https://docs.joomla.org/Radio_form_field_type "Special:MyLanguage/Radio form field type")
+Simple: just select the required value.
 
-### Screenshots
+![Radio Field Selection](../../../images/en/fields/fields-radio-entry.png "Radio Field Selection")
 
-#### Creating the field
+## Data Display
 
-Let's say you create a field with the options shown in the next figure.
+The following Site screenshot shows the field displayed in an article. The
+option *Automatic display* is responsible for the position of the field and
+your template is responsible for the design of the field.
 
-<img
-src="https://docs.joomla.org/images/thumb/3/3d/Radio_field_create-en.png/800px-Radio_field_create-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/3/3d/Radio_field_create-en.png/1200px-Radio_field_create-en.png 1.5x, https://docs.joomla.org/images/3/3d/Radio_field_create-en.png 2x"
-data-file-width="1291" data-file-height="661" width="800" height="410"
-alt="Radio field create-en.png" />
+Look for the **Life Cycle** item.
 
-#### Using the field in the backend
+![Display of all fields](../../../images/en/fields/fields-display.png "Fields display")
 
-In the backend while creating an article or a contact you see the field
-like in the following imageː
-
-<img
-src="https://docs.joomla.org/images/thumb/f/fc/Radio-en.png/800px-Radio-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/f/fc/Radio-en.png/1200px-Radio-en.png 1.5x, https://docs.joomla.org/images/f/fc/Radio-en.png 2x"
-data-file-width="1291" data-file-height="661" width="800" height="410"
-alt="Radio-en.png" />
-
-#### Using the field in the frontend
-
-In the frontend, you can see the field as you see in the following
-image. The option *Automatic display* is responsible for the position of
-the field and your template is responsible for the design of the
-field.
-
-Fields are only displayed in the frontend if you have filled them with
-data in the article. If it is not a required field, can you forget it?
-
-<img
-src="https://docs.joomla.org/images/thumb/a/a2/Radio_field_frontend-en.png/800px-Radio_field_frontend-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/a/a2/Radio_field_frontend-en.png/1200px-Radio_field_frontend-en.png 1.5x, https://docs.joomla.org/images/a/a2/Radio_field_frontend-en.png 2x"
-data-file-width="1291" data-file-height="661" width="800" height="410"
-alt="Radio field frontend-en.png" />
+The field Title is followed by the Text of the selected value.

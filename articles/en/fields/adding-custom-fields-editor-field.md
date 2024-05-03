@@ -1,71 +1,44 @@
-<!-- Filename: J3.x:Adding_custom_fields/Editor_Field / Display title: Adding custom fields/Editor Field -->
+<!-- Filename: J3.x:Adding_custom_fields/Editor_Field / Display title: Editor Field -->
 
-## Editor Field
+## Purpose
 
-Provides a drop down list of the available WYSIWYG editors.
+The Editor field allows WYSIWYG data entry for some article related content in
+addition to the main content.
 
-### Options
+## Field Creation
 
 Special options within this field are
 
-- Show Buttons  
-  You can decide if the button should be shown or not.
-- Hide Buttons  
-  You can select special buttons in a drop down for hiding in the tool
-  bar of the editor. **Note**: This option is only useful if the option
-  show buttons is set to *yes*.
-- Width  
-  The value for width defines the width (in pixels) of the WYSIWYG
-  editor. Default value for this is 100%.
-- Height  
-  The value for height defines the heigth (in pixels) of the WYSIWYG
-  editor. Default value for this is 250px.
-- Filter  
-  Allow the system to save certain html tags or raw data.
+- **Buttons** Show or Hide the CMS Content dropdown list. For article
+supplementary text it may not be appropriate to show some or all of the
+buttons in the list. The plugin default is Hide.
+- **Hide Buttons** If *Buttons* is set to *Yes* or the plugin default is *Show*
+hide selected buttons in the CMS Content dropdown list.
+- **Width and Height** values include space occupied by the editor toolbar so
+they are probably best left empty initially.
+- **Width** The value for width defines the width of the WYSIWYG editor in % or
+pixels. The default value is 100%.
+- **Height** The value for height defines the height (in pixels) of the WYSIWYG
+editor. Default value for this is 250px. The value can be represented as a
+fraction of the viewport height, for example 50vh.
+- **Filter** Allow the system to save certain html tags or raw data.
 
-### Related Information
+## Data Entry
 
-See [Editors form field
-type](https://docs.joomla.org/Editors_form_field_type "Special:MyLanguage/Editors form field type")
+In the Article edit form the supplementary Editor field is similar to the main
+content Editor field.
 
-### Screenshots
+![editor field](../../../images/en/fields/fields-editor-entry.png "Editor Field")
 
-#### Creating the field
+## Data Display
 
-Let's say you create a field with the options shown in the next figure.
+The following Site screenshot shows the field displayed in an article. The
+option *Automatic display* is responsible for the position of the field and
+your template is responsible for the design of the field.
 
-<img
-src="https://docs.joomla.org/images/thumb/5/55/Editor_field_create-en.png/800px-Editor_field_create-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/5/55/Editor_field_create-en.png/1200px-Editor_field_create-en.png 1.5x, https://docs.joomla.org/images/5/55/Editor_field_create-en.png 2x"
-data-file-width="1291" data-file-height="663" width="800" height="411"
-alt="Editor field create-en.png" />
+In the Article display the entered text appears below the heading but part of
+the bullet list for that field item.
 
-#### Using the field in the backend
+Look for the **Cultivation Notes** item.
 
-In the backend while creating an article or a contact you see the field
-like in the following imageː
-
-<img
-src="https://docs.joomla.org/images/thumb/1/10/Editor-en.png/800px-Editor-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/1/10/Editor-en.png/1200px-Editor-en.png 1.5x, https://docs.joomla.org/images/1/10/Editor-en.png 2x"
-data-file-width="1291" data-file-height="663" width="800" height="411"
-alt="Editor-en.png" />
-
-#### Using the field in the frontend
-
-In the frontend, you can see the field as you see in the following
-image. The option *Automatic display* is responsible for the position of
-the field and your template is responsible for the design of the
-field.
-
-Fields are only displayed in the frontend if you have filled them with
-data in the article. If it is not a required field, can you forget it?
-
-<img
-src="https://docs.joomla.org/images/thumb/a/a6/Editor_field_frontend-en.png/800px-Editor_field_frontend-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/a/a6/Editor_field_frontend-en.png/1200px-Editor_field_frontend-en.png 1.5x, https://docs.joomla.org/images/a/a6/Editor_field_frontend-en.png 2x"
-data-file-width="1291" data-file-height="663" width="800" height="411"
-alt="Editor field frontend-en.png" />
+![Display of all fields](../../../images/en/fields/fields-display.png "Fields display")

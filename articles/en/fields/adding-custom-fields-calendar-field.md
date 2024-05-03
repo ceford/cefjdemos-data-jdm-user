@@ -1,71 +1,48 @@
-<!-- Filename: J3.x:Adding_custom_fields/Calendar_Field / Display title: Adding custom fields/Calendar Field -->
+<!-- Filename: J3.x:Adding_custom_fields/Calendar_Field / Display title: Calendar Field -->
 
-## The Calendar Field
+## Purpose
 
-Provides a text box for entry of a date. An icon next to the text box
-provides a link to a pop-up calendar, which can also be used to enter
-the date value.
+The Calendar field provides a text box for entry of a date. An icon next to
+the text box invokes a pop-up calendar picker, which can be used to select a
+date from a graphical calendar.
 
-#### Options
+## Field Creation
 
-If you use the default dateː The value can be an ISO 8601 format
-(YYYY-MM-DD HH:MM:SS) or NOW, which displays the actual date.
-**Caution**: Even if you do not specify the time in the default date,
-the time is displayed when the option *Show time* is active.  
-Special options within this field are:
+Common field parameters are described in a separate article.
 
-- Show time  
-  If enabled, the calendar field expects a date and time and will also
-  display the time. The formats are localized using the regular language
-  strings.
+* **Title** You may have several date fields in an article so care is needed
+in setting the title to avoid ambiguity in the output.
+* **Label** This is what is displayed in the output. If left empty it is set
+from the content of the Title field but can be changed.
+* **Show Time** If set to *Yes* the time is added to the date field, the
+date picker and the output date. **Caution**: Even if you do not specify the
+time in the default date, the time is displayed when the option *Show time*
+is active.
+* **Placeholder** May be set to a date format such as *YYYY-MM-DD* to remind
+users of the format required and/or a reminder of what the date is for, such
+as *Date of arrival*.
 
-#### Related Information
+## Data Entry
 
-See:
+In use the Calendar field is simple. You can type in the date in the required
+format or select a date using the date picker. Care is needed in typing dates.
+An error in the date is corrected on save to a new date. For example, a date
+of 2024-14-02 is corrected to 2025-02-02.
 
-- [Calendar form field
-  type](https://docs.joomla.org/Calendar_form_field_type "Special:MyLanguage/Calendar form field type")
-- <a href="http://php.net/manual/en/datetime.formats.date.php"
-  class="external text" target="_blank"
-  rel="nofollow noreferrer noopener">Date Formats</a>
+The following screebshot shows an Acquisition date:
 
-#### Screenshots
+![acquisition date entry](../../../images/en/fields/fields-date-entry.png "Acquisition Date")
 
-##### Creating the field
+Fields only appear in an article if populated in the article data entry form.
 
-Let's say you create a field with the options shown in the next figure.
+## Data Display
 
-<img
-src="https://docs.joomla.org/images/thumb/5/55/Calendar_field_create-en.png/670px-Calendar_field_create-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/5/55/Calendar_field_create-en.png/1005px-Calendar_field_create-en.png 1.5x, https://docs.joomla.org/images/5/55/Calendar_field_create-en.png 2x"
-data-file-width="1291" data-file-height="663" width="670" height="344"
-alt="Calendar field create-en.png" />
+The following Site screenshot shows the field displayed in an article. The
+option *Automatic display* is responsible for the position of the field and
+your template is responsible for the design of the field.
 
-##### Using the field in the backend
+Look for the **Acquisition Date** item.
 
-In the backend while creating an article or a contact you see the field
-like in the following imageː
+![Display of all fields](../../../images/en/fields/fields-display.png "Fields display")
 
-<img
-src="https://docs.joomla.org/images/thumb/f/f9/Calendar-en.png/670px-Calendar-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/f/f9/Calendar-en.png/1005px-Calendar-en.png 1.5x, https://docs.joomla.org/images/f/f9/Calendar-en.png 2x"
-data-file-width="1291" data-file-height="663" width="670" height="344"
-alt="Calendar-en.png" />
-
-##### Using the field in the frontend
-
-In the frontend, you can see the field as you see in the following
-image. The option *Automatic display* is responsible for the position of
-the field and your template is responsible for the design of the
-field.  
-Fields are only displayed in the frontend if you have filled them with
-data in the article. If it is not a required field, can you forget it?
-
-<img
-src="https://docs.joomla.org/images/thumb/f/fb/Calendar_field_frontend-en.png/670px-Calendar_field_frontend-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/f/fb/Calendar_field_frontend-en.png/1005px-Calendar_field_frontend-en.png 1.5x, https://docs.joomla.org/images/f/fb/Calendar_field_frontend-en.png 2x"
-data-file-width="1291" data-file-height="663" width="670" height="344"
-alt="Calendar field frontend-en.png" />
+The date formats are localized using language strings.

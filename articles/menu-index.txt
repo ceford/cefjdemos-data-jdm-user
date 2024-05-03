@@ -74,25 +74,16 @@ user=dashboards=help.md
 
 heading=editors=Editors
 user=editors=content-editors.md
-user=editors=entering-raw-html-in-editors.md
-user=editors=why-are-the-backgrounds-of-your-wysiwyg-editor-fields-colored-3f.md
-user=editors=why-do-the-pop-ups-in-your-wysiwyg-editor-not-work-or-show-gibberish-3f.md
-user=editors=how-to-place-a-copy-of-an-excel-worksheet-on-to-your-web-site-for-viewing-only.md
+user=editors=html-filters.md
 
 heading=extensions=Extensions
-user=extensions=system-install.md
-user=extensions=free-and-commercial-extensions.md
-user=extensions=what-is-a-vulnerable-extension-3f.md
-user=extensions=where-can-you-learn-about-vulnerable-extensions-3f.md
-user=extensions=how-do-you-choose-secure-extensions-3f.md
-user=extensions=why-are-there-vulnerable-extensions-3f.md
-user=extensions=why-isnt-un-publishing-a-vulnerable-extension-enough-to-protect-your-site-3f.md
 user=extensions=installing-an-extension.md
+user=extensions=free-and-commercial-extensions.md
+user=extensions=vulnerable-extensions.md
 
 heading=fields=Fields
 user=fields=fields-and-field-groups.md
 user=fields=adding-custom-fields-parameters-for-all-custom-fields.md
-user=fields=adding-custom-fields-what-components-are-supporting-custom-fields.md
 user=fields=adding-custom-fields-calendar-field.md
 user=fields=adding-custom-fields-checkboxes-field.md
 user=fields=adding-custom-fields-color-field.md
@@ -101,16 +92,16 @@ user=fields=adding-custom-fields-integer-field.md
 user=fields=adding-custom-fields-list-field.md
 user=fields=adding-custom-fields-list-of-images-field.md
 user=fields=adding-custom-fields-media-field.md
-user=fields=adding-custom-fields-multilingual-sites.md
-user=fields=adding-custom-fields-overrides.md
 user=fields=adding-custom-fields-radio-field.md
 user=fields=adding-custom-fields-sql-field.md
-user=fields=custom-fields-type-subfields.md
 user=fields=adding-custom-fields-text-field.md
 user=fields=adding-custom-fields-textarea-field.md
 user=fields=adding-custom-fields-url-field.md
 user=fields=adding-custom-fields-user-field.md
 user=fields=adding-custom-fields-usergroup-field.md
+user=fields=subforms.md
+user=fields=adding-custom-fields-multilingual-sites.md
+user=fields=adding-custom-fields-overrides.md
 
 heading=help=Help
 user=help=joomla-help-system.md

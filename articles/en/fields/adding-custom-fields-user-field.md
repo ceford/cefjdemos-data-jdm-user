@@ -1,67 +1,28 @@
-<!-- Filename: J3.x:Adding_custom_fields/User_Field / Display title: Adding custom fields/User Field -->
+<!-- Filename: J3.x:Adding_custom_fields/User_Field / Display title: User Field -->
 
-## User Field
+## Purpose
 
-Provides a field to select a user from a modal list. This field displays
-the User Name and stores the User ID.
+The User Field allows selection of a user from a list of users.
 
-### Options
+## Field Creation
 
-There are no special options within this field.
+Special options within this field are:
 
-### Related Information
+- **Default User** It may useful to set a default user if the same user
+appears in almost all of the Articles.
 
-See [User form field
-type](https://docs.joomla.org/User_form_field_type "Special:MyLanguage/User form field type")
+## Date Entry
 
-### Screenshots
+Simple, just select a user from the list of users.
 
-#### Creating the field
+## Data Display
 
-Let's say you create a field with the options shown in the next figure.
+The following Site screenshot shows the field displayed in an article. The
+option *Automatic display* is responsible for the position of the field and
+your template is responsible for the design of the field.
 
-<img
-src="https://docs.joomla.org/images/thumb/1/1f/User_field_create-en.png/800px-User_field_create-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/1/1f/User_field_create-en.png/1200px-User_field_create-en.png 1.5x, https://docs.joomla.org/images/1/1f/User_field_create-en.png 2x"
-data-file-width="1291" data-file-height="661" width="800" height="410"
-alt="User field create-en.png" />
+Look for the **Reporter** item.
 
-#### Using the field in the backend
+![Display of all fields](../../../images/en/fields/fields-display.png "Fields display")
 
-In the backend while creating an article or a contact you see the field
-like in the following imageː
-
-<img
-src="https://docs.joomla.org/images/thumb/7/71/User-en.png/800px-User-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/7/71/User-en.png/1200px-User-en.png 1.5x, https://docs.joomla.org/images/7/71/User-en.png 2x"
-data-file-width="1291" data-file-height="661" width="800" height="410"
-alt="User-en.png" />
-
-And if you click on it, a modal window will open and you can select an
-user in here.
-
-<img
-src="https://docs.joomla.org/images/thumb/1/1a/User_2-en.png/800px-User_2-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/1/1a/User_2-en.png/1200px-User_2-en.png 1.5x, https://docs.joomla.org/images/1/1a/User_2-en.png 2x"
-data-file-width="1291" data-file-height="661" width="800" height="410"
-alt="User 2-en.png" />
-
-#### Using the field in the frontend
-
-In the frontend, you can see the field as you see in the following
-image. The option *Automatic display* is responsible for the position of
-the field and your template is responsible for the design of the
-field.
-
-Fields are only displayed in the frontend if you have filled them with
-data in the article. If it is not a required field, can you forget it?
-
-<img
-src="https://docs.joomla.org/images/thumb/e/e5/User_field_frontend-en.png/800px-User_field_frontend-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/e/e5/User_field_frontend-en.png/1200px-User_field_frontend-en.png 1.5x, https://docs.joomla.org/images/e/e5/User_field_frontend-en.png 2x"
-data-file-width="1291" data-file-height="661" width="800" height="410"
-alt="User field frontend-en.png" />
+The field Label is followed by the Name of the user (not the username).

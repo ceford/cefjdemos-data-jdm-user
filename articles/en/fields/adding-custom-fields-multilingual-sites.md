@@ -1,4 +1,4 @@
-<!-- Filename: J3.x:Adding_custom_fields/Multilingual_Sites / Display title: Adding custom fields/Multilingual Sites -->
+<!-- Filename: J3.x:Adding_custom_fields/Multilingual_Sites / Display title: Multilingual Sites -->
 
 ## Multilingual Sites
 
