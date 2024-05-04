@@ -1,126 +1,128 @@
 <!-- Filename: J3.x:Adding_custom_fields/Multilingual_Sites / Display title: Multilingual Sites -->
 
-## Multilingual Sites
+## Introduction
 
 If you have a multilingual site then you can display the labels and
-descriptions of custom fields and field groups in the user's language.
-To do this:
+descriptions of fields and field groups in the user's language. To do this:
 
-1.  Define the Title and Description of your custom field group as
-    language constants
-2.  Define the Label and Description of your custom field as language
-    constants
-3.  Set up those language constants as overrides for each of your
-    languages
+1.  Define the Title and Description of your field group as language constants.
+2.  Define the Label and Description of your field as language constants.
+3.  Set up those language constants as overrides for each of your languages.
 
-In the following example we set up a Contact custom field group and
-custom field. We define a custom field group relating to the contact's
-personal preferences called Favourites. And inside the Favourites field
-group we add a custom field for Car.
+In the following example a Contact field group and field are creaated for a
+contact's personal preferences. The field group is named Favourites and  the
+exmple field is named Car. Clearly, more fields can be added for other
+favourite things, such as food or films.
 
-We define the above attributes as language constants, and then define
-text for these language constants in English and German. The result is
-that the custom field group and custom field are shown in both the
-administrator and site areas in the user's language.
+To follow this example it is assumed that you have set up a multilingual site
+as described in the [Multilingual Sites](jdocmanual?manual=user&heading=languages&filename=setup-a-multilingual-site.md "Multlingual Sites")
+tutorial.
 
-(To use these features it's assumed you have your site set up to be
-multilingual, as described in the [Setup a Multilingual
-Site](https://docs.joomla.org/J3.x:Setup_a_Multilingual_Site "J3.x:Setup a Multilingual Site")
-tutorial.)
+## Language Constants
 
-## Defining the Custom Field Group
+Language constants are placeholders that are replaced by language values when
+a page is rendered. The constants and their values are stored in language
+files such as JPATH_SITE/languages/en-GB/com_contact.ini and
+JPATH_SITE/administrator/languages/en-GB/com_contact.ini, for the frontend and
+backend respectively. By convention, most language constants begin with the
+extension name all in upper case, for example COM_CONTACT_...
 
-Within the Contacts areas define a new custom field group as shown
-below. (Note that it's best to choose a language constant that doesn't
-start with one of the Joomla components etc, to avoid possible future
-clashes with newer versions of Joomla).
+Language overrides are user defined replacements for existing language
+constants and values or entirely new constants and values, as in this example.
+They are all stored in single files, one for the Site pages and another for the
+Administrator pages:
+```
+SITE_ROOT/language/overrides/en-GB.override.ini
+SITE_ROOT/administrator/language/overrides/en-GB.override.ini
+```
+It is important to make new user defined language constants unique to avoid
+overriding existing constants. For example:
 
-<img
-src="https://docs.joomla.org/images/d/d1/Multilanguage-custom-field-goup-en.jpg"
-decoding="async" data-file-width="787" data-file-height="399"
-width="787" height="399" alt="Multilanguage-custom-field-goup-en.jpg" />
+COM_CONTACT_CUSTOM_FIELDGROUP_FAVOURITES="Favourites"
+COM_CONTACT_CUSTOM_FIELDGROUP_FAVOURITES_DESCRIPTION="Favourite car, film, etc."
+COM_CONTACT_CUSTOM_FIELD_FAVOURITE_CAR="Favourite Car"
+COM_CONTACT_CUSTOM_FIELD_FAVOURITE_CAR_DESCRIPTION="Sometimes used as a security question"
 
-## Defining the Custom Field
-
-Then define a new custom field and assign it to the above field group:
-
-<img
-src="https://docs.joomla.org/images/4/4e/Multilanguage-custom-field-en.jpg"
-decoding="async" data-file-width="700" data-file-height="473"
-width="700" height="473" alt="Multilanguage-custom-field-en.jpg" />
-
-## Edit a Contact (before strings translated)
-
-When you now edit a contact record you should see the new custom field
-within a tab for the Favourites. At this stage the language constant
-strings we entered will be displayed.
-
-<img
-src="https://docs.joomla.org/images/a/ac/Multilanguage-custom-field-edit-en.jpg"
-decoding="async" data-file-width="800" data-file-height="305"
-width="800" height="305" alt="Multilanguage-custom-field-edit-en.jpg" />
+If there is anything wrong with the syntax of a language file it will not
+be loaded and all of the constants in it may appear in the output pages. And
+note that a file is sorted in alphabet order.
 
 ## Defining the Overrides
 
-Now go into Extensions / Languages / Overrides. Select the English
-Administrator in the drop-down box, and create overrides for each of the
-language constants. Select For Both Locations so that the language
-constant is used on the front-end as well.
+It is important to create English (GB) overrides. Joomla loads en-GB translation
+files first and then overwrites the values with a selected language file. This
+ensures that users should never see a text constant. If a translated value is
+missing then English will appear in the output. This looks strange but it is
+better than seeing a quite long constant which usually disrupts layouts.
 
-<img
-src="https://docs.joomla.org/images/8/8c/Multilanguage-custom-field-override-en.jpg"
-decoding="async" data-file-width="800" data-file-height="479"
-width="800" height="479"
-alt="Multilanguage-custom-field-override-en.jpg" />
+From the Administrator menu:
 
-After you have entered overrides for the 4 English language constants
-you should end up with:
+* Select **System / Manage panel / Language Overrides**
+* Select **English (United Kingdom) - Site** from the *Select Language & Client* list
+* Select the **New** button from the Toolbar.
+* In the **Language Constant** field enter *COM_CONTACT_CUSTOM_FIELDGROUP_FAVOURITES*
+* In the **Text** field enter the value *Favourites*
+* Check the **For Both Locations** checkbox. This will cause creation of
+overrides for both Site and Administrator pages.
+* Select **Save & New** from the *Save * Close* dropdown list.
+* Repeat for each of the other required constants.
+* Select **Close** after the last entry has been saved.
+* Repeat for each of the installed languages.
 
-<img
-src="https://docs.joomla.org/images/0/06/Multilanguage-custom-field-overrides-gb-en.jpg"
-decoding="async" data-file-width="800" data-file-height="341"
-width="800" height="341"
-alt="Multilanguage-custom-field-overrides-gb-en.jpg" />
+The following screenshot shows an example of override creation for a German
+language constant.
 
-Now select German Administrator and add German translations for each,
-ending up with:
+![Override creation in German](../../../images/en/fields/fields-overrides-creation-de.png "Override creation in German")
 
-<img
-src="https://docs.joomla.org/images/8/8c/Multilanguage-custom-field-overrides-de-en.jpg"
-decoding="async" data-file-width="800" data-file-height="329"
-width="800" height="329"
-alt="Multilanguage-custom-field-overrides-de-en.jpg" />
+## Defining the Field Group
+
+From the Administrator menu:
+
+* Select the **Components / Contacts / Field Groups** menu item.
+* Select the **New** button from the Toolbar.
+* In the Title field enter the constant COM_CONTACT_CUSTOM_FIELDGROUP_FAVOURITES
+* In the Description field enter the constant COM_CONTACT_CUSTOM_FIELDGROUP_FAVOURITES_DESCRIPTION
+* Select **Save & Close** from the Toolbar.
+
+## Defining the Field
+
+To select a favourite car you might provide a dropdown list of cars that you
+define, or a dropdown list of cars obtained from a database table, or a list
+of radio buttons with labels that you define. In this case, a simple text
+entry field will allow entry of any make and model of car from the entire
+world history of the automobile industry.
+
+From the Administrator menu:
+
+* Select the **Components / Contacts / Fields** menu item.
+* Select the **New** button from the Toolbar.
+* In the Title field enter the constant COM_CONTACT_CUSTOM_FIELD_FAVOURITE_CAR
+* In the Type field select **Text (text)** if it is not already selected.
+* In the Description field enter the constant COM_CONTACT_CUSTOM_FIELD_FAVOURITE_CAR_DESCRIPTION
+* In the **Field Group** field (to the right) Select the Field Group you created.
+* Select **Save & Close** from the Toolbar.
 
 ## Edit a Contact
 
-Now when a Contact is edited in the back-end the custom field and field
-group are displayed in the administrator's language:
+With English selected before Administrator login, the Contact data entry
+form should contain a tab with the English name of your field group and
+fields in that group also with English values.
 
-<img
-src="https://docs.joomla.org/images/1/1e/Multilanguage-custom-field-edit-gb-en.jpg"
-decoding="async" data-file-width="2410" data-file-height="876"
-width="2410" height="876"
-alt="Multilanguage-custom-field-edit-gb-en.jpg" />
+![Data entry in English](../../../images/en/fields/fields-overrides-entry.png "Data entry in English")
 
-<img
-src="https://docs.joomla.org/images/7/78/Multilanguage-custom-field-edit-de-en.jpg"
-decoding="async" data-file-width="2410" data-file-height="789"
-width="2410" height="789"
-alt="Multilanguage-custom-field-edit-de-en.jpg" />
+With German selected before Administrator login you should see the German
+translations of your language constants:
+
+![Data entry in German](../../../images/en/fields/fields-overrides-entry-de.png "Data entry in German")
+
+Caveat: translation by translate.google.co.uk!
 
 ## Display a Contact
 
-If you display a contact on the front-end then the custom fields are
-displayed with the language-specific label.
+In English:
 
-<img
-src="https://docs.joomla.org/images/b/b6/Multilanguage-custom-field-site-gb-en.jpg"
-decoding="async" data-file-width="2410" data-file-height="1346"
-width="2410" height="1346"
-alt="Multilanguage-custom-field-site-gb-en.jpg" />
+![Data display in English](../../../images/en/fields/fields-overrides-display.png "Data display in English")
 
-<img
-src="https://docs.joomla.org/images/3/3d/Multilanguage-custom-field-site-de-en.jpg"
-decoding="async" data-file-width="2410" data-file-height="1328"
-width="2410" height="1328"
-alt="Multilanguage-custom-field-site-de-en.jpg" />
+And German:
+
+![Data display in German](../../../images/en/fields/fields-overrides-display-de.png "Data display in German")

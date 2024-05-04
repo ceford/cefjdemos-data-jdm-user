@@ -1,18 +1,50 @@
-<!-- Filename: J3.x:Adding_custom_fields/Overrides / Display title: Overrides -->
+<!-- Filename: J3.x:Adding_custom_fields/Overrides / Display title: Template Overrides -->
 
-## How to use custom fields in your overrides
+## Field Automatic Display
 
-### Introduction
+Each of the available fields has an option labelled *Automatic Display* which
+may be set to one of the following:
 
-The real power of custom fields is that you can use it in your own
-overrides. Here is a example of how you can do that.
+* After Title
+* Before Display Content
+* After Display Content
+* Do not automatically display
 
-### Getting custom fields in your override
+If the last of these items is selected then the field is not displayed unless
+you create a template override to handle the display yourself.
 
-Basically you have all the custom fields corresponding to the current
-item accessible via a new property in your `$item` variable called
-`jcfields`. The `$item->jcfields` property is an array that holds the
-following data per field, where one field looks like this example:
+This example shows how to create a template override for a Contact. The
+methods also apply to Content and User components.
+
+## Create a Template Override
+
+From the Administrator menu:
+
+* Select **System / Site Templates / Cassiopeia Details and Files**
+* Select the **Create Overrides** tab.
+* Select **com_contact** from the *Components* panel
+* Select **Contact** from the list of available views. This is the layout for
+a single contact.
+
+In the **Editor** panel:
+* Select **html / com_contact / contact / default.php** which is the file
+that sets the overall layout of the single contact page.
+* Scroll dowm this file and notice a series of `<php if (...) : ?>` blocks.
+Each will show or hide a section of text depending the contact settings.
+* Notice the lines containing
+```
+    <?php echo $this->item->event->afterDisplayTitle; ?> (line 73)
+    <?php echo $this->item->event->beforeDisplayContent; ?> (line 98)
+    <?php echo $this->item->event->afterDisplayContent; ?> (line 189)
+```
+One of these variables, or none of them, is populated depending on the value of
+the Automatic Display field.
+
+## Using fields in your override
+
+You have all the fields corresponding to the current item accessible via a
+`$this->item->jcfields` property, which is an array that holds the following
+data for each field (this example is for an Editor field):
 
 ```php
     Array
@@ -81,64 +113,46 @@ following data per field, where one field looks like this example:
                 [value] => Bar
                 [rawvalue] => Bar
             )
-
     )
 ```
 
-### Render the field using the FieldsHelper
+## Render the field
 
-To render the field you can use `FieldsHelper::render()` by passing the
-needed values.
+The `FieldsHelper::render()` function is used to render each field. First add a
+`use Joomla\Component\Fields\Administrator\Helper\FieldsHelper;` statement to
+the list of `use` statements at the top of the override file:
 
 ```php
-    /**
-     * Renders the layout file and data on the context and does a fall back to
-     * Fields afterwards.
-     *
-     * @param   string  $context      The context of the content passed to the helper
-     * @param   string  $layoutFile   layoutFile
-     * @param   array   $displayData  displayData
-     *
-     * @return  NULL|string
-     *
-     * @since  3.7.0
-     */
-    public static function render($context, $layoutFile, $displayData)
+defined('_JEXEC') or die;
+
+use Joomla\CMS\Helper\ContentHelper;
+use Joomla\CMS\HTML\HTMLHelper;
+use Joomla\CMS\Language\Text;
+use Joomla\CMS\Layout\FileLayout;
+use Joomla\CMS\Layout\LayoutHelper;
+use Joomla\CMS\Plugin\PluginHelper;
+use Joomla\CMS\Router\Route;
+use Joomla\Component\Contact\Site\Helper\RouteHelper;
+use Joomla\Component\Fields\Administrator\Helper\FieldsHelper;
 ```
 
-#### Example code for the override using the FieldsHelper
-
+Then, wherever you wish to place the fields in your template use the following
+code:
 ```php
-// Load the FieldsHelper
-<?php JLoader::register('FieldsHelper', JPATH_ADMINISTRATOR . '/components/com_fields/helpers/fields.php'); ?>
-
 <?php foreach ($this->item->jcfields as $field) : ?>
-	// Render the field using the fields render method
-	<?php echo FieldsHelper::render($field->context, 'field.render', array('field' => $field)); ?>
+	<?php echo FieldsHelper::render($field->context, 'field.render', array('field' => $field)); ?><br>
 <?php endforeach ?>
 ```
 
-#### Example code for a raw override
+Or for a raw override, which does not translate the label:
 
 ```php
 <?php foreach ($this->item->jcfields as $field) : ?>
-	// Render the field using the fields render method
-	<?php echo $field->label . ':' . $field->value; ?>
+	<?php echo $field->label . ':' . $field->value; ?><br>
 <?php endforeach ?>
 ```
 
-### `$item->jcfields` does not contain the fields I need
-
-The `jcfields` property is generated using the plugin event
-`onContentPrepare` by passing the context of the fields. The fields
-plugin then reads the fields from the database and adds the values to
-the jcfields property. So please make sure that the component you use
-also implements the `onContentPrepare` event with the context you use
-for the fields.
-
-If you use the core components this should work out of the box.
-
-### Loading individual fields
+## Loading individual fields
 
 In order to add individual fields to your content, start by choosing
 specific names for your custom fields, using the **Name** field, which
@@ -153,11 +167,9 @@ to every override PHP file that you want to place individual custom
 fields on.
 
 ```php
-<?php foreach($item->jcfields as $jcfield)
-     {
-          $item->jcFields[$jcfield->name] = $jcfield;
-     }
-?>
+<?php foreach($this->item->jcfields as $jcfield) {
+    $this->item->jcFields[$jcfield->name] = $jcfield;
+} ?>
 ```
 
 And lastly, you should add the field placement code at the spot you want
@@ -167,18 +179,14 @@ To add the **label** of the field to your override, insert the code
 below, replacing `name-of-field` with the name of the field.
 
 ```php
-<?php echo $item->jcFields['name-of-field']->label; ?>
+<?php echo $this->item->jcFields['name-of-field']->label; ?>:&nbsp;
 ```
 
 To add the **value** of the field to your override, insert the code
-below, replacing `name-of-field` with the name of the field. Beware: in
-the 3.x series the **value** is in fact the **rawvalue**
-<a href="https://github.com/joomla/joomla-cms/issues/20216"
-class="external free" target="_blank"
-rel="nofollow noreferrer noopener">https://github.com/joomla/joomla-cms/issues/20216</a>
+below, replacing `name-of-field` with the name of the field.
 
 ```php
-<?php echo $item->jcFields['name-of-field']->rawvalue; ?>
+<?php echo $this->item->jcFields['name-of-field']->rawvalue; ?>
 ```
 
 You can add this code to any part of your override. Examples: The
