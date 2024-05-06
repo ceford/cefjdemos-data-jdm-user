@@ -104,8 +104,8 @@ user=fields=adding-custom-fields-multilingual-sites.md
 user=fields=adding-custom-fields-overrides.md
 
 heading=help=Help
-user=help=joomla-help-system.md
-user=help=what-are-help-screens-3f.md
+user=help=guided-tours.md
+user=help=administrator-help.md
 
 heading=hosting=Hosting
 user=hosting=free-hosting.md

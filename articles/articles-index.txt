@@ -97,8 +97,8 @@ fields=adding-custom-fields-url-field.md=https://docs.joomla.org/J4.x:J3.x:Addin
 fields=adding-custom-fields-user-field.md=https://docs.joomla.org/J4.x:J3.x:Adding_custom_fields/User_Field
 fields=adding-custom-fields-usergroup-field.md=https://docs.joomla.org/J4.x:J3.x:Adding_custom_fields/Usergroup_Field
 
-help=joomla-help-system.md=https://docs.joomla.org/J4.x:Joomla_help_system
-help=what-are-help-screens-3f.md=https://docs.joomla.org/What_are_help_screens%3F
+help=guided-tours.md=https://docs.joomla.org/Help5.x:Guided_Tours
+help=administrator-help.md=https://docs.joomla.org/J4.x:Joomla_help_system
 
 hosting=free-hosting.md=https://docs.joomla.org/J4.x:How_to_build_your_free_Joomla_Website
 hosting=cpanel-hosting.md=Local
