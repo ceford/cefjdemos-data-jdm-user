@@ -121,18 +121,13 @@ user=hosting=installing-joomla-using-an-auto-installer.md
 user=hosting=moving-the-site-among-directories-sub-directories.md
 
 heading=hosting-notes=Hosting Notes
-user=hosting-notes=multiple-domains-and-web-sites-in-a-single-joomla-installation.md
-user=hosting-notes=what-is-the-difference-between-a-sub-domain-parked-domain-and-an-add-on-domain-3f.md
-user=hosting-notes=optional-technical-requirements.md
-user=hosting-notes=nginx.md
-user=hosting-notes=should-php-run-as-a-cgi-script-or-as-an-apache-module-3f.md
 user=hosting-notes=how-do-unix-file-permissions-work-3f.md
 user=hosting-notes=how-do-windows-file-permissions-work-3f.md
-user=hosting-notes=how-do-phpsuexec-file-permissions-work-3f.md
-user=hosting-notes=how-do-you-recursively-adjust-file-and-directory-permissions-3f.md
-user=hosting-notes=how-do-you-restrict-directory-access-by-ip-address-using-htaccess-3f.md
-user=hosting-notes=how-to-check-if-mod-rewrite-is-enabled-on-your-server.md
-user=hosting-notes=using-an-ftp-client-to-upload-files.md
+user=hosting-notes=multiple-domains-and-web-sites-in-a-single-joomla-installation.md
+user=hosting-notes=what-is-the-difference-between-a-sub-domain-parked-domain-and-an-add-on-domain-3f.md
+user=hosting-notes=nginx.md
+user=hosting-notes=apache-php-handler.md
+user=hosting-notes=optional-technical-requirements.md
 
 heading=languages=Languages
 user=languages=setup-a-multilingual-site.md

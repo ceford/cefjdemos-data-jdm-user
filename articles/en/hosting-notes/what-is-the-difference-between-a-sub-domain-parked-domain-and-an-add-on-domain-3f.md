@@ -1,4 +1,6 @@
-<!-- Filename: What_is_the_difference_between_a_Sub-Domain,_Parked_Domain_and_an_Add-On_Domain%3F / Display title: What is the difference between a Sub-Domain, Parked Domain and an Add-On Domain? -->
+<!-- Filename: What_is_the_difference_between_a_Sub-Domain,_Parked_Domain_and_an_Add-On_Domain%3F / Display title: Sub-Domains, Parked Domains and Add-On Domains -->
+
+## Differences
 
 This article is a basic outline of the differences between a
 Sub-Domains, Parked Domains, and Add-On Domains. Creation of each domain
@@ -10,7 +12,6 @@ available with your particular plan, or for help in setting up these
 options on your hosting plan should be directed to your hosts support
 Help/FAQ pages or to your hosts support team.
 
-  
 Here are some basic differences between the three:
 
 **Sub domain**
@@ -24,7 +25,6 @@ Here are some basic differences between the three:
 - Once the sub-domain forum is created, people can access your forum as
   either site1.com/forum or forum.site1.com
 
-  
 **Parked Domain**
 
 - You own multiple domains such as site1.com, site1.org and site2.net.
@@ -41,7 +41,6 @@ Here are some basic differences between the three:
   site1.org, site1.net to have all domains point to the same website
   domain
 
-  
 **Add-On Domains**
 
 - You own two domains site1.com and site2.org.

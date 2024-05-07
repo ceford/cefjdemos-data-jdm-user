@@ -1,4 +1,4 @@
-<!-- Filename: Moving_the_site_among_directories/sub-directories / Display title: Moving the site among directories/sub-directories -->
+<!-- Filename: Moving_the_site_among_directories/sub-directories / Display title: Moving Installation Directory -->
 
 Many times you install Joomla in a sub-directory and then want to move
 it to a higher level directory, here's a short tutorial on how to do it.

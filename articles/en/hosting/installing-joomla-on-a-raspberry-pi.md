@@ -1,56 +1,29 @@
-<!-- Filename: Installing_Joomla_on_a_Raspberry_Pi / Display title: Installing Joomla on a Raspberry Pi -->
+<!-- Filename: Installing_Joomla_on_a_Raspberry_Pi / Display title: Raspberry Pi Installation-->
 
-<img
-src="https://docs.joomla.org/images/thumb/e/e5/Quill_icon.png/30px-Quill_icon.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/e/e5/Quill_icon.png/45px-Quill_icon.png 1.5x, https://docs.joomla.org/images/thumb/e/e5/Quill_icon.png/60px-Quill_icon.png 2x"
-data-file-width="71" data-file-height="59" width="30" height="25"
-alt="Quill icon.png" />Content is Incomplete
+## Preface
 
-This article or section **is incomplete, which means it may be lacking
-information.** You are welcome to assist in its completion by editing it
-as well. If this article or section <a
-href="https://docs.joomla.org//docs.joomla.org/index.php?title=Installing_Joomla_on_a_Raspberry_Pi/en&amp;action=history"
-class="external text" target="_blank" rel="noreferrer noopener"></a> <a
-href="https://docs.joomla.org//docs.joomla.org/index.php?title=Installing_Joomla_on_a_Raspberry_Pi/en&amp;action=history"
-class="external text" target="_blank" rel="noreferrer noopener">has not
-been edited in several days</a>, please consider helping complete the
-content.  
-<span class="small">This article was <a
-href="https://docs.joomla.org//docs.joomla.org/index.php?title=Installing_Joomla_on_a_Raspberry_Pi/en&amp;diff=cur"
-class="external text" target="_blank" rel="noreferrer noopener">last
-edited</a> by
-[FuzzyBot](https://docs.joomla.org/User:FuzzyBot "User:FuzzyBot")
-([talk](https://docs.joomla.org/User_talk:FuzzyBot "User talk:FuzzyBot")\|
-[contribs](https://docs.joomla.org/Special:Contributions/FuzzyBot "Special:Contributions/FuzzyBot"))
-3 years ago. *(<a
-href="https://docs.joomla.org//docs.joomla.org/index.php?title=Installing_Joomla_on_a_Raspberry_Pi/en&amp;action=purge"
-class="external text" target="_blank"
-rel="noreferrer noopener">Purge</a>)*</span>
-
-**Note: Work-in-progress. This document is not yet ready & fully tested.
-Please wait with translation until it is finished. Thanks!**
+**Note: This document is not yet complete and fully tested.**
 
 The <a href="https://www.raspberrypi.org/" class="external text"
 target="_blank" rel="nofollow noreferrer noopener">Raspberry Pi</a> is a
 small single-board computer that was originally developed to promote the
 teaching of basic computer science in schools and developing countries.
 Because of its versatility it has become very popular and is used as
-media player, small stand-alone server, etc. You can use it as webserver
+media player, small stand-alone server, etc. You can use it as web server
 and install Joomla! on it. This page shows you how to get a your Joomla!
 website running on the Raspberry Pi.
 
 ## Hardware
 
-- **Rasberry Pi version 3 Model B** - There are various models of
+- **Raspberry Pi version 3 Model B** - There are various models of
   Raspberry Pi. You can use most models that have an Ethernet port (the
   Model B types). However for performance we will use the latest version
   with most RAM memory.
-- **micro SD card** - For the operating system + webserver + Joomla.
+- **micro SD card** - For the operating system + web server + Joomla.
   (RPi version 3 model B uses micro SD other versions might use normal
   SD cards)
 - **5 Volt adapter (1 Amp)** - to power the Raspberry Pi you'll need to
-  convert the mains power (230V or 110V) to 5 Volt. The Rasperry Pi
+  convert the mains power (230V or 110V) to 5 Volt. The Raspberry Pi
   needs about 1 Amp, and maybe more if you connect USB devices to it.
 - standard **Ethernet cable** - to connect the RPi to your Local Area
   Network / router / the internet.
@@ -59,36 +32,38 @@ website running on the Raspberry Pi.
 
 The operating system Raspbian is a Debian Linux version specially
 compiled for the Raspberry Pi. There are two versions of
-<a href="https://www.raspberrypi.org/downloads/raspbian/"
+<a href="https://www.raspberrypi.com/software/"
 class="external text" target="_blank"
 rel="nofollow noreferrer noopener">Raspbian</a> available: **Raspbian
 Jessie with Pixel Lite** (version with PIXEL desktop based on Debian
 Jessie) and **Raspbian Jessie Lite** (minimal version based on Debian
-Jessie). Because we use the Raspberry Pi as webserver for Joomla, we
+Jessie). Because we use the Raspberry Pi as a web server for Joomla, we
 won't need the GUI.
 
 **Download** <a href="https://www.raspberrypi.org/downloads/raspbian/"
 class="external text" target="_blank"
 rel="nofollow noreferrer noopener">Raspbian Jessie Lite</a> and unzip
-the downloaded file, e.g. 2016-09-23-raspbian-jessie-lite**.zip** (306
-MB) to 2016-09-23-raspbian-jessie-lite**.img** (1.4 GB).
+the downloaded file, e.g. **2016-09-23-raspbian-jessie-lite.zip** (306
+MB) to **2016-09-23-raspbian-jessie-lite.img** (1.4 GB).
 
 Now we need to copy the .img file to the (micro) SD card. You can use a
-tool with graphical interface like
+tool with graphical interface such as
 <a href="https://unetbootin.github.io/" class="external text"
 target="_blank" rel="nofollow noreferrer noopener">UNetbootin</a> (for
 Windows, Mac OS X and Linux) or do it on the command line).
 
-**Be very careful** when writing the .img disk image to another disk. In
-case you use the wrong destination disk, you will overwrite that disk
-with the .img which makes that disk unusable, resulting in data loss.
+**Be careful** when writing the *.img* disk image to another disk. If
+you specify the wrong destination disk, you will overwrite that disk
+with the *.img* which makes that disk unusable, resulting in data loss.
 
 ### Windows
 
 In a terminal (CMD) check which device corresponds with the SD Card and
 do something like:
 
+```
     dd bs=1M if=c:\temp\2016-09-23-raspbian-jessie-lite.img od=[the device of your SD Card]
+```
 
 See also <a
 href="https://www.raspberrypi.org/documentation/installation/installing-images/windows.md"
@@ -98,10 +73,12 @@ using Windows</a>
 
 ### Apple OSX
 
-Check which device is used for your SD Card. In our case it's disk1s1
+Check which device is used for your SD Card. In our case it's *disk1s1*
 and we'll do in Terminal:
 
+```
     sudo dd bs=1M if=~/Downloads/2016-09-23-raspbian-jessie-lite.img of=/dev/disk1s1
+```
 
 See also: <a
 href="https://www.raspberrypi.org/documentation/installation/installing-images/mac.md"
@@ -111,24 +88,23 @@ MacOS</a>
 
 ### Linux
 
-We connect a SD Card reader with the (micro) SD Card to a computer. With
-**dmesg** we can find the device name of the SD Card. In our case dmesg
-shows something like
+We connect an SD Card reader with the (micro) SD Card to a computer. With
+*dmesg* we can find the device name of the SD Card. In our case dmesg
+shows something like `[xxxxxx.xxxxxxx]  sdd: sdd1 sdd2` meaning that we have an
+SD Card with 2 partitions. Do not write the Raspbian image to a partition but
+to the whole disk **sdd**.
 
-    [xxxxxx.xxxxxxx]  sdd: sdd1 sdd2
+We will use *dd* ("Disk Dump") to write an Input File (*if*) to an
+Output File (*of*) using a specified Block Size (*bs*).
 
-meaning that we have a SD Card with 2 partitions. Do not write the
-Raspbian image to a partition but to the whole disk **sdd**.
-
-We will use **dd** ("Disk Dump") to write an Input File (**if**) to an
-Output File (**of**) using a specified Block Size (**bs**).
-
-**Be VERY careful**: dd will write to a device without any warning.
-Triple double check that that you write to the right device! If you
-write to the wrong disk, then you'll always remember the dd command as
+**Be careful**: *dd* will write to a device without any warning.
+Double check that that you write to the correct device! If you
+write to the wrong disk, you will always remember the *dd* command as
 "Disk Destroyer".
 
+```bash
     sudo dd if=~/Downloads/2016-09-23-raspbian-jessie-lite.img of=/dev/sdd bs=4M
+```
 
 See also <a
 href="https://www.raspberrypi.org/documentation/installation/installing-images/linux.md"
@@ -136,9 +112,8 @@ class="external text" target="_blank"
 rel="nofollow noreferrer noopener">Installing Operating System Images on
 Linux</a>
 
-  
-**WARNING for raspbian stretch version** : to have a ssh server working
-from boot you need to create an empty file ssh on the root partition.
+**WARNING for Raspbian Stretch version** : to have a SSH server working
+from boot you need to create an empty file *ssh* on the root partition.
 
 ## Connecting Raspberry Pi to LAN
 
@@ -154,15 +129,16 @@ Booting up the Raspberry Pi takes roughly 30 seconds. We've to find the
 IP address to connect to it using SSH. We can use different approaches
 for that:
 
-- log into the webinterface of your router and look up the connected
+- log into the web interface of your router and look up the connected
   devices;
-- use a mobile phone connected the Wifi router using a network scanning
+- use a mobile phone connected the wi-fi router using a network scanning
   App called **Fing Overlook**;
 - use a command like **nmap**. Assuming that our PC has IP address
   **192.168.0**.25 we can find all other devices in the same network
   range by doing the following:
+```
     sudo nmap -sP 192.168.0/24
-
+```
 Which might show the following details:
 
     Starting Nmap 6.47 ( http://nmap.org ) at 2016-10-22 17:42 CEST
@@ -172,20 +148,22 @@ Which might show the following details:
 
 To log into our Raspberry Pi, we'll use the command **ssh**.
 
+```
     ssh pi@192.168.0.35
+```
 
 The first time you'll connect to it, it will show something like:
 
     The authenticity of host '192.168.0.35 (192.168.0.35)' can't be established.
-    ECDSA key fingerprint is 42:42:42:42:42:42:42:42:42:42:42:42:42:42:42:42. 
+    ECDSA key fingerprint is 42:42:42:42:42:42:42:42:42:42:42:42:42:42:42:42.
     Are you sure you want to continue connecting (yes/no)?
 
-We'll choose "**Yes**"
+We'll choose **Yes**
 
-    Warning: Permanently added '192.168.0.35' (ECDSA) to the list of known hosts.
-    pi@192.168.0.35's password: 
+    Warning: Permanently added 192.168.0.35 (ECDSA) to the list of known hosts.
+    pi@192.168.0.35's password:
 
-and use the **default password**: **raspberry** which on successful
+and use the *default password*: *raspberry* which on successful
 login will show:
 
     The programs included with the Debian GNU/Linux system are free software;
@@ -194,7 +172,7 @@ login will show:
 
     Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
     permitted by applicable law.
-    pi@raspberrypi:~ $ 
+    pi@raspberrypi:~ $
 
 We can configure the Raspberry Pi using a text interface via:
 
@@ -271,7 +249,7 @@ needs to work) with
 We'll get a message like:
 
     Reading package lists... Done
-    Building dependency tree       
+    Building dependency tree
     Reading state information... Done
     The following extra packages will be installed:
      fontconfig-config fonts-dejavu-core libfontconfig1 libgd3 libjbig0 libtiff5 libvpx1 libxpm4 libxslt1.1 nginx-common nginx-full
@@ -295,7 +273,7 @@ see a message like:
     Welcome to nginx on Debian!
     If you see this page, the nginx web server is successfully installed and working on Debian. Further configuration is required.
     For online documentation and support please refer to nginx.org
-    Please use the reportbug tool to report bugs in the nginx package with Debian. 
+    Please use the reportbug tool to report bugs in the nginx package with Debian.
     However, check existing bug reports before reporting a  new bug.
     Thank you for using debian and nginx.
 
@@ -496,12 +474,12 @@ use a static IP address:
 
 change
 
-    iface eth0 inet static 
+    iface eth0 inet static
 
 to
 
-    iface eth0 inet static 
-    address 192.168.0.35 
+    iface eth0 inet static
+    address 192.168.0.35
     netmask 255.255.255.0
     gateway 192.168.0.1
 

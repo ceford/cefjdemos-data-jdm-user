@@ -1,4 +1,4 @@
-<!-- Filename: How_do_UNIX_file_permissions_work%3F / Display title: How do UNIX file permissions work? -->
+<!-- Filename: How_do_UNIX_file_permissions_work%3F / Display title: UNIX File Permissions -->
 
 Unix/Linux file permissions can be confusing. The basic UNIX permissions
 come in three flavors;
@@ -12,30 +12,35 @@ different permissions for each of these three categories of users. In a
 Web server environment permissions are used to control which Web site
 owners can access which directories and files.
 
-### What do Unix permissions look like?
+## What do Unix permissions look like?
 
-When viewing your files through an FTP client or from the servers
-command line;
+When viewing your files via the command line using the Unix `ls -l` command
+you will see lines like the following, one for each file and directory:
+```
+drwxr-xr-x@  7 username  usergroup    224 13 Feb 10:48 includes
+-rw-r--r--@  1 username  usergroup   1060 13 Apr 21:00 index.php
+```
+Explanation:
+* The first character in the line is d for directory or - for file, or ...
+* The next 9 characters are 3 groups of 3 standing for read (r), write (w) and
+execute (x) or a minus symbol (-) meaning no access for each of Owner, Group
+and Others.
+* The @ symbol is one of a number of possible Extended attributes,
+* The number before the user name is the directory depth.
+* The two names are the owner username and usergroup,
+* The following integer is the file size in bytes.
+* The following date has time for recent items or year for older items.
+* Lastly is the file or directory name.
 
-    filename.php username usergroup rwx r-x r-x
+In an FTP utility the order may be different and there may be more or less
+information.
 
-The first entry is the name of the file, the next entry is your username
-on the server, the second entry is the group that you are a member of
-and the last entry is the permissions assigned to that this file (or
-directory). If you notice, I have intentionally spaced out the
-permissions section, I have grouped the 9 characters into 3 sets of 3.
-This separation is key to how the permissions system works. The first
-set of 3 permissions (rwx) relate to the username seen above, the second
-set of 3 permissions (r-x) relate to the usergroup seen above and the
-final set of 3 permissions (r-x) relate to anyone else who is not
-associated with the username or groupname.
-
-#### Owner (User) relates to username
+### Owner (User) relates to username
 
 The Owner (User) is normally you, these permissions will be enforced on
 your hosting account name.
 
-#### Group relates to usergroup
+### Group relates to usergroup
 
 The Group permissions will be enforced on other people that are in the
 same group as you, within a hosting environment, there is very rarely
@@ -43,7 +48,7 @@ other people in the same group as you. This protects your files and
 directories from being made available to anybody else who may also have
 a hosting account on the same server as you.
 
-#### Other relates to everyone else
+### Other relates to everyone else
 
 The Other permissions, these will be enforced on anybody else on the
 server that is either not you or not in your group. So in a Web Serving
@@ -142,7 +147,7 @@ allows the program to "Execute" commands in the directory, so without it
 being on the program(in our case a Web Server) cannot execute the "Read"
 command, thus cannot deliver your file to the users web browser.
 
-### How Does this Relate to Joomla?
+## How Does this Relate to Joomla?
 
 Good question, well in the first instance this would be important during
 the Web-Installer process. If you can remember back to when you ran the
@@ -197,7 +202,7 @@ permissions to be set as 755 or 775 instead of 757 or 777.
     Group has Read and Execute
     Other has Read and Execute
 
-    775 = rwx rwx r-x 
+    775 = rwx rwx r-x
     Owner has Read, Write and Execute
     Group has Read, Write and Execute
     Other has Read and Execute
@@ -210,7 +215,7 @@ for directories covered, what about files? This is where things get a
 little simpler. Most of the files that Joomla! makes use of will be
 quite happy with the 644 default permissions.
 
-    644 = rw- r-- r-- 
+    644 = rw- r-- r--
     Owner has Read, Write
     Group has Read
     Other has Read
@@ -255,7 +260,7 @@ These permissions would allow, for files;
 
 and for directories,
 
-    755 = rwx r-x r-x 
+    755 = rwx r-x r-x
     Owner has Read, Write and Execute
     Group has Read and Execute only
     Other has Read and Execute only
@@ -282,3 +287,18 @@ installed.
 If you decide to use *caching* the cache directory will need to be
 *writable* by the Web server user to allow it to write its temporary
 files.
+
+## Recursively fix permissions
+
+In a terminal window, starting from the Joomla site root, use the following
+commands to set file and folder permissions to the Joomla defaults.
+
+find . -type f -exec chmod 644 {} \;
+find . -type d -exec chmod 755 {} \;
+
+Note: The find command assumes that it should start from the current directory.
+To be safe, go to your public_html directory and specify a path as the first
+argument. Some shells, such as bash on Apple OS X, must have a path specified
+in the find command.
+
+Test all third-party extensions after changing permissions.

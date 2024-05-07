@@ -1,4 +1,4 @@
-<!-- Filename: Installing_Joomla_using_an_Auto_Installer / Display title: Installing Joomla using an Auto Installer -->
+<!-- Filename: Installing_Joomla_using_an_Auto_Installer / Display title: Auto Installer Installation -->
 
 ## Overview
 

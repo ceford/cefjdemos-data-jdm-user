@@ -1,26 +1,9 @@
-<!-- Filename: Installing_Joomla_on_Debian_Linux / Display title: Installing Joomla on Debian Linux -->
-
-<img
-src="https://docs.joomla.org/images/thumb/4/47/Copyedit.png/25px-Copyedit.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/4/47/Copyedit.png/38px-Copyedit.png 1.5x, https://docs.joomla.org/images/thumb/4/47/Copyedit.png/50px-Copyedit.png 2x"
-data-file-width="200" data-file-height="200" width="25" height="25"
-alt="Copyedit.png" />This Article Needs Your Help
-
-*This article is tagged because it* **TECHNICAL REVIEW***. You can help
-the Joomla! Documentation Wiki by <a
-href="https://docs.joomla.org//docs.joomla.org/index.php?title=Installing_Joomla_on_Debian_Linux&amp;action=edit"
-class="external text" target="_blank"
-rel="noreferrer noopener">contributing to it</a>.  
-<span class="small">More pages that need help similar to this one are <a
-href="https://docs.joomla.org/index.php?title=Category:Technical_review&amp;action=edit&amp;redlink=1"
-class="new"
-title="Category:Technical review (page does not exist)">here</a>.</span>
-<span class="small">**NOTE-If you feel the need is satistified, please
-remove this notice.**</span>*  
-**Reason:** Needs updating to latest Joomla, PHP, MySQL Versions
+<!-- Filename: Installing_Joomla_on_Debian_Linux / Display title: Debian Installation -->
 
 ## Preface
+
+**Note:** This article needs updating to the latest Joomla, PHP and MySQL
+Versions.
 
 This document guides you through the manual installation of Joomla! on
 *Debian GNU Linux* or one of its derivatives such as *Ubuntu*, *Knoppix*

@@ -112,6 +112,7 @@ hosting=installing-joomla-on-debian-linux.md=https://docs.joomla.org/J4.x:Instal
 hosting=installing-joomla-on-a-raspberry-pi.md=https://docs.joomla.org/J4.x:Installing_Joomla_on_a_Raspberry_Pi
 hosting=installing-joomla-using-an-auto-installer.md=https://docs.joomla.org/J4.x:Installing_Joomla_using_an_Auto_Installer
 
+hosting-notes=apache-php-handler.md=https://docs.joomla.org/J4.x:Apache_PHP_Handler
 hosting-notes=multiple-domains-and-web-sites-in-a-single-joomla-installation.md=https://docs.joomla.org/J4.x:Multiple_Domains_and_Web_Sites_in_a_single_Joomla!_installation
 hosting-notes=optional-technical-requirements.md=https://docs.joomla.org/J4.x:Optional_Technical_Requirements
 hosting-notes=nginx.md=https://docs.joomla.org/J4.x:Nginx

@@ -12,7 +12,7 @@ A small business, 'Johnson Candies', has two separate but related
 brands: *Red Candy* and *Yellow Candy*. They require a single
 Joomla!-based Website where both candy types are visible, each with its
 own home page on the Joomla! site which corresponds to the domains
-*www.redjohnsoncandy.com* and *www.yellowjohnsoncandy.com*.
+`www.redjohnsoncandy.com` and `www.yellowjohnsoncandy.com`.
 
 Additionally, each brand and site **requires its own design**: a yellow
 template for one; a red template, for the other.
@@ -30,8 +30,8 @@ a Contact Us form, for both brands.
 
 Use a single domain for your hosting account, as normal. Create the
 required add-on domains in the control panel of your hosting account.
-For the purpose of this tutorial, we will use *www.redjohnsoncandy.com*
-in addition to the base *www.yellowjohnsoncandy.com* domain name.
+For the purpose of this tutorial, we will use `www.redjohnsoncandy.com`
+in addition to the base `www.yellowjohnsoncandy.com` domain name.
 
 ### Install and Setup Joomla!
 
@@ -58,8 +58,8 @@ domain to a specific Joomla! page.
 
 Our goal is to redirect any inquries to the Red Candy domain name to a
 given page on the Joomla! site. In this example, we redirect any
-inquiries to www.redjohnsoncandy.com to a category-blog page. You would
-have previously assigned the 'red candy' template to this menu item, to
+inquiries to `www.redjohnsoncandy.com` to a category-blog page. You would
+have previously assigned the 'red cand  y' template to this menu item, to
 create the illusion of a separate site.
 ```
 #The following rule works, but it changes which domain name displays.
@@ -78,7 +78,7 @@ This solution has the benefit of keeping the illusion of separate
 domains/web sites apparent to the visitor. Instead of using .htaccess
 (Apache) for our redirect, we use one of the templates on the site.
 
-In this example, the base domain is www.redjohnsoncandy.com. You have
+In this example, the base domain is `www.redjohnsoncandy.com`. You have
 created a template for that area named *Red Template*. The trick is to
 open 'Red Template's' index.php file and add the following AS THE VERY
 FIRST LINES of the install's primary index.php.

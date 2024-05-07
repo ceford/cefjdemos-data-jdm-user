@@ -1,17 +1,30 @@
-<!-- Filename: Installing_Joomla!_using_BitNami_Joomla!_stack / Display title: Installing Joomla! using BitNami Joomla! stack -->
+<!-- Filename: Installing_Joomla!_using_BitNami_Joomla!_stack / Display title: Bitnami Installation -->
 
-BitNami Joomla! Stack is an all-in-one installer that makes easy to
+## Preface
+
+**NOTE:** BitNami Joomla! stack no longer exists as a standalone installer.
+Instead, it delivers as: 1) A cloud based instance, 2) In a container, either
+Kubernetes or Docker or 3) A virtual machine. The virtual machine will run on
+your operating system in a hypervisor such as Virtual Box or VMware Player.
+It still comes with all the required dependences as in the standalone installer.
+
+Option 1 below no longer applies. Also, in Option 2, BitNami Lamp Stack further
+down, delivers in the cloud or virtual machine. In any case, Bitnami makes
+having a performing local installation of Joomla! easy and complete.
+
+You can download the latest version of the Bitnami package for Joomla! for
+Windows, Linux and Mac at <a href="http://bitnami.org/stack/joomla"
+class="external free" target="_blank" rel="nofollow noreferrer
+noopener">http://bitnami.org/stack/joomla</a>.
+
+**Revision Needed!**
+
+BitNami Joomla! Stack is an all-in-one installer that makes it easy to
 install Joomla on your computer. It is free, easy to use and
 self-contained. That means that it bundles and automatically configures
 every piece of software (dependency) necessary to run Joomla for
 development or production purposes, including Apache HTTP Server, MySQL
 and PHP.
-
-You can download the latest version of BitNami Joomla! stack for
-Windows, Linux and OS X at
-<a href="http://bitnami.org/stack/joomla" class="external free"
-target="_blank"
-rel="nofollow noreferrer noopener">http://bitnami.org/stack/joomla</a>.
 
 ## Option 1: Joomla! stack (Recommended)
 
@@ -43,7 +56,7 @@ width="614" height="538" alt="Joomla welcome2.png" />
 
 Click "Next".
 
-  
+
 <img src="https://docs.joomla.org/images/5/5f/Joomla_components2.png"
 decoding="async" data-file-width="614" data-file-height="538"
 width="614" height="538" alt="Joomla components2.png" />
@@ -51,7 +64,7 @@ width="614" height="538" alt="Joomla components2.png" />
 Select the components you want to install. If you are not sure, leave
 the default components checked. Click "Next" when you are done.
 
-  
+
 <img src="https://docs.joomla.org/images/0/0a/Joomla_directory2.png"
 decoding="async" data-file-width="614" data-file-height="538"
 width="614" height="538" alt="Joomla directory2.png" />
@@ -60,7 +73,7 @@ Now it will ask where do you want to install the program. Provide the
 location where you want to install the BitNami Joomla! stack and click
 "Next" when you are done.
 
-  
+
 <img src="https://docs.joomla.org/images/3/3c/Joomla_userdata2.png"
 decoding="async" data-file-width="614" data-file-height="538"
 width="614" height="538" alt="Joomla userdata2.png" />
@@ -68,14 +81,14 @@ width="614" height="538" alt="Joomla userdata2.png" />
 The user and password you provide here will be used to create the admin
 account in Joomla! Click "Next" when you are done.
 
-  
+
 <img src="https://docs.joomla.org/images/8/8b/Joomla_sitename2.png"
 decoding="async" data-file-width="614" data-file-height="538"
 width="614" height="538" alt="Joomla sitename2.png" />
 
 Type in the name you want to use for your Joomla site, and click "Next".
 
-  
+
 <img src="https://docs.joomla.org/images/d/dd/JoomlaReadytoinstall2.png"
 decoding="async" data-file-width="614" data-file-height="538"
 width="614" height="538" alt="JoomlaReadytoinstall2.png" />
@@ -90,7 +103,7 @@ width="614" height="538" alt="JoomlaCopyingfiles2.png" />
 Wait a minute while the installer copies the files and configures your
 Joomla! installation.
 
-  
+
 <img src="https://docs.joomla.org/images/e/ea/Joomlafinalscreen2.png"
 decoding="async" data-file-width="614" data-file-height="538"
 width="614" height="538" alt="Joomlafinalscreen2.png" />
@@ -151,7 +164,7 @@ width="516" height="391" alt="Lampstack welcome.png" />
 
 Click "Forward".
 
-  
+
 <img src="https://docs.joomla.org/images/7/78/Lampstack_directory.png"
 decoding="async" data-file-width="516" data-file-height="391"
 width="516" height="391" alt="Lampstack directory.png" />
@@ -159,7 +172,7 @@ width="516" height="391" alt="Lampstack directory.png" />
 Now it will ask where you want to install the program. Select the
 location on your machine and click "Forward" when you are done.
 
-  
+
 <img src="https://docs.joomla.org/images/2/22/Lampstack_passwd.png"
 decoding="async" data-file-width="516" data-file-height="391"
 width="516" height="391" alt="Lampstack passwd.png" />
@@ -167,7 +180,7 @@ width="516" height="391" alt="Lampstack passwd.png" />
 Type your MySQL root password. This will be the password for the "root"
 user for the database.
 
-  
+
 <img
 src="https://docs.joomla.org/images/7/72/LampstackReadytoinstall.png"
 decoding="async" data-file-width="516" data-file-height="391"
@@ -176,7 +189,7 @@ width="516" height="391" alt="LampstackReadytoinstall.png" />
 The installer is now ready to begin the installation process. Click
 "Forward".
 
-  
+
 <img src="https://docs.joomla.org/images/1/19/LampstackCopyingfiles.png"
 decoding="async" data-file-width="516" data-file-height="391"
 width="516" height="391" alt="LampstackCopyingfiles.png" />
@@ -184,7 +197,7 @@ width="516" height="391" alt="LampstackCopyingfiles.png" />
 Wait a minute while the installer copies the files and configures your
 LAMPStack installation.
 
-  
+
 <img src="https://docs.joomla.org/images/b/bc/Lampstackfinalscreen.png"
 decoding="async" data-file-width="516" data-file-height="391"
 width="516" height="391" alt="Lampstackfinalscreen.png" />
