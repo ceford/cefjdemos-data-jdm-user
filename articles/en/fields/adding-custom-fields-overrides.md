@@ -11,7 +11,9 @@ may be set to one of the following:
 * Do not automatically display
 
 If the last of these items is selected then the field is not displayed unless
-you create a template override to handle the display yourself.
+you create a template override to handle the display yourself. Or you could add
+`{field ID}` in an article to place the field wherever you like. But you have
+to remember to do this in every article.
 
 This example shows how to create a template override for a Contact. The
 methods also apply to Content and User components.

@@ -13,7 +13,7 @@ launching, make sure you have at least 2 languages installed with their
 Content Languages and that no sample data has been installed**. That
 will probably lead you to create a Multilingual site by manually
 executing the required steps one by one. That is an error-prone
-procedure in which you are likely to make a mistake, especially if you
+procedure in which you are likely to make a mistake, especially if you are
 using several languages. Mistakes can be fixed but the whole process is
 a little tedious and can be confusing.
 
@@ -44,7 +44,7 @@ it compares. Otherwise:
   - Main Menu Blog.
   - Bottom Menu, containing Login/Logout menu items.
   - Special Menu, seen after login.
-- Select the **Open Frontend** icon from the top Status bar or reload
+- Select the **Open frontend** icon from the top Status bar or reload
   the Site if it is already open in a separate tab.
 
 You should expect to see a layout full of Featured Articles information:
@@ -62,11 +62,10 @@ You should expect to see a layout full of Featured Articles information:
 Take a few minutes to explore the menu items and the types of
 information they lead to.
 
-## Multilingual Sample Data
+## Install and Publish Content Languages
 
-Before installing the Multilingual Sample Data you should install all
-the languages you intend to use. If you need to install an additional
-language later you will need to complete the configuration steps for
+First install all the languages you intend to use. If you need to install an
+additional language later you will need to complete the configuration steps for
 that language one by one manually. That will be covered elsewhere. For
 this tutorial French, German and Welsh were added to the site default
 English language during Joomla Installation. To add languages after
@@ -74,6 +73,14 @@ installation:
 
 - Select **System **→** Install Languages** from the Administrator menu.
 - Select the **Install** button for each language you propose to use.
+
+Installed languages must be **Published** to make them available. From the
+Administrator menu:
+
+* Select **System / Manage panel / Content Languages**
+* In the Status column **Publish** each of the languages you wish to use.
+
+## Multilingual Sample Data
 
 Installation of the Multilingual Sample Data has effects that you will
 have to deal with later:
@@ -112,7 +119,7 @@ Login Form and Main Menu. More on that later.
 You may notice that the language switcher has languages in reverse
 alphabet order. To change the order:
 
-- Select **System **→** Content Languages** from the Administrator menu.
+- Select **System → Content Languages** from the Administrator menu.
 - Use vertical ellipsis icons to drag the languages into the desired
   order.
 - Reload the Site and see the Language Switcher now has languages in
@@ -123,8 +130,8 @@ alphabet order. To change the order:
 The module order in the right sidebar is a matter of personal
 preference. To change the order:
 
-- Select **Content **→** Site Modules** from the Administrator menu.
-- Filter by **Position **→** sidebar-right**.
+- Select **Content → Site Modules** from the Administrator menu.
+- Filter by **Position → sidebar-right**.
 - Select the order column icon to reveal the ordering drag handles
   (vertical ellipsis icons). The column heading icon should be a chevron
   pointing upwards.
@@ -161,12 +168,12 @@ Featured page needs to be added for each of those modules.
 
 - Select **content **→** Site Modules** from the Administrator menu.
 - Find and select the **Image** item.
-- In the **Menu Assignment** tab, find and check the **Featured** item
-  in the **Main Menu Blog** section.
+- In the **Menu Assignment** tab, find and check the **Featured** item in
+the **Main Menu Blog** section.
 - Select **Save & Close** from the Toolbar.
 - Find and select the **Latest Posts** item.
-- In the **Menu Assignment** tab, find and check the **Featured** item
-  in the **Main Menu Blog** section.
+- In the **Menu Assignment** tab, find and check the **Featured** item in
+the **Main Menu Blog** section.
 - Select **Save & Close** from the Toolbar.
 
 ## Reload Site
@@ -176,7 +183,8 @@ Featured link leading to the Featured Articles layout. The adjacent Blog
 item is a more compact Category Blog layout. Try the language switcher.
 The Joomla supplied text, in the breadcrumbs and Login Form changes
 accordingly. Also, the Featured articles now include one article from
-the Multilingual Sample Data, that in the selected language.
+the Multilingual Sample Data, that in the selected language. It may be on
+the last page.
 
 ### Hybrid or Pure Multilingual Site
 
@@ -207,7 +215,8 @@ as follows:
 - Find the **Main Menu** and Publish it, turning the grey cross to a
   green tick.
 
-The visible items in the original Main Menu should now work normally.
+The visible items in the original Main Menu should now work normally. If the
+Main Menu has no visible items it will not be displayed.
 
 ## Adding an Extra Language
 
@@ -264,8 +273,8 @@ In this example sequence the extra language is Spanish.
 - Enter a suitable title, example: Categoría (es-es)
 - Select the correct language: Spanish (es-ES)
 - Select the **Associations** tab.
-- For each language select a Category. There is only one choice in each
-  case.
+- For each language select a Category. There is only one choice in each case.
+- Select **Save & Close**.
 
 ### Step 6: Add a Menu Item
 

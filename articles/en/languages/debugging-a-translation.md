@@ -1,116 +1,101 @@
-<!-- Filename: Debugging_a_translation / Display title: Debugging a translation -->
+<!-- Filename: Debugging_a_translation / Display title: Debugging a Translation -->
 
-<img
-src="https://docs.joomla.org/images/thumb/6/69/Split-icon.png/25px-Split-icon.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/6/69/Split-icon.png/38px-Split-icon.png 1.5x, https://docs.joomla.org/images/thumb/6/69/Split-icon.png/50px-Split-icon.png 2x"
-data-file-width="200" data-file-height="67" width="25" height="8"
-alt="Split-icon.png" />Split Page into Specific Joomla! Versions - J2.5
-and 3.x
+## Joomla Language Files
 
-It has been suggested that this article or section be split into
-specific version
-*[Namespaces](https://docs.joomla.org/JDOC:Namespaces "JDOC:Namespaces")*.
-(<a
-href="https://docs.joomla.org/index.php?title=Talk:Debugging_a_translation/en&amp;action=edit&amp;redlink=1"
-class="new"
-title="Talk:Debugging a translation/en (page does not exist)">Discuss</a>).
-If version split is not obvious, please allow split request to remain
-for 1 week pending discussions. <span class="small">*Proposed since **2
-years ago***.</span>
+Whenever text is to be output to the screen Joomla coders insert a language
+constant such as JYES or JNO. During the rendering process language files
+are loaded with translations in the appropriate langauge. The language files
+all end in `.ini`. You can look in languages/en-GB/joomla.ini for some basic
+examples. Lines starting with a semi-colon are ignored. They can be used for
+comments. The remaining lines consist of key="value" pairs. Each language has
+the same set of keys but values are the appropriate translations.
 
-  
-Joomla supports some useful debugging mechanisms that can make it easier
+Each Joomla extension has its own language files so there are hundreds in
+total. Sometimes, there are problems such as missing language constants,
+mis-spelled language constants or sytntax errors in the translation strings
+that can render a whole language file invalid.
+
+## Debug Language
+
+Joomla provides some useful debugging mechanisms that can make it easier
 to locate untranslated strings and diagnose problems with language
-translations in installed extensions.
+translations in installed extensions. To try it out:
 
-#### Debug Language
+From the Home Dasboard:
 
-<img
-src="https://docs.joomla.org/images/thumb/f/fd/Global-config-language-debug-en.png/250px-Global-config-language-debug-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/f/fd/Global-config-language-debug-en.png/375px-Global-config-language-debug-en.png 1.5x, https://docs.joomla.org/images/thumb/f/fd/Global-config-language-debug-en.png/500px-Global-config-language-debug-en.png 2x"
-data-file-width="1220" data-file-height="776" width="250" height="159"
-alt="Global-config-language-debug-en.png" />
+* Select the **Global Configuration** button in the *System* panel.
+* Select the *System* panel and set **Debug Language** to **Yes**.
+* **Language display** is normally set to **Value**. If set to **Constant**
+the layout is disrupted by long constants that do not wrap.
 
-You activate language debugging via the Administration Back-end by going
-into Global Configuration and clicking on the System tab. Find the Debug
-Language field, change the value to “Yes” and save your changes.
+With Debug Language active all translatable values are shown surrounded
+with special characters that indicate their status:
 
-With this option active all translatable strings are shown surrounded
-with special characters that indicate their status
+* `**Joomla CMS**` Text surrounded by two asterisks indicates that a match
+has been found in a language file and the constant has been translated.
+* `??Joomla CMS??` Ttext surrounded by pairs of question marks indicates that
+the constant is translatable but no match was found in a language file.
+* `Joomla CMS` Text with no surrounding characters indicates that the value is
+not translatable.                                                           |
 
-|                    |                                                                                                                                                  |
-|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| Code               | Status                                                                                                                                           |
-| \*\*Joomla CMS\*\* | *(text surrounded by asterisks)* indicates that a match has been found in the language definition file and the string has been translated.       |
-| ??Joomla CMS??     | *(text surrounded by pairs of question marks)* indicates that the string is translatable but no match was found in the language definition file. |
-| Joomla CMS         | *(text with no surrounding characters)* indicates that the string is not translatable.                                                           |
-
-#### Debug System
+## Debug System
 
 Additional language debugging information can be obtained by activating
-system debugging. This is done by going into Global Configuration and
-clicking on the System tab. Find the Debug System field, change the
-value to “Yes” and save your changes.
+System debugging.
 
-With this option active all screens have additional debugging
-information at the end of each page. Currently this includes
+From the Home Dasboard:
 
-- **Profile information.** This is the amount of time taken to execute
-  code up to various mark points in the code.
-- **Memory usage.** The amount of system RAM used.
-- **SQL queries executed.** All of the SQL queries executed in the
-  process of building the page.
-- **Language files loaded.** A list of all the language files loaded in
-  the process of building the page, including full path information.
-  This can be useful to check that the expected files have been loaded.
-  The number after each file path is the number of times that the file
-  was referenced.
-- **Untranslated strings diagnostic.** A list of all the untranslated
-  strings found and the likely file location given where the **JText**
-  call was made.
-- **Untranslated strings designer.** A list of all the untranslated
-  strings found but listed in a KEY=Value format so they can be
-  copy-pasted directly into a language definition file (INI).
+* Select **Plugins** and then find and enable the **System - Debug** plugin.
+* Select the Home Dashboard again and then...
+* Select the **Global Configuration** button.
+* Select the *System* panel and set **Debug System** to **Yes**.
 
-#### Debug Plugin
+With **System Debug** active all screens have additional debugging information
+at the bottom of each page. It can be expanded from a Joomla icon and the top
+border dragged vertically to show more lines.
 
-<img src="https://docs.joomla.org/images/6/61/Debug-plugin-en.png"
-decoding="async" data-file-width="400" data-file-height="399"
-width="400" height="399" alt="Debug-plugin-en.png" />
+The debug information comes under several headings:
+
+* **J! Info** Basic installation information.
+* **Request** Server Request fields.
+* **Session** Session information
+* **Profile** The amount of time taken to execute code up to various mark
+points in the code.
+* **Queries** The SQL queries executed in the process of building the page.
+* **Loaded.** A list of all the language files loaded in the process of
+building the page, including full path information. This can be useful to
+check that the expected files have been loaded.
+* **Untranslated** A list of all the untranslated constants found and the
+likely file location given where the translation call was made.
+* **Errors**
+
+## System - Debug Plugin
 
 This system plugin controls what is displayed when debugging is
-activated in **Global Configuration**. It is enabled by default. You can
-access the parameters for the plugin from **Extensions → Plugin
-Manager**. Locate the “System - Debug” plugin and click on it. There are
-three settings of interest to translators.
+activated in **Global Configuration**. There are three settings of interest
+to translators.
 
-- **Display loaded language files**. If set to “Yes” then the debug
-  information will include a list of the language files that were
-  requested as the current page was being generated.
-- **Display undefined language strings.** If set to “diagnostic mode”
-  then a list of untranslated strings and the location of the file
-  containing the call to **JText** is included in the debug information.
-  If set to “designer mode” then a list of untranslated strings in a
-  format that can be copy-pasted directly into a language definition
-  file is included in the debug information. That is, it displays the
-  list in KEY=String format. If set to “All modes” then both the
-  diagnostic mode and designer mode lists are included in the debug
-  information.
-- **Strip Key Prefix**. Only used when **Display undefined language
-  strings** is set to “Designer mode” or "All modes". This allows you to
-  strip a prefix from the string to form the key. This is useful if the
-  designer uses a common prefix for their extensions when using
-  **JText** methods. See example below.
+In the **Language** tab:
 
-Note that the display of untranslated strings will only display the
-value passed to the appropriate **JText** method. For example, with the
-following code:
+![plugin system debug](../../../images/en/languages/languages-debug-plugin.png "System - Debug Language")
 
-    echo JText::_( 'Reports Import Configuration' );
+* **Errors When Parsing Language Files** Display an error if a language file
+fails to load.
 
-If untranslated, Designer mode will display this as:
+- **Language Files**. If set to *Show* then ...
+- **Language String** If set to *Show* then ...
+- **Strip First Word**.
+- **Strip From Start**
+_ **Strip From End**
+
+**The following Explanation needs revision!**
+
+Note that untranslated strings will only display the value passed to the
+appropriate **Text** method. For example, with the following code:
+
+    echo Text::_( 'Reports Import Configuration' );
+
+If untranslated will display as:
 
     # /administrator/components/com_reports/views/reports/tmpl/default.php
     REPORTS IMPORT CONFIGURATION=Reports Import Configuration
