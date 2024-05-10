@@ -1,11 +1,11 @@
-<!-- Filename: J4.x:Media:_Image_Crop_Resize_Rotate / Display title: Media: Image Crop Resize Rotate -->
+<!-- Filename: J4.x:Media:_Image_Crop_Resize_Rotate / Display title: Image Crop Resize Rotate -->
 
 ## Problem Images
 
 After upload you may have realised there is a problem with an uploaded
 image. Common problems include:
 
-- The image is much to big.
+- The image is much too big.
 - The interesting part of an image is in a small area.
 - The image is rotated through 90 degrees.
 
@@ -60,16 +60,3 @@ still large. Bringing the width down to 640 brings the file size down to
 ## Rotate
 
 Select the Rotate tab and the appropriate angle.
-
-## Further Information
-
-In this series of tutorials:
-
-- [Managing
-  Media](https://docs.joomla.org/J4.x:Managing_Media "J4.x:Managing Media")
-- [Media: Upload Delete
-  Rename](https://docs.joomla.org/J4.x:Media:_Upload_Delete_Rename "J4.x:Media: Upload Delete Rename")
-- [Media: Image Crop Resize
-  Rotate](https://docs.joomla.org/J4.x:Media:_Image_Crop_Resize_Rotate "J4.x:Media: Image Crop Resize Rotate")
-- [Media:
-  Options](https://docs.joomla.org/J4.x:Media:_Options "J4.x:Media: Options")
