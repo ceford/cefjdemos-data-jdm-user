@@ -5,8 +5,8 @@
 Menu item types are defined in each component that has site views. The
 Joomla core has about 10 such components, each with several views giving
 a total of over 30 types. The following screenshot shows the components
-with menu item type. Select any component to see the list of types
-defined by that component:
+with menu item types. Each component expands on selection to display a list
+of types defined by that component:
 
 <img
 src="https://docs.joomla.org/images/thumb/f/f7/J4x-menu-item-type-select-en.png/800px-J4x-menu-item-type-select-en.png"

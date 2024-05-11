@@ -48,19 +48,20 @@ This does not work if a child menu item order is to be changed. In this
 case:
 
 - Select **Filter Options**
-- Set **- Select Parent Menu Item -** to the appropriate parent
+- Set the **- Select Parent Menu Item -** filter to the appropriate parent
 - Drag and Drop
 
 ## List Select Method
 
 Starting from the Administrator menu:
 
-- Select **Menus **→** Main Menu** or whichever menu contains the item
+- Select **Menus → Main Menu** or whichever menu contains the item
   to be moved.
 - Select the title link of the menu item you wish to move to open the
   menu item edit form.
 - In the Menus: Edit Item form **Ordering** field select the item after
-  which you wish to place the item being moved.
+  which you wish to place the item being moved, or the *- First -* or
+  *- Last -* positions.
 
 <img
 src="https://docs.joomla.org/images/thumb/2/2c/J4x-menu-item-order-list-type-en.png/800px-J4x-menu-item-order-list-type-en.png"
@@ -69,7 +70,7 @@ srcset="https://docs.joomla.org/images/2/2c/J4x-menu-item-order-list-type-en.png
 data-file-width="1000" data-file-height="497" width="800" height="398"
 alt="J4x-menu-item-order-list-type-en.png" />
 
-- Save
+- **Save** or **Save & Close**
 
 ## Site Check
 

@@ -1,4 +1,4 @@
-<!-- Filename: J4.x:Adding_a_Custom_Administrator_Menu / Display title: Adding a Custom Administrator Menu -->
+<!-- Filename: J4.x:Adding_a_Custom_Administrator_Menu / Display title: Custom Administrator Menu -->
 
 ## Introduction
 
@@ -14,7 +14,7 @@ user to that group and create a custom menu for use by that user.
 
 ## Create a User Group
 
-- Select **User **→** Users **→** Groups** in the Administrator menu.
+- Select **User → Users → Groups** in the Administrator menu.
 - Select the **New** button in the Toolbar.
   - Enter a **Title *for the Group,*** *Branch'* in this case.
   - Select **Public** as the parent group. This is important - you do
@@ -58,7 +58,7 @@ Then:
 
 ## Create a new Administrator menu
 
-- Select **Menu **→** Manage** from the Administrator menu.
+- Select **Menu → Manage** from the Administrator menu.
 - Select **Administrator** from the Site/Administrator drop down list.
 - Select the **New** button from the Toolbar.
 - Enter a title for the menu, say **Branch Menu** and a unique id, say

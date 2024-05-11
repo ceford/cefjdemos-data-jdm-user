@@ -31,12 +31,13 @@ To add a new menu item it is best to start from the menu you wish to add
 it to:
 
 - Select **Menus **→** Main Menu** or whichever menu you wish to add to.
-- In the **Menus: Items (Main Menu)** list select the `New` button.
+- In the **Menus: Items (Main Menu)** list select the **New** button in the
+*Toolbar*.
 
 In the **Menus: New Item** form:
 
 - In the **Title** field enter a suitable short title for the menu item.
-- In the **Menu Item Type** field use the `Select` button to open the
+- In the **Menu Item Type** field use the **Select** button to open the
   Menu Item Type dialog box.
 
 <img
@@ -51,11 +52,11 @@ alt="J4x-menu-items-select-type-en.png" />
 The **Menus: New Item** data entry form will change to display fields
 that are relevant to the type. For the Single Article item type:
 
-- In the **Select Article** field use the `Select` button to open an
+- In the **Select Article** field use the **Select** button to open an
   Articles list dialog from which to select an article.
 - With the article selected check that it is being added to the correct
   menu in the **Menu** field at the right.
-- Save
+- **Save**
 - If you wish to change the order of this item in the menu use the
   **Ordering** field at the right. By default it is last. You can make
   it **First** or to come after any other menu item you select.
