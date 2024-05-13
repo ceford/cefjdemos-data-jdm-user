@@ -1,4 +1,4 @@
-<!-- Filename: Potential_backward_compatibility_issues_in_Joomla_4 / Display title: Potential backward compatibility issues in Joomla 4 -->
+<!-- Filename: Potential_backward_compatibility_issues_in_Joomla_4 / Display title: Joomla 4 Backward Compatibility  -->
 
 <img
 src="https://docs.joomla.org/images/thumb/e/e5/Quill_icon.png/30px-Quill_icon.png"
@@ -15,7 +15,7 @@ class="external text" target="_blank" rel="noreferrer noopener"></a> <a
 href="https://docs.joomla.org//docs.joomla.org/index.php?title=Potential_backward_compatibility_issues_in_Joomla_4/en&amp;action=history"
 class="external text" target="_blank" rel="noreferrer noopener">has not
 been edited in several days</a>, please consider helping complete the
-content.  
+content.
 <span class="small">This article was <a
 href="https://docs.joomla.org//docs.joomla.org/index.php?title=Potential_backward_compatibility_issues_in_Joomla_4/en&amp;diff=cur"
 class="external text" target="_blank" rel="noreferrer noopener">last

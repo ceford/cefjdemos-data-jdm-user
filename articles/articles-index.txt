@@ -130,6 +130,7 @@ languages=setup-a-multilingual-site.md=https://docs.joomla.org/J4.x:Setup_a_Mult
 languages=multilingual-associations.md=https://docs.joomla.org/J4.x:Multilingual_Associations
 languages=language-overrides.md=https://docs.joomla.org/J4.x:Language_Overrides
 languages=debugging-a-translation.md=https://docs.joomla.org/J4.x:Debugging_a_translation
+
 media=managing-media.md=https://docs.joomla.org/J4.x:Managing_Media
 media=media-upload-delete-rename.md=https://docs.joomla.org/J4.x:Media:_Upload_Delete_Rename
 media=media-image-crop-resize-rotate.md=https://docs.joomla.org/J4.x:Media:_Image_Crop_Resize_Rotate
@@ -146,20 +147,10 @@ menus=auto-redirect-guests-to-login.md=https://docs.joomla.org/J4.x:Auto_redirec
 menus=menu-item-type-archived-articles.md=https://docs.joomla.org/J4.x:How_to_Create_a_Menu_Item_to_View_Archived_Articles
 menus=adding-a-custom-administrator-menu.md=https://docs.joomla.org/J4.x:Adding_a_Custom_Administrator_Menu
 
-migration=why-migrate.md=https://docs.joomla.org/J4.x:Why_Migrate
-migration=joomla-3-x-to-4-x-step-by-step-migration.md=https://docs.joomla.org/J4.x:Joomla_3.x_to_4.x_Step_by_Step_Migration
+migration=migration-basics.md=jdocmanual?manual=user&heading=migration&filename=migration-basics.md
 migration=updating-from-an-existing-version.md=https://docs.joomla.org/J4.x:Updating_from_an_existing_version
-migration=migration-step-by-step-self-assessment.md=https://docs.joomla.org/J4.x:Migration_Step_by_Step_Self_Assessment
-migration=converting-an-existing-website-to-a-joomla-website.md=https://docs.joomla.org/J4.x:Converting_an_existing_website_to_a_Joomla!_website
+migration=joomla-3-x-to-4-x-step-by-step-migration.md=https://docs.joomla.org/J4.x:Joomla_3.x_to_4.x_Step_by_Step_Migration
 migration=update-fails-with-an-error-message.md=https://docs.joomla.org/J4.x:J3.x:Update_fails_with_an_error_message
-migration=updating-joomla-install-method.md=https://docs.joomla.org/J4.x:J3.x:Updating_Joomla_(Install_Method)
-migration=updating-joomla-update-method.md=https://docs.joomla.org/J4.x:J3.x:Updating_Joomla_(Update_Method)
-migration=planning-migration-joomla-1-5-to-4.md=https://docs.joomla.org/J4.x:Planning_Migration_-_Joomla_1.5_to_4
-migration=planning-for-migration.md=https://docs.joomla.org/J4.x:Planning_for_Migration
-migration=planning-for-mini-migration-joomla-3-10-x-to-4-x.md=https://docs.joomla.org/J4.x:Planning_for_Mini-Migration_-_Joomla_3.10.x_to_4.x
-migration=potential-backward-compatibility-issues-in-joomla-4.md=https://docs.joomla.org/J4.x:Potential_backward_compatibility_issues_in_Joomla_4
-migration=pre-update-check.md=https://docs.joomla.org/J4.x:Pre-Update_Check
-migration=template-considerations-during-migration.md=https://docs.joomla.org/J4.x:Template_Considerations_During_Migration
 
 modules=site-modules.md=https://docs.joomla.org/J4.x:Site_Modules
 modules=administrator-modules.md=https://docs.joomla.org/J4.x:Administrator_Modules

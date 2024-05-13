@@ -1,61 +1,19 @@
-<!-- Filename: Joomla_3.x_to_4.x_Step_by_Step_Migration / Display title: Joomla 3.x to 4.x Step by Step Migration -->
+<!-- Filename: Joomla_3.x_to_4.x_Step_by_Step_Migration / Display title: Joomla 3 to 4 Step by Step -->
 
-<img
-src="https://docs.joomla.org/images/thumb/4/41/Stop_hand_nuvola.svg.png/25px-Stop_hand_nuvola.svg.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/4/41/Stop_hand_nuvola.svg.png/38px-Stop_hand_nuvola.svg.png 1.5x, https://docs.joomla.org/images/4/41/Stop_hand_nuvola.svg.png 2x"
-data-file-width="40" data-file-height="40" width="25" height="25"
-alt="Stop hand nuvola.svg.png" />Warning!
+## Introduction
 
-This guide assumes you are starting on Joomla 3.10.x. If you are on a
-earlier version make sure you upgrade to Joomla 3.10 first before moving
+**Warning:** This guide assumes you are starting on Joomla 3.10.x. If you are
+on an earlier version make sure you upgrade to Joomla 3.10 first before moving
 to Joomla 4. There is no rush. Make sure all your extensions are ready
-for Joomla 4.x. Joomla 3.10.x will be supported until 16 August 2023.
+for Joomla 4.x. Joomla 3.10.x is supported until 16 August 2023.
 
-  
-The following are step by step instructions to migrate your 3.10.x site
+The following are step by step instructions to migrate a 3.10.x site
 to Joomla! 4.x. While there are hundreds of different scenarios, this
 will give you the basic procedure to follow. Very complex migrations
 will likely be a result of installed third-party extensions. You are
 encouraged to contact the developers of third-party extensions installed
 on your Joomla site for their suggested path to migrate their
 extensions.
-
-## Intro
-
-The migration from Joomla! 3.10.x to 4.x is considered a mini-migration.
-This is because the Joomla core extensions will upgrade with a
-“one-click” upgrade via the Joomla! Update component in the backend
-administrator side of Joomla. Many third-party extensions are a
-one-click upgrade too. Some are not. You need to look at each one and
-determine what path the extension needs to follow to get from 3.10 to
-4.x. If you haven't already, you might be interested in reading the
-[Self
-Assessment](https://docs.joomla.org/Migration_Step_by_Step_Self_Assessment "Special:MyLanguage/Migration Step by Step Self Assessment")
-and [Planning for 3.10 to 4.x
-Migration](https://docs.joomla.org/Planning_for_Mini-Migration_-_Joomla_3.10.x_to_4.x "Special:MyLanguage/Planning for Mini-Migration - Joomla 3.10.x to 4.x")
-prior to following the steps below.  
-Joomla! Core Extensions are:
-
-- Categories
-- Articles
-- Menus
-- Modules (core modules - not third-party)
-- Action Logs
-- Banners
-- Fields
-- Content History
-- Contacts
-- Messaging
-- Newsfeeds
-- Redirect
-- Search (decoupled in 4.x. Existing 3.x sites will still migrate it.
-  However we recommend using Smart Search going forward. See Notes under
-  Assess Each Extension)
-- Smart Search
-- Tags
-- Weblinks (decoupled but your site may be using it and it will migrate.
-  See Notes under Assess Each Extension)
 
 ## Step by Step
 
@@ -148,7 +106,8 @@ Components
     version and the URL for the update package. Joomla will show you the
     requirements again for Joomla 4. If it flags that you have either an
     incompatible system or extensions it will tell you here. Take a
-    moment to review this page.<img
+    moment to review this page. <br>
+    <img
     src="https://docs.joomla.org/images/thumb/3/3a/J310-admin-update_to_4-pre_update_check-en.png/800px-J310-admin-update_to_4-pre_update_check-en.png"
     class="thumbborder" decoding="async"
     srcset="https://docs.joomla.org/images/3/3a/J310-admin-update_to_4-pre_update_check-en.png 1.5x"
@@ -198,7 +157,8 @@ Components
 10. Investigate and Uninstall Extensions Extensions: go to **Extension
     Manager **→** Manage**
 11. Click the Button *Search Tools* to show the filter options
-12. Select Package from the *Select Type* drop-down.<img
+12. Select Package from the *Select Type* drop-down.,br>
+    <img
     src="https://docs.joomla.org/images/thumb/5/50/J310-admin-extension-manage-package-en.png/800px-J310-admin-extension-manage-package-en.png"
     decoding="async"
     srcset="https://docs.joomla.org/images/thumb/5/50/J310-admin-extension-manage-package-en.png/1200px-J310-admin-extension-manage-package-en.png 1.5x, https://docs.joomla.org/images/5/50/J310-admin-extension-manage-package-en.png 2x"
@@ -217,7 +177,7 @@ Components
     not in use or not compatible with Joomla! 4.x. **NOTE!** You will
     not be able to uninstall any template that is set as default. You
     will need to select a Core supported template like Beez3 or
-    Protostar and then uninstall the template if you need to do so.  
+    Protostar and then uninstall the template if you need to do so.
     *Another reminder:* **Protostar is not compatible with Joomla 4.x**.
     Upon migration it will disappear. Selecting it as default simply
     gets you to Joomla 4.x.
@@ -285,7 +245,8 @@ installation, continue with the following steps:
 
 1.  Go to **System **→** Global Configuration **→** Server tab** and
     turn Error Reporting from System Default to Maximum. Make sure to
-    Save & Close. <img
+    Save & Close. <br>
+    <img
     src="https://docs.joomla.org/images/thumb/8/84/J310-system-global-config-server-tab-en.png/500px-J310-system-global-config-server-tab-en.png"
     class="thumbborder" decoding="async"
     srcset="https://docs.joomla.org/images/thumb/8/84/J310-system-global-config-server-tab-en.png/750px-J310-system-global-config-server-tab-en.png 1.5x, https://docs.joomla.org/images/thumb/8/84/J310-system-global-config-server-tab-en.png/1000px-J310-system-global-config-server-tab-en.png 2x"
@@ -296,7 +257,8 @@ installation, continue with the following steps:
     found. If it doesn’t, update Joomla to the latest version and test.
     Then do another backup.) Click on the Options button at the top
     right corner.
-4.  Select *Joomla Next* from the drop-down for Update Channel.<img
+4.  Select *Joomla Next* from the drop-down for Update Channel.<br>
+    <img
     src="https://docs.joomla.org/images/thumb/f/fd/J310-component-joomla-update-select-support-en.png/500px-J310-component-joomla-update-select-support-en.png"
     class="thumbborder" decoding="async"
     srcset="https://docs.joomla.org/images/thumb/f/fd/J310-component-joomla-update-select-support-en.png/750px-J310-component-joomla-update-select-support-en.png 1.5x, https://docs.joomla.org/images/thumb/f/fd/J310-component-joomla-update-select-support-en.png/1000px-J310-component-joomla-update-select-support-en.png 2x"
@@ -307,7 +269,8 @@ installation, continue with the following steps:
     version and the URL for the update package. Joomla will show you the
     requirements again for Joomla 4. If it flags that you have either an
     incompatible system or extensions it will tell you here. Take a
-    moment to review this page.<img
+    moment to review this page.<br>
+    <img
     src="https://docs.joomla.org/images/thumb/a/a8/J310-to-j4-dev-update-found-en.png/800px-J310-to-j4-dev-update-found-en.png"
     class="thumbborder" decoding="async"
     srcset="https://docs.joomla.org/images/thumb/a/a8/J310-to-j4-dev-update-found-en.png/1200px-J310-to-j4-dev-update-found-en.png 1.5x, https://docs.joomla.org/images/a/a8/J310-to-j4-dev-update-found-en.png 2x"
@@ -325,7 +288,8 @@ installation, continue with the following steps:
     is finished, you will probably be logged out of the Administrator.
     Sign in again. Twice.
 11. If all goes well, you will get to a totally new look to the backend
-    administrator panel.<img
+    administrator panel.<br>
+    <img
     src="https://docs.joomla.org/images/thumb/5/53/J4-administrator-overview-en.png/800px-J4-administrator-overview-en.png"
     class="thumbborder" decoding="async"
     srcset="https://docs.joomla.org/images/thumb/5/53/J4-administrator-overview-en.png/1200px-J4-administrator-overview-en.png 1.5x, https://docs.joomla.org/images/thumb/5/53/J4-administrator-overview-en.png/1600px-J4-administrator-overview-en.png 2x"
@@ -337,8 +301,7 @@ installation, continue with the following steps:
     extensions to install. (There shouldn't be any!)
 14. Go to the frontend of your site and see if it shows up even if it’s
     not the right template. If so, continue. If not, see [common errors
-    during
-    migration](https://docs.joomla.org/Joomla_3.10_to_4.x_Common_Migration_Errors "Special:MyLanguage/Joomla 3.10 to 4.x Common Migration Errors").
+    during migration](https://docs.joomla.org/Special:MyLanguage/Joomla_3.10_to_4.x_Common_Migration_Errors "Joomla 3.10 to 4.x Common Migration Errors").
 15. Take a backup.
 16. Install your new template or other extensions if you have them to
     install. Back up often.
@@ -382,14 +345,9 @@ party extension</a>.
 
 ## Suggested Tools
 
-- <a
-  href="http://extensions.joomla.org/extensions/access-a-security/site-security/backup/1606"
+- <a href="http://extensions.joomla.org/extensions/access-a-security/site-security/backup/1606"
   class="external text" target="_blank" rel="noreferrer noopener">Akeeba
-  Backup</a> is very popular for backup and restore. See more
-  <a href="https://extensions.joomla.org/tags/backup/"
+  Backup</a> is very popular for backup and restore.
+- More <a href="https://extensions.joomla.org/tags/backup/"
   class="external text" target="_blank" rel="noreferrer noopener">backup
   tools</a>.
-
-## Related information
-
-[Pre-Update_Check](https://docs.joomla.org/:Pre-Update_Check "Special:MyLanguage/:Pre-Update Check")

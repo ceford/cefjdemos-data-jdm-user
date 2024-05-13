@@ -154,20 +154,9 @@ user=menus=menu-item-type-archived-articles.md
 user=menus=adding-a-custom-administrator-menu.md
 
 heading=migration=Migration
-user=migration=why-migrate.md
-user=migration=joomla-3-x-to-4-x-step-by-step-migration.md
+user=migration=migration-basics.md
 user=migration=updating-from-an-existing-version.md
-user=migration=migration-step-by-step-self-assessment.md
-user=migration=converting-an-existing-website-to-a-joomla-website.md
-user=migration=update-fails-with-an-error-message.md
-user=migration=updating-joomla-install-method.md
-user=migration=updating-joomla-update-method.md
-user=migration=planning-migration-joomla-1-5-to-4.md
-user=migration=planning-for-migration.md
-user=migration=planning-for-mini-migration-joomla-3-10-x-to-4-x.md
-user=migration=potential-backward-compatibility-issues-in-joomla-4.md
-user=migration=pre-update-check.md
-user=migration=template-considerations-during-migration.md
+user=migration=joomla-3-x-to-4-x-step-by-step-migration.md
 
 heading=modules=Modules
 user=modules=site-modules.md
