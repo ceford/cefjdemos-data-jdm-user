@@ -34,7 +34,7 @@ These are the same from Joomla! 1.5 through 3.x
   &lt;/div&gt;
 &lt;/div&gt;</pre></div>
 </td>
-<td><a href="/File:Module_chrome_rounded.png" class="image"><img alt="Module chrome rounded.png" src="/images/8/8d/Module_chrome_rounded.png" decoding="async" data-file-width="204" data-file-height="190" width="204" height="190"></a>
+<td><img alt="Module chrome rounded.png" src="https://docs.joomla.org/images/8/8d/Module_chrome_rounded.png" decoding="async" data-file-width="204" data-file-height="190" width="204" height="190">
 </td></tr>
 <tr>
 <th>none
@@ -44,7 +44,7 @@ These are the same from Joomla! 1.5 through 3.x
 &lt;/ul&gt;</pre></div>
 </td>
 <td>
-<p><a href="/File:Module_chrome_none.png" class="image"><img alt="Module chrome none.png" src="/images/1/18/Module_chrome_none.png" decoding="async" data-file-width="204" data-file-height="150" width="204" height="150"></a>
+<p><img alt="Module chrome none.png" src="https://docs.joomla.org/images/1/18/Module_chrome_none.png" decoding="async" data-file-width="204" data-file-height="150" width="204" height="150">
 </p>
 </td></tr>
 <tr>
@@ -63,7 +63,7 @@ These are the same from Joomla! 1.5 through 3.x
   &lt;/tr&gt;
 &lt;/table&gt;</pre></div>
 </td>
-<td><a href="/File:Module_chrome_table.png" class="image"><img alt="Module chrome table.png" src="/images/9/9d/Module_chrome_table.png" decoding="async" data-file-width="204" data-file-height="160" width="204" height="160"></a>
+<td><img alt="Module chrome table.png" src="https://docs.joomla.org/images/9/9d/Module_chrome_table.png" decoding="async" data-file-width="204" data-file-height="160" width="204" height="160">
 </td></tr>
 <tr>
 <th>horz
@@ -87,7 +87,7 @@ These are the same from Joomla! 1.5 through 3.x
   &lt;/tr&gt;
 &lt;/table&gt;</pre></div>
 </td>
-<td><a href="/File:Module_chrome_horz.png" class="image"><img alt="Module chrome horz.png" src="/images/2/24/Module_chrome_horz.png" decoding="async" data-file-width="204" data-file-height="170" width="204" height="170"></a>
+<td><img alt="Module chrome horz.png" src="https://docs.joomla.org/images/2/24/Module_chrome_horz.png" decoding="async" data-file-width="204" data-file-height="170" width="204" height="170">
 </td></tr>
 <tr>
 <th>xhtml
@@ -99,7 +99,7 @@ These are the same from Joomla! 1.5 through 3.x
   &lt;/ul&gt;
 &lt;/div&gt;</pre></div>
 </td>
-<td><a href="/File:Module_chrome_xhtml.png" class="image"><img alt="Module chrome xhtml.png" src="/images/8/83/Module_chrome_xhtml.png" decoding="async" data-file-width="206" data-file-height="165" width="206" height="165"></a>
+<td><img alt="Module chrome xhtml.png" src="https://docs.joomla.org/images/8/83/Module_chrome_xhtml.png" decoding="async" data-file-width="206" data-file-height="165" width="206" height="165">
 </td></tr>
 <tr>
 <th>html5
@@ -112,7 +112,7 @@ These are the same from Joomla! 1.5 through 3.x
   &lt;/ul&gt;
 &lt;/div&gt;</pre></div>
 </td>
-<td><a href="/File:Module_chrome_html5.png" class="image"><img alt="Module chrome html5.png" src="/images/9/9f/Module_chrome_html5.png" decoding="async" data-file-width="227" data-file-height="205" width="227" height="205"></a>
+<td><img alt="Module chrome html5.png" src="https://docs.joomla.org/images/9/9f/Module_chrome_html5.png" decoding="async" data-file-width="227" data-file-height="205" width="227" height="205">
 </td></tr>
 <tr>
 <th>outline
@@ -126,7 +126,7 @@ These are the same from Joomla! 1.5 through 3.x
   &lt;/div&gt;
 &lt;/div&gt;</pre></div>
 </td>
-<td><a href="/File:Module_chrome_outline.png" class="image"><img alt="Module chrome outline.png" src="/images/1/12/Module_chrome_outline.png" decoding="async" data-file-width="198" data-file-height="151" width="198" height="151"></a>
+<td><img alt="Module chrome outline.png" src="https://docs.joomla.org/images/1/12/Module_chrome_outline.png" decoding="async" data-file-width="198" data-file-height="151" width="198" height="151">
 </td></tr>
 </tbody></table>
 

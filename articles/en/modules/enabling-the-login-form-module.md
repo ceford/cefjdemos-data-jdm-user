@@ -1,27 +1,74 @@
-<!-- Filename: Enabling_the_Login_Form_module / Display title: Enabling the Login Form module -->
+<!-- Filename: Enabling_the_Login_Form_module / Display title: Login Form -->
 
-To enable Login functionality on your website, the Login Form module
-must be published. To publish the Login Form module:
+## Site Login Methods
 
-1.  Log in to the Administrator back-end.
-2.  Click the **Extensions **→** Modules** menu item.
-3.  Locate the module called "Login Form".
-4.  If the Status is a green tick, it is already enabled. If the Status
-    is a red cross, it is currently disabled. Click on the red cross to
-    enable.
+There are two ways to allow registered users to login to the frontend of a
+website. There is a **Login Form** menu item found in the Users group of menu
+items. It needs its *Access* permissions set to *Guest*. A second *Logout* menu
+item is needed with its *Access* permissions set to *Registered*.
 
-<img
-src="https://docs.joomla.org/images/thumb/b/b5/Login_module_j39.png/300px-Login_module_j39.png"
-class="thumbimage" decoding="async"
-srcset="https://docs.joomla.org/images/thumb/b/b5/Login_module_j39.png/450px-Login_module_j39.png 1.5x, https://docs.joomla.org/images/thumb/b/b5/Login_module_j39.png/600px-Login_module_j39.png 2x"
-data-file-width="900" data-file-height="520" width="900" height="520" />
+The alternative is the **Login Form** module. It is installed by default in the
+*sidebar-right* position in a new Joomla Installtion. This module can be moved
+to another position, unpublished, trashed and deleted. The latter actions
+apply to an instance of the module and not the module code. So you can create
+a new *Login Form* module or make a duplicate, perhaps for use in different
+templates. The Login Form module changes its display after login to present
+a *Logout* button.
 
-To learn more see [Changing the Login Form module
-settings](https://docs.joomla.org/Changing_the_Login_Form_module_settings "Special:MyLanguage/Changing the Login Form module settings");
+## The Login Form Module
 
-### See also
+To publish an unpublished Login Form:
 
-- [Logging in or out of the Administrator
-  back-end](https://docs.joomla.org/J3.x:Logging_in_or_out_of_the_Administrator_back-end "Special:MyLanguage/J3.x:Logging in or out of the Administrator back-end")
-- [Setting user registration
-  policy](https://docs.joomla.org/Setting_user_registration_policy "Special:MyLanguage/Setting user registration policy")
+*  Select **Content → Site Modules** from the Administrator menu.
+*  Locate the **Login Form** module.
+*  If the **Status** icon is a green tick inside a circle it is already
+enabled. If the Status icon is a grey cross it is currently disabled. Select
+the icon to enable the module.
+* If the *Login Form* module is not present in the list set the Filter Options,
+*- Select Status - field to *All* or *Trashed* to see if it has been trashed.
+If so it can be published by selecting its trash icon.
+* If the Login Form module is missing create a new one.
+
+To create a new Login Form or a second Login Form:
+
+*  Select **Content → Site Modules** from the Administrator menu.
+* Select the **New** button from the Toolbar.
+* From the Modules list select the **Login** item.
+* Fill in the *Modules: Login* data entry form.
+  - Enter a unique Title.
+  - Select a template position or create a named position for use in an article.
+  - Fill in other fields as appropriate.
+* **Save & Close**
+* Test the module appears corectly in the site frontend.
+
+## To assign the Login Form module to selected web pages
+
+You can make the Login Form module appear on one or more pages by
+assigning it to selected Menu Items. This is done using the fields in
+the Menu Assignment group on the Module Edit screen:
+
+- Select the **Menu Assignment** tab.
+- The **Module Assignment** list has four options:
+  - **On all pages**: The Login Form module will appear on all pages.
+  - **No pages**: The Login Form module will not appear on any page.
+  - **Only on the pages selected**: A list of all menus and menu items on your
+  site will appear. The Login Form module will appear on those pages selected
+  in the this list.
+  - **On all pages except those selected:** The Login Form will appear on all
+  pages not selected.
+- **Menu Selection**: Shows a list of all the Menus and Menu Items from
+  which one or more may be selected. This field is only used if the
+  **Menus** field is set to **Select Menu Item(s) from the List**.
+
+  ![module menu assignment](../../../images/en/modules/modules-login-menu-assignment.png "Login module menu assignment")
+
+## To customise the Login Form module
+
+If you wish to change the appearance of the Login module you can add styles,
+either Bootstrap styles or your own styles defined in your template user.css
+file. Add the styles in the **Advanced** tab of the Modules: Login edit form.
+
+If you wish to change the information shown in the Login form you can create
+a template override. See the section on
+[Template Overrides](jdocmanual?manual=user&heading=templates&filename=template-overrides.md)
+for further details.

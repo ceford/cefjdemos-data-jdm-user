@@ -165,18 +165,13 @@ user=modules=module-positions.md
 user=modules=module-display-by-menu-item.md
 user=modules=how-do-you-put-a-module-inside-an-article-3f.md
 user=modules=enabling-the-login-form-module.md
-user=modules=changing-the-login-form-module-settings.md
-user=modules=customising-the-login-form-module.md
-user=modules=module-class-suffix.md
-user=modules=standard-module-chromes.md
+user=modules=module-styles.md
 user=modules=articles-archived-module.md
 user=modules=how-do-you-create-a-custom-module-3f.md
-user=modules=how-to-control-module-display-when-linking-to-an-article-with-no-menu-item.md
-user=modules=how-do-you-add-a-paypal-button-3f.md
 
-heading=news-feeds=News Feeds
-user=news-feeds=using-rss-feeds-to-share-content.md
-user=news-feeds=how-do-you-display-an-rss-feed-3f.md
+heading=news-feeds=News
+user=news-feeds=news-feeds.md
+user=news-feeds=news-display.md
 
 heading=performance=Performance
 user=performance=managing-404-errors.md

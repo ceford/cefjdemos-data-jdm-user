@@ -158,16 +158,13 @@ modules=module-positions.md=https://docs.joomla.org/J4.x:Module_Positions
 modules=module-display-by-menu-item.md=https://docs.joomla.org/J4.x:Module_Display_by_Menu_Module Display by Menu mw
 modules=how-do-you-put-a-module-inside-an-article-3f.md=https://docs.joomla.org/J4.x:How_do_you_put_a_module_inside_an_article?
 modules=enabling-the-login-form-module.md=https://docs.joomla.org/J4.x:Enabling_the_Login_Form_module
-modules=changing-the-login-form-module-settings.md=https://docs.joomla.org/J4.x:Changing_the_Login_Form_module_settings
-modules=customising-the-login-form-module.md=https://docs.joomla.org/J4.x:Customising_the_Login_Form_module
-modules=module-class-suffix.md=https://docs.joomla.org/J4.x:Module_Class_Suffix
-modules=standard-module-chromes.md=https://docs.joomla.org/J4.x:Standard_Module_Chromes
+modules=module-styles.md=jdocmanual?manual=user&heading=modules&filename=module-styles.md
 modules=articles-archived-module.md=https://docs.joomla.org/J4.x:How_to_Show_a_Calendar_Month_List_of_Archived_Articles_Using_a_Module
 modules=how-do-you-create-a-custom-module-3f.md=https://docs.joomla.org/J4.x:How_do_you_create_a_custom_module?
-modules=how-to-control-module-display-when-linking-to-an-article-with-no-menu-item.md=https://docs.joomla.org/J4.x:How_to_control_module_display_when_linking_to_an_article_with_no_menu_How to control module display when linking to an article with no menu mw
-modules=how-do-you-add-a-paypal-button-3f.md=https://docs.joomla.org/J4.x:How_do_you_add_a_PayPal_button?
-news-feeds=using-rss-feeds-to-share-content.md=https://docs.joomla.org/J4.x:Using_RSS_Feeds_To_Share_Content
-news-feeds=how-do-you-display-an-rss-feed-3f.md=https://docs.joomla.org/J4.x:How_do_you_display_an_RSS_feed?
+
+news-feeds=news-feeds.md=jdocmanual?manual=user&heading=news-feeds&filename=news-feeds.md
+news-feeds=news-display.md=jdocmanual?manual=user&heading=news-feeds&filename=news-display.md
+
 performance=managing-404-errors.md=https://docs.joomla.org/J4.x:Managing_404_Errors
 performance=validating-against-accessibility-standards.md=https://docs.joomla.org/J4.x:Validating_against_accessibility_standards
 plugins=plugin-joomla-update-notification.md=https://docs.joomla.org/J4.x:J3.x:Plugin_Joomla_Update_Notification

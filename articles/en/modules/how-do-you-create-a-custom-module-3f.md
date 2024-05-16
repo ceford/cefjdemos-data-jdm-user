@@ -1,91 +1,81 @@
-<!-- Filename: How_do_you_create_a_custom_module%3F / Display title: How do you create a custom module? -->
+<!-- Filename: How_do_you_create_a_custom_module%3F / Display title: Custom Module -->
 
-## Quick Overview
+## Purpose
 
-To insert a custom module in your website, go to
-**Administrator **→** Extensions **→** Modules** and select the *New*
-icon. You will see a list of available modules. Select the *Custom* icon
-and edit the module.
+The Custom module allows you to create Module content using a WYSIWYG editor.
+It is great for simple messages, optionally with images.
 
-## Detail
+## Create the Custom module
 
-A module is a special program, or even a special type of article, that
-can be displayed in the module positions available in your website's
-template.
+Use one of the following methods:
+* Select the **Modules** item from the Home Dashboard. Or...
+* Select the **Content / Site Modules** from the Administrator menu.
+* Select the **Custom** item from the Modules (Site) list.
 
-To see all of your template's available module positions, add the code
-*?tp=1* after one of your page's URLs. For example,
-*http://www.yoursite.com/?tp=1*
+This will create the new module and open the module for configuration.
 
-To see the list of all the modules available on your site, go to
-**Administrator **→** Extensions **→** Modules**.
+## Configuring the Module
 
-Before you create a new module, look at an example:
+**For standard usage of the module there are just a few settings:**
 
-**Login Form**
+**Title**: Enter a name for the module.
 
-It is of a particular type: *mod_login*.
+**Module Content** Type in content as you would for an article.
 
-**Title** - The title of this module.
+**Title Show/Hide:** Choose whether or not to show the title by toggling to
+*Show* or *hide*.
 
-**Show Title** - Display or hide the title.
+**Position**: Set a position where you want to display the module on the
+front end. Positions are dictated by your template. This example uses Joomla’s
+Cassiopeia template *Sidebar Right* position.
 
-**Position** - This relates to your available Module Positions mentioned
-above.
+**Status**: By default, the module status is **Published**. Other options are
+**Unpublished** and **Trashed**.
 
-**Order** - The order in which the module is displayed if there is more
-than one module in the selected position. (You control this after
-*saving* the module and looking at all the modules for this position.
-See **Order of the Modules for a Position**, below)
+**Start Publishing**: You can schedule the start of publishing of the
+module.
 
-**Menu Assignment** - This is where you choose where this module will be
-displayed. For example, the login form might only be displayed on the
-Home page.
+**Finish Publishing**: You can schedule when to stop publishing the
+module.
 
-**Options** - Some modules have parameters associated with them that are
-set from this tab.
+**Access**: If you want to control who can see the module on the
+frontend you can choose an access level.
 
-## Create Your New Custom Module
+**Ordering**: Used to control where the module displays within the
+position you have selected. For example, you may have a number of
+modules in the sidebar and want this one to be at the top or bottom – or
+somewhere between others in the sidebar. It can be a little confusing at
+first as the field shows a numbered position and a module name. The name
+can be a module that is unpublished. The thing to remember is that the
+lowest number will be at the top and highest number is at the bottom.
 
-To display some information on some or all pages, in say the left
-column, you can go to the Module Manager and create a New custom module.
+**Note**: Can be helpful to use the note field if for example you are
+using the same module type in several places.
 
-In **Administrator **→** Extensions **→** Modules** select the *New*
-button. Then choose *Custom*.
+### Menu Assignment Tab
 
-- Enter a title
-- Choose to show or hide the title
-- Select the module position
-- Set the *Status* to *Published*
-- Switch to the *Menu Assignment* tab and designate the pages on which
-  the module will be displayed
+By default the module will be published **On all pages**.
 
-### Advanced Options
+Alternatively you can choose via a drop down list **No pages**, **Only
+on the pages selected** or **On all pages except those selected**. The
+last two options provide you with a menu tree of the menus used on the
+website where you can select/deselect pages.
 
-Note that Module Class Suffix is a setting that will relate to your
-template. Refer to the template's documentation to use this parameter.
+### Other
 
-### Try It Out
+The **Options** tab allows you to set a background image for the module.
 
-Put in a test module and see what you can achieve. Set Status to
-*Unpublished* to turn it off if you are not ready to display it to the
-world.
+The **Advanced** tab has settings related to layout of the module when it is
+output.
 
-### Order of the Modules for a Position
+The **Permissions** tab allows you to control what user groups can do with
+the module.
 
-In **Administrator **→** Extensions **→** Modules**, restrict which
-modules you are looking at by choosing **Search Tools **→** Select
-Position**. Enable the drag and drop ordering tool by selecting the up
-and down arrows icon at the top of the far left column. You can now use
-your cursor to grab one of the first column icons to reorder the
-modules.
+## Publishing the Module
 
-### Access
+When you are ready, select the **Save & Close** button.
 
-You use this to control who can see a module. For example, the User Menu
-module might have the access set to *Registered*. This means that this
-module is only seen when a registered user is logged in.
+The module will be published in the sidebar of the website and display
+whatever text you entered.
 
-As a Super User, you can restrict the Access level to *Special*. Then
-only you and the other Administrators will see a module when you are
-logged in on the front of the site.
+![Custom Module Example](../../../images/en/modules/modules-custom-display.png "Custom Module Example")
