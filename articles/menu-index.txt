@@ -174,6 +174,9 @@ user=news-feeds=news-feeds.md
 user=news-feeds=news-display.md
 
 heading=performance=Performance
+user=performance=page-analysis.md
+user=performance=monitoring-server-health.md
+user=performance=monitoring-site-speed.md
 user=performance=managing-404-errors.md
 user=performance=validating-against-accessibility-standards.md
 
@@ -259,15 +262,12 @@ user=system=what-are-the-best-practices-for-site-backups-3f.md
 user=system=copying-a-joomla-website.md
 user=system=copying-a-website-from-localhost-to-a-remote-host.md
 user=system=database-table-prefix.md
-user=system=monitoring-server-health.md
-user=system=monitoring-site-speed.md
 user=system=one-click-updates-for-language-packs.md
 user=system=purging-expired-cache-files.md
 user=system=top-10-stupidest-administrator-tricks.md
 user=system=updating-php.md
 user=system=task-scheduler.md
 user=system=uploading-and-extracting-an-archive-file-with-cpanel.md
-user=system=using-caching-to-speed-up-your-code.md
 
 heading=tags=Tags
 user=tags=how-to-use-content-tags-in-joomla.md

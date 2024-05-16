@@ -33,12 +33,7 @@ This template has all you need to get started with your own website. It
 can be customised with template settings and user specified features
 such as images and colours.
 
-<img
-src="https://docs.joomla.org/images/thumb/d/d3/J4.x-introduction-to-joomla-cassiopeia-en.png/800px-J4.x-introduction-to-joomla-cassiopeia-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/d/d3/J4.x-introduction-to-joomla-cassiopeia-en.png 1.5x"
-data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="J4.x-introduction-to-joomla-cassiopeia-en.png" />
+![The Cassiopeia Template](../../../images/en/getting-started/getting-started-introduction-cassiopeia.png "The Cassiopeia Template")
 
 If Cassiopeia is not quite right for your site, there are hundreds of
 other templates available from third party suppliers, both free and
@@ -49,12 +44,7 @@ commercial.
 This template is not seen by the public so it is rarely necessary to
 seek an alternative.
 
-<img
-src="https://docs.joomla.org/images/thumb/4/4b/J4.x-introduction-to-joomla-atum-en.png/800px-J4.x-introduction-to-joomla-atum-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/4/4b/J4.x-introduction-to-joomla-atum-en.png 1.5x"
-data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="J4.x-introduction-to-joomla-atum-en.png" />
+![The Atum Template](../../../images/en/getting-started/getting-started-introduction-atum.png "The Atum Template")
 
 You can configure what appears on various dashboards but that is best
 left until experience warrants a change.
