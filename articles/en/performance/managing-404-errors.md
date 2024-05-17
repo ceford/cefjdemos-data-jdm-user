@@ -1,5 +1,7 @@
 <!-- Filename: Managing_404_Errors / Display title: Managing 404 Errors -->
 
+## Why 404 Not Found Matters
+
 The most common problem with websites which are struggling in search
 engine rankings is the number of 'not found' errors – commonly referred
 to as *404* errors because that is the status code returned if the page
@@ -16,6 +18,8 @@ search engine's perspective, this is not a great experience for their
 visitors, because they land on your site and the information that the
 search engine told them was there, isn't. This is why it is not a great
 idea to have too many 404 errors on your site.
+
+## Google Search Central
 
 The first step is to find out how many you have – which can be done
 using Google's
@@ -46,9 +50,9 @@ problematic URLs, do something about it (if it needs fixing!) by either
 redirecting the page to another on the site, re-instating the original
 page, or looking into what has caused the 404 error.
 
-If you need to redirect a page, check out this page which explains how
-to create 301 (permanent) redirects: [Creating 301
-redirects](https://docs.joomla.org/Creating_301_redirects "Creating 301 redirects")
+If you need to redirect a page you can use the System - Redirect plugin to
+collect missing pages and the System / Redirects component to redirect missing
+pages to existing pages.
 
 ## Monitoring Problems
 

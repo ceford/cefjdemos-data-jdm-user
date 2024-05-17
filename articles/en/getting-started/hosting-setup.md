@@ -9,6 +9,40 @@ with new features and is completely free. To make your website content
 available to the rest of the world you will need an account on a hosting
 service and for that you will have to pay.
 
+## Supporting Software
+
+Joomla! is an application that depends on three items of supporting software:
+the PHP scripting language, a database (one of MySQL, MariaDB or PostgreSQL)
+and a web server (one of Apache, Nginx, Microsoft IIS, or ...). The minimum
+version numbers are indicated in the following tables:
+
+### Requirements for Joomla! 5.x
+
+| Software                                  | Recommended     | Minimum     |
+|-------------------------------------------|-----------------|-------------|
+| [PHP](https://php.net)                    | 8.3             | 8.1.0       |
+| **Databases**                             |                 |             |
+| [MySQL](https://mysql.com)                | 8.1             | 8.0.13      |
+| [MariaDB](https://mariadb.com)            | 11.1.0          | 10.4.0      |
+| [PostgreSQL](https://postgresql.org)      | 16.0            | 12.0        |
+| **Web Servers**                           |                 |             |
+| [Apache](https://httpd.apache.org)        | 2.4             | 2.4         |
+| [Nginx](https://nginx.com)                | 1.25            | 1.21        |
+| [Microsoft IIS](https://www.iis.net)      | 10              | 10          |
+
+### Requirements for Joomla! 4.x
+
+| Software           | Recommended     | Minimum     |
+|--------------------|-----------------|-------------|
+| PHP                | 8.2             | 7.2.5       |
+| **Databases**      |                 |             |
+| MySQL              | 8.0             | 5.6         |
+| PostgreSQL         | 11.0            | 11.0        |
+| **Web Servers**    |                 |             |
+| Apache             | 2.4             | 2.4         |
+| Nginx              | 1.18            | 1.10        |
+| Microsoft IIS      | 10              | 8           |
+
 ## Hosting Services
 
 Commercial hosting services provide everything you need to support a

@@ -167,10 +167,11 @@ news-feeds=news-display.md=jdocmanual?manual=user&heading=news-feeds&filename=ne
 
 performance=page-analysis.md=jdocmanual?manual=user&heading=performance&filename=page-analysis.md
 performance=managing-404-errors.md=https://docs.joomla.org/J4.x:Managing_404_Errors
-performance=validating-against-accessibility-standards.md=https://docs.joomla.org/J4.x:Validating_against_accessibility_standards
+performance=accessibility-checker.md=jdocmanual?manual=user&heading=performance&filename=accessibility-checker.md
 performance=monitoring-server-health.md=https://docs.joomla.org/J4.x:Monitoring_Server_Health
 performance=monitoring-site-speed.md=https://docs.joomla.org/J4.x:Monitoring_Site_Speed
 
+plugins=about-plugins.md=jdocmanual?manual=user&heading=plugins&filename=about-plugins.md
 plugins=plugin-joomla-update-notification.md=https://docs.joomla.org/J4.x:J3.x:Plugin_Joomla_Update_Notification
 
 privacy=privacy-setup.md=https://docs.joomla.org/J4.x:Privacy_Setup

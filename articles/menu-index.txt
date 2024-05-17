@@ -177,10 +177,11 @@ heading=performance=Performance
 user=performance=page-analysis.md
 user=performance=monitoring-server-health.md
 user=performance=monitoring-site-speed.md
+user=performance=accessibility-checker.md
 user=performance=managing-404-errors.md
-user=performance=validating-against-accessibility-standards.md
 
 heading=plugins=Plugins
+user=plugins=about-plugins.md
 user=plugins=plugin-joomla-update-notification.md
 
 heading=privacy=Privacy
