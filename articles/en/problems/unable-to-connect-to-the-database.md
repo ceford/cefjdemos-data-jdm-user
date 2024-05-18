@@ -1,25 +1,30 @@
-<!-- Filename: Unable_to_connect_to_the_database / Display title: Unable to connect to the database -->
+<!-- Filename: Unable_to_connect_to_the_database / Display title: Database Connection -->
 
-## Unable to Connect to the Database: Could Not Connect to MySQL
+## Unable to Connect Error
 
-If during or after installation, you received an "**Unable to connect to
-the database**" error, verify that you have entered your MySQL/MariaDB
-database details correctly. The installation script will not allow you
-to continue unless the details are correct. Note that you are not
-expected to create a password for the database during installation - the
-error may then be due to entering a password which doesn't exist:.
+If you receive an "**Unable to connect to the database**" error during
+installtion, verify that you have entered your MySQL/MariaDB database details
+correctly. The **installation** script will not allow you to continue unless
+the details are correct.
+
+Note that you are not expected to create a database user and password during
+installation. They must be created first.
 
 If the failure occurs after moving your site to another host, check the
 following items of your *configuration.php* file. The normal database
 settings are the following:
 
-    var $dbtype = 'mysql';
-    var $host = 'localhost';
-    var $user = 'user_with_database_access';
-    var $db = 'the_actual_database_name';
-    var $dbprefix = 'table_prefix_';
+	public $dbtype = 'mysqli';
+	public $host = 'localhost';
+	public $user = 'yourdbuser';
+	public $password = 'yourdbpassword';
+	public $db = 'yourdbname';
+	public $dbprefix = 't6q6i_';
 
-## The Most Common Reasons
+If the failure occurs in a site that has been working there are a number of
+possible reasons, sometimes temporary and sometimes accidental.
+
+## The Most Common Faults
 
 1.  Sometimes you will see this message if MySQL/MariaDB has stopped
     running on your server. Your server administrator may temporarily

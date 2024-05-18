@@ -197,14 +197,11 @@ user=problems=fatalerror.md
 user=problems=fix-database-table-structure-not-up-to-date-before-update.md
 user=problems=get-locally-hosted-joomla-website-e-mail-functions-to-work.md
 user=problems=joomla-and-mysql-8.md
-user=problems=please-first-make-a-selection-from-the-list.md
 user=problems=unable-to-connect-to-the-database.md
-user=problems=update-did-not-finish-successfully.md
 
 heading=reference=Reference
 user=reference=joomla-licenses.md
 user=reference=what-has-the-copyright-of-joomla-3f.md
-user=reference=what-license-is-joomla-released-under-3f.md
 user=reference=what-are-web-standards-3f.md
 user=reference=where-are-the-web-pages-3f.md
 

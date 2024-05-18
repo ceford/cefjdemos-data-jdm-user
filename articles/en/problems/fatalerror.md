@@ -97,12 +97,7 @@ When your problem is resolved:
 4.  *Save & Close*.
 5.  Remove the Forum Post Assistant.
 
-<img
-src="https://docs.joomla.org/images/thumb/4/41/Stop_hand_nuvola.svg.png/25px-Stop_hand_nuvola.svg.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/4/41/Stop_hand_nuvola.svg.png/38px-Stop_hand_nuvola.svg.png 1.5x, https://docs.joomla.org/images/4/41/Stop_hand_nuvola.svg.png 2x"
-data-file-width="40" data-file-height="40" width="25" height="25"
-alt="Stop hand nuvola.svg.png" />Warning!
+**Warning!**
 
 Do not forget to set the *configuration.php* file back to read-only (444
 or *r--r--r--*). That is an important part of the Joomla! security

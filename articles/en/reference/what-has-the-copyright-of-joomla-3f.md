@@ -1,10 +1,10 @@
-<!-- Filename: What_has_the_copyright_of_Joomla!%3F / Display title: What has the copyright of Joomla!? -->
+<!-- Filename: What_has_the_copyright_of_Joomla!%3F / Display title: Joomla! Copyright -->
 
 The Joomla! project does not aggregate the copyrights of its code
 contributors. No contributor is required to transfer his/her copyright
 to Joomla! and each individual contribution will forever remain in the
 ownership of its author. This also applies to translations of the
-Installation language set as these alone are included in the core
+Installation language sets as these alone are included in the core
 release of Joomla!.
 
 Open Source Matters Inc., a not-for-profit organisation, holds the
@@ -16,7 +16,9 @@ Matters Inc." This does not violate the copyright and ownership of the
 individual contributions. These always remain the authors' property.
 Attributions of the copyrights of contributors and other included code
 elements is detailed in the main copyright file in the root directory of
-the Joomla! installation. As the contributors do not transfer copyright
+the Joomla! installation.
+
+As the contributors do not transfer copyright
 they instead declare that their code contributions are licensed to Open
 Source Matters Inc. in a limited and non-exclusive fashion. Limited
 meaning that Open Source Matters Inc. may only use their contribution if
