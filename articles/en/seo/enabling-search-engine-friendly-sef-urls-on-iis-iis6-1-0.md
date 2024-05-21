@@ -1,4 +1,4 @@
-<!-- Filename: Enabling_Search_Engine_Friendly_(SEF)_URLs_on_IIS/IIS6/1.0 / Display title: Enabling Search Engine Friendly (SEF) URLs on IIS/IIS6/1.0 -->
+<!-- Filename: Enabling_Search_Engine_Friendly_(SEF)_URLs_on_IIS/IIS6/1.0 / Display title: SEF URLs on IIS/IIS6/1.0 -->
 
 First job is to install ISAPI rewriter of your choice
 <a href="http://www.isapirewrite.com/" class="external free"
@@ -54,7 +54,7 @@ Example for IirGlobal.ini:
 
 Tested and working with ARTIO JoomSEF:
 
-    RewriteCond %{HTTP_URL}             (/[^.]*|\.(html?|php))$  [I] 
+    RewriteCond %{HTTP_URL}             (/[^.]*|\.(html?|php))$  [I]
     RewriteCond %{REQUEST_FILENAME}     !-f
     RewriteCond %{REQUEST_FILENAME}     !-d
     RewriteRule (.*)                /index.php                      [U,L]
@@ -72,14 +72,14 @@ Tested and working with default Joomla SEO:
 Tested and working with sh404SEF:
 
     RewriteLogLevel 4 #Make it 0 in to turn debugging off
-    RewriteLog c:\IIRfLogfile.log #Write the absolute path of your file here 
+    RewriteLog c:\IIRfLogfile.log #Write the absolute path of your file here
 
     MaxMatchCount 10
 
     # don't rewrite any request that goes to administrator
     RewriteRule ^/administrator   -   [L]
 
-    RewriteCond %{HTTP_URL} (/[^.]*|\.(html?|php)|!administrator)$  
+    RewriteCond %{HTTP_URL} (/[^.]*|\.(html?|php)|!administrator)$
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule (.*) /index.php [U,L]

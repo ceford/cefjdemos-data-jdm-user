@@ -206,43 +206,16 @@ user=reference=what-are-web-standards-3f.md
 user=reference=where-are-the-web-pages-3f.md
 
 heading=security=Security
-user=security=what-is-the-joomla-administrators-security-checklist-3f.md
-user=security=enabling-https-on-your-site.md
-user=security=htaccess-examples-security.md
-user=security=security-checklist-getting-started.md
-user=security=security-checklist-hosting-and-server-setup.md
-user=security=security-checklist-where-can-you-learn-more-about-file-permissions-3f.md
-user=security=security-checklist-testing-and-development.md
-user=security=security-checklist-joomla-setup.md
-user=security=security-checklist-site-administration.md
-user=security=security-checklist-site-recovery.md
-user=security=security-checklist-you-have-been-hacked-or-defaced.md
-user=security=security-before-you-go-live.md
-user=security=security-faq.md
-user=security=security-and-performance-faqs.md
-user=security=security-filters-for-articles.md
-user=security=securing-joomla-extensions.md
+user=security=best-practices.md
+user=security=http-headers.md
 
 heading=seo=SEO
-user=seo=what-is-search-engine-optimisation.md
-user=seo=making-your-site-search-engine-friendly.md
+user=seo=seo-basics.md
 user=seo=search-engine-friendly-urls.md
-user=seo=using-a-sitemap.md
-user=seo=using-keywords.md
-user=seo=semantic-html-markup.md
-user=seo=linking-to-other-sites.md
-user=seo=important-seo-points-to-remember.md
-user=seo=monitoring-seo.md
-user=seo=common-problems-when-enabling-search-engine-friendly-sef-urls.md
-user=seo=enabling-search-engine-friendly-sef-urls.md
 user=seo=enabling-search-engine-friendly-sef-urls-on-apache.md
-user=seo=enabling-search-engine-friendly-sef-urls-on-hiawatha.md
-user=seo=enabling-search-engine-friendly-sef-urls-on-iis.md
-user=seo=enabling-search-engine-friendly-sef-urls-on-iis-iis6.md
-user=seo=enabling-search-engine-friendly-sef-urls-on-iis-iis6-1-0.md
-user=seo=enabling-search-engine-friendly-sef-urls-on-iis-iis6-1-5.md
-user=seo=enabling-search-engine-friendly-sef-urls-on-iis-iis7.md
 user=seo=enabling-search-engine-friendly-sef-urls-on-nginx.md
+user=seo=monitoring-seo.md
+user=seo=using-a-sitemap.md
 
 heading=smart-search=Smart Search
 user=smart-search=smart-search-quickstart-guide.md

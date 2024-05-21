@@ -1,4 +1,4 @@
-<!-- Filename: Enabling_Search_Engine_Friendly_(SEF)_URLs_on_IIS/IIS7 / Display title: Enabling Search Engine Friendly (SEF) URLs on IIS/IIS7 -->
+<!-- Filename: Enabling_Search_Engine_Friendly_(SEF)_URLs_on_IIS/IIS7 / Display title: SEF URLs on IIS/IIS7 -->
 
 If you have a server running IIS 7 and PHP, you can take advantage of
 IIS's own internal URL rewriting by using a web.config file similar to
@@ -40,42 +40,42 @@ class="external free" target="_blank"
 rel="nofollow noreferrer noopener">http://learn.iis.net/page.aspx/557/translate-htaccess-content-to-iis-webconfig/</a>
 
 
-        
-            
-                
-                    
-                    
-                        
-                        
-                            
-                            
-                            
-                            
-                            
-                        
-                        
-                    
-                    
-                        
-                        
-                            
-                        
-                        
-                    
-                    
-                        
-                        
-                            
-                            
-                            
-                        
-                        
-                    
-                
-            
-            
-                
-                    
-                
-            
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

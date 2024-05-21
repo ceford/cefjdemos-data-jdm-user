@@ -1,4 +1,4 @@
-<!-- Filename: Enabling_Search_Engine_Friendly_(SEF)_URLs_on_IIS / Display title: Enabling Search Engine Friendly (SEF) URLs on IIS -->
+<!-- Filename: Enabling_Search_Engine_Friendly_(SEF)_URLs_on_IIS / Display title: SEF URLs on IIS -->
 
 Under IIS7, a native URL Rewite module is available. It stores rules in
 a site's web.config file, expressed in XML format. .htaccess rules can
@@ -50,45 +50,45 @@ rel="nofollow noreferrer noopener">Translate <em>.htaccess</em> Content
 to IIS <em>web.config</em></a>
 
 
-        
-            
-                
-                    
-                    
-                        
-                        
-                            
-                            
-                            
-                            
-                            
-                        
-                        
-                    
-                    
-                        
-                        
-                            
-                        
-                        
-                    
-                    
-                        
-                        
-                            
-                            
-                            
-                        
-                        
-                    
-                
-            
-            
-                
-                    
-                
-            
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## IIS6
 
@@ -225,7 +225,7 @@ Example for IirGlobal.ini:
 
 Tested and working with ARTIO JoomSEF:
 
-    RewriteCond %{HTTP_URL}             (/[^.]*|\.(html?|php))$  [I] 
+    RewriteCond %{HTTP_URL}             (/[^.]*|\.(html?|php))$  [I]
     RewriteCond %{REQUEST_FILENAME}     !-f
     RewriteCond %{REQUEST_FILENAME}     !-d
     RewriteRule (.*)                /index.php                      [U,L]
@@ -243,14 +243,14 @@ Tested and working with default Joomla SEO:
 Tested and working with sh404SEF:
 
     RewriteLogLevel 4 #Make it 0 in to turn debugging off
-    RewriteLog c:\IIRfLogfile.log #Write the absolute path of your file here 
+    RewriteLog c:\IIRfLogfile.log #Write the absolute path of your file here
 
     MaxMatchCount 10
 
     # don't rewrite any request that goes to administrator
     RewriteRule ^/administrator   -   [L]
 
-    RewriteCond %{HTTP_URL} (/[^.]*|\.(html?|php)|!administrator)$  
+    RewriteCond %{HTTP_URL} (/[^.]*|\.(html?|php)|!administrator)$
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule (.*) /index.php [U,L]

@@ -1,4 +1,4 @@
-<!-- Filename: Enabling_Search_Engine_Friendly_(SEF)_URLs_on_IIS/IIS6/1.5 / Display title: Enabling Search Engine Friendly (SEF) URLs on IIS/IIS6/1.5 -->
+<!-- Filename: Enabling_Search_Engine_Friendly_(SEF)_URLs_on_IIS/IIS6/1.5 / Display title: SEF URLs on IIS/IIS6/1.5 -->
 
 There are several steps one must take to get [Search Engine Friendly
 (SEF)

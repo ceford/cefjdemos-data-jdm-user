@@ -1,4 +1,4 @@
-<!-- Filename: Enabling_Search_Engine_Friendly_(SEF)_URLs_on_Hiawatha / Display title: Enabling Search Engine Friendly (SEF) URLs on Hiawatha -->
+<!-- Filename: Enabling_Search_Engine_Friendly_(SEF)_URLs_on_Hiawatha / Display title: SEF URLs on Hiawatha -->
 
 Use the following UrlToolkit rule to enable clean URLs on the Hiawatha
 webserver:

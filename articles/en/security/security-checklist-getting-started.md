@@ -1,4 +1,4 @@
-<!-- Filename: Security_Checklist/Getting_Started / Display title: Security Checklist/Getting Started -->
+<!-- Filename: Security_Checklist/Getting_Started / Display title: Security Checklist -->
 
 <table class="navbox" data-cellspacing="0">
 

@@ -192,42 +192,15 @@ reference=what-has-the-copyright-of-joomla-3f.md=https://docs.joomla.org/J4.x:Wh
 reference=what-are-web-standards-3f.md=https://docs.joomla.org/J4.x:What_are_web_standards?
 reference=where-are-the-web-pages-3f.md=https://docs.joomla.org/J4.x:Where_are_the_web_pages?
 
-security=what-is-the-joomla-administrators-security-checklist-3f.md=https://docs.joomla.org/J4.x:What_is_the_Joomla!_Administrator's_Security_Checklist?
-security=enabling-https-on-your-site.md=https://docs.joomla.org/J4.x:Enabling_HTTPS_on_your_site
-security=htaccess-examples-security.md=https://docs.joomla.org/J4.x:Htaccess_examples_(security)
-security=security-checklist-getting-started.md=https://docs.joomla.org/J4.x:Security_Checklist/Getting_Started
-security=security-checklist-hosting-and-server-setup.md=https://docs.joomla.org/J4.x:Security_Checklist/Hosting_and_Server_Setup
-security=security-checklist-where-can-you-learn-more-about-file-permissions-3f.md=https://docs.joomla.org/J4.x:Security_Checklist/Where_can_you_learn_more_about_file_permissions?
-security=security-checklist-testing-and-development.md=https://docs.joomla.org/J4.x:Security_Checklist/Testing_and_Development
-security=security-checklist-joomla-setup.md=https://docs.joomla.org/J4.x:Security_Checklist/Joomla!_Setup
-security=security-checklist-site-administration.md=https://docs.joomla.org/J4.x:Security_Checklist/Site_Administration
-security=security-checklist-site-recovery.md=https://docs.joomla.org/J4.x:Security_Checklist/Site_Recovery
-security=security-checklist-you-have-been-hacked-or-defaced.md=https://docs.joomla.org/J4.x:Security_Checklist/You_have_been_hacked_or_defaced
-security=security-before-you-go-live.md=https://docs.joomla.org/J4.x:Security_-_Before_you_go_live
-security=security-faq.md=https://docs.joomla.org/J4.x:Security_FAQ
-security=security-and-performance-faqs.md=https://docs.joomla.org/J4.x:Security_and_Performance_FAQs
-security=security-filters-for-articles.md=https://docs.joomla.org/J4.x:Security_filters_for_articles
-security=securing-joomla-extensions.md=https://docs.joomla.org/J4.x:Securing_Joomla_extensions
+security=best-practices.md=jdocmanual&manual=user&heading=security&filename=best-practices.md
+security=http-headers.md=jdocmanual&manual=user&heading=security&filename=http-headers.md
 
-seo=what-is-search-engine-optimisation.md=https://docs.joomla.org/J4.x:What_is_Search_Engine_Optimisation
-seo=making-your-site-search-engine-friendly.md=https://docs.joomla.org/J4.x:Making_your_site_Search_Engine_Friendly
+seo=seo-basics.md=jdocmanual&manual=user&heading=seo&filename=seo-basics.md
 seo=search-engine-friendly-urls.md=https://docs.joomla.org/J4.x:Search_Engine_Friendly_URLs
-seo=using-a-sitemap.md=https://docs.joomla.org/J4.x:Using_A_Sitemap
-seo=using-keywords.md=https://docs.joomla.org/J4.x:Using_Keywords
-seo=semantic-html-markup.md=https://docs.joomla.org/J4.x:Semantic_HTML_Markup
-seo=linking-to-other-sites.md=https://docs.joomla.org/J4.x:Linking_To_Other_Sites
-seo=important-seo-points-to-remember.md=https://docs.joomla.org/J4.x:Important_SEO_Points_To_Remember
-seo=monitoring-seo.md=https://docs.joomla.org/J4.x:Monitoring_SEO
-seo=common-problems-when-enabling-search-engine-friendly-sef-urls.md=https://docs.joomla.org/J4.x:Common_problems_when_enabling_Search_Engine_Friendly_(SEF)_URLs
-seo=enabling-search-engine-friendly-sef-urls.md=https://docs.joomla.org/J4.x:Enabling_Search_Engine_Friendly_(SEF)_URLs
 seo=enabling-search-engine-friendly-sef-urls-on-apache.md=https://docs.joomla.org/J4.x:Enabling_Search_Engine_Friendly_(SEF)_URLs_on_Apache
-seo=enabling-search-engine-friendly-sef-urls-on-hiawatha.md=https://docs.joomla.org/J4.x:Enabling_Search_Engine_Friendly_(SEF)_URLs_on_Hiawatha
-seo=enabling-search-engine-friendly-sef-urls-on-iis.md=https://docs.joomla.org/J4.x:Enabling_Search_Engine_Friendly_(SEF)_URLs_on_IIS
-seo=enabling-search-engine-friendly-sef-urls-on-iis-iis6.md=https://docs.joomla.org/J4.x:Enabling_Search_Engine_Friendly_(SEF)_URLs_on_IIS/IIS6
-seo=enabling-search-engine-friendly-sef-urls-on-iis-iis6-1-0.md=https://docs.joomla.org/J4.x:Enabling_Search_Engine_Friendly_(SEF)_URLs_on_IIS/IIS6/1.0
-seo=enabling-search-engine-friendly-sef-urls-on-iis-iis6-1-5.md=https://docs.joomla.org/J4.x:Enabling_Search_Engine_Friendly_(SEF)_URLs_on_IIS/IIS6/1.5
-seo=enabling-search-engine-friendly-sef-urls-on-iis-iis7.md=https://docs.joomla.org/J4.x:Enabling_Search_Engine_Friendly_(SEF)_URLs_on_IIS/IIS7
 seo=enabling-search-engine-friendly-sef-urls-on-nginx.md=https://docs.joomla.org/J4.x:Enabling_Search_Engine_Friendly_(SEF)_URLs_on_Nginx
+seo=monitoring-seo.md=https://docs.joomla.org/J4.x:Monitoring_SEO
+seo=using-a-sitemap.md=https://docs.joomla.org/J4.x:Using_A_Sitemap
 
 smart-search=smart-search-quickstart-guide.md=https://docs.joomla.org/J4.x:Smart_Search_quickstart_guide
 smart-search=smart-search-on-large-sites.md=https://docs.joomla.org/J4.x:Smart_Search_on_large_sites
