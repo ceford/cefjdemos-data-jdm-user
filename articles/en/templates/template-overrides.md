@@ -99,9 +99,9 @@ to output the desired message:
 
 ```html
 <p class="text-center">
-Your session will expire at <br><?php echo $endTime; ?>  
+Your session will expire at <br><?php echo $endTime; ?>
 </p>
-```      
+```
 
 Save and reload the site page containing the logout form.
 
@@ -128,7 +128,7 @@ of override folders:
 src="https://docs.joomla.org/images/3/3d/J4x-cassiopeia-template-customisation-example-override-folder-en.png"
 class="thumbborder" decoding="async" data-file-width="244"
 data-file-height="403" width="244" height="403"
-alt="J4x-cassiopeia-template-customisation-example-override-folder-en.png" />
+alt="screenshot of overrides html folder showing implemented overrides" />
 
 ## Layout Overrides
 

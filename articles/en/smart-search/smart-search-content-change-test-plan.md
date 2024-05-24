@@ -1,4 +1,4 @@
-<!-- Filename: Smart_Search_content_change_test_plan / Display title: Smart Search content change test plan -->
+<!-- Filename: Smart_Search_content_change_test_plan / Display title: Smart Search Test Plan -->
 
 The following is a rough test plan covering (mainly) updating of the
 Smart Search index when various kinds of content updates occur.

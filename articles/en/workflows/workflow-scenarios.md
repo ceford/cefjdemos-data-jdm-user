@@ -1,4 +1,4 @@
-<!-- Filename: J4.x:Workflow/Scenarios / Display title: Workflow/Scenarios -->
+<!-- Filename: J4.x:Workflow/Scenarios / Display title: Workflow Scenarios -->
 
 ## Implementing Workflows
 
@@ -59,7 +59,7 @@ Using the directions on [create your new
 2.  Create **User(s)** and assign them to the *Blog Approvers* **User
     Group**.
 
-**NOTE**: If you want your **Users** to receive notifications for a
+**Note:**: If you want your **Users** to receive notifications for a
 **Transition** (see more below) then select Yes for **Receives System
 Emails** for each **User** to receive notifications.
 
@@ -111,7 +111,7 @@ There are two ways to access **Transitions**:
     the **Select New Setting** drop-down.
 10. Click Save & Close.
 
-**NOTE**: You can quickly access your **States** and **Transitions**
+**Note:** You can quickly access your **States** and **Transitions**
 from the **Workflow** list view. The orange circle is the States and has
 the quantity of States listed next to the Workflow Title. The blue line
 with arrows in both directions is for Transitions and shows the quantity
@@ -134,7 +134,7 @@ of Transitions for the Workflow.
 
 For more information on ACL and assigning permissions to User Groups,
 see the [ACL
-Tutorial](https://docs.joomla.org/J3.x:Access_Control_List_Tutorial "Special:MyLanguage/J3.x:Access Control List Tutorial").
+Tutorial](https://docs.joomla.org/Special:MyLanguage/J3.x:Access_Control_List_Tutorial "Access Control List Tutorial").
 
 ### Setting up Notifications
 
@@ -157,15 +157,15 @@ publish them.
 ### To set it up so that Users can Post and Approve from the frontend
 
 1.  Create a **Menu Item** for the **Menu Item Type** Login so that your
-    Blog Posters can login.  
+    Blog Posters can login.
     **Menus** **→** *Choose or create a
-    menu* **→** New **→** **Users** **→** **Login**  
+    menu* **→** New **→** **Users** **→** **Login**
     OR
-2.  Create a module for Login so that your Blog Posters can login.  
+2.  Create a module for Login so that your Blog Posters can login.
     **Extensions** **→** **Modules** **→** New **→** **Login**
 3.  Add a **Menu Item** to a Menu that displays only for the
-    **Registered User Group** to Add an article  
-    **Menu Item Type Articles** **→** **Create Article**  
+    **Registered User Group** to Add an article
+    **Menu Item Type Articles** **→** **Create Article**
     **NOTE**: this will display for all Registered Users unless you
     create an Access Level for your Blog Poster User Group and select
     this in the Menu Item under Access.

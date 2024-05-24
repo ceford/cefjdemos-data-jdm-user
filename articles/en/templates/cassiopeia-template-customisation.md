@@ -1,4 +1,4 @@
-<!-- Filename: J4.x:Cassiopeia_Template_Customisation / Display title: Cassiopeia Template Customisation -->
+<!-- Filename: J4.x:Cassiopeia_Template_Customisation / Display title: Cassiopeia Customisation -->
 
 ## Introduction
 
@@ -279,11 +279,8 @@ data-file-height="365" width="720" height="365" alt="Green Theme" />
 
 Note that there must be a sufficient contrast between background and
 foreground colours to meet web accessibility standards. You can check
-your contrast at the
-<a href="https://webaim.org/resources/contrastchecker/"
-class="external text" target="_blank"
-rel="nofollow noreferrer noopener">WebAIM Contrast Checker</a>. Dark
-green is \#006400.
+your contrast at the [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/ "").
+Dark green is \#006400.
 
 ## Overrides
 

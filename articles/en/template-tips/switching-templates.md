@@ -28,7 +28,7 @@ src="https://docs.joomla.org/images/thumb/4/4c/J4x-templates-styles-list-en.png/
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/4/4c/J4x-templates-styles-list-en.png 1.5x"
 data-file-width="1000" data-file-height="351" width="800" height="281"
-alt="J4x-templates-styles-list-en.png" />
+alt="screenshot of templates styles site page" />
 
 Have a look at your site to see that all of the pages are using the
 default template.
@@ -56,7 +56,7 @@ src="https://docs.joomla.org/images/thumb/6/64/J4x-templates-styles-edit-style-m
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/6/64/J4x-templates-styles-edit-style-menu-assignment-en.png 1.5x"
 data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="J4x-templates-styles-edit-style-menu-assignment-en.png" />
+alt="screenshot ot templates edit style page menu assignment tab" />
 
 In this example all of the menu items in the `Main Menu Testing` menu
 have been selected. Return to your site and select any of the menu items
@@ -76,7 +76,7 @@ src="https://docs.joomla.org/images/thumb/c/cc/J4x-templates-styles-edit-menu-st
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/c/cc/J4x-templates-styles-edit-menu-style-en.png 1.5x"
 data-file-width="1000" data-file-height="502" width="800" height="402"
-alt="J4x-templates-styles-edit-menu-style-en.png" />
+alt="Jscreenshot of menus edit item form showing style selection" />
 
 Return to your site and select the changed menu item to check that it is
 displayed with the selected template style.

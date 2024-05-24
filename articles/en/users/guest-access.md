@@ -38,7 +38,7 @@ src="https://docs.joomla.org/images/thumb/b/b6/J4x-user-login-guest-access-form-
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/b/b6/J4x-user-login-guest-access-form-en.png 1.5x"
 data-file-width="1000" data-file-height="810" width="800" height="648"
-alt="J4x-user-login-guest-access-form-en.png" />
+alt="Screenshot of menu form restricted to guest access" />
 
 - Save and Close.
 - View the site. Check that the Login menu item works. Check that it
@@ -68,7 +68,7 @@ src="https://docs.joomla.org/images/thumb/0/05/J4x-user-logout-registered-access
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/0/05/J4x-user-logout-registered-access-form-en.png 1.5x"
 data-file-width="1000" data-file-height="810" width="800" height="648"
-alt="J4x-user-logout-registered-access-form-en.png" />
+alt="Screenshot of menu form restricted to registered access" />
 
 - Save and Close.
 - View the site. Check that the Logout menu item works. Check that it

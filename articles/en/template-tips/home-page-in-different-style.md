@@ -33,7 +33,7 @@ src="https://docs.joomla.org/images/thumb/4/40/J4x-templates-home-page-style-cas
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/4/40/J4x-templates-home-page-style-cassiopeia-sample-data-en.png 1.5x"
 data-file-width="1000" data-file-height="1949" width="800" height="1559"
-alt="J4x-templates-home-page-style-cassiopeia-sample-data-en.png" />
+alt="screenshot of home page using cassiopeia and sample data" />
 
 This is how the layout is achieved:
 
@@ -47,7 +47,7 @@ src="https://docs.joomla.org/images/thumb/5/5c/J4x-templates-home-page-style-cus
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/5/5c/J4x-templates-home-page-style-custom-module-image-en.png 1.5x"
 data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="J4x-templates-home-page-style-custom-module-image-en.png" />
+alt="screenshot of custom module used in sample data style" />
 
 In the Menu Assignment tab the module is assigned to Home only:
 
@@ -56,7 +56,7 @@ src="https://docs.joomla.org/images/thumb/c/ca/J4x-templates-home-page-style-cus
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/c/ca/J4x-templates-home-page-style-custom-module-menu-assignment-en.png 1.5x"
 data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="J4x-templates-home-page-style-custom-module-menu-assignment-en.png" />
+alt="screenshot of custom module menu assignment tab" />
 
 The background image is selected in the Options tab of the Modules:
 Custom edit form.
@@ -91,9 +91,8 @@ src="https://docs.joomla.org/images/thumb/d/de/J4x-templates-home-page-style-new
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/d/de/J4x-templates-home-page-style-newsflash-module-image-en.png 1.5x"
 data-file-width="1000" data-file-height="805" width="800" height="644"
-alt="J4x-templates-home-page-style-newsflash-module-image-en.png" />
+alt="screeenshot of newsflash module" />
 
-  
 That concludes the explanation of how the Cassiopeia sample data Home
 page was created.
 

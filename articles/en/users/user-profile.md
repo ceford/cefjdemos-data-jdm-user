@@ -20,7 +20,7 @@ src="https://docs.joomla.org/images/thumb/6/60/J4x-user-profile-plugin-en.png/80
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/6/60/J4x-user-profile-plugin-en.png 1.5x"
 data-file-width="1000" data-file-height="1381" width="800" height="1105"
-alt="J4x-user-profile-plugin-en.png" />
+alt="Screenshot of plugins user profile page" />
 
 - If self-registration is allowed, open the User Registration form to
   check that any extra User Profile fields are present.
@@ -50,7 +50,7 @@ src="https://docs.joomla.org/images/thumb/2/28/J4x-user-edit-profile-menu-item-e
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/2/28/J4x-user-edit-profile-menu-item-en.png 1.5x"
 data-file-width="1000" data-file-height="797" width="800" height="638"
-alt="J4x-user-edit-profile-menu-item-en.png" />
+alt="Screenshot of edit user profile menu item form" />
 
 - Login to the site and use the link to check the User Profile.
 
@@ -59,6 +59,6 @@ src="https://docs.joomla.org/images/thumb/8/89/J4x-user-profile-en.png/800px-J4x
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/8/89/J4x-user-profile-en.png 1.5x"
 data-file-width="1000" data-file-height="479" width="800" height="383"
-alt="J4x-user-profile-en.png" />
+alt="Screenshot of site view of user profile" />
 
 - Try the **Edit Profile** button.

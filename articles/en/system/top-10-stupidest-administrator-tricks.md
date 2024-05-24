@@ -1,37 +1,26 @@
-<!-- Filename: Top_10_Stupidest_Administrator_Tricks / Display title: Top 10 Stupidest Administrator Tricks -->
+<!-- Filename: Top_10_Stupidest_Administrator_Tricks / Display title: Top 10 Stupid Tricks -->
 
-### About This List
+## About This List
 
-This list originally
-<a href="https://forum.joomla.org/viewtopic.php?f=267&amp;t=117767"
-class="external text" target="_blank" rel="noreferrer noopener">appeared
-late one night on the Joomla Forums</a> after one developer ended a
-particularly long round of crack recovery. The post struck many a nerve
-among Joomlaists far and wide, and has been translated into several
-languages. Some nerves were near the funny bone, others painfully far
+This list was originally entitle *Top 10 Stupidest Administrator Tricks*. It
+appeared late one night in 2006 in a [Forum post](https://forum.joomla.org/viewtopic.php?f=267&amp;t=117767)
+after one developer ended a particularly long round of crack recovery. The post
+struck many a nerve among Joomlaists far and wide, and has been translated into
+several languages. Some nerves were near the funny bone, others painfully far
 from it. Your experience may vary.
 
-**10. Use the <a
-href="https://www.google.com/search?q=cheap+hosting%20cheapest%20hosting%20provider"
-class="external text" target="_blank"
-rel="nofollow noreferrer noopener">cheapest hosting provider</a> you can
-find.**
+**10. Use the [cheapest hosting provider](https://www.google.com/search?q=cheap+hosting%20cheapest%20hosting%20provider "") you can find.**
 
 Preferably use a shared server that hosts hundreds of other sites, some
-of which are high-traffic porn sites. Don't check the list of
-recommended hosting providers.
+of which are high-traffic porn sites. Don't check the list of recommended
+hosting providers.
 
 > FYI: You can use a tool such as Robtex (if you are using a shared
 > Hosting Provider) to see who you are sharing space with and if you
 > should be proactive to request a move to another shared space. For
-> example: <a href="https://www.robtex.com/dns-lookup/joomla.org"
-> class="external free" target="_blank"
-> rel="nofollow noreferrer noopener">https://www.robtex.com/dns-lookup/joomla.org</a>,
-> or for REALLY cool information: Google.com:
-> <a href="https://www.robtex.com/dns-lookup/google.com"
-> class="external free" target="_blank"
-> rel="nofollow noreferrer noopener">https://www.robtex.com/dns-lookup/google.com</a>.
-> This shows domain, shared, whois, blacklist, analysis, contact...
+> example see this [Robtex report on joomla.org](https://www.robtex.com/dns-lookup/joomla.org ""),
+> or for REALLY cool information this [Robtex report on google.com](https://www.robtex.com/dns-lookup/google.com "").
+> The report shows domain, shared, whois, blacklist, analysis, contact...
 
 **9. Don't waste time with regular backups.**
 
@@ -71,9 +60,7 @@ known exploit attempt, now and forever. After all, almost all this stuff
 is provided for free by well-meaning, good-hearted people who know what
 they are doing.
 
-**3. Don't worry about updating to the
-<a href="https://downloads.joomla.org/latest" class="external text"
-target="_blank" rel="noreferrer noopener">latest version of Joomla!</a>**
+**3. Don't worry about updating to the [latest version of Joomla!](https://downloads.joomla.org/latest "")**
 
 Hey, nothing has gone wrong so far, and if it ain't broke don't fix it!
 Same plan for the third-party extensions. Too much work; life's a beach.

@@ -16,7 +16,7 @@ src="https://docs.joomla.org/images/thumb/a/a4/Article_view_3-en.png/800px-Artic
 decoding="async"
 srcset="https://docs.joomla.org/images/thumb/a/a4/Article_view_3-en.png/1200px-Article_view_3-en.png 1.5x, https://docs.joomla.org/images/thumb/a/a4/Article_view_3-en.png/1600px-Article_view_3-en.png 2x"
 data-file-width="2538" data-file-height="766" width="800" height="241"
-alt="Article view 3-en.png" />
+alt="Articles list view in Joomla 3" />
 
 - The article backend view in Joomla 4.x:
 
@@ -25,7 +25,7 @@ src="https://docs.joomla.org/images/thumb/9/94/J4_Articles_Backend-en.png/800px-
 decoding="async"
 srcset="https://docs.joomla.org/images/9/94/J4_Articles_Backend-en.png 1.5x"
 data-file-width="1200" data-file-height="332" width="800" height="221"
-alt="J4 Articles Backend-en.png" />
+alt="Articles list view in Joomla 4 and 5" />
 
 The article tool range is now smaller and the view generally tidier. You
 can create customized states for the articles and group them in
@@ -33,11 +33,10 @@ categories.
 
 There is a tutorial page containing steps for the creation of your first
 workflow:
-[Scenarios](https://docs.joomla.org/J4.x:Workflowhttps://docs.joomla.org/J4.x:Workflow/Scenarios).  
+[Workflow Scenarios](https://docs.joomla.org/J4.x:Workflowhttps://docs.joomla.org/J4.x:Workflow/Scenarios).
 You can find more information about the implementation of the component
 in other areas on the page of the Google Summer of Code project DOC:
-[Publishing Workflow
-Implementation](https://docs.joomla.org/Publishing_Workflow_Implementation "Special:MyLanguage/Publishing Workflow Implementation")
+[Publishing Workflow Implementation](https://docs.joomla.org/Special:MyLanguage/Publishing_Workflow_Implementation "Publishing Workflow Implementation")
 
 You can disable workflows at any time by visiting "articles" or
 "workflows" and clicking "options" in the top right. Switch to the tab
@@ -68,7 +67,7 @@ src="https://docs.joomla.org/images/thumb/e/e2/Workflows-en.png/800px-Workflows-
 decoding="async"
 srcset="https://docs.joomla.org/images/thumb/e/e2/Workflows-en.png/1200px-Workflows-en.png 1.5x, https://docs.joomla.org/images/thumb/e/e2/Workflows-en.png/1600px-Workflows-en.png 2x"
 data-file-width="1906" data-file-height="455" width="800" height="191"
-alt="Workflows List" />
+alt="Screenshot of Workflows List" />
 
 - You see the status of the workflow (published / unpublished)
 - Next to the status is the title. By clicking on the title you can
@@ -77,13 +76,13 @@ alt="Workflows List" />
     Permissions (Rights Management)
 - Next to the title you find the option to *Manage* the workflow stages
   (for more info see
-  [Stages](https://docs.joomla.org/Publishing_Workflow#Stages "Special:MyLanguage/Publishing Workflow"))
+  [Publishing Workflow Stages](https://docs.joomla.org/Special:MyLanguage/Publishing_Workflow#Stages "Publishing Workflow Stages"))
 - Next to the "Stages" is the default option
 - You find a yellow icon, next to "default", representing the number of
   existing stages in this workflow
 - Next to the yellow circle is a blue icon that represents the number of
   existing transitions in this workflow (for more info see
-  [Transitions](https://docs.joomla.org/Publishing_Workflow#Transitions "Special:MyLanguage/Publishing Workflow"))
+  [Publishing Workflow Transitions](https://docs.joomla.org/Special:MyLanguage/Publishing_Workflow#Transitions "Publishing Workflow Transitions"))
 - You can also see the workflow ID.
 
 ## Stages
@@ -92,20 +91,20 @@ The stages are accessed via the "Workflows List" container via clicking
 on the yellow icon showing the number of stages. You can edit the name
 of a stage by clicking on it.
 
-  
+
 <img
 src="https://docs.joomla.org/images/thumb/a/ac/Stages-en.png/800px-Stages-en.png"
 decoding="async"
 srcset="https://docs.joomla.org/images/a/ac/Stages-en.png 1.5x"
 data-file-width="1200" data-file-height="251" width="800" height="167"
-alt="Stages View" />
+alt="Screenshot of Workflow Stages" />
 
 <img
 src="https://docs.joomla.org/images/thumb/7/7f/Stages--edit-en.png/800px-Stages--edit-en.png"
 decoding="async"
 srcset="https://docs.joomla.org/images/7/7f/Stages--edit-en.png 1.5x"
 data-file-width="1200" data-file-height="404" width="800" height="269"
-alt="The Edit Stage view" />
+alt="The Edit Stage form" />
 
 - In the second picture you can edit the stage. You can enable or
   disable it and write a note. It also has a "default" toggle. If there
@@ -130,7 +129,7 @@ src="https://docs.joomla.org/images/thumb/4/45/Transitions--edit--description-en
 decoding="async"
 srcset="https://docs.joomla.org/images/4/45/Transitions--edit--description-en.png 1.5x"
 data-file-width="1200" data-file-height="456" width="800" height="304"
-alt="Edit Transitions View" />
+alt="Edit Transition Description" />
 
 The *transition actions* tab allows you to define what state the item
 will be in after the transition is complete. For example if the item is
@@ -210,18 +209,10 @@ src="https://docs.joomla.org/images/thumb/d/dd/Workflow-categories-en.png/800px-
 decoding="async"
 srcset="https://docs.joomla.org/images/d/dd/Workflow-categories-en.png 1.5x"
 data-file-width="1200" data-file-height="431" width="800" height="287"
-alt="Workflow-categories-en.png" />
+alt="Articles edit category workflow" />
 
 ## Versioning
 
 When the workflow is enabled fields managed by the workflow are excluded
 from the versioning (like "state" and "featured") to avoid permission
 conflicts.
-
-## Related Information
-
-See also:
-
-- [Publishing Workflow
-  Implementation](https://docs.joomla.org/Publishing_Workflow_Implementation "Special:MyLanguage/Publishing Workflow Implementation")
-- [Scenarios](https://docs.joomla.org/J4.x:Workflowhttps://docs.joomla.org/J4.x:Workflow/Scenarios)

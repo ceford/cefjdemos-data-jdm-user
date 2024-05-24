@@ -1,14 +1,14 @@
-<!-- Filename: Smart_Search_configuration_options / Display title: Smart Search configuration options -->
+<!-- Filename: Smart_Search_configuration_options / Display title: Smart Search Options -->
 
-Options allows you to manage the global settings for the extension. The
-Options settings are inherited by views but the settings in the Menu
-Item will override the Global setting.
+## About Options
+
+Options allow you to manage the Smart Search global settings. The
+Option settings are inherited by views but the settings in a Menu
+Item will override the Global settings.
 
 The Options panel is separated into two parts. When you are finished
-making adjustment click the Save button, otherwise click the Cancel
-button to abandon any changes. To export the configuration settings to a
-file (for example, before you upgrade Finder to a new version), click
-the Export button and save the file in a safe location.
+making adjustment select the Save button, otherwise select the Cancel
+button to abandon any changes.
 
 ## Search Options
 

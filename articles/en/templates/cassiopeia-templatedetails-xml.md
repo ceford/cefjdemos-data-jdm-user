@@ -62,7 +62,7 @@ src="https://docs.joomla.org/images/thumb/d/da/J4x-templates-list-en.png/800px-J
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/d/da/J4x-templates-list-en.png 1.5x"
 data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="J4x-templates-list-en.png" />
+alt="screenshot of site templates list" />
 
 The description contains a language key and not the actual description
 text string. The key is replaced by the text obtained from a language
@@ -74,7 +74,7 @@ src="https://docs.joomla.org/images/thumb/d/d6/J4x-templates-cassiopeia-language
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/d/d6/J4x-templates-cassiopeia-language-string-en.png 1.5x"
 data-file-width="1000" data-file-height="347" width="800" height="278"
-alt="J4x-templates-cassiopeia-language-string-en.png" />
+alt="screenshot of templates edit style form" />
 
 ### Folders and Files
 
@@ -110,7 +110,7 @@ src="https://docs.joomla.org/images/thumb/8/88/J4x-templates-cassiopeia-customis
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/8/88/J4x-templates-cassiopeia-customise-en.png 1.5x"
 data-file-width="1000" data-file-height="438" width="800" height="350"
-alt="J4x-templates-cassiopeia-customise-en.png" />
+alt="screenshot of templates customise cassiopeia page" />
 
 ### Module Positions
 
@@ -155,7 +155,7 @@ page. Available positions:
 src="https://docs.joomla.org/images/2/28/J4x-cassiopeia_template_explained_positions.png"
 class="thumbborder" decoding="async" data-file-width="786"
 data-file-height="980" width="786" height="980"
-alt="Template Positions" />
+alt="screenshot of Template Positions" />
 
 You can also see the module positions in any template: from
 **System **→** Site Templates** selet the Options button in the Toolbar.
@@ -169,7 +169,7 @@ src="https://docs.joomla.org/images/thumb/e/e5/J4x-templates-cassiopeia-template
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/e/e5/J4x-templates-cassiopeia-template-positions-en.png 1.5x"
 data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="J4x-templates-cassiopeia-template-positions-en.png" />
+alt="screenshot of site cassiopeia template positions" />
 
 ### Languages
 
@@ -203,7 +203,7 @@ src="https://docs.joomla.org/images/thumb/8/83/J4x-templates-cassiopeia-edit-sty
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/8/83/J4x-templates-cassiopeia-edit-style-en.png 1.5x"
 data-file-width="1000" data-file-height="922" width="800" height="738"
-alt="J4x-templates-cassiopeia-edit-style-en.png" />
+alt="screenshot of templates edit style form advanced tab" />
 
 The template options are defined within a structure that creates fields
 within fieldsets. Each feildset appears as a tab in the edit form. This
@@ -230,8 +230,8 @@ is the structure that creates the Advanced tab seen above.
 	</config>
 ```
 
-Individual options are defined with the `<field>` tag. Each `<fieldset>`, 
-and each `<field>` parameter within a `<fieldset>`, requires a unique 
+Individual options are defined with the `<field>` tag. Each `<fieldset>`,
+and each `<field>` parameter within a `<fieldset>`, requires a unique
 name defined by a **name** attribute. This name
 defines the parameter itself and is used to pass settings to the front
 end files. Each parameter also contain a **label** attribute and a
@@ -373,10 +373,10 @@ translated into different languages as necessary.
 	</config>
 ```
 
-In this example, the `<fieldset name="advanced">` tag encloses all of the 
+In this example, the `<fieldset name="advanced">` tag encloses all of the
 parameters and it uses the **name** attribute to
 create the "Advanced" tab in the interface. All that is necessary to
-create another tab in the interface is another `<fieldset>` tag with a 
+create another tab in the interface is another `<fieldset>` tag with a
 different **name** attribute. With this in mind, it is
 relatively simple to create as many additional tabs and parameters as
 necessary in a template.

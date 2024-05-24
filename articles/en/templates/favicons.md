@@ -33,7 +33,7 @@ start page showing some of the User's favourite locations:
 src="https://docs.joomla.org/images/1/13/J4x-favicons-firefox-start-collection-en.png"
 class="thumbborder" decoding="async" data-file-width="588"
 data-file-height="144" width="588" height="144"
-alt="J4x-favicons-firefox-start-collection-en.png" />
+alt="favicon examples from firefox start page" />
 
 All modern browsers support SVG icons so you should make creation of an
 SVG icon a priority.
@@ -51,7 +51,7 @@ lines represent curves and are truncated here for display purposes.
 src="https://docs.joomla.org/images/6/6f/J4x-favicons-joomla-favicon-svg-text-en.png"
 class="thumbborder" decoding="async" data-file-width="950"
 data-file-height="369" width="950" height="369"
-alt="J4x-favicons-joomla-favicon-svg-text-en.png" />
+alt="screenshot of joomla favicon text content" />
 
 To create an SVG file you need to use an appropriate application such as
 Inkscape. Raster graphics applications such as Photoshop or The GIMP
@@ -83,9 +83,7 @@ with a suitable design. In this example, the favicon will be the letters
 
 Inkscape is a free, Open Source, cross-platform, vector graphics
 application used to work with SVG files. It works on Linux, Mac and
-Windows. Go to
-<a href="https://inkscape.org/" class="external text" target="_blank"
-rel="nofollow noreferrer noopener">the Inkscape site</a> to download a
+Windows. Go to the [Inkscape (inkscape.org)](https://inkscape.org/ "") site to download a
 copy for your platform. The following illustrations shows the Inkscape
 screen part way through the following instructions.
 
@@ -94,7 +92,7 @@ src="https://docs.joomla.org/images/thumb/6/62/J4x-templates-inkscape-favicon-en
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/thumb/6/62/J4x-templates-inkscape-favicon-en.png/1200px-J4x-templates-inkscape-favicon-en.png 1.5x, https://docs.joomla.org/images/thumb/6/62/J4x-templates-inkscape-favicon-en.png/1600px-J4x-templates-inkscape-favicon-en.png 2x"
 data-file-width="2622" data-file-height="1633" width="800" height="498"
-alt="J4x-templates-inkscape-favicon-en.png" />
+alt="screenshot of inkscape with favicon in preparation" />
 
 ### Create an SVG
 
@@ -165,11 +163,8 @@ need using your newly created SVG as a master.
 
 ### Online Processing
 
-Go to the
-<a href="https://realfavicongenerator.net/" class="external text"
-target="_blank" rel="nofollow noreferrer noopener">Real Favicon
-Generator site</a>. Other sites are available but this one seems
-particularly comprehensive.
+Go to the [Real Favicon Generator](https://realfavicongenerator.net/ "") site.
+Other sites are available but this one seems particularly comprehensive.
 
 1.  Select the button labeled *Select your Favicon image*
 2.  The site will show you your Master Image. It also says *Your picture
@@ -209,9 +204,16 @@ the icons to *joomla_root/media/templates/yourtemplate/images*:
 
 The link block copied previously contains:
 
-
-
-
-
+```
+<link rel="apple-touch-icon" sizes="180x180" href="media/templates/cassiopeia-green/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="media/templates/cassiopeia-green/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="media/templates/cassiopeia-green/images/favicon-16x16.png">
+<link rel="manifest" href="media/templates/cassiopeia-green/images/site.webmanifest">
+<link rel="mask-icon" href="media/templates/cassiopeia-green/images/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="media/templates/cassiopeia-green/images/favicon.ico">
+<meta name="msapplication-TileColor" content="#ffc40d">
+<meta name="msapplication-config" content="media/templates/cassiopeia-green/images/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+```
 
 You probably don't need to make use of it!

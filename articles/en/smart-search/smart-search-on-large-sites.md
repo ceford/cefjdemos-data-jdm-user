@@ -1,21 +1,6 @@
-<!-- Filename: Smart_Search_on_large_sites / Display title: Smart Search on large sites -->
+<!-- Filename: Smart_Search_on_large_sites / Display title: Smart Search on Large Sites -->
 
-Read this page if your Joomla site has a large number of pages and/or
-some of your pages are particularly large.
-
-Smart Search is suitable for the majority of Joomla sites. However,
-search presents particular challenges for large sites and both the old
-and new search methods are likely to present difficulties; just in
-different ways. It should be remembered that Smart Search is a pure PHP
-implementation of a search engine and particularly large sites may be
-better off using a standalone search engine such as Solr.
-
-To use Smart Search on a large site you will probably need to adjust
-some of the configuration settings. What follows is some general advice
-on what to look out for and what to try tweaking. There are a number of
-known outstanding issues with regard to running Smart Search on large
-sites which will hopefully be addressed in future versions and these are
-also described here.
+## Site Indexing
 
 Smart Search works by creating and maintaining an independent index of
 search terms in a number of database tables. The problem for large sites
@@ -23,6 +8,19 @@ is that the indexing process can be quite heavy in CPU, memory and disk
 usage. Even after the initial construction of the index, incremental
 updates can also be heavy. The good news is that querying the index is a
 relatively quick and lightweight operation.
+
+Smart Search is suitable for the majority of Joomla sites. However,
+search presents particular challenges for large sites. It should be remembered
+that Smart Search is a pure PHP implementation of a search engine and
+particularly large sites may be better off using a standalone search engine
+such as Solr.
+
+To use Smart Search on a large site you will probably need to adjust
+some of the configuration settings. What follows is some general advice
+on what to look out for and what to try tweaking. There are a number of
+known outstanding issues with regard to running Smart Search on large
+sites which will hopefully be addressed in future versions and these are
+also described here.
 
 ## Always Use the CLI Indexer
 
@@ -33,9 +31,12 @@ long it takes to complete and it can be easily aborted if problems are
 encountered. Furthermore, error messages are visible with the CLI
 indexer, whereas they are hidden when running from the Administrator.
 
-For instructions on using the CLI indexer see [Setting up automatic
-Smart Search
-indexing](https://docs.joomla.org/Setting_up_automatic_Smart_Search_indexing "Setting up automatic Smart Search indexing")
+To use the CLI, open a terminal, switch to the cli folder in the root of your
+site and issue the following command:
+
+```
+php joomla.php finder:index
+```
 
 ## Batching
 
@@ -59,17 +60,17 @@ adjustments one at a time until the problem is resolved.
     an extra parameter on the command-line. For example, to increase the
     memory limit to 256Mb use the following command, replacing the
     *256M* with as much memory as you can safely allocate to a process
-    on your system.
+    on your system.<br>
     *php -d memory_limit=256M finder_indexer.php*
 3.  Reduce the memory table limit. The default is 30000 terms which
-    means that as soon as the temporary in-memory *jos_finder_tokens*
+    means that as soon as the temporary in-memory *#__finder_tokens*
     table reaches this number of rows, the indexer will switch to using
     a disk table instead of a memory table. It may be that you don't
     have enough memory to handle a full or nearly full memory table so
     reducing the limit will tell the indexer to switch to disk sooner
     and so use less memory. Try 10000 or even much smaller numbers.
-4.  Change the database engine used for the *jos_finder_tokens* and
-    *jos_finder_tokens_aggregate*tables from MEMORY to MyISAM or InnoDB.
+4.  Change the database engine used for the *__finder_tokens* and
+    *#__finder_tokens_aggregate* tables from MEMORY to InnoDB.
     This could seriously impact performance as more of the indexing
     process will use the disk instead of memory, but it might allow the
     indexer to finish without running out of memory. Expect the indexing
@@ -87,7 +88,7 @@ adjustments one at a time until the problem is resolved.
 ## Out of Disk Space Issues
 
 The Smart Search index tables can grow quickly! The
-*jos_finder_links_termsX* tables (where *X* is a single hexadecimal
+*#__finder_links_termsX* tables (where *X* is a single hexadecimal
 character) contain one row per term/phrase per content item and a single
 Joomla article containing 1000 words will typically result in
 approximately 3000 rows being added to these tables. A second article of

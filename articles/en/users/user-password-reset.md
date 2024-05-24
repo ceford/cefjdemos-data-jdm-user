@@ -10,7 +10,7 @@ credentials using the links in the Login form:
 src="https://docs.joomla.org/images/a/aa/J4x-password-reset-user-login-form-en.png"
 class="thumbborder" decoding="async" data-file-width="318"
 data-file-height="396" width="318" height="396"
-alt="J4x-password-reset-user-login-form-en.png" />
+alt="Screenshot of site user login module" />
 
 In each case, selecting a link leads to a form for entry of the email
 address associated with the account:
@@ -20,7 +20,7 @@ src="https://docs.joomla.org/images/thumb/4/41/J4x-password-reset-user-forgot-fo
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/4/41/J4x-password-reset-user-forgot-form-en.png 1.5x"
 data-file-width="1000" data-file-height="360" width="800" height="288"
-alt="J4x-password-reset-user-forgot-form-en.png" />
+alt="Screenshot of forgot password form" />
 
 All of the process is accomplished by the user with no intervention
 required from an Administrator. This is the lost password verification
@@ -31,7 +31,7 @@ src="https://docs.joomla.org/images/thumb/a/ad/J4x-password-reset-user-verify-fo
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/a/ad/J4x-password-reset-user-verify-form-en.png 1.5x"
 data-file-width="1000" data-file-height="390" width="800" height="312"
-alt="J4x-password-reset-user-verify-form-en.png" />
+alt="Screenshot of password verify form" />
 
 And finally, the user is required to enter a new password:
 
@@ -40,7 +40,7 @@ src="https://docs.joomla.org/images/thumb/d/d0/J4x-password-reset-user-complete-
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/d/d0/J4x-password-reset-user-complete-form-en.png 1.5x"
 data-file-width="1000" data-file-height="397" width="800" height="318"
-alt="J4x-password-reset-user-complete-form-en.png" />
+alt="Screenshot of password reset form" />
 
 ## Administrator Reset
 
@@ -61,7 +61,7 @@ src="https://docs.joomla.org/images/thumb/b/bc/J4x-password-reset-administrator-
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/b/bc/J4x-password-reset-administrator-en.png 1.5x"
 data-file-width="1000" data-file-height="924" width="800" height="739"
-alt="J4x-password-reset-administrator-en.png" />
+alt="Screenshot of administrators user edit form" />
 
 - Save & Close
 

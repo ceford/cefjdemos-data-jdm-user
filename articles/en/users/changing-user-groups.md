@@ -1,18 +1,31 @@
-<!-- Filename: Changing_user_groups / Display title: Changing user groups -->
+<!-- Filename: Changing_user_groups / Display title: Changing User's Groups -->
 
-## Changing User Groups
+## Group Inheritance
+
+Group lists use an inheritance pattern. For example, a user in the Author group
+inherits all of the privileges of the Registered group and gains some extra
+privileges. Likewise, a user in the Editor group inherits all of the privilages
+of the Author group and gains some more extra privileges. The backend groups
+inherit the highest privilege level in the frontend.
+
+For this reason you only need to select one group for an individual user -
+the group with most privileges.
+
+## Steps
 
 You can change a user's group by following these steps. You must log in
 as an Administrator or a Super User to be able to change a user's
 groups. Also, an Administrator cannot make himself or others a Super
 User.
 
-1.  Log into the Administrator Backend via the */administrator* URL.
-2.  Click on *Site*, then *User Manager*
-3.  Click on the check box next to the user you want to change, then
-    click *Edit* in the top right corner.
-4.  In the *User Details* section, change the user's group.
-5.  Click *Save*.
+1.  From the *Home Dashboard* select the **Users** item. Or...
+2.  From the *User* menu item select **Users** and then **Manage**.
+3.  Find the required user in the list of users. You can search on name,
+    username, email or id: prefix.
+4.  Select the name of the user to edit.
+5.  Select the *Assigned User Groups* tab.
+6.  Select whichever group a user needs to belong to.
+7.  Select *Save*.
 
 ## Access Control List (ACL) for Joomla
 
@@ -31,6 +44,7 @@ describe the permissions associated with that group.
 
 - Guest Group privileges
 - View registered articles
+- No access to items restricted to Guest Group
 
 #### Author
 

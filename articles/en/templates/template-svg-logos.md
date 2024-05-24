@@ -24,7 +24,7 @@ src="https://docs.joomla.org/images/thumb/d/d1/J4x-templates-inkscape-en.png/800
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/d/d1/J4x-templates-inkscape-en.png 1.5x"
 data-file-width="1000" data-file-height="623" width="800" height="498"
-alt="J4x-templates-inkscape-en.png" />
+alt="screenshot showing inkscape logo creation" />
 
 ## Instructions
 
@@ -79,6 +79,6 @@ high:
 src="https://docs.joomla.org/images/9/9f/J4x-templates-cassiopeia-green-svg-en.png"
 class="thumbborder" decoding="async" data-file-width="588"
 data-file-height="201" width="800" height="273"
-alt="J4x-templates-cassiopeia-green-svg-en.png" />
+alt="screenshot showing cassiopeia in white on green background" />
 
 QED!

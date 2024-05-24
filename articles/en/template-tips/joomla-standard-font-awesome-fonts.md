@@ -1,14 +1,9 @@
-<!-- Filename: J4.x:Joomla_Standard_Font_Awesome_Fonts / Display title: Joomla Standard Font Awesome Fonts -->
-
-Joomla!  <span class="small">≥ </span>4.0.0
-
-Since Joomla 4.0.0, the Joomla! CMS comes with its own custom
-<a href="https://https://fontawesome.com/" class="external text"
-target="_blank" rel="nofollow noreferrer noopener">Font Awesome Font
-Set</a>. These icon fonts are available by default for use in the
-"Cassiopeia" (Frontend) and "Atum" (Administrator) Templates.
+<!-- Filename: J4.x:Joomla_Standard_Font_Awesome_Fonts / Display title: Font Awesome Fonts -->
 
 ## How to Use
+
+The Joomla! CMS comes with its own custom Font Awesome Font Set. These icon
+fonts are available by default for use in the *Cassiopeia* and *Atum* templates.
 
 Icon fonts that are mapped in `/media/system/scss/_icomoon.scss` can be
 called with a `name-of-icon">` tag and a {space} `</span>`. eg
@@ -19,12 +14,12 @@ called with a `name-of-icon">` tag and a {space} `</span>`. eg
 
 Will show the Joomla! icon: <span class="icon-joomla">&nbsp;</span>
 
-Icon fonts that are not mapped can be called with a 
-`<span class="far fa-name-of-icon">` tag and a {space} `</span>`. eg
+Icon fonts that are not mapped can be called with a
+`<span class="far fa-name-of-icon">` tag and a {space} `</span>`. Example:
 
 ```php
 <i class="fa fa-adjust"></i>
-``
+```
 
 Will show an adjust icon: <i class="fa fa-adjust"></i>
 

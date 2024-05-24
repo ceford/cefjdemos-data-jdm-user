@@ -27,7 +27,7 @@ Starting from **System **→** Templates panel **→** Site Templates**:
 src="https://docs.joomla.org/images/d/dd/J4x-child-templates-create-green-en.png"
 class="thumbborder" decoding="async" data-file-width="789"
 data-file-height="278" width="789" height="278"
-alt="J4x-child-templates-create-green-en.png" />
+alt="screenshot of child template modal create form" />
 
 Selection of Cassiopeia - Default in the Additional Template Styles
 field seems unnecessary (is that a bug?).
@@ -55,7 +55,7 @@ src="https://docs.joomla.org/images/thumb/8/81/J4x-child-templates-create-green-
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/8/81/J4x-child-templates-create-green-user-css-en.png 1.5x"
 data-file-width="1000" data-file-height="543" width="800" height="434"
-alt="J4x-child-templates-create-green-user-css-en.png" />
+alt="screenshot of create user css form" />
 
 The user.css file is empty, ready for your to enter some custom styles.
 Enter the following to start the green theme:
@@ -117,7 +117,7 @@ src="https://docs.joomla.org/images/thumb/8/87/J4x-child-templates-create-green-
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/8/87/J4x-child-templates-create-green-menu-item-en.png 1.5x"
 data-file-width="1000" data-file-height="507" width="800" height="406"
-alt="J4x-child-templates-create-green-menu-item-en.png" />
+alt="screenshot of menu item edit form" />
 
 - For the purposes of the following screenshot the Blog Layout has been
   set to Leading Articles: 0, Intro Articles: 3 and Mult Column
@@ -132,7 +132,7 @@ src="https://docs.joomla.org/images/thumb/f/f6/J4x-child-templates-green-site-re
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/f/f6/J4x-child-templates-green-site-result-en.png 1.5x"
 data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="J4x-child-templates-green-site-result-en.png" />
+alt="screens shot of site showing custom green theme templates" />
 
 ### Edit the Style
 

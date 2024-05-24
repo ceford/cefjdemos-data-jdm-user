@@ -3,9 +3,8 @@
 ## Recommended settings
 
 The following information refers to Unix/Linux based server. If your web
-server is a Microsoft Windows based server(IIS), you should read:[How do
-Windows file permissions
-work?](https://docs.joomla.org/How_do_Windows_file_permissions_work%3F "How do Windows file permissions work?").
+server is a Microsoft Windows based server(IIS), you should read:
+[How do Windows file permissions work?](https://docs.joomla.org/How_do_Windows_file_permissions_work%3F "How do Windows file permissions work?").
 Then apply the applicable recommended settings below to your Windows
 based server.
 
@@ -15,23 +14,19 @@ based server.
   - 644 for files
   - Don't use extensions that require 777 permissions!
 
-<img
-src="https://docs.joomla.org/images/thumb/4/41/Stop_hand_nuvola.svg.png/25px-Stop_hand_nuvola.svg.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/4/41/Stop_hand_nuvola.svg.png/38px-Stop_hand_nuvola.svg.png 1.5x, https://docs.joomla.org/images/4/41/Stop_hand_nuvola.svg.png 2x"
-data-file-width="40" data-file-height="40" width="25" height="25"
-alt="Stop hand nuvola.svg.png" />Warning!
+<div class="alert alert-warning">
+Warning!
 
-**Note:** On file permissions, in general never use 777 if you don't
-know what you are doing.
+Never use 777 unless you know what you are doing!
+</div>
 
 ## How to Locate them
 
 There are a variety of methods to view the permissions of your website's
 files. For example, your host's cpanel file browser or a common
 <a href="https://en.wikipedia.org/wiki/File_Transfer_Protocol"
-class="extiw" title="wikipedia:File Transfer Protocol">FTP(File Transfer
-Protocol)</a> program.
+title="wikipedia:File Transfer Protocol">FTP (File Transfer Protocol)</a>
+program.
 
 Depending on what you are using, you should see something like this
 image.
@@ -40,7 +35,7 @@ image.
 src="https://docs.joomla.org/images/6/65/Verifying_Permissions_FTP.png"
 class="thumbimage" decoding="async" data-file-width="533"
 data-file-height="277" width="533" height="277"
-alt="Verifying Permissions FTP.png" />
+alt="verifying permissions via FTP" />
 
 Again, depending on what method you are using, changing the permissions.
 
@@ -48,7 +43,7 @@ Again, depending on what method you are using, changing the permissions.
 src="https://docs.joomla.org/images/3/37/Verifying_Permissions_FTP_Changing.png"
 class="thumbimage" decoding="async" data-file-width="431"
 data-file-height="300" width="431" height="300"
-alt="Verifying Permissions FTP Changing.png" />
+alt="Changing permissions via FTP" />
 
 Correct file permissions
 
@@ -56,7 +51,7 @@ Correct file permissions
 src="https://docs.joomla.org/images/c/c3/Verifying_Permissions_FTP_Correct.png"
 class="thumbimage" decoding="async" data-file-width="528"
 data-file-height="295" width="528" height="295"
-alt="Verifying Permissions FTP Correct.png" />
+alt="See that permissions are correct via FTP" />
 
 ## Learning the numbers
 
@@ -73,13 +68,13 @@ set of permissions:
 
      d stands for directory and shows as: drwxrwxrwx instead of -drwxrwxrwx
 
-#### Remember
+### Remember
 
 - First digit = owner, or User
 - second digit = group (other Users on your server)
 - third digit = others (everyone else, the world!)
 
-  
+
 **Note:** On some servers you may not see the numbers as shown above,
 what you see is -rwxrwxrwx or something similar.
 
@@ -103,9 +98,8 @@ can finally add 1 if execute permission is granted along with the Read
 and Write permission. If there are no permission at all, the sum is 0.
 Just do the Octal Math:
 
-|            |        |         |           |                         |
-|------------|--------|---------|-----------|-------------------------|
 | "Octal" \# | (r)ead | (w)rite | e(x)ecute | User or Group or Others |
+|------------|--------|---------|-----------|-------------------------|
 | 0          | no     | no      | no        | `---` 0+0+0 = 0         |
 | 1          | no     | no      | yes       | `--x` 0+0+1 = 1         |
 | 2          | no     | yes     | no        | `-w-` 0+2+0 = 2         |
@@ -118,19 +112,11 @@ Just do the Octal Math:
 Now it is time to put it all together. User, Group, Others(Everyone or
 the World) into a 3 digit "octal" permission number.
 
-- 777 means EVERYONE can read, write and execute ANY file or
-  `-rwxrwxrwx`
-
-<img
-src="https://docs.joomla.org/images/thumb/4/41/Stop_hand_nuvola.svg.png/25px-Stop_hand_nuvola.svg.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/4/41/Stop_hand_nuvola.svg.png/38px-Stop_hand_nuvola.svg.png 1.5x, https://docs.joomla.org/images/4/41/Stop_hand_nuvola.svg.png 2x"
-data-file-width="40" data-file-height="40" width="25" height="25"
-alt="Stop hand nuvola.svg.png" />Warning!
-
-This something you **NEVER** want to be allowed on your server/website
-unless you are absolutely sure you know what you are doing.
-
+- 777 or `-rwxrwxrwx` means EVERYONE can read, write and execute ANY file
+    <div class="alert alert-warning">
+    This something you **NEVER** want to allow on your server/website
+    unless you are absolutely sure you know what you are doing.
+    </div>
 - 755 is rwx (owner), r-x (group) and r-x (others) or in other words
   everyone may read and execute (run) but only the owner(you) may make
   changes to the file. It would look like this when it is all put

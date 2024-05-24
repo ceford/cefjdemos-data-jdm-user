@@ -26,7 +26,7 @@ src="https://docs.joomla.org/images/thumb/b/bf/J4x-user-groups-en.png/800px-J4x-
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/b/bf/J4x-user-groups-en.png 1.5x"
 data-file-width="1000" data-file-height="556" width="800" height="445"
-alt="J4x-user-groups-en.png" />
+alt="Screenshot of users groups" />
 
 The default user groups are set up with parent child relationships to
 minimise duplication of permissions. Examples of inheritance:
@@ -54,7 +54,7 @@ src="https://docs.joomla.org/images/thumb/9/99/J4x-user-access-levels-en.png/800
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/9/99/J4x-user-access-levels-en.png 1.5x"
 data-file-width="1000" data-file-height="386" width="800" height="309"
-alt="J4x-user-access-levels-en.png" />
+alt="Screenshot of users viewing access levels" />
 
 Examples:
 
@@ -74,7 +74,7 @@ src="https://docs.joomla.org/images/thumb/9/92/J4x-permissions-global-en.png/800
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/9/92/J4x-permissions-global-en.png 1.5x"
 data-file-width="1000" data-file-height="1016" width="800" height="813"
-alt="J4x-permissions-global-en.png" />
+alt="Screenshot of global configuration permissions page" />
 
 The screenshot shows that members of the Public group do not have
 permission to take any actions. If you select each group in turn you
@@ -102,7 +102,7 @@ src="https://docs.joomla.org/images/thumb/7/7f/J4x-permissions-articles-en.png/8
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/7/7f/J4x-permissions-articles-en.png 1.5x"
 data-file-width="1000" data-file-height="1037" width="800" height="830"
-alt="J4x-permissions-articles-en.png" />
+alt="Screenshot of articles options permissions page" />
 
 ### Single Article Permissions
 
@@ -114,7 +114,7 @@ src="https://docs.joomla.org/images/thumb/1/18/J4x-permissions-article-en.png/80
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/1/18/J4x-permissions-article-en.png 1.5x"
 data-file-width="1000" data-file-height="711" width="800" height="569"
-alt="J4x-permissions-article-en.png" />
+alt="Screenshot of permissions page for a single article" />
 
 ## Access Control Example: Special Purpose User
 
@@ -135,7 +135,7 @@ src="https://docs.joomla.org/images/thumb/c/c6/J4x-permissions-article-administr
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/c/c6/J4x-permissions-article-administrator-en.png 1.5x"
 data-file-width="1000" data-file-height="249" width="800" height="199"
-alt="J4x-permissions-article-administrator-en.png" />
+alt="Screenshot of users new group form" />
 
 ### Assign to Special
 
@@ -150,7 +150,7 @@ src="https://docs.joomla.org/images/thumb/5/59/J4x-permissions-article-administr
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/5/59/J4x-permissions-article-administrator-special-en.png 1.5x"
 data-file-width="1000" data-file-height="470" width="800" height="376"
-alt="J4x-permissions-article-administrator-special-en.png" />
+alt="Screenshot of user groups with viewing access levels page" />
 
 ### Global Configuration Permissions
 
@@ -166,7 +166,7 @@ src="https://docs.joomla.org/images/thumb/6/66/J4x-permissions-article-administr
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/6/66/J4x-permissions-article-administrator-global-en.png 1.5x"
 data-file-width="1000" data-file-height="940" width="800" height="752"
-alt="J4x-permissions-article-administrator-global-en.png" />
+alt="Screenshot of global permissions page" />
 
 ### Articles Options Permissions
 
@@ -183,7 +183,7 @@ src="https://docs.joomla.org/images/thumb/e/ef/J4x-permissions-article-administr
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/e/ef/J4x-permissions-article-administrator-articles-en.png 1.5x"
 data-file-width="1000" data-file-height="930" width="800" height="744"
-alt="J4x-permissions-article-administrator-articles-en.png" />
+alt="Screenshot of articles options permissions page" />
 
 ### Create or Edit User
 
@@ -200,4 +200,4 @@ src="https://docs.joomla.org/images/thumb/4/40/J4x-permissions-article-administr
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/4/40/J4x-permissions-article-administrator-menu-en.png 1.5x"
 data-file-width="1000" data-file-height="451" width="800" height="361"
-alt="J4x-permissions-article-administrator-menu-en.png" />
+alt="Screenshot of Home Dashboard for user with restricted access" />

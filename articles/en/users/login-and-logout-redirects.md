@@ -24,7 +24,7 @@ src="https://docs.joomla.org/images/thumb/8/86/J4x-user-login-module-form-en.png
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/8/86/J4x-user-login-module-form-en.png 1.5x"
 data-file-width="1000" data-file-height="831" width="800" height="665"
-alt="J4x-user-login-module-form-en.png" />
+alt="Screenshot of user login module form" />
 
 Tip: You could use two login modules. One with **Guest** access entitled
 **Login**. The second with **Registered** access entitled **Logout**.
@@ -46,7 +46,7 @@ src="https://docs.joomla.org/images/thumb/6/6f/J4x-user-login-menu-item-login-re
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/6/6f/J4x-user-login-menu-item-login-redirect-en.png 1.5x"
 data-file-width="1000" data-file-height="385" width="800" height="308"
-alt="J4x-user-login-menu-item-login-redirect-en.png" />
+alt="Screenshot of user login menu item redirect options" />
 
 There is a separate section for Logout redirection. The default
 behaviour is to redirect to the site Home page. You could redirect to
@@ -58,7 +58,7 @@ src="https://docs.joomla.org/images/thumb/e/ef/J4x-user-login-menu-item-logout-r
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/e/ef/J4x-user-login-menu-item-logout-redirect-en.png 1.5x"
 data-file-width="1000" data-file-height="152" width="800" height="122"
-alt="J4x-user-login-menu-item-logout-redirect-en.png" />
+alt="eenshot of user logout menu item redirect options" />
 
 ## Logout Menu Item
 
@@ -70,4 +70,4 @@ src="https://docs.joomla.org/images/thumb/d/d4/J4x-user-logout-menu-item-redirec
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/d/d4/J4x-user-logout-menu-item-redirect-en.png 1.5x"
 data-file-width="1000" data-file-height="361" width="800" height="289"
-alt="J4x-user-logout-menu-item-redirect-en.png" />
+alt="Screenshot of user logout menu item redirect options" />

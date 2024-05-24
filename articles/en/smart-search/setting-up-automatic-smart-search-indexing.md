@@ -1,24 +1,20 @@
-<!-- Filename: Setting_up_automatic_Smart_Search_indexing / Display title: Setting up automatic Smart Search indexing -->
+<!-- Filename: Setting_up_automatic_Smart_Search_indexing / Display title: Smart Search Indexing -->
+
+## Automatic Indexing
 
 Although the Smart Search index is automatically kept up-to-date
 whenever content items are amended, there are some circumstances where
 you need to re-run the indexer. You can do this manually using the Index
-toolbar button in the [Manage Indexed
-Content](https://docs.joomla.org/Help25:Components_Finder_Manage_Indexed_Content "Help25:Components Finder Manage Indexed Content")
-screen, however if you need to re-index content automatically then it is
-also possible to run the indexer as a command-line application. This
-makes it particularly convenient to run the indexer from a *cron* job.
+toolbar button in the Smart Search: Indexed Content page. However if you need
+to re-index content automatically then it is also possible to run the indexer
+from the command-line. This makes it particularly convenient to run the
+indexer from a *cron* job.
 
-The Smart Search CLI application is located in the `cli` directory in
-your site's root directory (that is, the same directory as your
-*configuration.php* file). In this directory you will find the
-`finder_indexer.php` file. Simply enter this command to run the indexer:
+From the cli director the comman line is:
 
-    php finder_indexer.php
-
-In Joomla 4:
-
-    php -d memory_limit=512M joomla.php finder:index
+```
+php joomla.php finder:index
+```
 
 Typical output from the command-line indexer looks like this:
 
@@ -44,7 +40,7 @@ rebuilding the index, then you need to do a "purge and then index"
 operation. To do that you can add the `--purge` argument to the command
 line, like this
 
-    php finder_indexer.php --purge
+    php joomla.php finder:index -- purge
 
 Note that this will attempt to preserve any static filters you may have
 set up, whereas clicking on the "Purge" toolbar button in the
@@ -58,7 +54,9 @@ manager and specify the time or times on which the job is to be run. You
 will probably need to include the full path to the indexer. For example,
 like this
 
-    php /var/www/myjoomla/cli/finder_indexer.php
+    php /var/www/myjoomla/cli/joomla.php finder:index -- purge
+
+And possible the full path to the php file such as /usr/local/opt/php@8.2/bin/php
 
 ## Out of Memory Issues
 
@@ -68,13 +66,11 @@ the indexer to run to completion. You can increase the memory allocated
 to the command-line indexer using an extra parameter on the
 command-line, like this:
 
-    php -d memory_limit=256M finder_indexer.php
+    php -d memory_limit=256M joomla.php finder:index
 
 Replace the `256M` with whatever is appropriate for your circumstances.
 
-The command-line indexer uses the same parameters as the indexer on the
-[Manage Indexed
-Content](https://docs.joomla.org/Help25:Components_Finder_Manage_Indexed_Content "Help25:Components Finder Manage Indexed Content")
-screen. You can change the parameters using the Options toolbar button
-on that screen. Note that both the **Indexer Batch Size** and **Memory
-Table Limit** fields affect the amount of memory used by the indexer.
+The command-line indexer uses the same parameters as the indexer on the Smart
+Search: Indexed Content page. You can change the parameters using the Options
+toolbar button on that page. Note that both the **Indexer Batch Size** and
+**Memory Table Limit** fields affect the amount of memory used by the indexer.

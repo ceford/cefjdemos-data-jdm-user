@@ -1,10 +1,16 @@
-<!-- Filename: Backup_Basics_for_a_Joomla!_Web_Site / Display title: Backup Basics for a Joomla! Web Site -->
+<!-- Filename: Backup_Basics_for_a_Joomla!_Web_Site / Display title: Backup Basics -->
+
+## Accidents happen!
 
 Always keep a recent backup of your site. Accidents happen, but there
 are many other reasons to have your backup files handy before the need
-arises. **N.B. backups should not be used to restore a hacked site
-because the hack could have been on the site for some time could have
-been backed up with the site.**
+arises.
+
+<div class="alert alert-warning">
+Backups should not be used to restore a hacked site
+because the hack could have been on the site for some time and could have
+been backed up with the site.
+</div>
 
 The causes of data loss are many. Joomla sites can be compromised by
 malicious attackers if the site administrator has not paid attention to
@@ -48,11 +54,9 @@ This is the preferred method using the Akeeba Backup Extension.
 - The installer changes the configuration for restoring to a different
   location and prompts for the new database details.
 
-You can download the Akeeba Backup extension from the <a
-href="https://extensions.joomla.org/extensions/extension/access-a-security/site-security/akeeba-backup/"
-class="external text" target="_blank" rel="noreferrer noopener">Joomla
-extension directory</a>. There is a link to full instructions there as
-well.
+You can download the Akeeba Backup extension from the
+[Joomla extension directory](https://extensions.joomla.org/extensions/extension/access-a-security/site-security/akeeba-backup "").
+There is a link to full instructions there as well.
 
 ## Backup Two-Part Method
 
@@ -67,15 +71,9 @@ If you do not backup your files and database, your backup is incomplete.
 ### Database Backup
 
 One of the first steps to backup your Joomla site is to close the site
-to the public, backup the files and then re-open the site. The steps
-from <a href="https://docs.phpmyadmin.net/en/latest/index.html"
-class="external text" target="_blank"
-rel="nofollow noreferrer noopener">the phpMyAdmin documentation</a> omit
-this much needed operation. Go to **Joomla Administrator **→** Global
-Configuration **→** Site** tab, set *Site Offline* = 'Yes*.*
-
-This will then change the *configuration.php* file in the root of your
-Joomla website.
+to the public, backup the files and then re-open the site. Go to
+**Joomla Administrator → Global Configuration → Site** tab, set
+*Site Offline* to *Yes* and **Save**.
 
 An administrator will need to use your hosting control panel to view
 that file or use FTP to download and view the file. Inside the

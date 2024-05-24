@@ -210,18 +210,10 @@ smart-search=smart-search-frequently-asked-questions.md=https://docs.joomla.org/
 smart-search=smart-search-configuration-options.md=https://docs.joomla.org/J4.x:Smart_Search_configuration_options
 smart-search=smart-search-content-change-test-plan.md=https://docs.joomla.org/J4.x:Smart_Search_content_change_test_plan
 
+system=backup.md=jdocmanual?manual=user&heading=system&filename=backup.md
 system=cache.md=https://docs.joomla.org/J4.x:Cache
-system=backup-basics-for-a-joomla-web-site.md=https://docs.joomla.org/J4.x:Backup_Basics_for_a_Joomla!_Web_Site
-system=what-are-the-best-practices-for-site-backups-3f.md=https://docs.joomla.org/J4.x:What_are_the_best_practices_for_site_backups?
-system=copying-a-joomla-website.md=https://docs.joomla.org/J4.x:Copying_a_Joomla_website
-system=copying-a-website-from-localhost-to-a-remote-host.md=https://docs.joomla.org/J4.x:Copying_a_website_from_localhost_to_a_remote_host
-system=database-table-prefix.md=https://docs.joomla.org/J4.x:Database_Table_Prefix
-system=one-click-updates-for-language-packs.md=https://docs.joomla.org/J4.x:One_click_updates_for_language_packs
 system=purging-expired-cache-files.md=https://docs.joomla.org/J4.x:Purging_expired_cache_files
 system=top-10-stupidest-administrator-tricks.md=https://docs.joomla.org/J4.x:Top_10_Stupidest_Administrator_Tricks
-system=updating-php.md=https://docs.joomla.org/J4.x:Updating_PHP
-system=task-scheduler.md=https://docs.joomla.org/J4.x:Task_Scheduler
-system=uploading-and-extracting-an-archive-file-with-cpanel.md=https://docs.joomla.org/J4.x:Uploading_and_extracting_an_archive_file_with_CPanel
 
 tags=how-to-use-content-tags-in-joomla.md=https://docs.joomla.org/J4.x:How_To_Use_Content_Tags_in_Joomla
 templates=template-basics.md=https://docs.joomla.org/J4.x:Template_Basics
@@ -236,11 +228,12 @@ template-tips=switching-templates.md=https://docs.joomla.org/J4.x:Switching_Temp
 template-tips=home-page-in-different-style.md=https://docs.joomla.org/J4.x:Home_Page_in_Different_Style
 template-tips=module-and-menu-styles.md=https://docs.joomla.org/J4.x:Module_and_Menu_Styles
 template-tips=joomla-standard-font-awesome-fonts.md=https://docs.joomla.org/J4.x:Joomla_Standard_Font_Awesome_Fonts
+
 test-installations=visual-studio-code-primer.md=https://docs.joomla.org/J4.x:Visual_Studio_Code_Primer
 test-installations=visual-studio-code.md=https://docs.joomla.org/J4.x:Visual_Studio_Code
 test-installations=setting-up-apache-php-and-mysql-manually.md=https://docs.joomla.org/J4.x:Setting_up_Apache
 test-installations=verifying-permissions.md=https://docs.joomla.org/J4.x:Verifying_permissions
-test-installations=web-page-diagnostic-tools.md=https://docs.joomla.org/J4.x:Web_page_diagnostic_tools
+
 users=access-control.md=https://docs.joomla.org/J4.x:Access_Control
 users=user-registration.md=https://docs.joomla.org/J4.x:User_Registration
 users=user-profile.md=https://docs.joomla.org/J4.x:User_Profile
@@ -250,7 +243,7 @@ users=multi-factor-authentication.md=https://docs.joomla.org/J4.x:Multi-factor_A
 users=guest-access.md=https://docs.joomla.org/J4.x:Guest_Access
 users=changing-user-groups.md=https://docs.joomla.org/J4.x:Changing_user_groups
 users=login-and-logout-redirects.md=https://docs.joomla.org/J4.x:Login_and_Logout_Redirects
-users=why-cant-a-user-see-anything-on-the-backend-3f.md=https://docs.joomla.org/J4.x:Why_can't_a_user_see_anything_on_the_backend?
 users=user-actions-log.md=https://docs.joomla.org/J4.x:User_Actions_Log
+
 workflows=workflow.md=https://docs.joomla.org/J4.x:Workflow
 workflows=workflow-scenarios.md=https://docs.joomla.org/J4.x:Workflow/Scenarios

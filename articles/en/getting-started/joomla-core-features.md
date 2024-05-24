@@ -230,8 +230,7 @@ site an email notification.
 The Joomla! core is just the beginning, the real power is in the way you
 can customize Joomla. More than 8000 Extensions are available to extend
 your website and broaden its functionality. Visit the
-<a href="https://extensions.joomla.org/" class="external free"
-target="_blank"
+<a href="https://extensions.joomla.org/"
 rel="noreferrer noopener">https://extensions.joomla.org/</a> to see
 thousands of ways to enhance Joomla! to suit your needs.
 

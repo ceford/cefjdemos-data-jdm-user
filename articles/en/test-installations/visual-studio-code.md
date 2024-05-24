@@ -1,24 +1,20 @@
 <!-- Filename: Visual_Studio_Code / Display title: Visual Studio Code -->
 
-<a href="https://code.visualstudio.com/" class="external text"
-target="_blank" rel="nofollow noreferrer noopener">Visual Studio
+<a href="https://code.visualstudio.com/"
+ rel="nofollow noreferrer noopener">Visual Studio
 Code</a> is a source code editor developed by Microsoft for Windows,
 Linux and macOS (including M1 Macs). It includes support for debugging,
 embedded Git control and GitHub, syntax highlighting, intelligent code
 completion, snippets, and code refactoring.
 
 The main characteristic of the editor is that it is extensible and it
-has a huge collection of extensions maintained by users and by Microsoft
-itself. The **Extensions for the Visual Studio family of products** can
-be found here: <a href="https://marketplace.visualstudio.com/VSCode"
-class="external free" target="_blank"
-rel="nofollow noreferrer noopener">https://marketplace.visualstudio.com/VSCode</a>.
+has a huge collection of [extensions](https://marketplace.visualstudio.com/VSCode "")
+maintained by users and by Microsoft itself.
 
 As a general introduction, this is a presentation about the topic
 <a href="https://www.renekreijveld.nl/slides/juglondon/vscode.pdf"
-class="external text" target="_blank"
 rel="nofollow noreferrer noopener">Joomla Development with Visual Studio
-Code</a>, by René Kreijveld, Joomla developer Destiny B.V. Joomla User
+Code (PDF, 1Mb)</a>, by René Kreijveld, Joomla developer Destiny B.V. Joomla User
 Group London, 16th march 2021.
 
 On this page, we detail a list of recommended extensions to configure
@@ -28,57 +24,46 @@ This is a list of extensions to support PHP on VSCode:
 
 - **PHP Debug** <a
   href="https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">felixfbecker.php-debug</a>. Debug
   support for PHP with XDebug.
 - **phpcs** <a
   href="https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">ikappas.phpcs</a>. PHP CodeSniffer
   for Visual Studio Code.
 - **PHP Intelephense** <a
   href="https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">bmewburn.vscode-intelephense-client</a>.
   PHP code intelligence for Visual Studio Code. Alternative: *PHP
   IntelliSense* <a
   href="https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-intellisense"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">felixfbecker.php-intellisense</a>
 - **PHPUnit** <a
   href="https://marketplace.visualstudio.com/items?itemName=emallin.phpunit"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">emallin.phpunit</a>. Run PHPUnit
   tests from VSCode.
 - **phpfmt** <a
   href="https://marketplace.visualstudio.com/items?itemName=kokororin.vscode-phpfmt"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">kokororin.vscode-phpfmt</a>. The
   missing phpfmt extension for Visual Studio Code. phpfmt formatter can
   parse and format even a PHP file version 4 in case needed.
 - **php cs fixer** <a
   href="https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">junstyle.php-cs-fixer</a>: In case
-  of opting for the
-  <a href="https://www.php-fig.org/psr/psr-2/" class="external text"
-  target="_blank" rel="nofollow noreferrer noopener">PSR-2: Coding Style
-  Guide</a>). PHP CS Fixer extension for VS Code, php formatter, php
+  of opting for the <a href="https://www.php-fig.org/psr/psr-2/"
+  rel="nofollow noreferrer noopener">PSR-2: Coding Style Guide</a>. PHP CS
+  Fixer extension for VS Code, php formatter, php
   code beautify tool, format html.
 - **PHP Namespace Resolver** <a
   href="https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-resolver"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">MehediDracula.php-namespace-resolver</a>:
   PHP Namespace Resolver can import and expand your class. You can also
   sort your imported classes by line length or in alphabetical order.
 - **PHP Phan (Analyzer)** <a
   href="https://marketplace.visualstudio.com/items?itemName=TysonAndre.php-phan"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">tysonandre.php-phan</a>. Phan -
   static analyzer for PHP, minimizing false positives.
 - **phpmd** <a
   href="https://marketplace.visualstudio.com/items?itemName=linyang95.phpmd"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">linyang95.phpmd</a>. VS Code
   extension for php, using phpmd.
 
@@ -88,29 +73,24 @@ featured extensions for this task:
 
 - **Git History** <a
   href="https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">donjayamanne.githistory</a>: Git
   History, Search and More (including git log).
 - **GitHub** <a
   href="https://marketplace.visualstudio.com/items?itemName=KnisterPeter.vscode-github"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">KnisterPeter.vscode-github</a>:
   This vscode extension integrates with GitHub.
 - **GitHub Pull Requests and Issues** <a
   href="https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">GitHub.vscode-pull-request-github</a>:
   Review and manage your GitHub pull requests and issues directly in VS
   Code
 - **gitignore** <a
   href="https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">codezombiech.gitignore</a>: A
   extension for Visual Studio Code that assists you in working with
   .gitignore files.
 - **Visual Studio Code Commitizen Support** <a
   href="https://marketplace.visualstudio.com/items?itemName=KnisterPeter.vscode-commitizen"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">KnisterPeter.vscode-commitizen</a>:
   This vscode extension adds commitizen support.
 
@@ -118,12 +98,10 @@ This is a list of extensions to support Joomla on VSCode:
 
 - **Joomla Snippets** <a
   href="https://marketplace.visualstudio.com/items?itemName=AnibalSanchez.vs-code-joomla-snippets"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">anibalsanchez.vs-code-joomla-snippets</a>.
   Snippets for Joomla. Including Joomla 3.x and Joomla 4 Snippets.
 - **PHP Getters & Setters** <a
   href="https://marketplace.visualstudio.com/items?itemName=phproberto.vscode-php-getters-setters"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">phproberto.vscode-php-getters-setters</a>.
   Create PHP getters and setters from class properties.
 
@@ -131,18 +109,15 @@ This is a list of extensions to support remote SSH development:
 
 - **Remote - SSH** <a
   href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">ms-vscode-remote.remote-ssh</a>:
   The Remote - SSH extension lets you use any remote machine with an SSH
   server as your development environment. This can greatly simplify
   development and troubleshooting in a wide variety of situations. For
   more information:
   <a href="https://code.visualstudio.com/docs/remote/ssh-tutorial"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">Remote development over SSH</a>
 - **Live Share** <a
   href="https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">MS-vsliveshare.vsliveshare</a>:
   Visual Studio Live Share enables you to collaboratively edit and debug
   with others in real-time, regardless of what programming languages
@@ -151,24 +126,20 @@ This is a list of extensions to support remote SSH development:
   debugging sessions, terminal instances, localhost web apps, voice
   calls, and more!
 
-  
 This is a list of handy extensions highly recommended to ease the
 development:
 
 - **EditorConfig for VS Code** <a
   href="https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">editorconfig.editorconfig</a>
   EditorConfig Support for Visual Studio Code
 - **change-case** <a
   href="https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">wmaurer.change-case</a>: Quickly
   change the case (camelCase, CONSTANT_CASE, snake_case, etc) of the
   current selection or current word
 - **Project Manager** <a
   href="https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">alefragnani.project-manager</a>: It
   helps you to easily access your projects, no matter where they are
   located. Don't miss those important projects anymore.
@@ -176,14 +147,11 @@ development:
 ## PHP Debug Configuration
 
 The extension supports the most common configurations of PHP
-<a href="https://xdebug.org/" class="external text" target="_blank"
+<a href="https://xdebug.org/"
 rel="nofollow noreferrer noopener">XDebug</a>. It fully integrates all
 VSCode features to debug PHP scripts.
 
-To configure the extension, visit the official documentation here:
-<a href="https://github.com/felixfbecker/vscode-php-debug#installation"
-class="external free" target="_blank"
-rel="nofollow noreferrer noopener">https://github.com/felixfbecker/vscode-php-debug#installation</a>
+To configure the extension, visit the [official documentation](https://github.com/felixfbecker/vscode-php-debug#installation "")
 
 As a sample configuration for VSCode debugging, this is a common
 launch.json:
@@ -252,20 +220,14 @@ XDebug, these are the most common settings for php.ini.
     ; xdebug.client_port = 9000
 
 To know more about how XDebug works internally to connect to the Editor,
-check the documentation here
-<a href="https://xdebug.org/docs/" class="external text" target="_blank"
-rel="nofollow noreferrer noopener">Xdebug 3 — Documentation</a>.
+check the [documentation](Xdebug 3 — Documentation).
 
 ## phpcs Configuration
 
-To configure the extension, visit the official documentation here: <a
-href="https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs"
-class="external free" target="_blank"
-rel="nofollow noreferrer noopener">https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs</a>
-
+To configure the extension, visit the
+[official documentation](https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs "").
 The extension supports the most common configurations of
 <a href="https://pear.php.net/package/PHP_CodeSniffer/"
-class="external text" target="_blank"
 rel="nofollow noreferrer noopener">PHP_CodeSniffer</a>.
 
 By default, PHP_CodeSniffer comes with several coding standards. Once
@@ -274,11 +236,8 @@ the extension is installed, it works with **PSR2**.
         "phpcs.standard": "PSR2",
 
 To configure the extension to apply the **Joomla! Coding Standards**,
-install the rules following the official guide:
-<a href="https://developer.joomla.org/coding-standards/html.html"
-class="external free" target="_blank"
-rel="noreferrer noopener">https://developer.joomla.org/coding-standards/html.html</a>
-
+install the rules following the
+[official guide](https://developer.joomla.org/coding-standards/html.html "")
 Once the **Joomla! Coding Standards** is installed, configure the User
 Settings following this sample configuration:
 
@@ -286,11 +245,8 @@ Settings following this sample configuration:
 
 ## Configuration of PHP Intelephense
 
-To configure the extension, visit the official documentation here:
-<a href="https://github.com/bmewburn/vscode-intelephense#quick-start"
-class="external free" target="_blank"
-rel="nofollow noreferrer noopener">https://github.com/bmewburn/vscode-intelephense#quick-start</a>
-
+To configure the extension, visit the
+[intelephense documentation](https://github.com/bmewburn/vscode-intelephense#quick-start "").
 The extension does not require additional configuration.
 
 VSCode comes with basic support of the PHP language. So, it is probably
@@ -305,19 +261,15 @@ a good idea to disable the default support to avoid conflicts:
 As an alternative, it is also a very popular extension: **PHP
 IntelliSense** <a
 href="https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-intellisense"
-class="external text" target="_blank"
 rel="nofollow noreferrer noopener">felixfbecker.php-intellisense</a>
 Advanced Autocompletion and Refactoring support for PHP.
 
 ## PHPUnit Configuration
 
-To configure the extension, visit the official documentation here:
-<a href="https://github.com/elonmallin/vscode-phpunit#setup"
-class="external free" target="_blank"
-rel="nofollow noreferrer noopener">https://github.com/elonmallin/vscode-phpunit#setup</a>
+To configure the extension, visit the [vscode phpunit documentation](https://github.com/elonmallin/vscode-phpunit#setup "")
 
 The extension integrates
-<a href="https://phpunit.de/" class="external text" target="_blank"
+<a href="https://phpunit.de/"
 rel="nofollow noreferrer noopener">PHP Unit</a> with VSCode, so all
 features of PHP Unit are integrated with VSCode and can also be
 parametrized for further integration with the user interface.
@@ -336,14 +288,9 @@ This is a sample configuration of the extension:
 
 ## php cs fixer Configuration (Only for PSR2)
 
-To configure the extension, visit the official documentation here:
-<a href="https://github.com/junstyle/vscode-php-cs-fixer#installation"
-class="external free" target="_blank"
-rel="nofollow noreferrer noopener">https://github.com/junstyle/vscode-php-cs-fixer#installation</a>
-
+To configure the extension, visit the [vscode php cs fixer documentation](https://github.com/junstyle/vscode-php-cs-fixer#installation "").
 The extension integrates
 <a href="https://github.com/FriendsOfPHP/PHP-CS-Fixer"
-class="external text" target="_blank"
 rel="nofollow noreferrer noopener">PHP-CS-Fixer</a> with VSCode, so all
 features of PHP-CS-Fixer are integrated with VSCode and can also be
 parametrized for further integration with the user interface.
@@ -358,11 +305,8 @@ settings in this way:
 
 ## PHP Phan (Analyzer) Configuration
 
-To configure the extension, visit the official documentation here: <a
-href="https://marketplace.visualstudio.com/items?itemName=TysonAndre.php-phan"
-class="external free" target="_blank"
-rel="nofollow noreferrer noopener">https://marketplace.visualstudio.com/items?itemName=TysonAndre.php-phan</a>
-
+To configure the extension, visit the
+[official documentation](https://marketplace.visualstudio.com/items?itemName=TysonAndre.php-phan "").
 This is a sample configuration of the extension:
 
         "phan.phpExecutablePath": "/usr/bin/php",
@@ -372,11 +316,8 @@ This is a sample configuration of the extension:
 
 ## phpmd Configuration
 
-To configure the extension, visit the official documentation here:
-<a href="https://github.com/felixfbecker/vscode-php-debug#installation"
-class="external free" target="_blank"
-rel="nofollow noreferrer noopener">https://github.com/felixfbecker/vscode-php-debug#installation</a>
-
+To configure the extension, visit the
+[official documentation](https://github.com/felixfbecker/vscode-php-debug#installation "").
 The extension does not require additional configuration.
 
 This is a sample configuration of the extension:

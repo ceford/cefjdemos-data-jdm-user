@@ -1,7 +1,4 @@
-<!-- Filename: J4.x:How_To_Use_Content_Tags_in_Joomla / Display title: How To Use Content Tags in Joomla -->
-
-Joomla!  4.0 <span id="main-portal-heading">**Tutorial**  
-Using the Tags Component</span>
+<!-- Filename: J4.x:How_To_Use_Content_Tags_in_Joomla / Display title: Using Content Tags -->
 
 ## Introduction
 
@@ -63,7 +60,7 @@ src="https://docs.joomla.org/images/thumb/3/37/J4.x_access_tag_manager-en.png/80
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/thumb/3/37/J4.x_access_tag_manager-en.png/1200px-J4.x_access_tag_manager-en.png 1.5x, https://docs.joomla.org/images/3/37/J4.x_access_tag_manager-en.png 2x"
 data-file-width="1343" data-file-height="547" width="800" height="326"
-alt="J4.x access tag manager-en.png" />
+alt="administrator menu showing components and tags" />
 
 In the Administrator Sidebar Menu click the **Components** dropdown and
 then click **Tags**.
@@ -75,7 +72,7 @@ src="https://docs.joomla.org/images/thumb/3/34/J4.x_create_new_tag-en.png/800px-
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/thumb/3/34/J4.x_create_new_tag-en.png/1200px-J4.x_create_new_tag-en.png 1.5x, https://docs.joomla.org/images/3/34/J4.x_create_new_tag-en.png 2x"
 data-file-width="1353" data-file-height="131" width="800" height="77"
-alt="J4.x create new tag-en.png" />
+alt="screenshot of tags page showing new button" />
 
 Click **New** in the Tags Toolbar.
 
@@ -84,7 +81,7 @@ src="https://docs.joomla.org/images/thumb/4/4b/J4.x_name_and_save_tag-en.png/800
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/thumb/4/4b/J4.x_name_and_save_tag-en.png/1200px-J4.x_name_and_save_tag-en.png 1.5x, https://docs.joomla.org/images/4/4b/J4.x_name_and_save_tag-en.png 2x"
 data-file-width="1345" data-file-height="513" width="800" height="305"
-alt="J4.x name and save tag-en.png" />
+alt="screenshot of new tag form with name and save highlighted" />
 
 The only required information is in the **Title** field. Whatever you
 add in the Title field will become the Alias when the new tag is saved.
@@ -97,18 +94,15 @@ src="https://docs.joomla.org/images/thumb/6/6d/J4.x_tag_properties-en.png/300px-
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/6/6d/J4.x_tag_properties-en.png 1.5x"
 data-file-width="324" data-file-height="472" width="300" height="437"
-alt="J4.x tag properties-en.png" />
+alt="screenshot of tag edit form righ side properties" />
 
-\- **Parent:** Like Categories, you can use a Tag as a **Parent**.
+- **Parent:** Like Categories, you can use a Tag as a **Parent**.
 Choose a parent tag from the list. Use the Parent field to do this.
-
-\- **Status:** You will note that the **Status** field is set as
+- **Status:** You will note that the **Status** field is set as
 **Published** by default. It can be set to *Unpublished*, *Archived* or
 *Trashed*.
-
-\- **Access:** You can change the Access Level.
-
-\- **Note** and **Version Note:** If required you can add notes.
+- **Access:** You can change the Access Level.
+- **Note** and **Version Note:** If required you can add notes.
 
 You can now click **Save & Close** and the new tag will appear in the
 Tags List. If you are creating multiple tags you can choose to click
@@ -119,7 +113,7 @@ src="https://docs.joomla.org/images/thumb/7/73/J4.x_tag_saved-en.png/800px-J4.x_
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/thumb/7/73/J4.x_tag_saved-en.png/1200px-J4.x_tag_saved-en.png 1.5x, https://docs.joomla.org/images/7/73/J4.x_tag_saved-en.png 2x"
 data-file-width="1344" data-file-height="205" width="800" height="122"
-alt="J4.x tag saved-en.png" />
+alt="screenshot of tag saved confirmation message" />
 
 Once saved the tag will be available for use across the various content
 types that use them.
@@ -180,7 +174,7 @@ src="https://docs.joomla.org/images/thumb/f/fa/J4.x_tag_filter_options-en.png/80
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/f/fa/J4.x_tag_filter_options-en.png 1.5x"
 data-file-width="992" data-file-height="198" width="800" height="160"
-alt="J4.x tag filter options-en.png" />
+alt="screenshot of tags list with filter options highlighted" />
 
 You can manipulate the list in a number of ways. You can search for a
 tag, you can reorder the list, you can publish or unpublish tags or
@@ -191,7 +185,7 @@ src="https://docs.joomla.org/images/thumb/9/98/J4.x_tag_actions-en.png/800px-J4.
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/9/98/J4.x_tag_actions-en.png 1.5x"
 data-file-width="998" data-file-height="255" width="800" height="204"
-alt="J4.x tag actions-en.png" />
+alt="screenshot of the tags list actions list" />
 
 The **Actions** button will be activated only when one or more tags are
 selected with the checkboxes on the left.
@@ -234,7 +228,7 @@ src="https://docs.joomla.org/images/thumb/7/7d/J4.x_using_tags_examples-en.png/8
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/7/7d/J4.x_using_tags_examples-en.png 1.5x"
 data-file-width="1000" data-file-height="933" width="800" height="746"
-alt="J4.x using tags examples-en.png" />
+alt="screenshot of site showing tags examples" />
 
 When you click on one of the tags you will be taken to a page that lists
 all items assigned to that particular tag:
@@ -244,7 +238,7 @@ src="https://docs.joomla.org/images/thumb/1/1c/J4.x_tagged_item_list-en.png/800p
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/1/1c/J4.x_tagged_item_list-en.png 1.5x"
 data-file-width="1000" data-file-height="345" width="800" height="276"
-alt="J4.x tagged item list-en.png" />
+alt="screenshot showing tagged item list" />
 
 Clicking a tag will take you to a page that outputs a list of all items
 assigned with that particular tag - in effect it is a filtered list of
@@ -257,9 +251,6 @@ you want to see in a single view.
 Configuration is outside the scope of this tutorial but **global
 configuration** is accessed from the sidebar menu, **Components \>
 Tags**. Click the **Options** button in the upper toolbar.
-
-For more information read: [Tags:
-Options](https://docs.joomla.org/Help4.x:Tags:_Options "Special:MyLanguage/Help4.x:Tags: Options").
 
 Global configuration can be overridden at menu item level.
 

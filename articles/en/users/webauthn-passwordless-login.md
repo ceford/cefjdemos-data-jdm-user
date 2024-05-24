@@ -1,25 +1,27 @@
-<!-- Filename: WebAuthn_Passwordless_Login / Display title: WebAuthn Passwordless Login -->
+<!-- Filename: WebAuthn_Passwordless_Login / Display title: WebAuthn Login -->
 
-Joomla!  4.x
-
-## System - WebAuthn Passwordless Login
+## WebAuthn Passwordless Login
 
 Web Authentication, or WebAuthn for short, allows a user to securely log
-into a site without using a password — though you still need to provide
-your username. It does using strong cryptography and in a manner which
-is extremely resistant to the most common problems of passwords: someone
-guessed it (brute force attack), someone intercepted it (man in the
-middle attack), someone tricked you into divulging it (phishing attack),
-someone cracked it after getting ahold of a copy of your database data
-(SQL injection attacks) or someone stole it.
+into a site without using a password — though a username is still needed.
+It uses strong cryptography in a manner which
+is extremely resistant to the most common problems of passwords:
+* someone guessed it (brute force attack)
+* someone intercepted it (man in the middle attack)
+* someone tricked you into divulging it (phishing attack)
+* someone cracked it after getting ahold of a copy of your database data
+(SQL injection attacks)
+* someone stole it.
 
 WebAuthn is not just very secure; it is also very user friendly! You no
 longer have to remember long passwords or use a password manager. All
-you need is an *authenticator*, sometimes also called a *passkey*. An
-authenticator can have many forms, physical or virtual. It can be a
+you need is an *authenticator*, sometimes also called a *passkey*.
+
+An authenticator can have many forms, physical or virtual. It can be a
 separate hardware key connecting to your device via USB, Bluetooth or
 NFC. It can be your device itself, unlocking its built-in authenticator
 with a PIN, fingerprint reader, facial scan or similar biometric check.
+
 This feature already works on Android and iOS/iPadOS devices and we're
 working on enabling it on Windows as well. It can even be your phone —
 currently this is possible with Android phones but this feature is also
@@ -52,7 +54,7 @@ decoding="async" data-file-width="300" data-file-height="225"
 width="300" height="225" alt="Hardware device" />
 
 WebAuthn uses a system plugin that is enabled by default. A **Web
-Authentication** button will be present in default Joomla 4 login
+Authentication** button will be present in default Joomla 4 and later login
 screens, as illustrated in the Administrator login screen:
 
 <img
@@ -138,7 +140,6 @@ Many devices have built-in FIDO2-compliant authentication:
 - Other devices may be available too. For example, Android phones using
   <a
   href="https://groups.google.com/a/fidoalliance.org/g/fido-dev/c/go6GoFW27Dw/m/9flCLR5pBQAJ?pli=1"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">caBLE</a>
 
 ### WebAuthn compatible browsers
@@ -440,5 +441,4 @@ anyway.
 
 *The initial documentation of this feature is in the pull request at
 <a href="https://github.com/joomla/joomla-cms/pull/28094"
-class="external text" target="_blank"
 rel="nofollow noreferrer noopener">PR #28094</a>.*

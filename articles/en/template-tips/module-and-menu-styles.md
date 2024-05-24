@@ -49,7 +49,7 @@ src="https://docs.joomla.org/images/thumb/e/e0/J4x-templates-edit-module-style-e
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/e/e0/J4x-templates-edit-module-style-en.png 1.5x"
 data-file-width="1000" data-file-height="622" width="800" height="498"
-alt="J4x-templates-edit-module-style-en.png" />
+alt="screenshot of login module edit form advanced tab showing custom class" />
 
 The following style statements are used in the user.css file:
 
@@ -71,7 +71,7 @@ src="https://docs.joomla.org/images/thumb/f/f9/J4x-templates-edit-module-style-r
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/f/f9/J4x-templates-edit-module-style-result-en.png 1.5x"
 data-file-width="1000" data-file-height="562" width="800" height="450"
-alt="J4x-templates-edit-module-style-result-en.png" />
+alt="screenshot showing the site appearance of the customised module with developer tools" />
 
 The bottom of the image shows the browser Developer Tools panel with the
 Login module's enclosing
@@ -113,6 +113,6 @@ src="https://docs.joomla.org/images/thumb/f/f2/J4x-templates-edit-page-class-res
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/f/f2/J4x-templates-edit-page-class-result-en.png 1.5x"
 data-file-width="1000" data-file-height="567" width="800" height="454"
-alt="J4x-templates-edit-page-class-result-en.png" />
+alt="screenshot showing the site appearance of the customised page with developer tools" />
 
 QED!

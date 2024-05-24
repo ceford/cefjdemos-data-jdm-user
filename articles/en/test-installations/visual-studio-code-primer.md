@@ -2,9 +2,7 @@
 
 ## VS Code - A Popular Free IDE
 
-From <a href="https://en.wikipedia.org/wiki/Visual_Studio_Code"
-class="external text" target="_blank"
-rel="nofollow noreferrer noopener">Wikipedia</a>:
+From Wikipedia:
 
 > Visual Studio Code, also commonly referred to as VS Code, is a
 > source-code editor made by Microsoft for Windows, Linux and macOS.
@@ -15,8 +13,7 @@ rel="nofollow noreferrer noopener">Wikipedia</a>:
 
 ## Installation
 
-The <a href="https://code.visualstudio.com/" class="external text"
-target="_blank" rel="nofollow noreferrer noopener">VS Code</a> site
+The [VS Code](https://code.visualstudio.com/ "") site
 default page has a drop-down list for each supported platform. The
 chances are that your platform is pre-selected. So download and install
 and you are ready to go.
@@ -29,15 +26,9 @@ completely new to VS Code these are recommended viewing. They only take
 a few minutes.
 
 The VS Code Documentation is available from the *Help / Documentation*
-menu. The Introductory Videos are well worth viewing. Each takes 2 to 6
-minutes and gives an excellent introduction to VS Code features
-
-<a href="https://code.visualstudio.com/docs/getstarted/introvideos"
-class="external free" target="_blank"
-rel="nofollow noreferrer noopener">https://code.visualstudio.com/docs/getstarted/introvideos</a>
-
-The official documentation is the place to go to if you want to look up
-specific information.
+menu. The [Introductory Videos](https://code.visualstudio.com/docs/getstarted/introvideos "") are well worth viewing. Each takes 2 to 6 minutes and give an excellent
+introduction to VS Code features. The official documentation is the place to
+go to if you want to look up specific information.
 
 ### VS Code Extensions
 
@@ -153,7 +144,7 @@ src="https://docs.joomla.org/images/thumb/3/3f/J4.x-vscode-primer-stack-trace-en
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/thumb/3/3f/J4.x-vscode-primer-stack-trace-en.png/1200px-J4.x-vscode-primer-stack-trace-en.png 1.5x, https://docs.joomla.org/images/3/3f/J4.x-vscode-primer-stack-trace-en.png 2x"
 data-file-width="1331" data-file-height="850" width="800" height="511"
-alt="J4.x-vscode-primer-stack-trace-en.png" />
+alt="screenshot of a stack trace" />
 
 Sometimes the coding error is on the first line of the stack trace.
 Otherwise, if the error is triggered in library code, for example by
@@ -171,7 +162,7 @@ src="https://docs.joomla.org/images/thumb/3/39/J4.x-vscode-primer-screen.png/800
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/thumb/3/39/J4.x-vscode-primer-screen.png/1200px-J4.x-vscode-primer-screen.png 1.5x, https://docs.joomla.org/images/3/39/J4.x-vscode-primer-screen.png 2x"
 data-file-width="1437" data-file-height="813" width="800" height="453"
-alt="J4.x-vscode-primer-screen.png" />
+alt="screenshot of folder view" />
 
 You may be able to diagnose the problem just by reading the code. In the
 case of the *Class "DebugHelper" not found* error you will see that a
@@ -194,10 +185,8 @@ do two things:
   places in your website folder.
 - generate a new zip file for new installations.
 
-Download and install
-<a href="https://www.phing.info/" class="external text" target="_blank"
-rel="nofollow noreferrer noopener">Phing</a>. Other build tools are
-available! You could install Phing in your own bin folder or in a system
+Download and install [Phing](https://www.phing.info/ ""). Other build tools
+are available! You could install Phing in your own bin folder or in a system
 bin folder. You need to note the path to your Phing code. In this
 example it is *~/bin/phing-latest.phar*. You can try it out from the
 command line after changing into the folder containing your extension
@@ -209,13 +198,13 @@ code:
 Response:
 
     Buildfile: /Users/ceford/git/j4xdemos-mod-debugme/build.xml
-     
+
     mod_debugme > main:
           ... Any copied files will be mentioned here
           [zip] Building zip: /Users/ceford/zips/mod_debugme.zip
-     
+
     BUILD FINISHED
-     
+
     Total time: 0.0863 seconds
 
 ## VS Code Tasks
@@ -251,7 +240,7 @@ build the extension using the menu *Terminal / Run Build Task*. The
 result of the command should appear in the Terminal Panel beneath the
 Edit area.
 
-      *  Executing task: php ~/bin/phing-latest.phar 
+      *  Executing task: php ~/bin/phing-latest.phar
 
     Buildfile: /Users/ceford/git/gitdemo/j4xdemos-mod-debugme/build.xml
 
@@ -396,7 +385,7 @@ When all is fixed this is what you might see:
 src="https://docs.joomla.org/images/1/1b/J4.x-vscode-primer-debugme-fixed-en.png"
 class="thumbborder" decoding="async" data-file-width="318"
 data-file-height="157" width="318" height="157"
-alt="J4.x-vscode-primer-debugme-fixed-en.png" />
+alt="screenshot of debugged module in the site" />
 
 Cake days?
 

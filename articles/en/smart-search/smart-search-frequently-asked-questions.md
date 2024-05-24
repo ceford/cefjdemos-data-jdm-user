@@ -1,4 +1,4 @@
-<!-- Filename: Smart_Search_Frequently_Asked_Questions / Display title: Smart Search Frequently Asked Questions -->
+<!-- Filename: Smart_Search_Frequently_Asked_Questions / Display title: Smart Search FAQs -->
 
 ## Why Should I Use Smart Search?
 
@@ -77,13 +77,11 @@ distribution being good for the former but poor for the latter. This is
 an area of continuing research with the number of tables and the
 distribution algorithm subject to change in the light of experience.
 
-## Why is There a Separate Smart Search Content Plugin?
+## Why is There a Separate Smart Search Content - Plugin?
 
 This is just a convenience that makes it easier to enable or disable all
 the Smart Search Plugins with a single operation. This was considered
 desirable because Smart Search is not enabled by default in Joomla 2.5.
-It is likely that Plugins will not be required at all when we move to
-search in Joomla 3.x.
 
 ## Why Do Smart Search Plugins Use Separate Events such as *onFinderContentAfterSave*?
 
@@ -163,5 +161,3 @@ However, the changes should not be difficult to implement and in most
 cases will result in significantly less code. If you take a look at the
 current Smart Search Plugins you should see that updating a Finder
 Plugin is pretty straightforward.
-
-## References

@@ -36,7 +36,7 @@ src="https://docs.joomla.org/images/thumb/d/d5/J4x-user-registration-default-en.
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/d/d5/J4x-user-registration-default-en.png 1.5x"
 data-file-width="1000" data-file-height="749" width="800" height="599"
-alt="J4x-user-registration-default-en.png" />
+alt="Screenshot of users options page" />
 
 - Save & Close
 - Add a Login module. Or
@@ -61,7 +61,7 @@ src="https://docs.joomla.org/images/thumb/e/e3/J4x-user-registration-new-en.png/
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/e/e3/J4x-user-registration-new-en.png 1.5x"
 data-file-width="1000" data-file-height="934" width="800" height="747"
-alt="J4x-user-registration-new-en.png" />
+alt="Screenshot of users new page" />
 
 - Select the **Assigned User Groups** tab and check the box against the
   desired user group. Registered is checked by default.
@@ -90,7 +90,7 @@ src="https://docs.joomla.org/images/thumb/b/b5/J4x-user-registration-block-en.pn
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/b/b5/J4x-user-registration-block-en.png 1.5x"
 data-file-width="1000" data-file-height="288" width="800" height="230"
-alt="J4x-user-registration-block-en.png" />
+alt="Screenshot of users list page with block label on an enabled item" />
 
 - The page will reload with the Enabled icon appearing as a grey cross.
 

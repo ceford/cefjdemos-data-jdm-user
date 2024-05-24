@@ -227,18 +227,10 @@ user=smart-search=smart-search-configuration-options.md
 user=smart-search=smart-search-content-change-test-plan.md
 
 heading=system=System
+user=system=backup.md
 user=system=cache.md
-user=system=backup-basics-for-a-joomla-web-site.md
-user=system=what-are-the-best-practices-for-site-backups-3f.md
-user=system=copying-a-joomla-website.md
-user=system=copying-a-website-from-localhost-to-a-remote-host.md
-user=system=database-table-prefix.md
-user=system=one-click-updates-for-language-packs.md
 user=system=purging-expired-cache-files.md
 user=system=top-10-stupidest-administrator-tricks.md
-user=system=updating-php.md
-user=system=task-scheduler.md
-user=system=uploading-and-extracting-an-archive-file-with-cpanel.md
 
 heading=tags=Tags
 user=tags=how-to-use-content-tags-in-joomla.md
@@ -252,6 +244,7 @@ user=templates=child-templates.md
 user=templates=favicons.md
 user=templates=template-svg-logos.md
 user=templates=cassiopeia-templatedetails-xml.md
+
 user=template-tips=switching-templates.md
 user=template-tips=home-page-in-different-style.md
 user=template-tips=module-and-menu-styles.md
@@ -262,7 +255,6 @@ user=test-installations=visual-studio-code-primer.md
 user=test-installations=visual-studio-code.md
 user=test-installations=setting-up-apache-php-and-mysql-manually.md
 user=test-installations=verifying-permissions.md
-user=test-installations=web-page-diagnostic-tools.md
 
 heading=users=Users
 user=users=access-control.md
@@ -274,7 +266,6 @@ user=users=multi-factor-authentication.md
 user=users=guest-access.md
 user=users=changing-user-groups.md
 user=users=login-and-logout-redirects.md
-user=users=why-cant-a-user-see-anything-on-the-backend-3f.md
 user=users=user-actions-log.md
 
 heading=workflows=Workflows

@@ -28,9 +28,8 @@ above...)
 
 ## MySQL Setup
 
-1.  <a href="https://dev.mysql.com/downloads/mysql/" class="external text"
-    target="_blank" rel="nofollow noreferrer noopener">Download</a> the
-    appropriate MySQL installer option for your platform.
+1.  Download the appropriate <a href="https://dev.mysql.com/downloads/mysql/"
+    rel="nofollow noreferrer noopener">MySQL installer</a> for your platform.
 2.  Start the installation and choose Custom installation path.
 3.  Click through the whole installation process and click Finish.
 4.  You will now be presented with the *MySQL Server Instance
@@ -60,31 +59,31 @@ above...)
     to some errors when using extensions or applications that haven't
     considered this.
 
-### Resources
+### MySQL Resources
 
 - <a href="https://www.heidisql.com/" class="external text"
-  target="_blank" rel="nofollow noreferrer noopener">HeidiSQL</a> An
+   rel="nofollow noreferrer noopener">HeidiSQL</a> An
   easy to use and extensible full-client replacement of phpMyAdmin under
   constant development.
 - <a href="https://dev.mysql.com/downloads/workbench/"
-  class="external text" target="_blank"
+  class="external text"
   rel="nofollow noreferrer noopener">MySQL Workbench</a> Various tools
   among which you will appreciate the Administrator, which helps you to
   configure your MySQL instance. Requires the
   <a href="https://dotnet.microsoft.com/en-us/" class="external text"
-  target="_blank" rel="nofollow noreferrer noopener">.Net framework</a>.
+   rel="nofollow noreferrer noopener">.Net framework</a>.
 - <a href="https://www.phpmyadmin.net/" class="external text"
-  target="_blank" rel="nofollow noreferrer noopener">phpMyAdmin</a> A
+   rel="nofollow noreferrer noopener">phpMyAdmin</a> A
   powerful web based MySQL client for administrating anything related to
   MySQL.
 - <a href="https://dev.mysql.com/doc/" class="external text"
-  target="_blank" rel="nofollow noreferrer noopener">MySQL
+   rel="nofollow noreferrer noopener">MySQL
   documentation</a>
 
 ## Apache Setup
 
 1.  <a href="https://httpd.apache.org/download.cgi" class="external text"
-    target="_blank" rel="nofollow noreferrer noopener">Download the
+     rel="nofollow noreferrer noopener">Download the
     installer</a> of your preference.
 2.  Run the installer wizard and click through each step until you reach
     the Server Information window. Give the options below respectively
@@ -98,7 +97,7 @@ above...)
 4.  In the windows status bar you will now see a pink colored feather
     with a green colored play button indicating Apache is up and
     running. Point your browser to
-    <a href="http://localhost/" class="external free" target="_blank"
+    <a href="http://localhost/"
     rel="nofollow noreferrer noopener">http://localhost/</a> and you
     should get a page indicating its working.
 5.  Let us now go to the location where Apache is installed which
@@ -135,25 +134,22 @@ above...)
             would be able to do so by making minor tweaks in this file.
             We will discuss this in more detail below.
     3.  *htdocs* - the default web server root, this is where the
-        <a href="http://localhost/" class="external free" target="_blank"
+        <a href="http://localhost/"
         rel="nofollow noreferrer noopener">http://localhost/</a> is
         mapped, i.e. if you don't reconfigure it in *httpd.conf* above.
     4.  *logs* - access and error logs, when trying to address various
         issues related to your server or even your application
 
-### Virtual Hosting
-
-### Resources
+### Apache Resources
 
 - The
   <a href="https://httpd.apache.org/docs/current/" class="external text"
-  target="_blank" rel="nofollow noreferrer noopener">Apache reference
-  documentation</a>
+   rel="nofollow noreferrer noopener">Apache reference documentation</a>
 
 ## PHP Setup
 
 1.  <a href="https://windows.php.net/download/" class="external text"
-    target="_blank" rel="nofollow noreferrer noopener">Download PHP</a>
+     rel="nofollow noreferrer noopener">Download PHP</a>
     and choose commonly VC6 x86 Thread Safe in Zip format. The various
     options have to do with how the PHP code base was compiled to binary
     and is probably nothing you should worry about for now.
@@ -213,7 +209,7 @@ Apache and do the same.
   section add the following directives. (If you have located your PHP
   folder differently do make corresponding change for php5apache2_2.dll
   below.):
-    LoadModule php5_module "C:/Program Files/PHP/php5apache2_2.dll" 
+    LoadModule php5_module "C:/Program Files/PHP/php5apache2_2.dll"
     AddType application/x-httpd-php .php
 
 - In the DirectoryIndex add *index.php* and *index.htm* as possible
@@ -238,31 +234,31 @@ root (in the default case *C:\Program Files\Apache Software
 Foundation\Apache2.2\htdocs*) and add a file called *phpinfo.php* with
 the following content:
 
-     
+
 
 This will render a page containing information about your PHP setup and
 about the various modules/extensions that are currently loaded. Point
 your browser to
-<a href="http://localhost/phpinfo.php" class="external free"
-target="_blank"
+<a href="http://localhost/phpinfo.php"
+
 rel="nofollow noreferrer noopener">http://localhost/phpinfo.php</a>.
 
 ### Installing and Configuring *xdebug*
 
 1.  Point your browser to
     <a href="https://xdebug.org/wizard" class="external text"
-    target="_blank" rel="nofollow noreferrer noopener">Xdebug Installation
+     rel="nofollow noreferrer noopener">Xdebug Installation
     Wizard</a>. This page will assist you to find a suitable version of
     Xdebug.
 2.  Copy the entire page of the *phpinfo* page we ran above and paste it
     into the textarea and follow the instructions provided to install.
 
-### Resources
+### XDebug Resources
 
 - The <a href="https://www.php.net/docs.php" class="external text"
-  target="_blank" rel="nofollow noreferrer noopener">PHP Manual</a>
+   rel="nofollow noreferrer noopener">PHP Manual</a>
   Excellent and up to date documentation with valuable additional
   comments from users. Downloadable versions are available.
 - The
-  <a href="https://xdebug.org/docs/" class="external text" target="_blank"
+  <a href="https://xdebug.org/docs/" class="external text"
   rel="nofollow noreferrer noopener">Xdebug 3 Documentation</a>

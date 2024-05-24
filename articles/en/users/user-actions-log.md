@@ -22,7 +22,7 @@ src="https://docs.joomla.org/images/thumb/7/7f/J4x-user-actions-log-list-en.png/
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/7/7f/J4x-user-actions-log-list-en.png 1.5x"
 data-file-width="1000" data-file-height="790" width="800" height="632"
-alt="J4x-user-actions-log-list-en.png" />
+alt="Screenshot of user actions log list" />
 
 From this page a Super User has a global overview of all user activities
 performed on a site.
@@ -45,7 +45,7 @@ src="https://docs.joomla.org/images/thumb/e/e6/J4x-user-actions-log-options-en.p
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/e/e6/J4x-user-actions-log-options-en.png 1.5x"
 data-file-width="1000" data-file-height="529" width="800" height="423"
-alt="J4x-user-actions-log-options-en.png" />
+alt="Screenshot of user actions log options page" />
 
 ## Plugins
 
@@ -76,7 +76,7 @@ This module is displayed for Super Users only in the Home Dashboard.
 src="https://docs.joomla.org/images/7/7b/J4x-latest-actions-module-en.png"
 class="thumbborder" decoding="async" data-file-width="559"
 data-file-height="482" width="559" height="482"
-alt="J4x-latest-actions-module-en.png" />
+alt="Screenshot of latest actions log module" />
 
 ## How to hook an extension to the system
 
@@ -85,7 +85,7 @@ Please feel free to edit this section by improving or correcting it.
 ### Component Installation Script
 
 Add the extension to the table (#\_\_action_logs_extensions) so that it
-will appear in the configuration of User Action Logs.  
+will appear in the configuration of User Action Logs.
 
             $extension = 'com_mycomponent';
             $db = Factory::getDbo();
@@ -99,7 +99,7 @@ will appear in the configuration of User Action Logs.
             }
 
 Add the extension configuration to the table (#\_\_action_log_config) so
-that your actions data will be captured.  
+that your actions data will be captured.
 
            $logConf = new stdClass();
             $logConf->id = 0;
@@ -153,12 +153,12 @@ actions.
             $message['userid'] = $user->id;
             $message['username'] = $user->username;
             $message['accountlink'] = "index.php?option=com_users&task=user.edit&id=".$user->id;
-            
+
             $messages = array($message);
-            
+
             $messageLanguageKey = Text::_('COM_MYCOMPONENT_TRANSACTION_LINK');
             $context = $extension->name.'.'.$con_type;
-            
+
             $fmodel = MycomponentHelper::getForeignModel('Actionlog', 'ActionlogsModel');
 
             $fmodel->addLog($messages, $messageLanguageKey, $context, $user->id);
@@ -211,6 +211,6 @@ Save method that we want to capture a log.
 
 Finally, to help with the Action Log Listing in the admin side of
 Joomla, we want to set some key elements of data to be displayed in the
-language file en-GB/com_mycomponent.ini.  
+language file en-GB/com_mycomponent.ini.
 
     COM_MYCOMPONENT_TRANSACTION_LINK="User {username} created a transaction ( {type} )"

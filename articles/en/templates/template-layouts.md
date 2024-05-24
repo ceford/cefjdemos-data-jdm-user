@@ -1,8 +1,8 @@
 <!-- Filename: J4.x:Template_Layouts / Display title: Template Layouts -->
 
-## Template Layouts
+## Layout File Sructures
 
-In Joomla!, each extension that generates html output places the output
+In a **template**, each extension that generates html output places the output
 code in a template file within the extension file structure, often in a
 folder named tmpl. Some examples:
 
@@ -11,9 +11,7 @@ folder named tmpl. Some examples:
 - /components/com_content/tmpl/article/default.php
 - /plugins/content/vote/tmpl/vote.php
 
-### Template Overrides
-
-In a template override, a file of the same name is created within the
+In a **template override**, a file of the same name is created within the
 template file structure and that is used instead of the file in the
 extension file structure. Corresponding examples:
 
@@ -26,11 +24,9 @@ This allows you to customise the output to suit your needs. However, you
 do not have the option to choose whether or not to use your override. It
 is always used.
 
-### Template Layouts
-
-In a template layout, you create a file with a different name from the
-original but in the same template folder. The new name must not contain
-an underline character. You also create any file that shares the first
+In a **template alternative layout**, you create a file with a different name
+from the original but in the same template folder. The new name must not
+contain an underline character. You also create any file that shares the first
 part of the original name. An example:
 
 - /templates/cassiopeia/html/mod_login/expires.php
@@ -96,7 +92,7 @@ statement add this code:
 
 ```html
 <p class="text-center">
-Your session will expire at <br><?php echo $endTime; ?>  
+Your session will expire at <br><?php echo $endTime; ?>
 </p>
 ```
 
@@ -109,7 +105,7 @@ From cassiopeia Template -- / expires**.
 src="https://docs.joomla.org/images/e/ee/J4x-alternative-layouts-example-en.png"
 class="thumbborder" decoding="async" data-file-width="742"
 data-file-height="546" width="742" height="546"
-alt="J4x-alternative-layouts-example-en.png" />
+alt="screenshot of modules login form showing alternative layouts" />
 
 One way you might use this feature is to have two Login forms, one with
 Public access and the other with Super Users access, In the latter
@@ -139,14 +135,14 @@ following procedure:
 src="https://docs.joomla.org/images/3/32/J4x-alternative-layouts-language-override-form-en.png"
 class="thumbborder" decoding="async" data-file-width="1000"
 data-file-height="508" width="1000" height="508"
-alt="J4x-alternative-layouts-language-override-form-en.png" />
+alt="screenshot of languages edit override form" />
 
 The module layout selection form field with **expires** translated:
 
 <img
 src="https://docs.joomla.org/images/c/c3/J4x-alternative-layouts-example-translated-en.png"
 decoding="async" data-file-width="312" data-file-height="98" width="312"
-height="98" alt="J4x-alternative-layouts-example-translated-en.png" />
+height="98" alt="small screenshot of alternative layouts example" />
 
 ## Component Alternative Layouts
 
@@ -169,7 +165,7 @@ src="https://docs.joomla.org/images/thumb/7/7a/J4x-article-global-alternative-la
 decoding="async"
 srcset="https://docs.joomla.org/images/7/7a/J4x-article-global-alternative-layouts-en.png 1.5x"
 data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="J4x-article-global-alternative-layouts-en.png" />
+alt="screenshot of articles options form with alternative layouts list" />
 
 As with module layouts, the component layouts are shown as parameter
 options in the individual component edit screen. For example, for an
@@ -181,7 +177,7 @@ src="https://docs.joomla.org/images/thumb/b/b0/J4x-article-alternative-layout-en
 decoding="async"
 srcset="https://docs.joomla.org/images/b/b0/J4x-article-alternative-layout-en.png 1.5x"
 data-file-width="1000" data-file-height="507" width="800" height="406"
-alt="J4x-article-alternative-layout-en.png" />
+alt="screenshot of article edit form showing alternative layouts list" />
 
 As with other parameters, the Use Global setting will use the setting
 from the Options parameter. The From Component's Default setting will
@@ -228,7 +224,7 @@ src="https://docs.joomla.org/images/thumb/e/ea/J4x-contact-component-options-cat
 decoding="async"
 srcset="https://docs.joomla.org/images/e/ea/J4x-contact-component-options-category-alternative-layout-en.png 1.5x"
 data-file-width="1000" data-file-height="385" width="800" height="308"
-alt="J4x-contact-component-options-category-alternative-layout-en.png" />
+alt="screenshot of contacts component options form showing alternative layouts" />
 
 Category alternative layouts show up when you add or edit a category in
 the Component: Edit Category / Options form as shown below.
@@ -238,7 +234,7 @@ src="https://docs.joomla.org/images/thumb/b/b0/J4x-category-options-alternative-
 decoding="async"
 srcset="https://docs.joomla.org/images/b/b0/J4x-category-options-alternative-layout-en.png 1.5x"
 data-file-width="1000" data-file-height="494" width="800" height="395"
-alt="J4x-category-options-alternative-layout-en.png" />
+alt="screenshot of contacts edit category form shwoing alternative layouts" />
 
 Category alternative layouts may be used for articles, banners, contacts
 and news feeds.
@@ -266,7 +262,7 @@ src="https://docs.joomla.org/images/thumb/3/3c/J4x-articles-options-category-alt
 decoding="async"
 srcset="https://docs.joomla.org/images/3/3c/J4x-articles-options-category-alternative-layout-en.png 1.5x"
 data-file-width="1000" data-file-height="425" width="800" height="340"
-alt="J4x-articles-options-category-alternative-layout-en.png" />
+alt="screenshot of articles options category showing alternative layouts" />
 
 This means that, like other layout options, you can control whether
 article category links use blog or list layouts. It is important to
@@ -298,7 +294,7 @@ src="https://docs.joomla.org/images/thumb/e/e3/J4x-template-layouts-menu-blog-al
 decoding="async"
 srcset="https://docs.joomla.org/images/e/e3/J4x-template-layouts-menu-blog-alternate-layout-en.png 1.5x"
 data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="J4x-template-layouts-menu-blog-alternate-layout-en.png" />
+alt="screenshot of menu item selection list" />
 
 Alternative Menu Items are used and work the same way as standard menu
 items. Since they are already based on customized layouts, template
@@ -367,7 +363,7 @@ parameter to the menu item's XML file:
   </field>
  </fields>
  ```
- 
+
  This will override the core `template_style_id` parameter. Setting the
 template equal to "cassiopeia" in this case will limit the user to only
 selecting template styles for the "cassiopeia" template.
@@ -375,15 +371,15 @@ selecting template styles for the "cassiopeia" template.
 ## Further Information
 
 - [Template
-  Basics](https://docs.joomla.org/J4.x:Template_Basics "Special:MyLanguage/J4.x:Template Basics")
+  Basics](https://docs.joomla.org/Special:MyLanguage/J4.x:Template_Basics "Template Basics")
 - [Cassiopeia Template Folders and
-  Files](https://docs.joomla.org/J4.x:Cassiopeia_Template_Folders_and_Files "Special:MyLanguage/J4.x:Cassiopeia Template Folders and Files")
+  Files](https://docs.joomla.org/Special:MyLanguage/J4.x:Cassiopeia_Template_Folders_and_Files "Cassiopeia Template Folders and Files")
 - [Cassiopeia Template
-  Customisation](https://docs.joomla.org/J4.x:Cassiopeia_Template_Customisation "Special:MyLanguage/J4.x:Cassiopeia Template Customisation")
+  Customisation](https://docs.joomla.org/Special:MyLanguage/J4.x:Cassiopeia_Template_Customisation "Cassiopeia Template Customisation")
 - [Template
-  Overrides](https://docs.joomla.org/J4.x:Template_Overrides "Special:MyLanguage/J4.x:Template Overrides")
+  Overrides](https://docs.joomla.org/Special:MyLanguage/J4.x:Template_Overrides "Template Overrides")
 - [Template
-  Layouts](https://docs.joomla.org/J4.x:Template_Layouts "Special:MyLanguage/J4.x:Template Layouts")
+  Layouts](https://docs.joomla.org/Special:MyLanguage/J4.x:Template_Layouts "Template Layouts")
 - [Cassiopeia Template Simplified - A Case
-  Study](https://docs.joomla.org/J4.x:Cassiopeia_Template_Simplified_-_A_Case_Study "Special:MyLanguage/J4.x:Cassiopeia Template Simplified - A Case Study") -
+  Study](https://docs.joomla.org/Special:MyLanguage/J4.x:Cassiopeia_Template_Simplified_-_A_Case_Study "Cassiopeia Template Simplified - A Case Study") -
   a simple template based on Cassiopeia

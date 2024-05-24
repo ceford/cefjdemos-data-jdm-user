@@ -22,7 +22,7 @@ src="https://docs.joomla.org/images/thumb/4/45/J4x-templates-customise-cassiopei
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/4/45/J4x-templates-customise-cassiopeia-en.png 1.5x"
 data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="J4x-templates-customise-cassiopeia-en.png" />
+alt="screenshot of templates customise cassiopeia page" />
 
 Note the the php files are in the site /templates folder and the media
 files are in the site /media folder.
@@ -107,19 +107,3 @@ could have different colour schemes. Or you could copy the index.php
 file from the parent to the child and change the child to produce a
 different layout from the parent. There is a separate tutorial on child
 templates.
-
-## Further Information
-
-- [Template
-  Basics](https://docs.joomla.org/J4.x:Template_Basics "Special:MyLanguage/J4.x:Template Basics")
-- [Cassiopeia Template Folders and
-  Files](https://docs.joomla.org/J4.x:Cassiopeia_Template_Folders_and_Files "Special:MyLanguage/J4.x:Cassiopeia Template Folders and Files")
-- [Cassiopeia Template
-  Customisation](https://docs.joomla.org/J4.x:Cassiopeia_Template_Customisation "Special:MyLanguage/J4.x:Cassiopeia Template Customisation")
-- [Template
-  Overrides](https://docs.joomla.org/J4.x:Template_Overrides "Special:MyLanguage/J4.x:Template Overrides")
-- [Template
-  Layouts](https://docs.joomla.org/J4.x:Template_Layouts "Special:MyLanguage/J4.x:Template Layouts")
-- [Cassiopeia Template Simplified - A Case
-  Study](https://docs.joomla.org/J4.x:Cassiopeia_Template_Simplified_-_A_Case_Study "Special:MyLanguage/J4.x:Cassiopeia Template Simplified - A Case Study") -
-  a simple template based on Cassiopeia

@@ -159,7 +159,7 @@ src="https://docs.joomla.org/images/thumb/6/66/J4.x-multi-factor-authentication-
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/6/66/J4.x-multi-factor-authentication-user-optionsen.png 1.5x"
 data-file-width="1000" data-file-height="1673" width="800" height="1338"
-alt="J4.x-multi-factor-authentication-user-optionsen.png" />
+alt="Screenshot of users options multi factor authentication settings" />
 
 ## User Profile
 
@@ -181,7 +181,7 @@ src="https://docs.joomla.org/images/thumb/0/0b/J4.x-multi-factor-authentication-
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/0/0b/J4.x-multi-factor-authentication-user-profileen.png 1.5x"
 data-file-width="1000" data-file-height="1371" width="800" height="1097"
-alt="J4.x-multi-factor-authentication-user-profileen.png" />
+alt="Screenshot of an individual user multi factor authentication form" />
 
 As mentioned above, you can try each out by selecting the + Add ...
 button, but select Cancel in the subsequent form if you decide not to

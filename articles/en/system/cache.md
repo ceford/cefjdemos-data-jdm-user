@@ -1,9 +1,6 @@
 <!-- Filename: Cache / Display title: Cache -->
 
-Joomla has different ways of caching "things". Here is an overview for
-administrators and developers – what, where and when.
-
-# For Administrators
+## For Administrators
 
 As an administrator, Joomla provides you with the ability to cache parts
 of your site. You can choose to cache whole web pages or just parts of
@@ -40,12 +37,9 @@ cache, increasing in aggressiveness
 2.  Progressive caching
 3.  Page caching
 
-We'll look at these three in detail below.
-
 In addition, Joomla developers can use caching facilities to store the
 result of database queries, for example, to increase the responsiveness
-of the site, but this is outside the scope of Administrator
-capabilities.
+of the site, but this is outside the scope of Administrator capabilities.
 
 ## Page Caching
 
@@ -70,9 +64,10 @@ caching, it's best to set the Global Configuration cache settings to:
 To verify that page caching is working, go to a website page that
 displays an article. After you display that page you should find in the
 file system a `cache/page` directory with a file in it which has a
-filename like `-cache-page-.php`. (Joomla has to store separate cache
-pages for separate URLs so the second string of hex digits is a hash of
-the URL of the site web page, to make the filename unique to that page).
+filename like `xxx-cache-page-yyy.php` where xxx and yyy are long hash strings.
+Joomla has to store separate cache pages for separate URLs so the second
+string of hex digits is a hash of the URL of the site web page, to make the
+filename unique to that page.
 
 Then use the Administrator functionality to change the text of that
 article, and redisplay the site web page. You should find the cached
@@ -140,14 +135,17 @@ circumstances? Alas, you can't do this. This is determined by the Joomla
 core component developers and coded in the component PHP code. The
 criteria are different for each component. However, you can easily
 discover what criteria are used because for each of the site components
-they are coded in the site `controller.php` file. For example, at the
-time of this writing (Joomla version 3.9.2) for the Contacts component
-we find in `components/com_contact/controller.php`
+they are coded in the site `DisplayController.php` file. For example, at the
+time of this revision (Joomla version 5) for the Contacts component
+we find in `components/com_contact/src/Controller/DisplayController.php`
 
-    if (JFactory::getApplication()->getUserState('com_contact.contact.data') === null)
+```php
+    public function display($cachable = false, $urlparams = [])
     {
-        $cachable = true;
-    }
+        if ($this->app->getUserState('com_contact.contact.data') === null) {
+            $cachable = true;
+        }
+```
 
 This means that the views associated with contacts will be cachable
 unless there is session data keyed by com_contact.contact.data – which
@@ -155,14 +153,33 @@ will be the case if in the user session the user has displayed a contact
 form (e.g. on a page pointed to by a menu item of type Contacts → Single
 Contact).
 
-The equivalent file for articles `components/com_content/controller.php`
+The equivalent file for articles `components/com_content/src/Controller/DisplayController.php`
 contains:
 
-    $cachable = true;
-    if ($user->get('id') || ($this->input->getMethod() === 'POST' && (($vName === 'category' && $this->input->get('layout') !== 'blog') || $vName === 'archive' )))
+```php
+    public function display($cachable = false, $urlparams = false)
     {
-        $cachable = false;
-    }
+        $cachable = true;
+
+        /**
+         * Set the default view name and format from the Request.
+         * Note we are using a_id to avoid collisions with the router and the return page.
+         * Frontend is a bit messier than the backend.
+         */
+        $id    = $this->input->getInt('a_id');
+        $vName = $this->input->getCmd('view', 'categories');
+        $this->input->set('view', $vName);
+
+        $user = $this->app->getIdentity();
+
+        if (
+            $user->get('id')
+            || ($this->input->getMethod() === 'POST'
+            && (($vName === 'category' && $this->input->get('layout') !== 'blog') || $vName === 'archive'))
+        ) {
+            $cachable = false;
+        }
+```
 
 The expression `$user->get('id')` is true if this is a logged-in user.
 This means that articles are never cached for logged-in users. The
@@ -182,7 +199,7 @@ Like Conservative Caching, Progressive Caching also caches the output
 from component views and from modules. The functional difference between
 the two is that with Progressive Caching **for logged-off users all
 modules are always cached**. In this case, setting the *No Caching*
-option for a module has no effect. If the caching storage option is to
+option for a module has no effect. If the caching storage option is set to
 *File*, you can find the modules cache file (the output from all modules
 is stored within the same file) within the `cache/com_modules`
 directory.
@@ -202,7 +219,7 @@ user is logged on.
 
 A summary of the caching types is below.
 
-### Page Caching
+### Whole Page Caching
 
 - **Configuration**: Built-in Plugin (Administrator → Extensions →
   Plugin Manager → System - Page Cache)
@@ -251,7 +268,11 @@ XCache.
 
 APC, for example, also caches your PHP opcode.
 
-# For Developers
+## For Developers
+
+<div class="alert alert-warning">
+This section needs revision for Joomla! 4/5.
+</div>
 
 The class **JCache** allows a lot of different sorts and levels of
 caching. The following subclasses are made specifically, but you can add
@@ -274,10 +295,8 @@ function. For example in the controller of your component:
         }
     }
 
-There are also some urlparams to consider. Check this <a
-href="http://joomla.stackexchange.com/questions/5781/how-can-i-use-joomlas-cache-with-my-components-view/7000#7000"
-class="external text" target="_blank"
-rel="nofollow noreferrer noopener">"joomla stack"</a>
+There are also some urlparams to consider. Check this
+[Joomla StackExchange](http://joomla.stackexchange.com/questions/5781/how-can-i-use-joomlas-cache-with-my-components-view/7000#7000 "")
 
 Also, be aware that any updates (such as hits or visit counts) will NOT
 be updated (unless you add this outside this method and thus any deeper
@@ -295,19 +314,3 @@ code](https://docs.joomla.org/Using_caching_to_speed_up_your_code "Special:MyLan
 
 This is rather meant for caching a specific part of PHP code. It acts
 like an output buffer, but cached.
-
-## References
-
-- <a
-  href="https://forum.joomla.org/viewtopic.php?f=428&amp;t=326990&amp;start=0"
-  class="external text" target="_blank" rel="noreferrer noopener">Better
-  performance with Joomla System Cache plugin (Joomla Forum)</a>
-- <a
-  href="https://api.joomla.org/cms-3/classes/Joomla.CMS.Cache.Cache.html"
-  class="external text" target="_blank"
-  rel="noreferrer noopener">JCache</a>
-- <a
-  href="https://joomla.stackexchange.com/questions/5781/how-can-i-use-joomlas-cache-with-my-components-view/7000#7000"
-  class="external text" target="_blank"
-  rel="nofollow noreferrer noopener">How can I use Joomla's Cache with my
-  components view? (joomla stackexchange beta)</a>
