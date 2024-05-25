@@ -14,4 +14,4 @@ Users panel can be edited or unpublished.
 src="https://docs.joomla.org/images/0/01/J4.x-users-dashboard-en.png"
 class="thumbborder" decoding="async" data-file-width="800"
 data-file-height="461" width="800" height="461"
-alt="J4.x-users-dashboard-en.png" />
+alt="screenshot of users dashboard" />

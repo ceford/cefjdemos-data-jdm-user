@@ -41,7 +41,7 @@ src="https://docs.joomla.org/images/thumb/d/d5/J4x-module-menu-assignment-en.png
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/d/d5/J4x-module-menu-assignment-en.png 1.5x"
 data-file-width="1000" data-file-height="591" width="800" height="473"
-alt="J4x-module-menu-assignment-en.png" />
+alt="module menu assignment" />
 
 Select the Menu Items to display or not display the module as desired.
 

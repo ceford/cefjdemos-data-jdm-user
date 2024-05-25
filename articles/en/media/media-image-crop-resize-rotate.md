@@ -19,7 +19,7 @@ and now needs to be cropped and resized.
 <img
 src="https://docs.joomla.org/images/0/06/J4.x-media-crop-resize-rotate-en.jpg"
 decoding="async" data-file-width="800" data-file-height="908"
-width="800" height="908" alt="J4.x-media-crop-resize-rotate-en.jpg" />
+width="800" height="908" alt="media crop resize rotate" />
 
 ## Crop
 

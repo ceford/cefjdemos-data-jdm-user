@@ -22,9 +22,8 @@ enabling overrides:
 There are other ways to test if `.htaccess` is enabled if you do not
 have access to your site's configuration files. Please refer to the
 <a href="http://httpd.apache.org/docs/current/howto/htaccess.html"
-class="external text" target="_blank"
 rel="nofollow noreferrer noopener">.htaccess tutorial</a> found on
-<a href="http://www.apache.org/" class="external text" target="_blank"
+<a href="http://www.apache.org/"
 rel="nofollow noreferrer noopener">The Apache Software Foundation</a>
 website for additional information.
 

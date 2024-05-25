@@ -1,17 +1,16 @@
 <!-- Filename: Nginx / Display title: Nginx -->
 
-<a href="http://nginx.org/" class="external text" target="_blank"
+<a href="http://nginx.org/"
 rel="nofollow noreferrer noopener">Nginx</a> is a lightweight Web server
 that powers
-<a href="https://en.wikipedia.org/wiki/Nginx" class="external text"
-target="_blank" rel="nofollow noreferrer noopener">about 33%</a> of Web
+<a href="https://en.wikipedia.org/wiki/Nginx"
+rel="nofollow noreferrer noopener">about 33%</a> of Web
 servers across all domains. Unless you have specific requirements that
 demand a heavy Web server like Apache, you are much better off using
 Nginx.
 
 Below are instructions on how to get Joomla! running with <a
 href="https://www.nginx.com/resources/wiki/start/topics/examples/phpfcgi/"
-class="external text" target="_blank"
 rel="nofollow noreferrer noopener">PHP FastCGI Example</a>.
 
 ## Install Nginx
@@ -19,14 +18,12 @@ rel="nofollow noreferrer noopener">PHP FastCGI Example</a>.
 For Ubuntu, run *aptitude install Nginx*. For other distributions, run
 the corresponding package manager or see the <a
 href="https://www.nginx.com/resources/wiki/start/topics/tutorials/install/"
-class="external text" target="_blank"
 rel="nofollow noreferrer noopener">Nginx Install page</a>.
 
 ## Install PHP FastCGI
 
 For Ubuntu, read <a
 href="https://www.nginx.com/resources/wiki/start/topics/examples/phpfcgi/"
-class="external text" target="_blank"
 rel="nofollow noreferrer noopener">PHP FastCGI Example</a>.
 
 For Gentoo, PHP will run as a FastCGI service (FPM), so the Nginx server
@@ -37,8 +34,8 @@ will run PHP as a separate process:
 
 The default settings of PHP-FPM are good for most servers. For special
 configurations, visit the
-<a href="http://php.net/manual/en/install.fpm.php" class="external text"
-target="_blank" rel="nofollow noreferrer noopener">PHP FPM site</a>.
+<a href="http://php.net/manual/en/install.fpm.php"
+rel="nofollow noreferrer noopener">PHP FPM site</a>.
 
 ## Configure Nginx
 
@@ -84,7 +81,7 @@ reuse over all your Nginx enabled-sites.
           include /etc/nginx/fastcgi.conf;
         }
 
-        # caching of files 
+        # caching of files
         location ~* \.(ico|pdf|flv)$ {
             expires 1y;
         }
@@ -121,30 +118,23 @@ If you need GZip compression support, add the following section to the
 
 ## Sources
 
-- <a href="https://wiki.gentoo.org/wiki/Nginx" class="external text"
-  target="_blank" rel="nofollow noreferrer noopener">Nginx in Gentoo</a>
+- <a href="https://wiki.gentoo.org/wiki/Nginx"
+rel="nofollow noreferrer noopener">Nginx in Gentoo</a>
 - <a href="https://kevinworthington.com/nginx-for-windows/"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">Nginx for Windows</a>
 - <a
   href="https://ubuntu.com/tutorials/install-and-configure-nginx#1-overview"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">Nginx in Ubuntu</a>
 - <a
   href="https://www.debianadmin.com/howto-install-nginx-webserver-in-debian.html"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">Nginx in Debian</a>
 - <a href="https://www.php.net/manual/en/install.fpm.php"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">PHP-FPM installation and
   configuration</a>
 - <a
   href="https://docs.nginx.com/nginx/admin-guide/web-server/compression/"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">Compression and Decompression</a>
 - <a href="https://www.nginx.com/blog/creating-nginx-rewrite-rules/"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">Creating NGINX Rewrite Rules</a>
 - <a href="http://nginx.org/en/docs/http/request_processing.html"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">How Nginx processes a request</a>

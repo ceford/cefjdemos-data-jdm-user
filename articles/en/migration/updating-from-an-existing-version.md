@@ -32,7 +32,7 @@ src="https://docs.joomla.org/images/thumb/f/f5/J4x_joomla_update_notification-en
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/f/f5/J4x_joomla_update_notification-en.png 1.5x"
 data-file-width="1000" data-file-height="444" width="800" height="355"
-alt="J4x joomla update notification-en.png" />
+alt="joomla update notification" />
 
 Alternatively, to access the Update Component from the Administrator menu,
 select **System** to go via the **System Dashboard**.
@@ -42,7 +42,7 @@ src="https://docs.joomla.org/images/thumb/1/14/J4x_joomla_system_dashboard_updat
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/1/14/J4x_joomla_system_dashboard_update-en.png 1.5x"
 data-file-width="1000" data-file-height="399" width="800" height="319"
-alt="J4x joomla system dashboard update-en.png" />
+alt="joomla system dashboard update" />
 
 The System Dashboard has an *Update Panel* which includes a Joomla link
 that will show the available update version number. Select the **Joomla**
@@ -63,7 +63,7 @@ src="https://docs.joomla.org/images/thumb/5/5d/J4x_joomla_pre_update_check-en.pn
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/5/5d/J4x_joomla_pre_update_check-en.png 1.5x"
 data-file-width="1000" data-file-height="882" width="800" height="706"
-alt="J4x joomla pre update check-en.png" />
+alt="joomla pre update check" />
 
 Pay careful attention to check results and take action to rectify any issues
 highlighted before updating. You may need to update, disable or uninstall
@@ -90,7 +90,7 @@ src="https://docs.joomla.org/images/thumb/c/c3/J4x_joomla_start_update-en.png/80
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/c/c3/J4x_joomla_start_update-en.png 1.5x"
 data-file-width="1000" data-file-height="645" width="800" height="516"
-alt="J4x joomla start update-en.png" />
+alt="joomla start update" />
 
 Click the checkbox to confirm you have made a backup and checked
 extensions are compatible then click the **Start Update**.
@@ -102,7 +102,7 @@ src="https://docs.joomla.org/images/thumb/c/cd/J4x_joomla_update_progress-en.png
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/c/cd/J4x_joomla_update_progress-en.png 1.5x"
 data-file-width="1000" data-file-height="193" width="800" height="154"
-alt="J4x joomla update progress-en.png" />
+alt="joomla update progress" />
 
 Once the update starts a progress bar will appear as the Joomla files
 are updated.
@@ -114,7 +114,7 @@ src="https://docs.joomla.org/images/thumb/9/9a/J4x_joomla_updated-en.png/800px-J
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/9/9a/J4x_joomla_updated-en.png 1.5x"
 data-file-width="1000" data-file-height="274" width="800" height="219"
-alt="J4x joomla updated-en.png" />
+alt="joomla updated" />
 
 When the progress bar reaches 100% a system message will confirm your
 site has been updated and the version number. The version number will
@@ -145,7 +145,7 @@ src="https://docs.joomla.org/images/thumb/7/71/J4x_system_dashboard-en.png/800px
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/7/71/J4x_system_dashboard-en.png 1.5x"
 data-file-width="1000" data-file-height="715" width="800" height="572"
-alt="J4x system dashboard-en.png" />
+alt="system dashboard" />
 
 In this example we can see that since the update we have two items that
 require attention. They are marked with a label that includes a number.
@@ -187,7 +187,7 @@ display will indicate that the database is up to date.
 **N.B.** If any errors still exist make sure all the database tables are
 checked in.
 
-## Discover
+## System Discover
 
 In some cases, when you update to a new Joomla version, new core
 extensions are added. If there were problems with the database update,

@@ -24,7 +24,6 @@ data in that table. As well as indexing individual words and phrases,
 you can also have the Plugin add each record to a content map, which
 might in this case include the
 <a href="https://en.wikipedia.org/wiki/Taxonomy_(biology)"
-class="external text" target="_blank"
 rel="nofollow noreferrer noopener">kingdom, phylum, class, order and
 family biological classifications</a>. Content maps can then be used to
 filter search results.

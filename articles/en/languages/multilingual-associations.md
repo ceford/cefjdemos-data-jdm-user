@@ -30,7 +30,7 @@ src="https://docs.joomla.org/images/thumb/f/fa/J4x-multilingual-associations-lis
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/f/fa/J4x-multilingual-associations-list-en.png 1.5x"
 data-file-width="1000" data-file-height="455" width="800" height="364"
-alt="J4x-multilingual-associations-list-en.png" />
+alt="multilingual associations list" />
 
 The last article on Mountains has not yet had equivalent articles
 created in other languages. The missing articles can be translated from
@@ -65,7 +65,7 @@ src="https://docs.joomla.org/images/thumb/8/8f/J4x-multilingual-associations-edi
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/8/8f/J4x-multilingual-associations-edit-en.png 1.5x"
 data-file-width="1000" data-file-height="594" width="800" height="475"
-alt="J4x-multilingual-associations-edit-en.png" />
+alt="multilingual associations edit" />
 
 ## Creating a Menu Translation
 
@@ -99,4 +99,4 @@ src="https://docs.joomla.org/images/thumb/f/f5/J4x-multilingual-associations-sit
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/f/f5/J4x-multilingual-associations-site-en.png 1.5x"
 data-file-width="1000" data-file-height="532" width="800" height="426"
-alt="J4x-multilingual-associations-site-en.png" />
+alt="multilingual associations site" />

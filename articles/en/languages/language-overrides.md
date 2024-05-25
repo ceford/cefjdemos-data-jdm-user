@@ -76,7 +76,7 @@ layout has this code:
 
 ```html
 <p class="text-center">
-Your session will expire at <br><?php echo $endTime; ?>  
+Your session will expire at <br><?php echo $endTime; ?>
 </p>
 ```
 
@@ -85,7 +85,7 @@ to change:
 
 ```html
 <p class="text-center">
-<?php echo Text::_('TPL_CASSIOPEIA_MOD_LOGIN_SESSION_EXPIRES_AT')?><br><?php echo $endTime; ?>  
+<?php echo Text::_('TPL_CASSIOPEIA_MOD_LOGIN_SESSION_EXPIRES_AT')?><br><?php echo $endTime; ?>
 </p>
 ```
 
@@ -109,11 +109,11 @@ src="https://docs.joomla.org/images/thumb/7/7c/J4x-language-overrides-form-en.pn
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/7/7c/J4x-language-overrides-form-en.png 1.5x"
 data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="J4x-language-overrides-form-en.png" />
+alt="language overrides form" />
 
 Finally, check that the translation has been implemented.
 
 <img
 src="https://docs.joomla.org/images/c/c0/J4x-cassiopeia-template-customisation-logout-override-result-en.png"
 decoding="async" data-file-width="318" data-file-height="218"
-width="318" height="218" alt="Override Result" />
+width="318" height="218" alt="Override Result in site login form" />

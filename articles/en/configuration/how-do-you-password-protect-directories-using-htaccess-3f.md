@@ -80,8 +80,8 @@ section from the .htaccess file. It does not remove the .htaccess file!
 
 You can do all of the required steps manually. This tool may help:
 
-<a href="https://www.htaccessredirect.net/" class="external text"
-target="_blank" rel="nofollow noreferrer noopener"><em>.htaccess</em>
+<a href="https://www.htaccessredirect.net/"
+ rel="nofollow noreferrer noopener"><em>.htaccess</em>
 generator</a>
 
 It creates the necessary files for you. You need to specify the user name,

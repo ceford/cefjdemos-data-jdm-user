@@ -67,7 +67,6 @@ will only be seen after the index has been purged and run again.
   then try **reducing** this parameter. The optimum value should result
   in memory tables that are a little smaller than the <a
   href="http://dev.mysql.com/doc/refman/5.1/en/server-system-variables.html#sysvar_max_heap_table_size"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener"><em>max_heap_table_size</em></a>
   parameter in MySQL, which defaults to 16 megabytes.
 - **Title Text Weight Multiplier** - This option controls how much

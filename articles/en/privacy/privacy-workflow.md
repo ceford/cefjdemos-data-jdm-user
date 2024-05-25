@@ -36,7 +36,7 @@ src="https://docs.joomla.org/images/thumb/5/56/J4x-privacy-workflow-user-request
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/5/56/J4x-privacy-workflow-user-request-en.png 1.5x"
 data-file-width="1000" data-file-height="491" width="800" height="393"
-alt="J4x-privacy-workflow-user-request-en.png" />
+alt="privacy workflow user request" />
 
 On submission a message will indicate either that the request has been
 accepted and a verification email is on its way:
@@ -46,7 +46,7 @@ src="https://docs.joomla.org/images/thumb/a/a5/J4x-privacy-workflow-user-request
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/a/a5/J4x-privacy-workflow-user-request-accepted-en.png 1.5x"
 data-file-width="1000" data-file-height="290" width="800" height="232"
-alt="J4x-privacy-workflow-user-request-accepted-en.png" />
+alt="privacy workflow user request accepted" />
 
 or that *Your information request could not be created. There is already
 an active information request for this email address and request type.
@@ -80,7 +80,7 @@ src="https://docs.joomla.org/images/thumb/1/10/J4x-privacy-workflow-user-request
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/1/10/J4x-privacy-workflow-user-request-confirm-en.png 1.5x"
 data-file-width="1000" data-file-height="379" width="800" height="303"
-alt="J4x-privacy-workflow-user-request-confirm-en.png" />
+alt="privacy workflow user request confirm" />
 
 The user must enter the token provided in the email and submit the form.
 The token is valid for 24 hours. If a request is not confirmed in that
@@ -99,7 +99,7 @@ src="https://docs.joomla.org/images/thumb/c/c0/J4x-privacy-information-requests-
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/c/c0/J4x-privacy-information-requests-en.png 1.5x"
 data-file-width="1000" data-file-height="363" width="800" height="290"
-alt="J4x-privacy-information-requests-en.png" />
+alt="privacy information requests" />
 
 ## Processing an Export Request
 
@@ -165,7 +165,7 @@ src="https://docs.joomla.org/images/thumb/4/4d/J4x-privacy-workflow-review-infor
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/4/4d/J4x-privacy-workflow-review-information-request-en.png 1.5x"
 data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="J4x-privacy-workflow-review-information-request-en.png" />
+alt="privacy workflow review information request" />
 
 ## Finally
 
@@ -187,7 +187,7 @@ To remove Private Message data and Privacy Request data:
 src="https://docs.joomla.org/images/e/ed/J4x-privacy-workflow-delete-with-phpmyadmin-en.png"
 class="thumbborder" decoding="async" data-file-width="438"
 data-file-height="339" width="438" height="339"
-alt="J4x-privacy-workflow-delete-with-phpmyadmin-en.png" />
+alt="privacy workflow delete with phpmyadmin" />
 
 ## Additional Resources
 

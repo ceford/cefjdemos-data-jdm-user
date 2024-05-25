@@ -11,8 +11,8 @@ person visiting the site.
 First, it's a good idea to have a look at how the site is performing –
 there is a view in Google Analytics called Site Speed Page Timings which
 allows you to view this information over time. You can also run tests
-using <a href="https://tools.pingdom.com/" class="external text"
-target="_blank" rel="nofollow noreferrer noopener">Pingdom Tools</a> –
+using <a href="https://tools.pingdom.com/"
+rel="nofollow noreferrer noopener">Pingdom Tools</a> –
 with servers located around the world to find out how your site is
 performing at this moment. This is useful to get a before and after
 comparison when enabling caching, compression and so forth to see what
@@ -20,7 +20,7 @@ kind of difference is being seen in the load time.
 
 <img src="https://docs.joomla.org/images/2/25/Sitespeed.png"
 decoding="async" data-file-width="1659" data-file-height="1025"
-width="1659" height="1025" alt="Sitespeed.png" />
+width="1659" height="1025" alt="Sitespeed page timings" />
 
 ## Monitoring Speed by Geographical Region
 
@@ -37,4 +37,4 @@ important for your website.
 
 <img src="https://docs.joomla.org/images/d/d2/Sitespeedbycountry.png"
 decoding="async" data-file-width="1656" data-file-height="1321"
-width="1656" height="1321" alt="Sitespeedbycountry.png" />
+width="1656" height="1321" alt="Sitespeed by country" />

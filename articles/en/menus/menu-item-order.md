@@ -35,7 +35,7 @@ src="https://docs.joomla.org/images/thumb/7/77/J4x-menu-item-order-drag-en.png/8
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/7/77/J4x-menu-item-order-drag-en.png 1.5x"
 data-file-width="1000" data-file-height="484" width="800" height="387"
-alt="J4x-menu-item-order-drag-en.png" />
+alt="menu item order drag" />
 
 This method can be inconvenient if there are parent menu items with many
 children. You can move a parent item more easily by hiding the children:
@@ -68,7 +68,7 @@ src="https://docs.joomla.org/images/thumb/2/2c/J4x-menu-item-order-list-type-en.
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/2/2c/J4x-menu-item-order-list-type-en.png 1.5x"
 data-file-width="1000" data-file-height="497" width="800" height="398"
-alt="J4x-menu-item-order-list-type-en.png" />
+alt="menu item order list type" />
 
 - **Save** or **Save & Close**
 

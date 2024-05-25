@@ -18,7 +18,7 @@ image or file you wish to upload. Select the dialog's **Open** button.
 After a short delay, depending on its size, the file will appear in the
 media list.
 
-**Tips**
+### Tips
 
 - Modern digital cameras can take photographs that are enormous. You may
   wish to pre-process images to crop and/or resize before upload. The

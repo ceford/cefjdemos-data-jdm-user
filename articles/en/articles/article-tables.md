@@ -23,16 +23,13 @@ For more information see these articles:
 
 - <a
   href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">Table Basics</a>
 - <a
   href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">Advanced Features and
   Accessibility</a>
 - <a
   href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Styling_tables"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">Styling Tables</a>.
 
 ## Insert a Table

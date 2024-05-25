@@ -10,10 +10,9 @@ interface. This allows rapid deployment of multiple Joomla instances.
 
 Joomla requires PHP, a database and a web server. For the latest
 information about the supported software and the minimum and recommended
-versions, please visit
+versions, please visit the
 <a href="https://manual.joomla.org/docs/next/get-started/technical-requirements/"
-class="external free" target="_blank"
-rel="noreferrer noopener">https://manual.joomla.org/docs/next/get-started/technical-requirements/</a>.
+rel="noreferrer noopener">Technical Requirements</a> page.
 
 The installation can be performed in two different ways:
 

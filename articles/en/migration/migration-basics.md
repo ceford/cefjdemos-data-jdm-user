@@ -14,7 +14,7 @@ the next version in a sequence of *Minor* versions.
 Update component. It is the word seen in the Administrator interface in
 Joomla! 3, 4 and 5. From now on the term *Update* will be used in this article.
 
-You can see all of the Joomla versions in this artice: https://docs.joomla.org/Joomla!_CMS_versions
+See this article for a complete list of [Joomla! CMS Versions](https://docs.joomla.org/Joomla!_CMS_versions).
 
 It is also worth knowing that Joomla follows the Semantic Versioning standard.
 In brief, given a version number MAJOR.MINOR.PATCH, such as 5.1.0:
@@ -93,7 +93,7 @@ backup of your online site to populate your test site. Your home site must be
 able to run your copy of your live site and have adequate PHP and Database
 specifications to run the updated site. There is a separate article describing
 how to set up a home testing environment.
-
+<!--
 ## Additional Information
 
 There are a number of articles describing specific update scenarios that are
@@ -110,3 +110,4 @@ not included in this manual because they are old or repetetive.
 * https://docs.joomla.org/J3.x:Update_fails_with_an_error_message
 * https://docs.joomla.org/Converting_an_existing_website_to_a_Joomla!_website
 * https://docs.joomla.org/Potential_backward_compatibility_issues_in_Joomla_4
+->

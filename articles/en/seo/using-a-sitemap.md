@@ -5,14 +5,13 @@
 While search engines can usually find your pages by the way they are
 linked from other places on the internet, it is good practice to create
 a Sitemap which gives search engine 'bots' a list of the pages on your
-website - think of it as a map to find all the content on your site.  
+website - think of it as a map to find all the content on your site.
 Sitemaps are not only important for search engines, they are also very
 helpful for people with disabilities who may need a simple interface to
 view your site structure and navigate around the site without using your
 menu structures. <a href="https://www.w3.org/TR/WCAG20-TECHS/G63.html"
-class="external text" target="_blank"
 rel="nofollow noreferrer noopener">W3C Working Group Note on
-Sitemaps</a>  
+Sitemaps</a>
 
 A sitemap serves several purposes:
 
@@ -30,18 +29,14 @@ It is possible to provide sitemaps for specific types of information,
 including:
 
 - Video <a href="https://support.google.com/webmasters/answer/80471"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">Google help on video sitemaps</a>
 - Images <a
   href="https://support.google.com/webmasters/answer/answer.py?answer=178636"
-  class="external text" target="_blank"
-  rel="nofollow noreferrer noopener">Google help on image sitemaps</a>
+]  rel="nofollow noreferrer noopener">Google help on image sitemaps</a>
 - News <a href="https://support.google.com/news/publisher/answer/75717"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">Google help on News sitemaps</a>
 - International <a
   href="https://support.google.com/webmasters/answer/2620865?hl=en&amp;ref_topic=2370587"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">Google help on International
   sitemaps</a>
 
@@ -62,12 +57,12 @@ file every time you added some new content!
 For this reason there are several sitemap extensions available on the
 Joomla Extensions Directory (<a
 href="https://extensions.joomla.org/category/structure-a-navigation/site-map"
-class="external text" target="_blank" rel="noreferrer noopener">Sitemap
+rel="noreferrer noopener">Sitemap
 category on Joomla Extensions Directory</a>) which allow you to
 dynamically build a sitemap which meets the sitemap standards expected
 by search engines.
-<a href="https://www.sitemaps.org/" class="external text"
-target="_blank" rel="nofollow noreferrer noopener">Sitemaps protocol</a>
+<a href="https://www.sitemaps.org/"
+rel="nofollow noreferrer noopener">Sitemaps protocol</a>
 
 Most of these extensions work by choosing menu items which you wish to
 include in a sitemap, and specifying how often they change (see Update

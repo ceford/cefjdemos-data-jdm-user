@@ -59,7 +59,6 @@ than some additional user notes on each tab.
   metadata entry is omitted from web pages if this entry is blank.
   Example: Creative Commons Attribution 4.0 International License. (See:
   <a href="https://creativecommons.org/choose/" class="external free"
-  target="_blank"
   rel="nofollow noreferrer noopener">https://creativecommons.org/choose/</a>
   for Creative Commons licences.)
 
@@ -176,7 +175,6 @@ The following are also working combinations:
 - The OpenSSL extension needs to be enabled in PHP. The details can be
   found at the
   <a href="https://www.php.net/manual/en/openssl.installation.php"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">php.net Installation page</a>.
 - If you are using WAMP on Windows, the openssl module is not enabled by
   default and you need to enable it. To do this:
@@ -194,12 +192,10 @@ The following are also working combinations:
   settings in Joomla.
 - Application Specific Passwords (ASPs): See the Google Support
   <a href="https://support.google.com/accounts/answer/185833"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">Sign in with App Passwords</a>
   page.
 - 2-Step Verification: See the Google Support
   <a href="https://support.google.com/accounts/answer/185839"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">Turn on 2-Step Verification</a>
   page.
 

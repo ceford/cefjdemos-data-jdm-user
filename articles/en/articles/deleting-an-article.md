@@ -32,7 +32,7 @@ src="https://docs.joomla.org/images/thumb/d/db/J4x_select_and_delete_article-en.
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/d/db/J4x_select_and_delete_article-en.png 1.5x"
 data-file-width="1000" data-file-height="275" width="800" height="220"
-alt="J4x select and delete article-en.png" />
+alt="select and delete article from articles list" />
 
 The article **must** be selected to enable the **Actions** button in the
 toolbar.
@@ -45,7 +45,7 @@ src="https://docs.joomla.org/images/thumb/9/96/J4x_delete_article_confirmed-en.p
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/9/96/J4x_delete_article_confirmed-en.png 1.5x"
 data-file-width="1000" data-file-height="125" width="800" height="100"
-alt="J4x delete article confirmed-en.png" />
+alt="trash article confirmation message" />
 
 The article has now been deleted and you will see a confirmation
 message. Selecting the **Trash** button removed the article from the
@@ -62,7 +62,7 @@ src="https://docs.joomla.org/images/thumb/a/a6/J4x_empty_article_trash-en.png/80
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/a/a6/J4x_empty_article_trash-en.png 1.5x"
 data-file-width="1000" data-file-height="352" width="800" height="282"
-alt="J4x empty article trash-en.png" />
+alt="empty article trash" />
 
 To permanently delete the article it must be removed from Trash. To do
 this:

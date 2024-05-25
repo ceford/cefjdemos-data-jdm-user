@@ -18,7 +18,7 @@ XAMPP is covered in a separate article:
 * [Local Hosting with XAMPP](jdocmanual?manual=user&heading=hosting&filename=local-hosting-with-xampp.md "Internal link") for Linux, Mac and Windows.
 
 There is a comparison available:
-* https://wp-umbrella.com/blog/wamp-vs-xampp/#XAMPP:-The-Ultimate-Local-Server-Toolkit-for-Developers
+* [Umbrella: WAMP vs XAMPP](https://wp-umbrella.com/blog/wamp-vs-xampp/#XAMPP:-The-Ultimate-Local-Server-Toolkit-for-Developers)
 
 ## Local Hosting with WampServer
 
@@ -26,14 +26,11 @@ If you are using a Windows computer set up a development environment using
 WampServer downloaded from the first of the following articles:
 
 - <a href="https://www.wampserver.com/en/" class="external free"
-  target="_blank"
-  rel="nofollow noreferrer noopener">https://www.wampserver.com/en/</a>
+  rel="nofollow noreferrer noopener">Wampserver</a>
 - <a href="http://forum.wampserver.com/list.php" class="external free"
-  target="_blank"
-  rel="nofollow noreferrer noopener">http://forum.wampserver.com/list.php</a>
+  rel="nofollow noreferrer noopener">Wampserver Forum</a>
 - <a href="https://wampserver.aviatechno.net/" class="external free"
-  target="_blank"
-  rel="nofollow noreferrer noopener">https://wampserver.aviatechno.net/</a>
+  rel="nofollow noreferrer noopener">Wampserver from Aviatechno</a>
 
 ## ToDo: Installation
 

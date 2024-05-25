@@ -10,7 +10,7 @@ where modules are located.
 <img
 src="https://docs.joomla.org/images/e/e1/J4x-atum-home-dashboard-landmarks.png"
 decoding="async" data-file-width="800" data-file-height="406"
-width="800" height="406" alt="J4x-atum-home-dashboard-landmarks.png" />
+width="800" height="406" alt="atum home dashboard landmarks" />
 
 In the illustration above the panels are instances of the Quick Icon
 module linked to quickicon plugins.
@@ -60,7 +60,7 @@ Administrator menu. The list of installed modules is quite long:
 <img
 src="https://docs.joomla.org/images/e/e2/J4x-atum-admin-modules.png"
 decoding="async" data-file-width="800" data-file-height="406"
-width="800" height="406" alt="J4x-atum-admin-modules.png" />
+width="800" height="406" alt="atum admin modules" />
 
 Select the New button and then the Custom module. In the Modules: Custom
 edit form enter a Title, a Custom message and select a Position for the
@@ -72,7 +72,7 @@ the result. Close to see the result on the Modules list page.
 <img
 src="https://docs.joomla.org/images/c/c7/J4x-atum-custom-module-edit.png"
 decoding="async" data-file-width="800" data-file-height="406"
-width="800" height="406" alt="J4x-atum-custom-module-edit.png" />
+width="800" height="406" alt="atum custom module edit" />
 
 When you have finished with the message you can just select the Status
 button in the module list to Unpublish the module.

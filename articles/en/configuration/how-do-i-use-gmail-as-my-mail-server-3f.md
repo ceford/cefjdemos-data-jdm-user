@@ -28,7 +28,6 @@ The SSL module does not need to be enabled in Apache.
 The OpenSSL extension needs to be enabled in PHP. The details can be
 found at the
 <a href="https://www.php.net/manual/en/openssl.installation.php"
-class="external text" target="_blank"
 rel="nofollow noreferrer noopener">php.net Installation page</a>.
 
 If you are using WAMP on Windows, the openssl module is not enabled by
@@ -53,11 +52,9 @@ Joomla.
 
 - Application Specific Passwords (ASPs): See the Google Support
   <a href="https://support.google.com/accounts/answer/185833"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">Sign in with App Passwords</a>
   page.
 - 2-Step Verification: See the Google Support
   <a href="https://support.google.com/accounts/answer/185839"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">Turn on 2-Step Verification</a>
   page.

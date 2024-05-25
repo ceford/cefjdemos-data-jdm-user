@@ -30,7 +30,7 @@ src="https://docs.joomla.org/images/thumb/e/e8/J4.x_navigate_to_article_manager-
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/thumb/e/e8/J4.x_navigate_to_article_manager-en.png/750px-J4.x_navigate_to_article_manager-en.png 1.5x, https://docs.joomla.org/images/e/e8/J4.x_navigate_to_article_manager-en.png 2x"
 data-file-width="1000" data-file-height="452" width="500" height="226"
-alt="J4.x navigate to article manager-en.png" />
+alt="navigate to articles list" />
 
 From the Articles list select the checkboxes for the articles you want to
 archive. Note that you can archive several articles at once. Selecting one or
@@ -43,7 +43,7 @@ src="https://docs.joomla.org/images/thumb/0/06/J4.x_archive_from_article_manager
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/0/06/J4.x_archive_from_article_manager-en.png 1.5x"
 data-file-width="1000" data-file-height="539" width="800" height="431"
-alt="J4.x archive from article manager-en.png" />
+alt="archive from articles list" />
 
 The selected articles will no longer appear in the *default* Articles list.
 
@@ -61,7 +61,7 @@ src="https://docs.joomla.org/images/thumb/9/98/J4.x_set_article_status_to_archiv
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/9/98/J4.x_set_article_status_to_archived-en.png 1.5x"
 data-file-width="1000" data-file-height="127" width="800" height="102"
-alt="J4.x set article status to archived-en.png" />
+alt="set article status to archived in article edit form" />
 
 ### From Within a Menu Item
 
@@ -93,7 +93,7 @@ src="https://docs.joomla.org/images/thumb/4/4c/J4.x_filter_article_list-en.png/8
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/4/4c/J4.x_filter_article_list-en.png 1.5x"
 data-file-width="1000" data-file-height="283" width="800" height="226"
-alt="J4.x filter article list-en.png" />
+alt="filter articles list" />
 
 Return to the default article list view by selecting the **Clear** button.
 

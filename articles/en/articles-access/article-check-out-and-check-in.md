@@ -1,4 +1,4 @@
-<!-- Filename: J4.x:Article_Check-out_and_Check-in / Display title: Article Check-out and Check-in -->
+<!-- Filename: J4.x:Article_Check-out_and_Check-in / Display title: Check-out and Check-in -->
 
 ## About Check-out
 

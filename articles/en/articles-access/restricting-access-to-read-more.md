@@ -1,4 +1,4 @@
-<!-- Filename: Restricting_access_to_%22read_more%22 / Display title: Restricting access to "read more" -->
+<!-- Filename: Restricting_access_to_%22read_more%22 / Display title: Restrict Access to "Read more" -->
 
 If you create a new menu item of Category Blog or Featured Articles types, a
 set of Intro texts with **Read More** links will be displayed on that

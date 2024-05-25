@@ -74,7 +74,13 @@ scheme:
 
 <table data-cellpadding="2" data-cellspacing="0" data-align="center"
 data-border="1" width="533">
-
+<thead>
+<tr>
+<th>#</th>
+<th>Permissions</th>
+<th>Rights</th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;" width="5%"
@@ -114,8 +120,7 @@ data-valign="top"><p> 5.</p></td>
 <td style="text-align: left;" width="33%"
 data-valign="top"><p> Read</p></td>
 <td style="text-align: left;" width="33%" data-valign="top"><p>Allows: 5
-(Implies: 4)<br />
-</p></td>
+(Implies: 4)</p></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;" width="5%"
@@ -123,8 +128,7 @@ data-valign="top"><p> 6.</p></td>
 <td style="text-align: left;" width="33%"
 data-valign="top"><p> Write</p></td>
 <td style="text-align: left;" width="33%" data-valign="top"><p>Allows: 6
-(Implies:4 )<br />
-</p></td>
+(Implies:4 )</p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;" width="5%"
@@ -197,74 +201,64 @@ following table should assist;
 
 <table data-cellpadding="2" data-cellspacing="0" data-align="center"
 data-border="1" width="659">
-
-<tbody>
+<thead>
 <tr class="odd">
-<td style="text-align: center;" data-bgcolor="#cccccc" width="7%"
-data-valign="top"><p><strong>Unix Mode</strong></p></td>
-<td data-bgcolor="#cccccc" width="10%"
-data-valign="top"><p><strong>Windows ACL </strong></p></td>
-<td data-bgcolor="#cccccc" width="33%"
-data-valign="top"><p><strong>Comments </strong></p></td>
+<th style="text-align: center;" data-bgcolor="#cccccc" width="7%"
+data-valign="top"><p><strong>Unix Mode</strong></p></th>
+<th data-bgcolor="#cccccc" width="10%"
+data-valign="top"><p><strong>Windows ACL </strong></p></th>
+<th data-bgcolor="#cccccc" width="33%"
+data-valign="top"><p><strong>Comments </strong></p></th>
 </tr>
+</thead>
+<tbody>
 <tr class="even">
 <td style="text-align: center;" width="7%"
 data-valign="top"><p><strong>7 </strong></p></td>
 <td width="10%" data-valign="top"><p><strong> Modify </strong></p></td>
 <td width="33%" data-valign="top"><p><em>Read, Write &amp; Execute, you
-should be the owner of this file<br />
-</em></p></td>
+should be the owner of this file</em></p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;" width="7%"
 data-valign="top"><p><strong>6</strong></p></td>
-<td width="10%" data-valign="top"><p><strong> Read &amp; Write<br />
-</strong></p></td>
+<td width="10%" data-valign="top"><p><strong> Read &amp; Write</strong></p></td>
 <td width="33%" data-valign="top"><p><em> </em></p></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;" width="7%"
 data-valign="top"><p><strong>5</strong></p></td>
-<td width="10%" data-valign="top"><p><strong> Read &amp; Execute<br />
-</strong></p></td>
+<td width="10%" data-valign="top"><p><strong> Read &amp; Execute</strong></p></td>
 <td width="33%" data-valign="top"><p><em>used for most
-applications<br />
-</em></p></td>
+applications</em></p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;" width="7%"
 data-valign="top"><p><strong>4</strong></p></td>
-<td width="10%" data-valign="top"><p><strong> Read Only<br />
-</strong></p></td>
+<td width="10%" data-valign="top"><p><strong> Read Only</strong></p></td>
 <td width="33%" data-valign="top"><p><em>security through obscurity is
-not a good practice<br />
-</em></p></td>
+not a good practice</em></p></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;" width="7%"
 data-valign="top"><p><strong>3</strong></p></td>
-<td width="10%" data-valign="top"><p><strong> Write &amp; Execute<br />
-</strong></p></td>
+<td width="10%" data-valign="top"><p><strong> Write &amp; Execute</strong></p></td>
 <td width="33%" data-valign="top"><p><em>not available through windows,
-unless "Special" Permissions is used, not commonly used<br />
-</em></p></td>
+unless "Special" Permissions is used, not commonly used</em></p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;" width="7%"
 data-valign="top"><p><strong>2</strong></p></td>
-<td width="10%" data-valign="top"><p><strong> Write Only<br />
-</strong></p></td>
+<td width="10%" data-valign="top"><p><strong> Write Only</strong></p></td>
 <td width="33%" data-valign="top"><p><em>not available through windows,
-unless "Special" Permissions is used, not commonly used<br />
-</em></p></td>
+unless "Special" Permissions is used, not commonly used</em></p></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;" width="7%"
 data-valign="top"><p><strong>1</strong></p></td>
-<td width="10%" data-valign="top"><p><strong> Execute Only<br />
-</strong></p></td>
-<td width="33%" data-valign="top"><p><em>(not available through windows,
-unless "Special" Permissions is used, not commonly used)<br />
+<td width="10%" data-valign="top"><p><strong> Execute Only</strong></p></td>
+<td width="33%" data-valign="top"><p><em>not available through windows,
+unless "Special" Permissions is used, not commonly used
 </em></p></td>
 </tr>
 </tbody>

@@ -17,7 +17,7 @@ src="https://docs.joomla.org/images/thumb/4/4e/J4x_add_article_at_home_dashboard
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/4/4e/J4x_add_article_at_home_dashboard-en.png 1.5x"
 data-file-width="1000" data-file-height="254" width="800" height="203"
-alt="J4x add article at home dashboard-en.png" />
+alt="add article from home dashboard" />
 
 1.  In the Administrator Menu select the **Content** link, then from the
     dropdown menu select the **plus (+) symbol** to the right of the
@@ -32,7 +32,7 @@ src="https://docs.joomla.org/images/thumb/2/24/J4x_home_dashboard_add_article_en
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/2/24/J4x_home_dashboard_add_article_en.png 1.5x"
 data-file-width="1000" data-file-height="147" width="800" height="118"
-alt="J4x home dashboard add article en.png" />
+alt="add article from articles list" />
 
 1. Select the **New** button in the *Toolbar*.
 
@@ -46,7 +46,7 @@ src="https://docs.joomla.org/images/thumb/0/05/J4x_add_article_basic_en.png/800p
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/0/05/J4x_add_article_basic_en.png 1.5x"
 data-file-width="1000" data-file-height="341" width="800" height="273"
-alt="J4x add article basic en.png" />
+alt="new article form" />
 
 It is possible to save a new article with only one piece of required
 information, a Title.
@@ -75,7 +75,7 @@ src="https://docs.joomla.org/images/thumb/b/bc/J4x_add_article_info_right_en.png
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/b/bc/J4x_add_article_info_right_en.png 1.5x"
 data-file-width="392" data-file-height="629" width="300" height="481"
-alt="J4x add article info right en.png" />
+alt="add article right information panel" />
 
 1.  **Status**: Published, Unpublished, Archived, or Trashed - the default
     is *Published*.
@@ -133,7 +133,7 @@ src="https://docs.joomla.org/images/thumb/1/1b/J4x_add_article_saving_en.png/300
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/thumb/1/1b/J4x_add_article_saving_en.png/450px-J4x_add_article_saving_en.png 1.5x, https://docs.joomla.org/images/1/1b/J4x_add_article_saving_en.png 2x"
 data-file-width="500" data-file-height="234" width="300" height="140"
-alt="J4x add article saving en.png" />
+alt="article save button" />
 
 1.  Select the **Save** toolbar button to save your changes. This will
     keep the article open. It is good practice to regularly save your

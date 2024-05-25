@@ -1,4 +1,4 @@
-<!-- Filename: J4.x:Getting_Started:_Site_and_Administrator_templates / Display title: Getting Started: Site and Administrator templates -->
+<!-- Filename: J4.x:Getting_Started:_Site_and_Administrator_templates / Display title: Site and Administrator templates -->
 
 ## Introduction
 
@@ -23,7 +23,7 @@ src="https://docs.joomla.org/images/thumb/1/10/J4.x-getting-started-site-screens
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/thumb/1/10/J4.x-getting-started-site-screenshot-en.png/1200px-J4.x-getting-started-site-screenshot-en.png 1.5x, https://docs.joomla.org/images/1/10/J4.x-getting-started-site-screenshot-en.png 2x"
 data-file-width="1440" data-file-height="748" width="800" height="416"
-alt="J4.x-getting-started-site-screenshot-en.png" />
+alt="Cassiopeia site template screenshot" />
 
 Items to notice:
 
@@ -45,7 +45,7 @@ src="https://docs.joomla.org/images/thumb/d/d3/J4.x-getting-started-administrato
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/thumb/d/d3/J4.x-getting-started-administrator-screenshot-en.png/1200px-J4.x-getting-started-administrator-screenshot-en.png 1.5x, https://docs.joomla.org/images/d/d3/J4.x-getting-started-administrator-screenshot-en.png 2x"
 data-file-width="1440" data-file-height="1607" width="800" height="893"
-alt="J4.x-getting-started-administrator-screenshot-en.png" />
+alt=" Atun administrator template screenshot" />
 
 Items to notice:
 

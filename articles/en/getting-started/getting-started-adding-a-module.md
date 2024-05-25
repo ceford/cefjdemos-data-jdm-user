@@ -1,4 +1,4 @@
-<!-- Filename: J4.x:Getting_Started:_Adding_a_Module / Display title: Getting Started: Adding a Module -->
+<!-- Filename: J4.x:Getting_Started:_Adding_a_Module / Display title: Adding a Module -->
 
 ## Introduction
 

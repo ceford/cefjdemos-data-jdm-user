@@ -1,8 +1,5 @@
 <!-- Filename: J4.x:Logging_in_to_Joomla / Display title: Logging in to Joomla -->
 
-<span id="main-portal-heading">**Tutorial**  
-Logging in and out of Joomla!</span> Joomla!  4.0
-
 ## Introduction
 
 One of the great things about Joomla! is that it offers the flexibility
@@ -29,9 +26,7 @@ Dashboard.
 The steps covered in this tutorial are based on a standard Joomla!
 installation.
 
-## Log in and out of the backend Administrator Dashboard
-
-### Logging In
+### Administrator Login
 
 Navigate to the Administrator Login page. This is the web address for
 your website appended with /administrator, for example,
@@ -44,7 +39,7 @@ src="https://docs.joomla.org/images/thumb/2/2a/J4x_administrator_login_en.png/80
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/2/2a/J4x_administrator_login_en.png 1.5x"
 data-file-width="1000" data-file-height="562" width="800" height="450"
-alt="J4x administrator login en.png" />
+alt="Administrator login" />
 
 1.  Add your **Username**.
 2.  Add your **Password**.
@@ -59,7 +54,7 @@ Dashboard.
 2.  If the website has other languages installed you will be able to
     select the relevant language from a dropdown list before logging in.
 
-### Logging Out
+### Administrator Logout
 
 To log out click the **User Menu** then **Log out**.
 
@@ -68,11 +63,9 @@ src="https://docs.joomla.org/images/thumb/8/89/J4x_administrator_logout_en.png/8
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/8/89/J4x_administrator_logout_en.png 1.5x"
 data-file-width="1000" data-file-height="159" width="800" height="127"
-alt="J4x administrator logout en.png" />
+alt="Administrator logout" />
 
-## Log in and out from the frontend of the website
-
-### Logging In
+### Site Login
 
 If frontend access is enabled, a login form will have been added to the
 website. Joomla allows a number of ways to do this. A standard
@@ -89,8 +82,8 @@ src="https://docs.joomla.org/images/thumb/a/ae/J4x_front_end_login_en.png/800px-
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/a/ae/J4x_front_end_login_en.png 1.5x"
 data-file-width="1000" data-file-height="548" width="800" height="438"
-alt="J4x front end login en.png" />
-  
+alt="front end login" />
+
 In the **Login Form**:
 
 1.  Add your **Username**.
@@ -102,14 +95,14 @@ When logging in from the frontend of the website, you will be kept on
 the same page that you logged in on. You will notice the login form will
 also be replaced with a **Log out** button.
 
-### Logging Out
+### Site Logout
 
 <img
 src="https://docs.joomla.org/images/thumb/a/a9/J4x_front_end_logout_en.png/800px-J4x_front_end_logout_en.png"
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/a/a9/J4x_front_end_logout_en.png 1.5x"
 data-file-width="1000" data-file-height="233" width="800" height="186"
-alt="J4x front end logout en.png" />
+alt="front end logout" />
 
 To logout go to the position you logged in then click the **Log out**
 button.

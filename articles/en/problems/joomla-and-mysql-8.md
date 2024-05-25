@@ -11,7 +11,6 @@ lot of low-level changes including the default authentication plugin
 changing to `sha256_password` from `mysql_native_password`. The native
 PHP MySQL-Driver doesn't currently support MySQL 8 with this plugin. <a
 href="https://github.com/php/php-src/commit/d6e81f0bfd0cb90586dd83d4fd47a4302605261a"
-class="external text" target="_blank"
 rel="nofollow noreferrer noopener">PHP 7.3 (alpha)</a> is supporting
 MySQL 8 though.
 
@@ -57,11 +56,3 @@ transformation is more secure. However, it requires either encrypted
 connections or support for an RSA key pair. So, while password security
 is stronger, secure connections and multiple rounds of hash
 transformations require more time in the authentication process.
-
-caching_sha2_password tries to combine the best of both worlds.
-<sup>[\[1\]](#cite_note-1)</sup>
-
-1.  <span id="cite_note-1">[↑](#cite_ref-1) <a
-    href="https://mysqlserverteam.com/mysql-8-0-4-new-default-authentication-plugin-caching_sha2_password/"
-    class="external free" target="_blank"
-    rel="nofollow noreferrer noopener">https://mysqlserverteam.com/mysql-8-0-4-new-default-authentication-plugin-caching_sha2_password/</a></span>

@@ -261,32 +261,3 @@ following test:
 Note: If you publish the plug-in again it will not add the data back in
 to the index. This is expected behaviour. You will need to run the
 indexer again to get the data back.
-
-## Notes
-
-1.  <span id="cite_note-1">[↑](#cite_ref-1) The old JXtended Finder for
-    Joomla 1.5 contained a bug which prevented unused search
-    terms/phrases from being deleted from the index when a content item
-    was updated or deleted. A fix is available by email from
-    chris.davenport@joomla.org</span>
-2.  <span id="cite_note-2">[↑](#cite_ref-2) The current Smart Search
-    code and the old JXtended Finder for Joomla 1.5 both fail to create
-    a new taxonomy (content map) node on-the-fly. This could be
-    considered a bug, however there may be use cases where adding an
-    extra node on-the-fly is not desirable (eg. it might mess up a
-    front-end layout), so perhaps a parameter is needed to define the
-    behaviour. Something for a future release.</span>
-3.  <span id="cite_note-3">[↑](#cite_ref-3) Not removing unused taxonomy
-    nodes on-the-fly might be considered a bug, but I would argue that
-    we probably need a parameter to define that behaviour. I can think
-    of use cases where empty nodes should be retained in the search
-    filters. Something for a future release, I think. If nodes are to be
-    deleted then any static filters that contain the deleted node should
-    also be updated.</span>
-4.  <span id="cite_note-4">[↑](#cite_ref-4) I think it would be quite
-    difficult to implement an autocompleter that does not list search
-    terms for content items that the user does not have access to.
-    Consequently there is potential for information "leakage" to occur
-    if a site has restricted information and the autocompleter is
-    enabled. Something to consider for the future, but for now it just
-    needs to be documented.</span>

@@ -33,7 +33,7 @@ src="https://docs.joomla.org/images/thumb/7/7d/J4x-templates-atum-template-posit
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/7/7d/J4x-templates-atum-template-positions-en.png 1.5x"
 data-file-width="1000" data-file-height="703" width="800" height="562"
-alt="J4x-templates-atum-template-positions-en.png" />
+alt="templates atum template positions" />
 
 ### Cassiopeia Site Template Positions
 
@@ -42,7 +42,7 @@ src="https://docs.joomla.org/images/thumb/e/e5/J4x-templates-cassiopeia-template
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/e/e5/J4x-templates-cassiopeia-template-positions-en.png 1.5x"
 data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="J4x-templates-cassiopeia-template-positions-en.png" />
+alt="templates cassiopeia template positions" />
 
 You may also find this module position diagram helpful:
 

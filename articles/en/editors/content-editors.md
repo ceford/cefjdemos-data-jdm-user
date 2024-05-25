@@ -19,7 +19,7 @@ src="https://docs.joomla.org/images/thumb/f/fb/Help30-editor-tinymce-advanced-en
 decoding="async"
 srcset="https://docs.joomla.org/images/f/fb/Help30-editor-tinymce-advanced-en.png 1.5x"
 data-file-width="669" data-file-height="114" width="600" height="102"
-alt="Help30-editor-tinymce-advanced-en.png" />
+alt="screenshot of tinymce advanced tools" />
 
 ## CodeMirror
 
@@ -32,7 +32,7 @@ src="https://docs.joomla.org/images/thumb/e/e2/Help25-screenshot-editor-codemirr
 decoding="async"
 srcset="https://docs.joomla.org/images/e/e2/Help25-screenshot-editor-codemirror-example-en.png 1.5x"
 data-file-width="326" data-file-height="165" width="320" height="162"
-alt="Help25-screenshot-editor-codemirror-example-en.png" />
+alt="screenshot of codemirror syntax highlight" />
 
 CodeMirror offers some of the same advantages of using No Editor, but
 makes it somewhat easier to work with raw HTML code and PHP code in template

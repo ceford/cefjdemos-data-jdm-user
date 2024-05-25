@@ -1,4 +1,4 @@
-<!-- Filename: J4.x:Create_and_Manage_Article_Categories / Display title: Create and Manage Article Categories -->
+<!-- Filename: J4.x:Create_and_Manage_Article_Categories / Display title: Article Categories -->
 
 ## Introduction
 
@@ -64,7 +64,7 @@ src="https://docs.joomla.org/images/thumb/0/0a/J4x_home_dashboard_add_category-e
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/0/0a/J4x_home_dashboard_add_category-en.png 1.5x"
 data-file-width="1000" data-file-height="301" width="800" height="241"
-alt="J4x home dashboard add category-en.png" />
+alt="Home dashboard add category icons" />
 
 Dependant on whether your Home Dashboard has been customised after
 installation, you will have one or two options to generate a new
@@ -84,7 +84,7 @@ src="https://docs.joomla.org/images/thumb/7/79/J4x_article_categories_list_add_c
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/7/79/J4x_article_categories_list_add_category-en.png 1.5x"
 data-file-width="1000" data-file-height="101" width="800" height="81"
-alt="J4x article categories list add category-en.png" />
+alt="Article categories list new button" />
 
 Click the **New** button.
 
@@ -96,7 +96,7 @@ src="https://docs.joomla.org/images/thumb/e/ec/J4x_add_article_category-en.png/8
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/e/ec/J4x_add_article_category-en.png 1.5x"
 data-file-width="1000" data-file-height="354" width="800" height="283"
-alt="J4x add article category-en.png" />
+alt="Save button in article category edit form" />
 
 Add the name of your new category to the **Title** field. This is the
 only mandatory information required.
@@ -113,7 +113,7 @@ src="https://docs.joomla.org/images/thumb/8/80/J4x_article_category_settings-en.
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/8/80/J4x_article_category_settings-en.png 1.5x"
 data-file-width="378" data-file-height="601" width="300" height="477"
-alt="J4x article category settings-en.png" />
+alt="Article category form right column settings" />
 
 Besides Status, the other settings are:
 
@@ -140,7 +140,7 @@ src="https://docs.joomla.org/images/thumb/1/10/J4x_article_category_saved-en.png
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/1/10/J4x_article_category_saved-en.png 1.5x"
 data-file-width="1000" data-file-height="51" width="800" height="41"
-alt="J4x article category saved-en.png" />
+alt="Article category save confirmation message" />
 
 Once the category has been saved you will be returned to the **Articles:
 Categories** page.
@@ -150,7 +150,7 @@ src="https://docs.joomla.org/images/thumb/4/4d/J4x_article_sub_category_list_vie
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/4/4d/J4x_article_sub_category_list_view-en.png 1.5x"
 data-file-width="1000" data-file-height="722" width="800" height="578"
-alt="J4x article sub category list view-en.png" />
+alt="Articles categories list view" />
 
 The screenshot above, for articles on pets, shows an example of how some
 categories have been set up. It is easy to see that the list includes

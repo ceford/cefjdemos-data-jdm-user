@@ -36,7 +36,7 @@ but with the cassiopeia/sampledata folder selected:
 src="https://docs.joomla.org/images/0/0a/J4.x-media-cassiopeia-sampledata-en.jpg"
 decoding="async" data-file-width="800" data-file-height="406"
 width="800" height="406"
-alt="J4.x-media-cassiopeia-sampledata-en.jpg" />
+alt="media cassiopeia sampledata" />
 
 ## Managing Folders
 
@@ -103,7 +103,7 @@ The folder selected for deletion is illustrated below:
 <img
 src="https://docs.joomla.org/images/4/40/J4.x-media-delete-folder-en.jpg"
 decoding="async" data-file-width="800" data-file-height="201"
-width="800" height="201" alt="J4.x-media-delete-folder-en.jpg" />
+width="800" height="201" alt="media delete folder" />
 
 ## Media Area Toolbar
 
@@ -143,7 +143,7 @@ list view, select the thumbnail symbol to switch to thumbnail view. In
 list view you will see information on image size and dimensions, amongst
 other data.
 
-### Information
+### Information Icon
 
 Select the Information icon to open a side panel showing information
 about whatever is selected.

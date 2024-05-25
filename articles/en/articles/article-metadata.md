@@ -52,7 +52,6 @@ always worth paying attention and correcting any problems.
 
 <a
 href="http://support.google.com/webmasters/bin/answer.py?hl=en&amp;answer=35624"
-class="external text" target="_blank"
 rel="nofollow noreferrer noopener">Google support article on using
 titles for your web pages</a>
 
@@ -99,6 +98,5 @@ your search engine indexing:
 - Make your descriptions descriptive!
 
 <a href="http://support.google.com/webmasters/bin/answer.py?hl=en&amp;answer=35624"
-class="external text" target="_blank"
 rel="nofollow noreferrer noopener">Google support article on using
 metadata</a>

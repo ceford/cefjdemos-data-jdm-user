@@ -11,9 +11,9 @@ It is available as an add-on tool for Google Chrome and Firefox and it can be
 run from the command line. That is useful for testing on a local development
 environment.
 
-More information: https://developer.chrome.com/docs/lighthouse/overview
+More information from the [Chrome for Developers: Lighthouse](https://developer.chrome.com/docs/lighthouse/overview) website.
 
-You can use the tool online from this site: https://pagespeed.web.dev/
+You can use the tool online from the [PageSpeed Insightsthis](https://pagespeed.web.dev/) site.
 
 The following screenshot shows the first part of the PageSpeed Insights report:
 

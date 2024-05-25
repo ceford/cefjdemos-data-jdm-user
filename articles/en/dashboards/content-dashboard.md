@@ -17,4 +17,4 @@ vacant **Add module to the dashboard** panel.
 src="https://docs.joomla.org/images/f/f7/J4.x-content-dashboard-en.png"
 class="thumbborder" decoding="async" data-file-width="800"
 data-file-height="406" width="800" height="406"
-alt="J4.x-content-dashboard-en.png" />
+alt="screenshot of content dashboard" />

@@ -1,4 +1,4 @@
-<!-- Filename: J4.x:Restricting_access_to_an_Article / Display title: Restricting access to an Article -->
+<!-- Filename: J4.x:Restricting_access_to_an_Article / Display title: Restrict Access to an Article -->
 
 ## Introduction
 
@@ -39,7 +39,7 @@ src="https://docs.joomla.org/images/thumb/c/c1/J4.x_article_access_levels-en.png
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/c/c1/J4.x_article_access_levels-en.png 1.5x"
 data-file-width="442" data-file-height="638" width="300" height="433"
-alt="J4.x article access levels-en.png" />
+alt="access level selection" />
 
 ### Available Access Levels
 

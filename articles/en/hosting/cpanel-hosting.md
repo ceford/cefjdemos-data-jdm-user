@@ -12,7 +12,7 @@ src="https://docs.joomla.org/images/thumb/7/7b/J4.x-hosting-setup-cpanel-en.png/
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/7/7b/J4.x-hosting-setup-cpanel-en.png 1.5x"
 data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="J4.x-hosting-setup-cpanel-en.png" />
+alt="cpanel hosting control panel" />
 
 ### Database Setup
 
@@ -55,7 +55,7 @@ src="https://docs.joomla.org/images/thumb/0/01/J4.x-hosting-setup-cpanel-file-ma
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/0/01/J4.x-hosting-setup-cpanel-file-manager-en.png 1.5x"
 data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="J4.x-hosting-setup-cpanel-file-manager-en.png" />
+alt="cpanel hosting file manager" />
 
 When you have decided on your structure, select you chosen Joomla folder
 in File Manager and click the Upload button. In the upload form, select

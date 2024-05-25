@@ -36,7 +36,7 @@ src="https://docs.joomla.org/images/thumb/6/65/J4x-cli-no-parameters-en.png/800p
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/6/65/J4x-cli-no-parameters-en.png 1.5x"
 data-file-width="924" data-file-height="819" width="800" height="709"
-alt="J4x-cli-no-parameters-en.png" />
+alt="cli output with no parameters" />
 
 And try out some help commands to become familiar with what to expect:
 
@@ -86,7 +86,7 @@ src="https://docs.joomla.org/images/thumb/9/95/J4x-cli-cache-clean-en.png/800px-
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/9/95/J4x-cli-cache-clean-en.png 1.5x"
 data-file-width="845" data-file-height="107" width="800" height="101"
-alt="J4x-cli-cache-clean-en.png" />
+alt="cli outout from cache clean" />
 
     php joomla.php cache:clean expired
 
@@ -95,7 +95,7 @@ src="https://docs.joomla.org/images/thumb/3/31/J4x-cli-cache-clean-expired-en.pn
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/3/31/J4x-cli-cache-clean-expired-en.png 1.5x"
 data-file-width="845" data-file-height="106" width="800" height="100"
-alt="J4x-cli-cache-clean-expired-en.png" />
+alt="cli output from cache clean expired" />
 
 ### Config
 
@@ -110,7 +110,7 @@ mail,
 src="https://docs.joomla.org/images/f/f0/J4x-cli-config-debug-get-en.png"
 class="thumbborder" decoding="async" data-file-width="200"
 data-file-height="64" width="200" height="64"
-alt="J4x-cli-config-debug-get-en.png" />
+alt="cli output from config debug get" />
 
     php joomla.php config:set debug=true
 
@@ -118,7 +118,7 @@ alt="J4x-cli-config-debug-get-en.png" />
 src="https://docs.joomla.org/images/9/9c/J4x-cli-config-debug-set-en.png"
 class="thumbborder" decoding="async" data-file-width="200"
 data-file-height="50" width="200" height="50"
-alt="J4x-cli-config-debug-set-en.png" />
+alt="cli output config debug set" />
 
     php joomla.php config:get --group session
 
@@ -126,7 +126,7 @@ alt="J4x-cli-config-debug-set-en.png" />
 src="https://docs.joomla.org/images/e/ea/J4x-cli-config-debug-get-group-en.png"
 class="thumbborder" decoding="async" data-file-width="223"
 data-file-height="91" width="223" height="91"
-alt="J4x-cli-config-debug-get-group-en.png" />
+alt="cli output from config debug get group" />
 
 ### Core
 
@@ -139,7 +139,7 @@ Check for updates or update Joomla.
 src="https://docs.joomla.org/images/0/09/J4x-cli-core-check-updates-en.png"
 class="thumbborder" decoding="async" data-file-width="405"
 data-file-height="99" width="405" height="99"
-alt="J4x-cli-core-check-updates-en.png" />
+alt="cli output from core check updates" />
 
     php joomla.php core:update --help
     php joomla.php core:update
@@ -148,7 +148,7 @@ alt="J4x-cli-core-check-updates-en.png" />
 src="https://docs.joomla.org/images/0/04/J4x-cli-core-update-en.png"
 class="thumbborder" decoding="async" data-file-width="617"
 data-file-height="72" width="617" height="72"
-alt="J4x-cli-core-update-en.png" />
+alt="cli output from core update" />
 
 ### Database
 
@@ -191,7 +191,7 @@ List, Discover, Install or Remove extensions.
     php joomla.php extension:install --url=
 
     php joomla.php extension:remove --help
-    php joomla.php extension:remove 
+    php joomla.php extension:remove
 
 ### Finder
 
@@ -205,7 +205,7 @@ Purges and rebuilds the index (search filters are preserved).
 src="https://docs.joomla.org/images/7/76/J4x-cli-finder-index-purge-en.png"
 class="thumbborder" decoding="async" data-file-width="283"
 data-file-height="228" width="283" height="228"
-alt="J4x-cli-finder-index-purge-en.png" />
+alt="cli output from finder index purge" />
 
 ### Scheduler
 
@@ -257,7 +257,7 @@ have been deleted during a Joomla update
 src="https://docs.joomla.org/images/8/83/J4x-cli-update-joomla-remove-old-files-en.png"
 class="thumbborder" decoding="async" data-file-width="356"
 data-file-height="158" width="356" height="158"
-alt="J4x-cli-update-joomla-remove-old-files-en.png" />
+alt="cli output from update joomla remove old files" />
 
 ### User
 
@@ -273,7 +273,7 @@ List and manage users.
 <img src="https://docs.joomla.org/images/d/d2/J4x-cli-user-add-en.png"
 class="thumbborder" decoding="async" data-file-width="503"
 data-file-height="438" width="503" height="438"
-alt="J4x-cli-user-add-en.png" />
+alt="cli output from user add-en" />
 
     php joomla.php user:addtogroup --help
     php joomla.php user:addtogroup (prompts for data)

@@ -37,7 +37,6 @@ path. For example, the Disallow rule for the `/administrator/` folder
 
 This is the contents of a <a
 href="https://github.com/joomla/joomla-cms/blob/4.2-dev/robots.txt.dist"
-class="external text" target="_blank"
 rel="nofollow noreferrer noopener">standard Joomla robots.txt</a>:
 
     User-agent: *
@@ -69,7 +68,6 @@ See also:
 
 - <a
   href="https://support.google.com/webmasters/topic/4598466?hl=en&amp;ref_topic=9427949"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">Block access to your content</a> at
   Google's Help Center.
 
@@ -79,25 +77,22 @@ For syntax checking you can use a validator for *robots.txt* files. Try
 one of these:
 
 - <a href="https://support.google.com/webmasters/answer/6062598"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">Test your <em>robots.txt</em> with
   the robots.txt Tester</a> at Google.
 - <a
   href="http://www.searchenginepromotionhelp.com/m/robots-text-tester/robots-checker.php"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener"><em>robots.txt</em> Checker</a> by
   Search Engine Promotion Help.
 
 ### General Information
 
-- <a href="http://www.robotstxt.org/" class="external text"
-  target="_blank" rel="nofollow noreferrer noopener">The Web Robots
+- <a href="http://www.robotstxt.org/"
+  rel="nofollow noreferrer noopener">The Web Robots
   Pages</a> The main Website for *robots.txt*.
-- <a href="http://www.robotstxt.org/orig.html" class="external text"
-  target="_blank" rel="nofollow noreferrer noopener">A Standard for Robot
+- <a href="http://www.robotstxt.org/orig.html"
+  rel="nofollow noreferrer noopener">A Standard for Robot
   Exclusion</a> The original standard.
 - <a
   href="https://developers.google.com/search/docs/advanced/robots/robots_meta_tag"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">Robots meta tag, data-nosnippet, and
   X-Robots-Tag specifications</a>

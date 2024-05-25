@@ -58,9 +58,8 @@ editor.
 
 The complete list of available substitution codes is:
 
-|               |                                                                                |
-|---------------|--------------------------------------------------------------------------------|
 | Code          | Will be substituted by                                                         |
+|---------------|--------------------------------------------------------------------------------|
 | {app}         | Application name (e.g. "Administrator" in the Joomla CMS back-end)             |
 | {component}   | Component name (e.g. "com_content" in the Article Manager)                     |
 | {keyref}      | Help screen key reference (after passing through the translation system)       |

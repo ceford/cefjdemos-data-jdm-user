@@ -23,7 +23,7 @@ src="https://docs.joomla.org/images/thumb/9/95/J4x-menu-items-list-en.png/800px-
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/9/95/J4x-menu-items-list-en.png 1.5x"
 data-file-width="1000" data-file-height="932" width="800" height="746"
-alt="J4x-menu-items-list-en.png" />
+alt="menu items list" />
 
 ## Adding a Menu Item
 
@@ -45,7 +45,7 @@ src="https://docs.joomla.org/images/thumb/b/b3/J4x-menu-items-select-type-en.png
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/b/b3/J4x-menu-items-select-type-en.png 1.5x"
 data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="J4x-menu-items-select-type-en.png" />
+alt="menu items select type" />
 
 - Select whichever type you need, in this example a Single Article type.
 
@@ -66,7 +66,7 @@ src="https://docs.joomla.org/images/thumb/e/e0/J4x-menu-items-edi-item-en.png/80
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/e/e0/J4x-menu-items-edi-item-en.png 1.5x"
 data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="J4x-menu-items-edi-item-en.png" />
+alt="Jmenu items edit item" />
 
 - View the site to check that it is what you want.
 

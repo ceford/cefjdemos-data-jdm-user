@@ -1,4 +1,4 @@
-<!-- Filename: J4.x:Getting_Started:_Adding_a_Menu_Item / Display title: Getting Started: Adding a Menu Item -->
+<!-- Filename: J4.x:Getting_Started:_Adding_a_Menu_Item / Display title: Adding a Menu Item -->
 
 ## Introduction
 
@@ -34,7 +34,7 @@ src="https://docs.joomla.org/images/thumb/a/ac/J4.x-getting-started-menu-edit-sc
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/thumb/a/ac/J4.x-getting-started-menu-edit-screenshot-en.png/1200px-J4.x-getting-started-menu-edit-screenshot-en.png 1.5x, https://docs.joomla.org/images/a/ac/J4.x-getting-started-menu-edit-screenshot-en.png 2x"
 data-file-width="1440" data-file-height="1314" width="800" height="730"
-alt="J4.x-getting-started-menu-edit-screenshot-en.png" />
+alt="Screenshot menu edit form" />
 
 That is all that must be done. Everything else is optional. Save & Close
 the using the Toolbar button and have a look at the Site Home page. The

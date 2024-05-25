@@ -44,7 +44,7 @@ Joomla folder.
 <img src="https://docs.joomla.org/images/9/98/J4.x-media-options-en.png"
 class="thumbborder" decoding="async" data-file-width="800"
 data-file-height="406" width="800" height="406"
-alt="J4.x-media-options-en.png" />
+alt="media options" />
 
 ## Screenshot
 
@@ -55,4 +55,4 @@ folders in the Local part of the Media view.
 src="https://docs.joomla.org/images/0/08/J4.x-media-images-files-en.png"
 class="thumbborder" decoding="async" data-file-width="800"
 data-file-height="406" width="800" height="406"
-alt="J4.x-media-images-files-en.png" />
+alt="media images and files" />

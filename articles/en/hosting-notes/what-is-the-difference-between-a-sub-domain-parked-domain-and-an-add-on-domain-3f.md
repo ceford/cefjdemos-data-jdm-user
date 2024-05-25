@@ -14,7 +14,7 @@ Help/FAQ pages or to your hosts support team.
 
 Here are some basic differences between the three:
 
-**Sub domain**
+### Sub domain
 
 - Let's say you own domain site1.com.
 - You only own one domain or only wish to have a forum on one domain.
@@ -25,7 +25,7 @@ Here are some basic differences between the three:
 - Once the sub-domain forum is created, people can access your forum as
   either site1.com/forum or forum.site1.com
 
-**Parked Domain**
+### Parked Domain
 
 - You own multiple domains such as site1.com, site1.org and site2.net.
 - You want site1.com as the main domain for your website and you want
@@ -41,7 +41,7 @@ Here are some basic differences between the three:
   site1.org, site1.net to have all domains point to the same website
   domain
 
-**Add-On Domains**
+### Add-On Domains
 
 - You own two domains site1.com and site2.org.
 - Your main domain is site1.org

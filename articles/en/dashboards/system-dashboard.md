@@ -23,4 +23,4 @@ Individual items are covered in other tutorials.
 src="https://docs.joomla.org/images/9/9b/J4.x-system-dashboard-en.png"
 class="thumbborder" decoding="async" data-file-width="800"
 data-file-height="483" width="800" height="483"
-alt="J4.x-system-dashboard-en.png" />
+alt="screenshot of system dashboard" />

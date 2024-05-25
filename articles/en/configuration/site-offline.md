@@ -12,7 +12,7 @@ see an offline message page with login form:
 src="https://docs.joomla.org/images/8/84/J4x-configuration-site-offline-en.png"
 class="thumbborder" decoding="async" data-file-width="495"
 data-file-height="643" width="495" height="643"
-alt="J4x-configuration-site-offline-en.png" />
+alt="screenshot of frontend site off line notice" />
 
 The Site Offline switch does not apply to the administrator interface
 and users who can login to the back end can continue to login to the
@@ -28,7 +28,7 @@ Author, Editor and Publisher user groups.
   - A custom message, which is the text in the Custom Message box. Or
     ...
   - The Site Language Default message, which is **This site is down for
-    maintenance.  
+    maintenance.
     Please check back again soon.** in English or the equivalent in the
     selected Site language. Or ...
   - **Hide** to show no message at all.

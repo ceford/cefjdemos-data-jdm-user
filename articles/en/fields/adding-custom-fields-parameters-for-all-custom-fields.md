@@ -24,7 +24,7 @@ displayed in the Article display.
 
 ### General tab
 
-**In the left panel:**
+#### In the left panel:
 
 - **Type** Select one of the 16 field types from the dropdown list. When
 you save the field this type is permanent. You can not change it later.
@@ -46,7 +46,7 @@ explanation required.
 - **Maximum Length** Set this to limit the length of text data that can be
 entered.
 
-**In the right panel:**
+### In the right panel:
 
 - **Status** Set a publication state selected from *Published*, *Unpublished*,
 *Archived* or *Trashed*.
@@ -71,7 +71,7 @@ appear as separate tabs in the Article data entry form.
 
 ### Options tab
 
-**Form Options**
+#### Form Options
 
 - **Placeholder** A placeholder text which will appear inside the custom field
 as a hint for the input. The placeholder is active in the Backend while
@@ -104,7 +104,7 @@ attribute for this conditional field you are creating needs to be:
 field36:value1[OR]field36:value2 where 36 is the ID of the field 'List of items'.
 This needs clarification!
 
-**Display Options**
+#### Display Options
 
 - **Display Class**  The class of the field container in the output.
 - **Value Class**  The class of the field value in the output.
@@ -122,7 +122,7 @@ display'.
 read only (perhaps the user doesn't have the access level) should the field
 be displayed or hidden.
 
-**Smart Search**
+#### Smart Search
 
 - **Search Index** Select from list of options. Warning: When 'Make searchable'
 is selected, content from the field is indexed with the viewing permissions of

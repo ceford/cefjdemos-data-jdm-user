@@ -17,7 +17,6 @@ The following is an example of **good practice**:
 
 To find out more about accessible links see this article on <a
 href="https://www.a11yproject.com/posts/creating-valid-and-accessible-links/"
-class="external text" target="_blank"
 rel="nofollow noreferrer noopener">Creating valid and accessible
 links</a>.
 
@@ -65,7 +64,6 @@ In the Insert/Edit Link dialog:
 - The `Rel` field has a number of options. If in doubt, leave it set to
   `None`. There is a list of options available in the *mdn web docs* <a
   href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel"
-  class="external text" target="_blank"
   rel="nofollow noreferrer noopener">article on HTML attribute: rel</a>
 - The `Open link in...` field is a simple choice between
   `Current Window` and `New Window`. The browser settings control

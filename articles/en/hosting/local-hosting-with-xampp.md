@@ -7,7 +7,6 @@ PHP, XDEBUG, and the MySQL database. This allows you to create the
 environment you need to run Joomla! on your local machine. The latest
 version of XAMPP is available at
 <a href="http://www.apachefriends.org/en/index.html"
-class="external text" target="_blank"
 rel="nofollow noreferrer noopener">the XAMPP web site</a>. Downloads are
 available for Linux, Windows, Mac OS X and Solaris. Download the package
 for your platform.
@@ -24,10 +23,9 @@ not see a problem. But, to be safe, disable the option in Skype.
 Installation for Windows is very simple. You can use the XAMPP installer
 executable (for example,
 "xampp-windows-x64-7.4.4-0-VC15-installer.exe"). Detailed installation
-instructions for Windows are available
+instructions for Windows are available from the
 <a href="https://www.apachefriends.org/download.html"
-class="external text" target="_blank"
-rel="nofollow noreferrer noopener">here</a>.
+rel="nofollow noreferrer noopener">Apache Friends</a> site.
 
 If you are on Windows XP or 2003 they are not supported by the main
 package but there are compatible versions of XAMPP for these platforms
@@ -48,7 +46,7 @@ Joomla Community Magazine Tutorial
 You can find a detailed tutorial on installing XAMPP on Windows, along
 with the Joomla 4 Beta, the Joomla Patch Tester and Git in this <a
 href="https://magazine.joomla.org/all-issues/june-2020/github-installing-git"
-class="external text" target="_blank" rel="noreferrer noopener">Joomla
+rel="noreferrer noopener">Joomla
 Community Magazine article</a>.
 
 ### Installation on Linux
@@ -89,24 +87,17 @@ or LAN then changing the defaults is a personal decision.
 
 #### Get Joomla
 
-Download the latest Joomla instalation zip
-<a href="https://www.joomla.org/download.html"
-class="external autonumber" target="_blank"
-rel="noreferrer noopener">[1]</a>
-
-Unzip to your hard drive
-
-Connect to localhost with an FTP client Default
+* Download the latest [Joomla installation zip](https://www.joomla.org/download.html)
+* Unzip to your hard drive
+* Connect to localhost with an FTP client Default
 
     nobody
     lampp
-
-Create a folder for your Joomla on the localhost server
-
-FTP the unpacked Joomla installation files to the newly created Joomla
+* Create a folder for your Joomla on the localhost server
+* FTP the unpacked Joomla installation files to the newly created Joomla
 folder.
 
-**Important:**
+##### Important:
 
 - The xammp installation sets the correct Ownership of the files and
   permissions.
@@ -115,7 +106,7 @@ folder.
 - **Using nautilus** to manipulate folders/files on localhost will
   **cause Ownership problems with xampp**.
 
-**Database info**
+#### Database informaation
 
 Host
 
@@ -146,7 +137,7 @@ or
 
 #### Creating a link in the Ubuntu menu
 
-**To create a GUI for xammp connected to your Ubuntu menu**
+##### To create a GUI for xammp connected to your Ubuntu menu
 
 Open up the Terminal and type
 
@@ -183,21 +174,20 @@ Install the missing libraries:
 The XAMPP package for Linux does not includes the XDebug PHP debugger.
 To install XDebug on Debian or Ubuntu:
 
-\- Install the *build-essential* package:
+- Install the *build-essential* package:
 
     sudo apt-get update
     sudo apt-get install build-essential
     sudo apt-get install autoconf
 
-\- Download the
+- Download the
 <a href="http://www.apachefriends.org/en/xampp-linux.html"
-class="external text" target="_blank"
 rel="nofollow noreferrer noopener">development package</a> for your
 version of XAMPP and extract it over your existing installation:
 
     sudo tar xvfz xampp-linux-devel-1.7.7.tar.gz -C /opt
 
-\- Build XDebug:
+- Build XDebug:
 
     wget http://xdebug.org/files/xdebug-2.1.3.tgz
     tar xzf xdebug-2.1.3.tgz
@@ -238,7 +228,7 @@ On Ubuntu/Debian you can install using:
 
 (warning: this will also install Apache and PHP from apt repositories).
 
-**Warning for 64bit users**
+##### Warning for 64bit users
 
 When compiling XDebug or installing via apt-get, you will receive an
 error when (re)starting xampp:
@@ -269,7 +259,6 @@ provided by XAMPP.
 
 As with most programs on Mac, installation is a breeze. Visit
 <a href="https://www.apachefriends.org/en/download.html"
-class="external text" target="_blank"
 rel="nofollow noreferrer noopener">Apache Friends - Mac OS X</a> for the
 universal binary download.
 
@@ -279,7 +268,7 @@ drag the XAMPP folder to the "Applications" folder alias.
 To start the server, open "XAMPP Control.app" and press the start button
 next to Apache.
 
-##### A Little Troubleshooting
+#### A Little Troubleshooting
 
 Many Mac users have a little difficulty at this stage when trying to set
 up another instance of Apache on their machine. If you cannot start
@@ -308,7 +297,7 @@ these files.*
 Once XAMPP is installed and you have started the Apache service with the
 XAMPP Control Panel tool, you can test it by opening your browser and
 navigating to
-"<a href="http://localhost" class="external free" target="_blank"
+"<a href="http://localhost"
 rel="nofollow noreferrer noopener">http://localhost</a>". You should see
 the XAMPP welcome screen similar to the one below.
 
@@ -317,7 +306,7 @@ src="https://docs.joomla.org/images/thumb/f/fc/Phpinfo_on_xampp.png/800px-Phpinf
 decoding="async"
 srcset="https://docs.joomla.org/images/thumb/f/fc/Phpinfo_on_xampp.png/1200px-Phpinfo_on_xampp.png 1.5x, https://docs.joomla.org/images/f/fc/Phpinfo_on_xampp.png 2x"
 data-file-width="1498" data-file-height="883" width="800" height="472"
-alt="Phpinfo on xampp.png" />
+alt="Phpinfo on xampp" />
 
 Select the link called "phpinfo()" in the top menu. This will display a
 long screen of information about the PHP configuration, as shown below.
@@ -327,7 +316,7 @@ src="https://docs.joomla.org/images/thumb/d/db/Phpinfo.png/800px-Phpinfo.png"
 decoding="async"
 srcset="https://docs.joomla.org/images/thumb/d/db/Phpinfo.png/1200px-Phpinfo.png 1.5x, https://docs.joomla.org/images/d/db/Phpinfo.png 2x"
 data-file-width="1432" data-file-height="1282" width="800" height="716"
-alt="Phpinfo.png" />
+alt="Phpinfo" />
 
 At this point, XAMPP is installed successfully. Notice the "Loaded
 Configuration File". We will be editing this file in the next section to

@@ -16,14 +16,14 @@ you were expecting. There are two types of error pages:
 <img src="https://docs.joomla.org/images/9/9d/Joomla-j4-fatal.png"
 class="thumbborder" decoding="async" data-file-width="800"
 data-file-height="355" width="800" height="355"
-alt="Joomla-j4-fatal.png" />
+alt="Joomla fatal error red screen" />
 
 ### Template Error Page
 
 <img src="https://docs.joomla.org/images/6/6d/J4x-template-error.png"
 class="thumbborder" decoding="async" data-file-width="800"
 data-file-height="406" width="800" height="406"
-alt="J4x-template-error.png" />
+alt="jomla template error screen" />
 
 ## How to Resolve
 
@@ -60,7 +60,7 @@ you should see a stack trace. Example:
 src="https://docs.joomla.org/images/e/ef/J4x-template-error-stack-trace.png"
 class="thumbborder" decoding="async" data-file-width="800"
 data-file-height="393" width="800" height="393"
-alt="J4x-template-error-stack-trace.png" />
+alt="template error stack trace" />
 
 The first item in the stack trace indicates where the error was
 triggered. Sometimes that is enough to identify the faulty Extension.
@@ -78,8 +78,7 @@ any core Joomla Extensions.
 
 To help resolve problems you should download the
 <a href="https://forumpostassistant.github.io/docs/"
-class="external text" target="_blank"
-rel="nofollow noreferrer noopener">Forum Post Assistant</a> (FPA) and
+rel="nofollow noreferrer noopener">Forum Post Assistant (FPA)</a> and
 load it in the root of your Joomla website. The link to find it is also
 near the top of each Joomla Forum page. The FPA is a stand-alone PHP
 script that analyses your Joomla installation and tells you what might

@@ -30,7 +30,6 @@ extensions.
       backups?](https://docs.joomla.org/What_are_the_best_practices_for_site_backups%3F "Special:MyLanguage/What are the best practices for site backups?")
 3.  Make sure your environment meets the
     <a href="https://downloads.joomla.org/technical-requirements"
-    class="external text" target="_blank"
     rel="noreferrer noopener">technical requirements for Joomla 4</a>
     before proceeding.
 4.  Create a new database and new user to restore your 3.10.x site to.
@@ -39,22 +38,20 @@ extensions.
     - A subdomain.
     - A subdirectory.
     - A local device. Joomla has a detailed tutorial on installing
-      <a href="https://sourceforge.net/projects/xampp/" class="external text"
-      target="_blank" rel="nofollow noreferrer noopener">XAMPP</a> at
       [XAMPP](https://docs.joomla.org/XAMPP "XAMPP"). However
-      <a href="https://www.wampserver.com/en/" class="external text"
-      target="_blank" rel="nofollow noreferrer noopener">WAMP</a>,
-      <a href="https://www.mamp.info/en/windows/" class="external text"
-      target="_blank" rel="nofollow noreferrer noopener">MAMP</a>,
-      <a href="https://sourceforge.net/projects/lampas/" class="external text"
-      target="_blank" rel="nofollow noreferrer noopener">LAMP</a> are
+      <a href="https://www.wampserver.com/en/"
+      rel="nofollow noreferrer noopener">WAMP</a>,
+      <a href="https://www.mamp.info/en/windows/"
+      rel="nofollow noreferrer noopener">MAMP</a> and
+      <a href="https://sourceforge.net/projects/lampas/"
+      rel="nofollow noreferrer noopener">LAMP</a> are
       all suitable alternatives.
     - A new hosting account on a temporary domain in the root. (If you
       would like to change hosts in the process of migration.)
       - Restoring a site on a local device. See [Installing Joomla
         locally](https://docs.joomla.org/Installing_Joomla_locally "Special:MyLanguage/Installing Joomla locally")
         and [Setting up your workstation for Joomla
-        development](https://docs.joomla.org/Setting_up_your_workstation_for_Joomla_development "Special:MyLanguage/Setting up your workstation for Joomla development").
+        development](https://docs.joomla.org/Special:MyLanguage/Setting_up_your_workstation_for_Joomla_development "Setting up your workstation for Joomla development").
       - Restoring a site with a tool listed at the bottom of the page.
         (Read the developer documentation.)
 6.  In your test location, update your Joomla! 3.10.x instance to the
@@ -67,7 +64,7 @@ extensions.
     class="thumbborder" decoding="async"
     srcset="https://docs.joomla.org/images/thumb/6/61/J310-admin-extension-database-fix-en.png/1200px-J310-admin-extension-database-fix-en.png 1.5x, https://docs.joomla.org/images/thumb/6/61/J310-admin-extension-database-fix-en.png/1600px-J310-admin-extension-database-fix-en.png 2x"
     data-file-width="2560" data-file-height="812" width="800" height="254"
-    alt="J310-admin-extension-database-fix-en.png" />
+    alt="admin extension database fix" />
 8.  Empty trash: Do you have any articles in the trash? If so, delete
     them (and any applicable media that may be associated with them if
     not in use elsewhere on the site). Articles (categories and menu
@@ -100,7 +97,7 @@ Components
     class="thumbborder" decoding="async"
     srcset="https://docs.joomla.org/images/7/72/Migration_J3toJ4_update_channel-en.png 1.5x"
     data-file-width="1000" data-file-height="384" width="800" height="307"
-    alt="Migration J3toJ4 update channel-en.png" />
+    alt="Migration J3 to J4 update channel" />
 4.  Click Save & Close
 5.  You will then see your Installed Joomla Version, the latest Joomla!
     version and the URL for the update package. Joomla will show you the
@@ -112,7 +109,7 @@ Components
     class="thumbborder" decoding="async"
     srcset="https://docs.joomla.org/images/3/3a/J310-admin-update_to_4-pre_update_check-en.png 1.5x"
     data-file-width="1200" data-file-height="559" width="800" height="373"
-    alt="J310-admin-update to 4-pre update check-en.png" />
+    alt="admin update to 4 pre update check" />
 6.  Look at the Pre-Update Check and the Extension Pre-Update Check in
     the Pre-Update Check tab of the Joomla Update component. If any
     extension that isn’t in your planning is listed here, add it to your
@@ -143,7 +140,7 @@ Components
     developer didn’t use a tag in their extension so we don’t know if it
     is or isn’t compatible with Joomla 4. Talk to the developer to
     verify.
-9.  **Update Extensions**: update any extensions that you will keep in
+9.  **Update Extensions:** update any extensions that you will keep in
     your website. In Joomla! 3.10.x you can go to **Extension
     Manager **→** Update tab** and click **Find Updates** which will add
     a tooltip in the Version column, under the Manage tab, giving some
@@ -163,7 +160,7 @@ Components
     decoding="async"
     srcset="https://docs.joomla.org/images/thumb/5/50/J310-admin-extension-manage-package-en.png/1200px-J310-admin-extension-manage-package-en.png 1.5x, https://docs.joomla.org/images/5/50/J310-admin-extension-manage-package-en.png 2x"
     data-file-width="1502" data-file-height="658" width="800" height="350"
-    alt="J310-admin-extension-manage-package-en.png" />Selecting Package
+    alt="admin extension manage package" />Selecting Package
     first is recommended because if there is something you need to
     uninstall in a package, it will automatically uninstall the
     associated Modules, Plugins, or anything else in the package at one
@@ -214,10 +211,9 @@ will migrate to Joomla 4. After migration, you'll need to update it to
 the Joomla 4.x version via com_installer. It will continue to be
 maintained, but more the same way a third-party extension is by
 receiving updates via com_installer. It is recommended to use Smart
-Search (com_finder) going forward. Search will still be available at
+Search (com_finder) going forward. Search is still available from the
 <a href="https://extensions.joomla.org/category/official-extensions/"
-class="external free" target="_blank"
-rel="noreferrer noopener">https://extensions.joomla.org/category/official-extensions/</a>.
+rel="noreferrer noopener">Joomla Extensions Directory</a>.
 
 #### Notes on Weblinks
 
@@ -226,7 +222,7 @@ site, the migration process would note this and migrate the Weblinks
 component and data. For the migration from 3.10.x to 4.x, it will be the
 same. It is still available and maintained on the JED at
 <a href="https://extensions.joomla.org/category/official-extensions/"
-class="external text" target="_blank" rel="noreferrer noopener">Official
+rel="noreferrer noopener">Official
 Extensions</a>.
 
 #### Notes on Legacy Routing
@@ -251,7 +247,7 @@ installation, continue with the following steps:
     class="thumbborder" decoding="async"
     srcset="https://docs.joomla.org/images/thumb/8/84/J310-system-global-config-server-tab-en.png/750px-J310-system-global-config-server-tab-en.png 1.5x, https://docs.joomla.org/images/thumb/8/84/J310-system-global-config-server-tab-en.png/1000px-J310-system-global-config-server-tab-en.png 2x"
     data-file-width="1496" data-file-height="1002" width="500" height="335"
-    alt="J310-system-global-config-server-tab-en.png" />
+    alt="system global configuration server tab" />
 2.  Take another backup.
 3.  Go to **Components **→** Joomla Update**. (It should say no updates
     found. If it doesn’t, update Joomla to the latest version and test.
@@ -263,7 +259,7 @@ installation, continue with the following steps:
     class="thumbborder" decoding="async"
     srcset="https://docs.joomla.org/images/thumb/f/fd/J310-component-joomla-update-select-support-en.png/750px-J310-component-joomla-update-select-support-en.png 1.5x, https://docs.joomla.org/images/thumb/f/fd/J310-component-joomla-update-select-support-en.png/1000px-J310-component-joomla-update-select-support-en.png 2x"
     data-file-width="1382" data-file-height="772" width="500" height="279"
-    alt="J310-component-joomla-update-select-support-en.png" />
+    alt="component joomla update select update channel" />
 5.  Click Save & Close.
 6.  You will then see your Installed Joomla Version, the Latest Joomla!
     version and the URL for the update package. Joomla will show you the
@@ -275,7 +271,7 @@ installation, continue with the following steps:
     class="thumbborder" decoding="async"
     srcset="https://docs.joomla.org/images/thumb/a/a8/J310-to-j4-dev-update-found-en.png/1200px-J310-to-j4-dev-update-found-en.png 1.5x, https://docs.joomla.org/images/a/a8/J310-to-j4-dev-update-found-en.png 2x"
     data-file-width="1466" data-file-height="1079" width="800" height="589"
-    alt="J310-to-j4-dev-update-found-en.png" />
+    alt="pre update check for joomla 4" />
 7.  If the update is not showing up, go to **Extension
     manager **→** Update** and press Purge Cache from the toolbar. Now
     the update to Joomla! 4 should show up.
@@ -294,7 +290,7 @@ installation, continue with the following steps:
     class="thumbborder" decoding="async"
     srcset="https://docs.joomla.org/images/thumb/5/53/J4-administrator-overview-en.png/1200px-J4-administrator-overview-en.png 1.5x, https://docs.joomla.org/images/thumb/5/53/J4-administrator-overview-en.png/1600px-J4-administrator-overview-en.png 2x"
     data-file-width="1640" data-file-height="752" width="800" height="367"
-    alt="J4-administrator-overview-en.png" />
+    alt="joomla 4 or 5 home dashboard" />
 12. Go to **System **→** Maintenance **→** Database** and click *Fix* if
     any errors show.
 13. In **System **→** Install **→** Discover** see if there are any
@@ -325,7 +321,7 @@ installation, continue with the following steps:
     may need to change a line (or lines) in it in order to update to the
     next version of Joomla 4. Please go to
     <a href="https://docs.joomla.org/Htaccess_changes_after_joomla4.0.4"
-    class="external text" target="_blank" rel="noreferrer noopener">Htaccess
+    rel="noreferrer noopener">Htaccess
     changes after joomla4.0.4</a> to determine if you need to change
     your file or not.
 5.  Remove the Joomla! 3.10 site from the server within a couple of days
@@ -340,14 +336,14 @@ you will want to get that data moved over to the 4.x site before going
 live. You can do this manually (make sure you keep the same user IDs -
 go in order) or by using a <a
 href="https://extensions.joomla.org/category/migration-a-conversion/data-import-a-export%20transfer%20tool/third-party%20extension/"
-class="external text" target="_blank" rel="noreferrer noopener">third
+rel="noreferrer noopener">third
 party extension</a>.
 
 ## Suggested Tools
 
 - <a href="http://extensions.joomla.org/extensions/access-a-security/site-security/backup/1606"
-  class="external text" target="_blank" rel="noreferrer noopener">Akeeba
+  rel="noreferrer noopener">Akeeba
   Backup</a> is very popular for backup and restore.
 - More <a href="https://extensions.joomla.org/tags/backup/"
-  class="external text" target="_blank" rel="noreferrer noopener">backup
+  rel="noreferrer noopener">backup
   tools</a>.

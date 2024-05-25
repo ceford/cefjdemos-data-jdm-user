@@ -111,7 +111,7 @@ chosen position. Proceed as follows:
 src="https://docs.joomla.org/images/8/8a/J4x-site-modules-random-image-result.png"
 class="thumbborder" decoding="async" data-file-width="345"
 data-file-height="458" width="345" height="458"
-alt="J4x-site-modules-random-image-result.png" />
+alt="site modules random image result" />
 
 Check the Site appearance. In this case it might be a good idea to
 centre the image. That can be done as follows:

@@ -51,7 +51,9 @@ Step 2: Add the following code to the .htaccess file:
 
 Step 3: Enter the dedicated IP address you wish to allow access from in place of the xx.xx.xx.xx.
 
-More information about restricting directory access by IP address using htaccess can be found [here](https://docs.joomla.org/How_do_you_restrict_directory_access_by_IP_address_using_htaccess%3F ""). You may also use [security extensions](https://extensions.joomla.org/tags/site-security/ "") that can restrict access to the Joomla admin backend using the IP filtering feature and includes many other features which strengthen your Joomla website security.
+More information about restricting directory access by IP address using
+htaccess can be found in this [Joomla! Documentation](https://docs.joomla.org/How_do_you_restrict_directory_access_by_IP_address_using_htaccess%3F "")
+article. You may also use [security extensions](https://extensions.joomla.org/tags/site-security/ "") that can restrict access to the Joomla admin backend using the IP filtering feature and includes many other features which strengthen your Joomla website security.
 
 ## 5. Use Secure FTP Connections
 

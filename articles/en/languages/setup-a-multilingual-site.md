@@ -340,8 +340,7 @@ works continue to be studied and reinterpreted.”
     **William Shakespeare**.
   - Set the Category to that for the language you selected.
   - Enter the translated text into the **Article Text** field (you can
-    try <a href="https://translate.google.com/" class="external free"
-    target="_blank"
+    try <a href="https://translate.google.com/"
     rel="nofollow noreferrer noopener">https://translate.google.com/</a>).
   - Select **Save & Close**.
 - After a new article for each language has been created, select **Save

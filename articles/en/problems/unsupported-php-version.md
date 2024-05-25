@@ -8,7 +8,6 @@ If you see this when you try and install Joomla 4.x:
 
 Joomla 4 requires PHP 7.2.5 or higher as described in our
 <a href="https://manual.joomla.org/docs/next/get-started/technical-requirements/"
-class="external text" target="_blank"
 rel="noreferrer noopener">Technical Requirements</a>.
 
 ### Updating your PHP Version
@@ -17,7 +16,7 @@ There are several ways to update your PHP version. The main ones are
 covered in an article in the September 2020 issue of Joomla Community
 Magazine: <a
 href="https://magazine.joomla.org/all-issues/september-2020/how-do-i-update-my-php-version"
-class="external text" target="_blank" rel="noreferrer noopener">How do I
+rel="noreferrer noopener">How do I
 update my PHP version?</a>.
 
 If you are using CPanel or Plesk there should be an option to upgrade php

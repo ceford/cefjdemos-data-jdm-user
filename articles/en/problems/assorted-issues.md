@@ -55,7 +55,7 @@ For further information see:
 
 <a
 href="https://www.joomla.org/announcements/release-news/5850-changes-to-update-process-that-you-need-to-be-aware-of.html"
-class="external text" target="_blank" rel="noreferrer noopener">Changes
+rel="noreferrer noopener">Changes
 to Update Process that you need to be aware of</a>
 
 ## Articles Visible in Database and Frontend but Not Visible in Backend

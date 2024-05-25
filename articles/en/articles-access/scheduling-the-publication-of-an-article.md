@@ -1,4 +1,4 @@
-<!-- Filename: J4.x:Scheduling_the_publication_of_an_article / Display title: Scheduling the publication of an article -->
+<!-- Filename: J4.x:Scheduling_the_publication_of_an_article / Display title: Scheduling Publication -->
 
 ## Introduction
 
@@ -45,7 +45,7 @@ src="https://docs.joomla.org/images/thumb/2/24/J4x_article_scheduling_tab-en.png
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/thumb/2/24/J4x_article_scheduling_tab-en.png/450px-J4x_article_scheduling_tab-en.png 1.5x, https://docs.joomla.org/images/2/24/J4x_article_scheduling_tab-en.png 2x"
 data-file-width="500" data-file-height="520" width="300" height="312"
-alt="J4x article scheduling tab-en.png" />
+alt="article publishing tab" />
 
 To schedule the article there are four options:
 
@@ -75,7 +75,7 @@ src="https://docs.joomla.org/images/thumb/4/4f/J4x_article_scheduling_start-en.p
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/thumb/4/4f/J4x_article_scheduling_start-en.png/450px-J4x_article_scheduling_start-en.png 1.5x, https://docs.joomla.org/images/4/4f/J4x_article_scheduling_start-en.png 2x"
 data-file-width="500" data-file-height="445" width="300" height="267"
-alt="J4x article scheduling start-en.png" />
+alt="article publishing date start selection" />
 
 At the end of the *Start Publishing* field select the calendar icon.
 
@@ -101,7 +101,7 @@ src="https://docs.joomla.org/images/thumb/b/be/J4x_article_scheduled-en.png/800p
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/b/be/J4x_article_scheduled-en.png 1.5x"
 data-file-width="1000" data-file-height="386" width="800" height="309"
-alt="J4x article scheduled-en.png" />
+alt="articles list status pending icon" />
 
 In the Article List you will see that the article you have scheduled
 shows an exclamation mark (!) in the **Status** column. If you hover
@@ -119,7 +119,7 @@ src="https://docs.joomla.org/images/thumb/5/57/J4x_article_expired-en.png/800px-
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/5/57/J4x_article_expired-en.png 1.5x"
 data-file-width="1000" data-file-height="261" width="800" height="209"
-alt="J4x article expired-en.png" />
+alt="article list status expired icon" />
 
 Featured articles will show as pending or expired in the Featured
 column.

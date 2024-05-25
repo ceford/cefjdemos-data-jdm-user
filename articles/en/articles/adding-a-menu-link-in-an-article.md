@@ -1,4 +1,4 @@
-<!-- Filename: J4.x:Adding_a_menu_link_in_an_article / Display title: Adding a menu link in an article -->
+<!-- Filename: J4.x:Adding_a_menu_link_in_an_article / Display title: Add menu link in an article -->
 
 ## Introduction
 
@@ -28,7 +28,7 @@ src="https://docs.joomla.org/images/thumb/1/19/Article_Edit_page-en.png/800px-Ar
 decoding="async"
 srcset="https://docs.joomla.org/images/1/19/Article_Edit_page-en.png 1.5x"
 data-file-width="1000" data-file-height="211" width="800" height="169"
-alt="Article Edit page-en.png" />
+alt="Article edit page save to menu button" />
 
 You will then be presented with the **Menu: New Item** page. Joomla will
 fill the **Menu Title** field but you can change it. **Menu Item Type**
@@ -44,7 +44,7 @@ src="https://docs.joomla.org/images/thumb/9/9d/Fill_in_the_form_for_a_new_menu_i
 decoding="async"
 srcset="https://docs.joomla.org/images/9/9d/Fill_in_the_form_for_a_new_menu_item-en.png 1.5x"
 data-file-width="1000" data-file-height="526" width="800" height="421"
-alt="Fill in the form for a new menu item-en.png" />
+alt="form for a new menu item" />
 
 Click **Save&Close** and you will be taken to the **Menus: Items** page
 for the menu you added the article to.
@@ -56,4 +56,4 @@ src="https://docs.joomla.org/images/thumb/2/2e/Menu_Item_Created-en.png/800px-Me
 decoding="async"
 srcset="https://docs.joomla.org/images/2/2e/Menu_Item_Created-en.png 1.5x"
 data-file-width="1000" data-file-height="410" width="800" height="328"
-alt="Menu Item Created-en.png" />
+alt="Menu Items list" />

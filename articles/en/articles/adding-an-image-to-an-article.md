@@ -22,7 +22,7 @@ In the TinyMCE edit toolbar:
 <img
 src="https://docs.joomla.org/images/5/5e/Adding-an-image-to-an-article-cms-content-media.png"
 decoding="async" data-file-width="1000" data-file-height="508"
-width="1000" height="508" alt="Adding an image" />
+width="1000" height="508" alt="select the cms content media button" />
 
 In the popup window, navigate to the image you want to use and click to
 select it. On selection a form will appear prompting for additional
@@ -31,7 +31,7 @@ data:
 <img
 src="https://docs.joomla.org/images/d/d4/Adding-an-image-to-an-article-selected-image.png"
 decoding="async" data-file-width="1000" data-file-height="508"
-width="1000" height="508" alt="Selecting an image" />
+width="1000" height="508" alt="the media select dialog" />
 
 Set the image properties as required. In most cases you should certainly
 fill out the Image Description (Alt Text) field. The other fields are
@@ -84,7 +84,7 @@ installation a slightly different procedure is needed.
 src="https://docs.joomla.org/images/3/39/Adding-an-image-to-an-article-insert-edit-image.png"
 class="thumbborder" decoding="async" data-file-width="480"
 data-file-height="477" width="480" height="477"
-alt="Data for a remote image" />
+alt="the insert edit image form" />
 
 ### Using Drag and Drop for Remote images
 

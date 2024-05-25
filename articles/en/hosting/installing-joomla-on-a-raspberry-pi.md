@@ -4,8 +4,8 @@
 
 **Note: This document is not yet complete and fully tested.**
 
-The <a href="https://www.raspberrypi.org/" class="external text"
-target="_blank" rel="nofollow noreferrer noopener">Raspberry Pi</a> is a
+The <a href="https://www.raspberrypi.org/"
+rel="nofollow noreferrer noopener">Raspberry Pi</a> is a
 small single-board computer that was originally developed to promote the
 teaching of basic computer science in schools and developing countries.
 Because of its versatility it has become very popular and is used as
@@ -33,7 +33,6 @@ website running on the Raspberry Pi.
 The operating system Raspbian is a Debian Linux version specially
 compiled for the Raspberry Pi. There are two versions of
 <a href="https://www.raspberrypi.com/software/"
-class="external text" target="_blank"
 rel="nofollow noreferrer noopener">Raspbian</a> available: **Raspbian
 Jessie with Pixel Lite** (version with PIXEL desktop based on Debian
 Jessie) and **Raspbian Jessie Lite** (minimal version based on Debian
@@ -41,15 +40,14 @@ Jessie). Because we use the Raspberry Pi as a web server for Joomla, we
 won't need the GUI.
 
 **Download** <a href="https://www.raspberrypi.org/downloads/raspbian/"
-class="external text" target="_blank"
 rel="nofollow noreferrer noopener">Raspbian Jessie Lite</a> and unzip
 the downloaded file, e.g. **2016-09-23-raspbian-jessie-lite.zip** (306
 MB) to **2016-09-23-raspbian-jessie-lite.img** (1.4 GB).
 
 Now we need to copy the .img file to the (micro) SD card. You can use a
 tool with graphical interface such as
-<a href="https://unetbootin.github.io/" class="external text"
-target="_blank" rel="nofollow noreferrer noopener">UNetbootin</a> (for
+<a href="https://unetbootin.github.io/"
+rel="nofollow noreferrer noopener">UNetbootin</a> (for
 Windows, Mac OS X and Linux) or do it on the command line).
 
 **Be careful** when writing the *.img* disk image to another disk. If
@@ -67,7 +65,6 @@ do something like:
 
 See also <a
 href="https://www.raspberrypi.org/documentation/installation/installing-images/windows.md"
-class="external text" target="_blank"
 rel="nofollow noreferrer noopener">Installing Operating System Images
 using Windows</a>
 
@@ -82,7 +79,6 @@ and we'll do in Terminal:
 
 See also: <a
 href="https://www.raspberrypi.org/documentation/installation/installing-images/mac.md"
-class="external text" target="_blank"
 rel="nofollow noreferrer noopener">Installing Operating System Images on
 MacOS</a>
 
@@ -108,7 +104,6 @@ write to the wrong disk, you will always remember the *dd* command as
 
 See also <a
 href="https://www.raspberrypi.org/documentation/installation/installing-images/linux.md"
-class="external text" target="_blank"
 rel="nofollow noreferrer noopener">Installing Operating System Images on
 Linux</a>
 
@@ -266,7 +261,7 @@ By choosing "y" nginx and all needed packages will be installed.
 
 You can check the installation with a browser. Go to the IP address of
 your Raspberry pi, in our case
-<a href="http://192.168.0.35/" class="external free" target="_blank"
+<a href="http://192.168.0.35/"
 rel="nofollow noreferrer noopener">http://192.168.0.35/</a> We should
 see a message like:
 
@@ -415,15 +410,16 @@ Test it by creating the following PHP file
     sudo nano /var/www/example.com/test.php
 
 We use a browser to test if we see the PHP configuration page at
-<a href="http://192.168.0.35/example.com/test.php" class="external free"
-target="_blank"
+<a href="http://192.168.0.35/example.com/test.php"
 rel="nofollow noreferrer noopener">http://192.168.0.35/example.com/test.php</a>
 
 ## Joomla!
 
 - to do
+```
     sudo wget https://github.com/joomla/joomla-cms/releases/download/3.6.3/Joomla_3.6.3-Stable-Full_Package.zip
     sudo unzip -x Joomla_3.6.3-Stable-Full_Package.zip
+```
 
 ## Connecting Raspberry Pi to Internet
 
@@ -449,8 +445,8 @@ Make sure that it is enabled.
 If everything is working correctly then you should see your own Joomla
 website on the Raspberry Pi by visiting your external IP address (Find
 your external IP address with a tool like
-<a href="http://www.whatsmyip.org/" class="external text"
-target="_blank" rel="nofollow noreferrer noopener">whatsmyip.org</a>).
+<a href="http://www.whatsmyip.org/"
+rel="nofollow noreferrer noopener">whatsmyip.org</a>).
 
 ### Using a domain name
 
@@ -489,13 +485,13 @@ The gateway is the IP address of your router. You can also find it using
 
 # External links
 
-- <a href="https://raspberrypi.org" class="external text" target="_blank"
+- <a href="https://raspberrypi.org"
   rel="nofollow noreferrer noopener">Raspberry Pi Foundation</a> (RPF) -
   official website and forums
-- <a href="http://elinux.org/RaspberryPiBoard" class="external text"
-  target="_blank" rel="nofollow noreferrer noopener">Raspberry Pi Wiki</a>,
+- <a href="http://elinux.org/RaspberryPiBoard"
+rel="nofollow noreferrer noopener">Raspberry Pi Wiki</a>,
   supported by the RPF
 - Video of presentation
-  <a href="https://youtu.be/u2MFQCoexD0" class="external text"
-  target="_blank" rel="nofollow noreferrer noopener">Joomla on Raspberry
+  <a href="https://youtu.be/u2MFQCoexD0"
+  rel="nofollow noreferrer noopener">Joomla on Raspberry
   Pi (with Nginx)</a> at Joomladay Germany 2013 in Nuremberg, Germany

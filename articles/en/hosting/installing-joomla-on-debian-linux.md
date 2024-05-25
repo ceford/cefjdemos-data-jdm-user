@@ -39,21 +39,15 @@ and *php5* in order to have a web server for Joomla!.
 
 ### Which Stack Should I Choose?
 
-- [XAMPP](https://docs.joomla.org/Installing_Joomla_on_Debian_Linux#XAMPP "Installing Joomla on Debian Linux")
-  automatically configures ownership.
-- [LaMp](https://docs.joomla.org/Installing_Joomla_on_Debian_Linux#LaMp "Installing Joomla on Debian Linux")
-  requires use of the *chown* command.
-- [BitNami Joomla!
-  Stack](https://docs.joomla.org/Installing_Joomla_on_Debian_Linux#BitNami_Joomla.21_stack "Installing Joomla on Debian Linux")
-  is free, self-contained and automatically configures the LAMP stack
-  and Joomla!
+- XAMPP automatically configures ownership.
+- LaMp requires use of the *chown* command.
+- BitNami Joomla! Stack is free, self-contained and automatically configures
+the LAMP stack and Joomla!
 
 ## XAMPP
 
-Download
-<a href="https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/"
-class="external text" target="_blank"
-rel="nofollow noreferrer noopener">XAMPP</a> for Linux to your your Home
+Download <a href="https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/"
+rel="nofollow noreferrer noopener">XAMPP for Linux</a> to your your Home
 folder.
 
 ### Install XAMPP
@@ -95,29 +89,24 @@ It can be useful to have access to several versions of XAMPP on your PC.
 (To have available different versions of PHP for testing.) XAMPP doesn't
 make this easy but it is possible - see <a
 href="https://stackoverflow.com/questions/47498835/installing-two-versions-of-php-with-xampp-on-ubuntu-system"
-class="external text" target="_blank"
 rel="nofollow noreferrer noopener">"how to" article</a>. (For Linux
 only.)
 
 ### Get Joomla
 
-Download the latest Joomla installation zip
-<a href="https://downloads.joomla.org/us/" class="external autonumber"
-target="_blank" rel="noreferrer noopener">[1]</a>
-
-Unzip to your hard drive
-
-Connect to localhost with XAMPP's FTP client Default
+* Download the latest
+<a href="https://downloads.joomla.org/us/" rel="noreferrer noopener">Joomla installation zip</a>
+* Unzip to your hard drive
+* Connect to localhost with XAMPP's FTP client Default
 
     nobody
     lampp
 
-Use FTP to create a folder for your Joomla on the localhost server
-
-FTP the unpacked Joomla installation files to the newly-created Joomla
+* Use FTP to create a folder for your Joomla on the localhost server
+* FTP the unpacked Joomla installation files to the newly-created Joomla
 folder.
 
-**Important**
+#### Important
 
 - The XAMPP installation sets the correct Ownership of the files and
   permissions.
@@ -158,7 +147,7 @@ Stop then restart XAMPP for the new settings to take effect.
 
 FTP layer is **not** needed
 
-**Database info**
+#### Database info
 
 **Host**: *localhost*
 
@@ -185,7 +174,7 @@ or
 
 ### Create a Link in the Ubuntu Menu
 
-**To create a GUI for XAMPP connected to your Ubuntu menu**
+#### To create a GUI for XAMPP connected to your Ubuntu menu
 
 Open up the Terminal and type
 
@@ -209,9 +198,8 @@ the GUI. *python-glade2* can be found in the Ubuntu Software Center.
 
 ## LaMp
 
-You will find instructions on
-<a href="https://wiki.debian.org/LaMp" class="external text"
-target="_blank" rel="nofollow noreferrer noopener">wiki.debian.org</a>.
+You will find instructions on the <a href="https://wiki.debian.org/LaMp"
+rel="nofollow noreferrer noopener">Debian Wiki</a>.
 Make sure that you have installed *bzip2* for extracting the downloaded
 Joomla! package.
 
@@ -301,8 +289,7 @@ that is installed on your system.
 
 Now it is time to download the Joomla! sources. Currently you will find
 download links on the
-<a href="https://downloads.joomla.org/us/" class="external text"
-target="_blank" rel="noreferrer noopener">Joomla Downloads</a> page. For
+<a href="https://downloads.joomla.org/us/" rel="noreferrer noopener">Joomla Downloads</a> site. For
 version 1.5.11, you may do the following from command line, assuming
 your current working directory is your home folder */home/user*:
 
@@ -316,11 +303,6 @@ your current working directory is your home folder */home/user*:
 for 1.7 use this wget line:
 
     wget http://joomlacode.org/gf/download/frsrelease/15278/66553/Joomla_1.7.0-Stable-Full_Package.tar.bz2
-
-Check <a href="http://joomlacode.org/gf/project/joomla/frs/"
-class="external free" target="_blank"
-rel="nofollow noreferrer noopener">http://joomlacode.org/gf/project/joomla/frs/</a>
-for an updated package.
 
 Here is the first time we see this hash mark (#) shell prompt. We call
 *su* without any options, because we want to issue root commands more
@@ -368,8 +350,8 @@ Now set file and directory permissions:
 ### Configure Joomla!
 
 Open your web browser, and point it to
-<a href="http://localhost/joomla" class="external free" target="_blank"
-rel="nofollow noreferrer noopener">http://localhost/joomla</a>. Replace
+<a href="http://localhost/joomla"
+rel="nofollow noreferrer noopener">`http://localhost/joomla`</a>. Replace
 *localhost* with your servers IP or domain name if it you are installing
 on a remote system.
 
@@ -388,16 +370,16 @@ fresh installed Joomla!.
 
 ## BitNami Joomla! Stack
 
-### What is BitNami Joomla! Stack?
+### What is a BitNami Joomla! Stack?
 
-BitNami Joomla! Stack is an all-in-one installer that makes it easy to
+A BitNami Joomla! Stack is an all-in-one installer that makes it easy to
 install Joomla on your computer. It is free, easy to use and
 self-contained. That means it bundles and automatically configures every
 piece of software (dependency) necessary to run Joomla for development
-or production purposes, including Apache, MySQL and PHP. You can
-<a href="https://bitnami.com/stack/joomla" class="external text"
-target="_blank" rel="nofollow noreferrer noopener">download the latest
-version of BitNami Joomla! stack</a> for Windows, Linux and OS X.
+or production purposes, including Apache, MySQL and PHP. You can download
+the latest version of <a href="https://bitnami.com/stack/joomla"
+rel="nofollow noreferrer noopener">BitNami Joomla! stack for Windows,
+Linux and Mac</a>.
 
 ### Installing Joomla! Stack
 
@@ -413,20 +395,20 @@ to launch the installer.
 
 <img src="https://docs.joomla.org/images/6/69/Joomla_welcome.png"
 decoding="async" data-file-width="516" data-file-height="441"
-width="516" height="441" alt="Joomla welcome.png" />
+width="516" height="441" alt="Setup Bitnami Joomla" />
 
 Click *Forward*.
 
 <img src="https://docs.joomla.org/images/e/ec/Joomla_components.png"
 decoding="async" data-file-width="516" data-file-height="441"
-width="516" height="441" alt="Joomla components.png" />
+width="516" height="441" alt="Bitnami Joomla select components" />
 
 Select the components you want to install. If you are not sure, leave
 the default components checked. Click *Forward* when you are done.
 
 <img src="https://docs.joomla.org/images/b/bd/Joomla_directory.png"
 decoding="async" data-file-width="516" data-file-height="441"
-width="516" height="441" alt="Joomla directory.png" />
+width="516" height="441" alt="Bitnami Joomla installation folder" />
 
 Now it will ask where you want to install the program. Provide the
 location where you want to install the BitNami Joomla! stack and click
@@ -434,35 +416,35 @@ location where you want to install the BitNami Joomla! stack and click
 
 <img src="https://docs.joomla.org/images/0/05/Joomla_userdata.png"
 decoding="async" data-file-width="516" data-file-height="441"
-width="516" height="441" alt="Joomla userdata.png" />
+width="516" height="441" alt="Bitname Joomla create admin account" />
 
 The user and password you provide here will be used to create the
 Administrator account in Joomla! Click *Forward* when done.
 
 <img src="https://docs.joomla.org/images/0/02/Joomla_sitename.png"
 decoding="async" data-file-width="516" data-file-height="441"
-width="516" height="441" alt="Joomla sitename.png" />
+width="516" height="441" alt="Bitnami Joomla site name" />
 
 Type in the name you want to use for your Joomla site, and click
 *Forward*.
 
 <img src="https://docs.joomla.org/images/6/69/JoomlaReadytoinstall.png"
 decoding="async" data-file-width="516" data-file-height="441"
-width="516" height="441" alt="JoomlaReadytoinstall.png" />
+width="516" height="441" alt="Bitnami Joomla Ready to install" />
 
 The installer is now ready to begin the installation process. Click
 *Forward*.
 
 <img src="https://docs.joomla.org/images/5/55/JoomlaCopyingfiles.png"
 decoding="async" data-file-width="516" data-file-height="441"
-width="516" height="441" alt="JoomlaCopyingfiles.png" />
+width="516" height="441" alt="Bitnami Joomla Copying files" />
 
 Wait a minute while the installer copies the files and configures your
 Joomla! installation.
 
 <img src="https://docs.joomla.org/images/b/b7/Joomlafinalscreen.png"
 decoding="async" data-file-width="516" data-file-height="441"
-width="516" height="441" alt="Joomlafinalscreen.png" />
+width="516" height="441" alt="Bitnami Joomla final screen" />
 
 Joomla! is now set up and ready to be used. Click *Finish* to launch the
 application.
@@ -470,7 +452,7 @@ application.
 <img
 src="https://docs.joomla.org/images/1/1c/Joomlaapplicationscreen.png"
 decoding="async" data-file-width="600" data-file-height="514"
-width="600" height="514" alt="Joomlaapplicationscreen.png" />
+width="600" height="514" alt="Joomla application screen" />
 
 You can now log in using the username and password you provided during
 the installation.

@@ -76,7 +76,7 @@ Which differs from not being found and returning a 404 not found HTTP error mess
 
 ![Joomla http headers 3](../../../images/en/security/http-headers-dev-tools-headers-not-found.png "")
 
-## Ok. So what exactly does the Joomla HTTP Headers Plugin do?
+## What the Joomla HTTP Headers Plugin does
 
 Apart from telling the browser what to display and returning general information about the HTML document, HTTP Headers help to mitigate attacks and security vulnerabilities you may have on your Joomla website. That's where the Joomla HTTP Headers plugin comes into its element. It achieves this by explicitly displaying HTML content based on your settings in the Joomla HTTP Headers plugin itself.
 
@@ -176,7 +176,7 @@ Set this to enable. This will globally restrict what can be done with &lt;frame&
 
 The next item on the list in the first tab is the **Referrer-Policy**. This, if enabled, allows you to choose how much of your potential website data is transferred to another website if a link, or other HTML object, is clicked upon on your website.
 
-Commonly, we see this set as an HTML attribute on &lt;a&gt; tags, where you might format a link as &lt;a href=”https://someplace.com” rel=”noreferrer”>Click Me</a&gt;. The noreferrer tag keeps the details of the sending webpage a secret from the receiving webpage. It does this by removing the referral info from the HTTP header of the webpage.
+Commonly, we see this set as an HTML attribute on &lt;a&gt; tags, where you might format a link as &lt;a href=”https://someplace.com” rel=”noreferrer”&gt;Click Me&lt;/a&gt;. The noreferrer tag keeps the details of the sending webpage a secret from the receiving webpage. It does this by removing the referral info from the HTTP header of the webpage.
 
 Being aware of the data your website might ‘leak’ to another website you link to is an important part of securing your website and its users.
 
@@ -278,53 +278,63 @@ From the drop-down list, you currently have 10 options. But it’s worth noting 
 
 The current HTTP headers you can directly set here are headers that target the following:
 
-You can click on each title to read more about each feature on the Mozilla Developers website.
+You can obtain more about each feature on the Mozilla Developers website.
 
-#### [Content-Security-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy "")
+#### Content-Security-Policy (list)
 
 The Content-Security-Policy response header allows websites to control resources the user may load for each webpage. Policies mostly specify server origins and script endpoints. This helps guard against cross-site scripting attacks.
+[Mozilla: Content-Security-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy "")
 
-#### [Content-Security-Policy-Report-Only](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy-Report-Only "")
+#### Content-Security-Policy-Report-Only
 
 The HTTP Content-Security-Policy-Report-Only response header allows web developers to experiment with policies by monitoring (but not enforcing) their effects.
+[Mozilla: Content-Security-Policy-Report-Only](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy-Report-Only "")
 
-#### [Cross-Origin-Opener-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Opener-Policy "")
+#### Cross-Origin-Opener-Policy (COOP)
 
 The HTTP Cross-Origin-Opener-Policy (COOP) response header allows you to ensure a top-level document does not share a browsing context group with cross-origin documents.
+[Mozilla: Cross-Origin-Opener-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Opener-Policy "")
 
 COOP will process-isolate your document and potential attackers can't access your global object if they were to open it in a pop-up, preventing a set of cross-origin attacks dubbed **XS-Leaks**.
 
-#### [Expect-CT (To Be Discontinued)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expect-CT "")
+#### Expect-CT (To Be Discontinued)
 
 The Expect-CT header lets sites opt in to reporting and/or enforcement of Certificate Transparency requirements, to prevent the use of misissued certificates for that site from going unnoticed.
+[Mozilla: Expect-CT (To Be Discontinued)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expect-CT "")
 
-#### [Feature-Policy (Now Deprecated)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy "")
+#### Feature-Policy (Now Deprecated)
 
 The HTTP Feature-Policy header provides a mechanism to allow and deny the use of browser features in its own frame, and in content within any &lt;iframe&gt; elements in the document.
+[Mozilla: Feature-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy "")
 
-#### [Permissions-Policy (Replaces Feature Policy Above)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy "")
+#### Permissions-Policy
 
 This is the replacement for the Feature-Policy above.
+[Mozilla: Permissions-Policy (Replaces Feature Policy Above)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy "")
 
-#### [Referrer-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy "")
+#### Referrer-Policy (in list)
 
 The Referrer-Policy HTTP header controls how much referrer information (sent with the Referrer header) should be included with requests.
+[Mozilla: Referrer-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy "")
 
-#### [Report-To](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy "")
+#### Report-To
 
 Part of the Content-Security-Policy. The Content-Security-Policy Report-To HTTP response header field instructs the user agent to store reporting endpoints for an origin.
+[Mozilla: Report-To](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy "")
 
 The report-to directive is intended to replace the deprecated report-uri directive, report-to is not supported in most browsers yet.
 
-#### [Strict-Transport-Security](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security "")
+#### Strict-Transport-Security
 
 The HTTP Strict-Transport-Security response header (often abbreviated as HSTS) informs browsers that the site should only be accessed using HTTPS, and that any future attempts to access it using HTTP should automatically be converted to HTTPS.
+[Mozilla: Strict-Transport-Security](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security "")
 
 This is more secure than simply configuring a HTTP to HTTPS (301) redirect on your server, where the initial HTTP connection is still vulnerable to a man-in-the-middle attack.
 
-#### [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options "")
+#### X-Frame-Options (in list)
 
 The X-Frame-Options HTTP response header indicates whether a browser should be allowed to render a page in a&lt;frame&gt;, &lt;iframe&gt;, &lt;embed&gt; or&lt;object&gt;, or not. Sites can use this to avoid click-jacking attacks, by ensuring that their content is not embedded into other sites.
+[Mozilla: X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options "")
 
 The added security is provided only if the user accessing the document is using a browser that supports X-Frame-Options.
 
@@ -375,7 +385,7 @@ According to [w3techs.com](https://w3techs.com/technologies/details/ce-httpsdefa
 
 This is an issue because any data being sent from and received by a user's browser is at risk of being intercepted. We know this as a **man-in-the-middle attack**. Now, this may not seem an important consideration if your website is only about pictures of cute kittens.
 
-![image of cute kittens](../../../images/en/security/http-headers-plugins-headers-kittens.jpg "")
+![snapshot of cute kittens](../../../images/en/security/http-headers-plugins-headers-kittens.jpg "")
 
 But even simple websites can become victims of hackers and attackers who will implement **click-jacking** and other cross-origin-attacks that will harm your users.
 
@@ -443,7 +453,7 @@ Lastly, submit your domain to the HSTS preload list.
 
 ## HTTP Headers Plugin Settings - TAB 3
 
-### Content Security Policy
+### Content Security Policy (Tab 3)
 
 **The Content Security Policy tab is disabled by default.**
 
@@ -482,10 +492,10 @@ The attack example above ended up loading a JavaScript file from a different sou
 In this example, the browser will only load JavaScript files in the HTML document if they originate from your domain. All other JavaScript files will be rejected, including Mr Hackers.
 
 While this helps to secure your website, it can also stop other legitimate JavaScript files you want to load as the webpage renders on the screen. These external files can be added as white listed sources in the same directive. For example, if you use bootstrap from a CDN, you would add:
-
+```
 script-src 'self' https://cdn.jsdelivr.net
-
-In this example if you have trouble loading bootstrap from the CDN, https://cdn.jsdelivr.net, you could try adding the full URL to the bootstrap file you need. So, you would format your directive like this: script-src 'self' https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js.
+```
+In this example if you have trouble loading bootstrap from the CDN, https://cdn.jsdelivr.net, you could try adding the full URL to the bootstrap file you need. So, you would format your directive like this: `script-src 'self' https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js`.
 
 ![policy directive self](../../../images/en/security/http-headers-plugins-headers-policy-directive-self.png "")
 
@@ -493,7 +503,7 @@ Adding these external sources would be easier to implement on a new website as y
 
 When adding directives to your Content Security Policy in the HTTP Headers Plugin, there are a **series of core values** you can use to define what should be explicitly loaded by the browser. These are the basic ones to get your first Content Security Policy set up.
 
-Other options are available for some of the more advanced directives, a fuller list and examples of their usage can be found [here](https://content-security-policy.com/ "").
+Other options are available for some of the more advanced directives, a fuller list and examples of their usage can be found at the [Content Security Policy (CSP) Quick Reference Guide](https://content-security-policy.com/ "") website.
 
 * **'none'** blocks the use of this type of resource.
 * **'self'** matches the current origin (but not subdomains).
@@ -689,7 +699,9 @@ Adding hashes to your inline code is a good way to whitelist them in the HTTP he
 
 If you change your JavaScript, you’ll need to recalculate your hash and change the value in the CSP directive.
 
-If you have problems getting your hashes to work, there are 3 common problems, you can find solutions [here](https://content-security-policy.com/hash/ "").
+If you have problems getting your hashes to work, there are 3 common problems,
+you can find solutions in the [Using a hash with CSP](https://content-security-policy.com/hash/ "")
+web page.
 
 Strict Dynamic
 
@@ -741,7 +753,7 @@ Have fun investigating the Joomla HTTP headers plugin and learn how it can help 
 
 I recommend you do some more research into this interesting topic before you start, though. There are links below to kick start your own research. You’ll get a much better understanding of how the internet works and how your website interacts with it.
 
-**For Reference**
+### For Reference
 
 If you need to reset the plugin the HTTP Headers plugin was intalled with the following options set:
 
@@ -752,20 +764,18 @@ The plugin is Enabled by default.
 * The Referrer-Policy is initially set to: strict-origin-when-cross-origin.
 * The Cross-Origin-Opener-Policy is initially set to same-origin.
 
-If you’ve read this far and thought “That’s not fair, what about J3?”, “Why can’t we have the same features in Joomla 3?”. Well, the good news is, you can. Although you’ll have to [download the plugin from the JED[(https://extensions.joomla.org/extension/httpheader "")], and install it. The J3 plugin comes with most of the same features as the J4 version, and it’s written by the same team that’s behind the J4 version which is now included in the core :).
+If you’ve read this far and thought “That’s not fair, what about J3?”, “Why can’t we have the same features in Joomla 3?”. Well, the good news is, you can. Although you’ll have to [download the plugin from the [JED](https://extensions.joomla.org/extension/httpheader ""), and install it. The J3 plugin comes with most of the same features as the J4 version, and it’s written by the same team that’s behind the J4 version which is now included in the core :).
 
-When you’ve set up your HTTP headers with the Joomla 4 plugin, you can test your HTTP Headers here:
-
-https://securityheaders.com/
+When you’ve set up your HTTP headers with the Joomla 4 plugin, you can test
+your HTTP Headers at the [Security Headers](https://securityheaders.com/) web
+site.
 
 How did you score?
-
-
 
 Be aware that activation of the HTTP Headers plugin may have [unexpected actions](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/script-src "") on the front end.
 
 Finally, I'd like to thank Tobias Zulauf & Ced Keiflin for their input in getting this article finished in time!
-
+<!--
 ### More Reading:
 
 Here are some of the webpages I used to research this article, they are full of useful information on this topic.
@@ -791,8 +801,6 @@ Here are some of the webpages I used to research this article, they are full of 
 * https://content-security-policy.com/frame-ancestors/
 * https://content-security-policy.com/nonce/
 
-
-
 Computer icons created by Freepik - Flaticon
 
 Server icons created by Freepik - Flaticon
@@ -802,3 +810,4 @@ German translation of this article: https://www.jug-zueri.ch/artikel/das-http-he
 Russian translation of this article, part 1: https://habr.com/ru/articles/697214/
 
 Russian translation of this article, part 2: https://habr.com/ru/articles/704778/
+->

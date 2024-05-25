@@ -1,6 +1,4 @@
-<!-- Filename: J4.x:Workflow / Display title: Workflow -->
-
-Joomla!  4.x
+<!-- Filename: J4.x:Workflow / Display title: Publishing Workflow -->
 
 ## Introduction
 

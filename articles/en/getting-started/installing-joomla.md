@@ -10,16 +10,14 @@ just a few minutes. The previous steps:
 ### Hosting Setup
 
 If you have not yet set up a hosting environment you need to do it now,
-either on a hosting service or your local computer. Read the 
-[Hosting Setup](jdocmanual?manual=user&heading=getting-started&filename=hosting-setup.md)
-tutorial for details.
+either on a hosting service or your local computer.
 
 Also, there are some PHP settings that need to be sufficient for Joomla
 to install. The settings are usually in a *php.ini* or *user.ini*
 configuration file on the server. If you are on shared hosting, talk to
 your hosting service about how to change these settings if it is
 possible to do so. If working on a localhost, for example with
-[XAMPP](https://docs.joomla.org/XAMPP "Special:MyLanguage/XAMPP"), or a
+[XAMPP](https://docs.joomla.org/Special:MyLanguage/XAMPP "XAMPP"), or a
 VPS or dedicated host, you should not be restricted by these settings
 and can set them yourself.
 
@@ -36,11 +34,9 @@ unpredictable problems.
 
 ### Database Setup
 
-If you have not yet set up a database do it now. It is covered for a
-hosting service in the [Hosting
-Setup](https://docs.joomla.org/J4.x:Hosting_Setup "J4.x:Hosting Setup")
-tutorial. There is also a [Creating a Database for
-Joomla!](https://docs.joomla.org/Creating_a_Database_for_Joomla! "Special:MyLanguage/Creating a Database for Joomla!")
+If you have not yet set up a database do it now. It is covered for a cPanel
+hosting service in the [cPanel Hosting](jdocmanual?manual=user&heading=hosting&filename=cpanel-hosting.md) tutorial. There is also a [Creating a Database for
+Joomla!](https://docs.joomla.org/Special:MyLanguage/Creating_a_Database_for_Joomla! "Creating a Database for Joomla!")
 tutorial that covers localhost and phpMyAdmin methods.
 
 You will need to note basic database information needed when the actual
@@ -58,7 +54,7 @@ Joomla installation is started.
 
 Download the current release of Joomla! from the link on the
 <a href="https://downloads.joomla.org/" class="external text"
-target="_blank" rel="noreferrer noopener">Download Joomla</a> page
+rel="noreferrer noopener">Download Joomla</a> page
 
 Move the downloaded Joomla installation package zip file to the server.
 For a hosting service you may use the cPanel File Manager Upload
@@ -66,7 +62,6 @@ function or you may use an FTP Client to transfer the downloaded Joomla
 4.x zip file to your server. There are several FTP clients available.
 Here is a detailed <a
 href="https://en.wikipedia.org/wiki/Comparison_of_FTP_client_software"
-class="external text" target="_blank"
 rel="nofollow noreferrer noopener">Comparison of FTP client software</a>.
 If in doubt, use FileZilla.
 
@@ -80,15 +75,8 @@ include *htdocs* and this depends on how your host has the set up the
 server. For Joomla purposes, you can load the files directly into
 *public_html* or a sub-folder you have created within it.
 
-<img
-src="https://docs.joomla.org/images/thumb/4/41/Stop_hand_nuvola.svg.png/25px-Stop_hand_nuvola.svg.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/4/41/Stop_hand_nuvola.svg.png/38px-Stop_hand_nuvola.svg.png 1.5x, https://docs.joomla.org/images/4/41/Stop_hand_nuvola.svg.png 2x"
-data-file-width="40" data-file-height="40" width="25" height="25"
-alt="Stop hand nuvola.svg.png" />Warning!
-
-If you unpack the files on your own computer, then copy them to your
-server, be sure to move only the folders and files contained **inside**
+**Warning:** If you unpack the files on your own computer, then copy them to
+your server, be sure to move only the folders and files contained **inside**
 the Joomla package. If you unpack the folders and files into a folder,
 for example called, *`Joomla`* and then upload that folder, your site
 will have to be accessed at *`yoursitename.com/Joomla`* instead of
@@ -101,13 +89,10 @@ The zip package files can be extracted directly on the host using
 various command line tools (e.g. unzip), which needs to be installed on
 the server. If your hosting service uses the admin tool cPanel, the
 Extract button can be pressed in the File Manager. Apart from that, the
-free third-party tool
-<a href="https://www.akeeba.com/products/akeeba-kickstart.html"
-class="external text" target="_blank"
-rel="nofollow noreferrer noopener">Akeeba Kickstart</a> may also be used
-for this purpose. The unzipped files and directories will be placed in
-the current folder. Extraction on your local computer depends on your
-OS. Try a right-click and see if there is an extract menu. In this case
+free third-party [Akeeba Kickstart](https://www.akeeba.com/products/akeeba-kickstart.html)
+tool may also be used for this purpose. The unzipped files and directories
+will be placed in the current folder. Extraction on your local computer depends
+on your OS. Try a right-click and see if there is an extract menu. In this case
 your OS may put the files in a folder with the same name as the zip
 file. After extraction you may delete the zip file and rename the
 extraction folder to something short and suitable for use in a url.
@@ -126,7 +111,7 @@ screen.
 src="https://docs.joomla.org/images/0/06/J4x_Installation_screen_page_1.png"
 class="thumbborder" decoding="async" data-file-width="500"
 data-file-height="397" width="500" height="397"
-alt="J4x Installation screen page 1.png" />
+alt="Installation screen page 1" />
 
 Joomla will try to identify the *Select Language* field automatically
 from your browser's language. You can change this if needed.
@@ -134,8 +119,7 @@ from your browser's language. You can change this if needed.
 Fill in the following information.
 
 - **Site Name**: The name of your website — this can be changed at any
-  point later in the [Site Global
-  Configuration](https://docs.joomla.org/Help40:Site_Global_Configuration#Site "Special:MyLanguage/Help40:Site Global Configuration")
+  point later in the [Site Global Configuration](https://docs.joomla.org/Special:MyLanguage/Help40:Site_Global_Configuration#Site "Help40:Site Global Configuration")
   page.
 
 When everything on the first page is completed, click the *Setup Login
@@ -149,21 +133,17 @@ You should now see the login data screen.
 src="https://docs.joomla.org/images/6/66/J4x_Installation_screen_page_2.png"
 class="thumbborder" decoding="async" data-file-width="500"
 data-file-height="481" width="500" height="481"
-alt="J4x Installation screen page 2.png" />
+alt="Installation screen page 2" />
 
 Fill in the following information.
 
 - **Real Name**: The name of the Super User. This is how Joomla will
   greet you when you log in.
 - **Super User account username**: The username for the *Super User*.
-  Avoid using *admin* (a good [My
-  Profile](https://docs.joomla.org/Security_Checklist/Joomla!_Setup#Change_the_default_administrator_username "Special:MyLanguagehttps://docs.joomla.org/Help40:Site_My_Profile")
-  in the *Administration* interface to change it later.
+  Avoid using *admin* as the Administrator name!
 - **Admin Password**: Remember that a Super User has maximum control of
   the Site and Administrator interfaces, so use a difficult password.
-  Use [My
-  Profile](https://docs.joomla.org/Help40:Site_My_Profile "Special:MyLanguage/Help40:Site My Profile")
-  in the *Administration* interface to change it later.
+  Use **My Profile** in the *Administration* interface to change it later.
 - **Super User Email Address**: The Super User email address. Enter a
   valid email in case you forget your password. This is the email
   address where you'll receive a link to change the Super User password.
@@ -174,20 +154,17 @@ Database Connection* button to proceed.
 ## Database Configuration
 
 Enter the database information noted down when you created the database
-for this installation. You may also read or review [Creating a Database
-for
-[Special:MyLanguage/Creating a Database for Joomla!](https://docs.joomla.org/Creating_a_Database_for_Joomla!).
+for this installation.
 
 <img
 src="https://docs.joomla.org/images/4/4f/J40_Installation_screen_page_3.png"
 class="thumbborder" decoding="async" data-file-width="500"
 data-file-height="637" width="500" height="637"
-alt="J40 Installation screen page 3.png" />
+alt="Installation screen page 3" />
 
 For simplification, these instructions are a reference to installing
-with a <a href="https://en.wikipedia.org/wiki/MySQLi" class="extiw"
-title="wikipedia:MySQLi">MySQLi</a> database. The instructions on the
-installation page are self explanatory, but here they are again:
+with a MySQLi database. The instructions on the installation page are self
+explanatory, but here they are again:
 
 - **Database Type**: MySQLi is the common database used
 - **Hostname** Where your database is located. Common is *localhost*,
@@ -206,8 +183,7 @@ installation page are self explanatory, but here they are again:
   stick to the default. However this allows enterprises that use one or
   two way authentication for the database connection to provide it.
 
-All these choices and more can be edited on the [Site Global
-Configuration](https://docs.joomla.org/Help40:Site_Global_Configuration#Server "Special:MyLanguage/Help40:Site Global Configuration")
+All these choices and more can be edited on the Site Global Configuration
 page, under *Server Options* after the installation is completed. Note,
 you will break your installation if you change these settings after
 installation unless you have a complete copy of the current database
@@ -223,17 +199,16 @@ success page.
 
 ### Success and Finishing Up the Installation
 
-Congratulations! Joomla! 4 is now installed.
+Congratulations! Joomla! is now installed.
 
 <img
 src="https://docs.joomla.org/images/e/e0/J40_Installation_screen_page_4.png"
 class="thumbborder" decoding="async" data-file-width="500"
 data-file-height="318" width="500" height="318"
-alt="J40 Installation screen page 4.png" />
+alt="Installation screen page 4" />
 
-If you want to start using Joomla right away without [installing extra
-languages](https://docs.joomla.org/J4.x:Installing_Joomla#Installing_Extra_Languages "Special:MyLanguage/J4.x:Installing Joomla")
-you can select *Open Administrator* to go to the *Administrator
+If you want to start using Joomla right away without installing extra
+languages you can select *Open Administrator* to go to the *Administrator
 Dashboard* or select *Open Site* to go to the Site Home page. You may
 see a section with recommended PHP settings.
 
@@ -259,7 +234,7 @@ A list of language packs is displayed.
 <img
 src="https://docs.joomla.org/images/c/ce/J40_Installation_screen_page_5.png"
 decoding="async" data-file-width="500" data-file-height="755"
-width="500" height="755" alt="J40 Installation screen page 5.png" />
+width="500" height="755" alt="Installation screen page 5" />
 
 Select up to 3 languages you wish to install. (More than 3 at once can
 cause timeout issues; you can install more later.)
@@ -294,7 +269,8 @@ Administrator interface.
 <img
 src="https://docs.joomla.org/images/d/d2/J40_Installation_screen_page_4_default_langs.png"
 class="thumbborder" decoding="async" data-file-width="500"
-data-file-height="650" width="500" height="650" alt="500" />
+data-file-height="650" width="500" height="650"
+alt="install additional languages" />
 
 - Select the default language you wish to use.
 - When you have selected the default language, click the *Set default
@@ -307,16 +283,3 @@ data-file-height="650" width="500" height="650" alt="500" />
 You can now can navigate to the *Administrator Dashboard*. Log in by
 selecting *Open Administrator* or go right to your site Home page by
 selecting *Open Site*.
-
-## Related Information
-
-- [Hosting
-  Setup](https://docs.joomla.org/J4.x:Hosting_Setup "Special:MyLanguage/J4.x:Hosting Setup")
-- [Hosting and Server
-  Setup](https://docs.joomla.org/Security_Checklist/Hosting_and_Server_Setup "Special:MyLanguage/Security Checklist/Hosting and Server Setup")
-- [Creating A VPS Testing
-  Server](https://docs.joomla.org/Creating_A_VPS_Testing_Server "Special:MyLanguage/Creating A VPS Testing Server")
-- [Setting up your local
-  environment](https://docs.joomla.org/J4.x:Setting_Up_Your_Local_Environment "Special:MyLanguage/J4.x:Setting Up Your Local Environment")
-- [Joomla CLI
-  Installation](https://docs.joomla.org/J4.x:Joomla_CLI_Installation "Special:MyLanguage/J4.x:Joomla CLI Installation")

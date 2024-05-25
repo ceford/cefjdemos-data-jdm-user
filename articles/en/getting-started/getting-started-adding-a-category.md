@@ -1,4 +1,4 @@
-<!-- Filename: J4.x:Getting_Started:_Adding_a_Category / Display title: Getting Started: Adding a Category -->
+<!-- Filename: J4.x:Getting_Started:_Adding_a_Category / Display title: Adding a Category -->
 
 ## Introduction
 
@@ -11,9 +11,8 @@ articles were files you would probably put them in a file hierarchy. In
 a CMS, articles are not files but categories provide for a similar
 tree-like structure. Example :
 
-|            |                                        |
-|------------|----------------------------------------|
 | Category   | Sub-categories                         |
+|------------|----------------------------------------|
 | Mammals    | Apes, Monkeys, Ungulates, Dogs, Cats   |
 | Reptiles   | Snakes, Lizards, Crocodiles, Turtles   |
 | Amphibians | Frogs, Toads                           |
@@ -59,7 +58,7 @@ src="https://docs.joomla.org/images/thumb/0/01/J4.x-getting-started-category-scr
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/thumb/0/01/J4.x-getting-started-category-screenshot-en.png/1200px-J4.x-getting-started-category-screenshot-en.png 1.5x, https://docs.joomla.org/images/0/01/J4.x-getting-started-category-screenshot-en.png 2x"
 data-file-width="1440" data-file-height="1134" width="800" height="630"
-alt="J4.x-getting-started-category-screenshot-en.png" />
+alt="Screenshot of new category form" />
 
 Save and Close! This takes you to the **Articles: Categories** list
 screen.
@@ -93,6 +92,6 @@ src="https://docs.joomla.org/images/thumb/0/07/J4.x-getting-started-category-lis
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/0/07/J4.x-getting-started-category-list-screenshot-en.png 1.5x"
 data-file-width="852" data-file-height="272" width="800" height="255"
-alt="J4.x-getting-started-category-list-screenshot-en.png" />
+alt="Screenshot of site category list page" />
 
 Not too pretty at this stage but the layout can be improved. Later...

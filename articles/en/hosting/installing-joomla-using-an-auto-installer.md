@@ -30,7 +30,7 @@ Thats it you are done!
 
 <img src="https://docs.joomla.org/images/f/fb/Fant.jpg" decoding="async"
 data-file-width="500" data-file-height="254" width="500" height="254"
-alt="Fant.jpg" />
+alt="Fantastico form" />
 
 ## Softaculous
 
@@ -46,13 +46,15 @@ Thats it you are done, Softaculous take only one step.
 
 <img src="https://docs.joomla.org/images/a/a2/Soft.jpg" decoding="async"
 data-file-width="500" data-file-height="268" width="500" height="268"
-alt="Soft.jpg" />
+alt="Softaculous form" />
 
 Its really fast to install and update using Auto Installers.
 
 ## Resources
 
-- <a href="http://www.netenberg.com" class="external text" target="_blank"
-  rel="nofollow noreferrer noopener">Fantastico</a>
-- <a href="http://www.softaculous.com" class="external text"
-  target="_blank" rel="nofollow noreferrer noopener">Softaculous</a>
+Autoinstallers are selected by hosting services so clients often have no
+choice. These references are provided for consultation purposes.
+- <a href="http://www.netenberg.com"
+  rel="nofollow noreferrer noopener">Fantastico Website</a>
+- <a href="http://www.softaculous.com"
+  rel="nofollow noreferrer noopener">Softaculous Website</a>

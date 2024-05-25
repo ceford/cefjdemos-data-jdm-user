@@ -80,8 +80,8 @@ domains/web sites apparent to the visitor. Instead of using .htaccess
 
 In this example, the base domain is `www.redjohnsoncandy.com`. You have
 created a template for that area named *Red Template*. The trick is to
-open 'Red Template's' index.php file and add the following AS THE VERY
-FIRST LINES of the install's primary index.php.
+open 'Red Template's' index.php file and add the following **as the very
+first lines** of the install's primary index.php.
 
 ```php
 <?php
@@ -114,7 +114,7 @@ you´ll create an infinite loop in the redirection process.
 
 Solution for single webspace, with different domains, one Joomla install
 and depending on the user landing domain, redirects to a different
-default page. Paste following PHP code AS THE VERY FIRST THING in the
+default page. Paste following PHP code **as the very first thing** in the
 install's primary index.php file. To assign another domain, just
 copy/past the "if" function and edit it with the values of the other
 domain in the same fashion. Further to setup the template views, you

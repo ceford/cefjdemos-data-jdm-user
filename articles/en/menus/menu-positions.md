@@ -13,7 +13,7 @@ src="https://docs.joomla.org/images/thumb/5/5e/J4x-menu-positions-en.png/800px-J
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/5/5e/J4x-menu-positions-en.png 1.5x"
 data-file-width="1000" data-file-height="551" width="800" height="441"
-alt="J4x-menu-positions-en.png" />
+alt="modules list" />
 
 For reference, the Cassiopeia template has the following positions:
 
@@ -36,7 +36,7 @@ src="https://docs.joomla.org/images/thumb/8/8d/J4x-menu-positions-move-en.png/80
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/8/8d/J4x-menu-positions-move-en.png 1.5x"
 data-file-width="1000" data-file-height="509" width="800" height="407"
-alt="J4x-menu-positions-move-en.png" />
+alt="menu positions move" />
 
 - Select `Save` from the Toolbar.
 - View the site to check the result.

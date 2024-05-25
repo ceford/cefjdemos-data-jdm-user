@@ -18,8 +18,8 @@ Your MySQL database usually is created by you during the installation
 process (unless you use a Fantastico or a similar installer that will
 create the database automatically). If you have a control panel on a
 linux host, you can usually access you database through a program called
-<a href="http://www.phpmyadmin.net/" class="external text"
-target="_blank" rel="nofollow noreferrer noopener">phpMyAdmin</a>. This
+<a href="http://www.phpmyadmin.net/"
+rel="nofollow noreferrer noopener">phpMyAdmin</a>. This
 will allow you to view your database.
 
 For a short tutorial on converting a static HTML web site to Joomla!,

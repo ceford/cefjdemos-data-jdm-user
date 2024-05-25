@@ -32,7 +32,7 @@ src="https://docs.joomla.org/images/thumb/c/ca/J4x-privacy-dashboard-en.png/800p
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/c/ca/J4x-privacy-dashboard-en.png 1.5x"
 data-file-width="1000" data-file-height="392" width="800" height="314"
-alt="J4x-privacy-dashboard-en.png" />
+alt="privacy dashboard" />
 
 There are two modules displayed by default in the Privacy Dashboard:
 
@@ -77,7 +77,7 @@ src="https://docs.joomla.org/images/thumb/2/21/J4x-privacy-plugin-system-privacy
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/2/21/J4x-privacy-plugin-system-privacy-consent-en.png 1.5x"
 data-file-width="1000" data-file-height="674" width="800" height="539"
-alt="J4x-privacy-plugin-system-privacy-consent-en.png" />
+alt="privacy plugin system privacy consent" />
 
 - Set the **Status** to **Enabled**.
 - Optional: Select or Create an article to link to from the Registration
@@ -87,9 +87,9 @@ alt="J4x-privacy-plugin-system-privacy-consent-en.png" />
   explanation of each field. Enable and adjust the parameters **if** you
   wish consents to expire after a selected number of days.
 
-Notes for Multilingual sites:
+### Privacy Consent Notes for Multilingual sites:
 
-**Short Privacy Policy** and **Redirect Message**: If you use the
+**Short Privacy Policy and Redirect Message:** If you use the
 default text then it will be displayed in the user's language. It is not
 possible to translate the custom text. If you wish to customise the text
 and display it in multiple languages then you should leave this field
@@ -102,7 +102,7 @@ for each language installed.
 article or menu item with alternatives in other languages then the
 privacy policy will be displayed in the correct language for the user.
 
-## Plugin: User - Terms and Conditions =
+## Plugin: User - Terms and Conditions
 
 When enabled, this plugin requests any new user registering on your site
 to consent to the Terms and Conditions for using your site. All existing
@@ -117,9 +117,9 @@ This plugin is not enabled by default. To enable:
 - Optional: Select or Create an article to link to from the Registration
   form.
 
-Notes for Multilingual sites:
+### User - Terms and Conditions Notes for Multilingual sites
 
-**Short Terms and Conditions**: If you use the default text then it will
+**Short Terms and Conditions:** If you use the default text then it will
 be displayed in the user's language. It is not possible to translate the
 custom text. If you wish to customise the text and display it in
 multiple languages then you should leave this field blank and use the
@@ -127,7 +127,7 @@ Joomla language override facility to customise the
 `PLG_USER_TERMS_NOTE_FIELD_DEFAULT` language strings for each language
 installed.
 
-**Terms & Conditions Article**: If you associate this article with
+**Terms & Conditions Article:** If you associate this article with
 alternatives in other languages then the privacy policy will be
 displayed in the correct language for the user.
 
@@ -141,7 +141,7 @@ src="https://docs.joomla.org/images/thumb/6/60/J4x-privacy-consents-en.png/800px
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/6/60/J4x-privacy-consents-en.png 1.5x"
 data-file-width="1000" data-file-height="279" width="800" height="223"
-alt="J4x-privacy-consents-en.png" />
+alt="registration form privacy consent" />
 
 ## Menu Item: Privacy Information Request
 
@@ -184,7 +184,7 @@ confirm the request. This will be in the link sent by email.
 
 Have a look at the other Privacy Component menu items.
 
-### Privacy Requests
+### Administrator Privacy Requests
 
 This screen is the central location for processing and managing user
 information requests. Please sea the related article on Privacy Workflow
@@ -195,7 +195,7 @@ src="https://docs.joomla.org/images/thumb/c/c0/J4x-privacy-information-requests-
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/c/c0/J4x-privacy-information-requests-en.png 1.5x"
 data-file-width="1000" data-file-height="363" width="800" height="290"
-alt="J4x-privacy-information-requests-en.png" />
+alt="privacy information requests" />
 
 ### Extension Capabilities
 
@@ -209,7 +209,7 @@ src="https://docs.joomla.org/images/thumb/d/de/J4x-privacy-capabilities-en.png/8
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/d/de/J4x-privacy-capabilities-en.png 1.5x"
 data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="J4x-privacy-capabilities-en.png" />
+alt="privacy capabilities information" />
 
 The page contents come from language strings in the core, in the privacy
 component and in plugins that implement the
@@ -238,4 +238,4 @@ src="https://docs.joomla.org/images/thumb/5/5c/J4x-privacy-consents-list-en.png/
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/5/5c/J4x-privacy-consents-list-en.png 1.5x"
 data-file-width="1000" data-file-height="469" width="800" height="375"
-alt="J4x-privacy-consents-list-en.png" />
+alt="privacy consents list" />

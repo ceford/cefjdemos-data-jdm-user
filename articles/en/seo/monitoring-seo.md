@@ -1,57 +1,5 @@
 <!-- Filename: Monitoring_SEO / Display title: Monitoring SEO -->
 
-<table data-cellspacing="1">
-
-<tbody>
-<tr class="odd">
-<td class="home-tile"><strong>Monitoring for Problems</strong> <img
-src="https://docs.joomla.org/images/thumb/9/9b/Nuvola_arrow_right.png/30px-Nuvola_arrow_right.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/9/9b/Nuvola_arrow_right.png/45px-Nuvola_arrow_right.png 1.5x, https://docs.joomla.org/images/thumb/9/9b/Nuvola_arrow_right.png/60px-Nuvola_arrow_right.png 2x"
-data-file-width="200" data-file-height="200" width="30" height="30"
-alt="Nuvola arrow right.png" />
-<a href="https://docs.joomla.org/Managing_404_Errors"
-title="Managing 404 Errors">404 errors</a>
-<a href="https://docs.joomla.org/Monitoring_Server_Health"
-title="Monitoring Server Health">Monitoring server health</a>
-<a href="https://docs.joomla.org/Alerting_about_errors"
-title="Alerting about errors">Getting alerted about errors</a></td>
-<td></td>
-<td class="home-tile"><strong>Monitoring for Performance</strong> <img
-src="https://docs.joomla.org/images/thumb/3/3b/Star_icon.png/30px-Star_icon.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/3/3b/Star_icon.png/45px-Star_icon.png 1.5x, https://docs.joomla.org/images/thumb/3/3b/Star_icon.png/60px-Star_icon.png 2x"
-data-file-width="128" data-file-height="128" width="30" height="30"
-alt="Star icon.png" />
-<a href="https://docs.joomla.org/Monitoring_Site_Speed"
-title="Monitoring Site Speed">Monitoring site speed</a>
-<a href="https://docs.joomla.org/Tracking_conversions"
-title="Tracking conversions">Tracking 'conversions'</a>
-<a href="https://docs.joomla.org/Analysing_User_Experience"
-title="Analysing User Experience">Analysing User Experience</a></td>
-<td></td>
-<td class="home-tile"><strong>Monitoring for Prominence &amp;
-People</strong> <img
-src="https://docs.joomla.org/images/thumb/2/28/Advanced_icon.png/40px-Advanced_icon.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/2/28/Advanced_icon.png/60px-Advanced_icon.png 1.5x, https://docs.joomla.org/images/thumb/2/28/Advanced_icon.png/80px-Advanced_icon.png 2x"
-data-file-width="128" data-file-height="128" width="40" height="40"
-alt="Advanced icon.png" />
-<a href="https://docs.joomla.org/Monitoring_Brand_Mentions"
-title="Monitoring Brand Mentions">Monitoring brand mentions</a>
-<a
-href="https://docs.joomla.org/index.php?title=Tracking_Topics_Of_Interest&amp;action=edit&amp;redlink=1"
-class="new"
-title="Tracking Topics Of Interest (page does not exist)">Tracking
-topics of interest</a>
-<a
-href="https://docs.joomla.org/index.php?title=Managing_Social_SEO&amp;action=edit&amp;redlink=1"
-class="new" title="Managing Social SEO (page does not exist)">Managing
-social SEO</a></td>
-</tr>
-</tbody>
-</table>
-
 ## Why Monitor Your Site?
 
 Monitoring your site is important to ensure that you notice developing
@@ -78,7 +26,6 @@ In this series of articles we'll consider some general metrics to
 monitor, along with some sector-specific metrics. These articles assume
 that you have
 <a href="https://marketingplatform.google.com/about/analytics/"
-class="external text" target="_blank"
 rel="nofollow noreferrer noopener">Google Analytics</a> running on your
 website.
 
@@ -152,7 +99,7 @@ blue).
 <img
 src="https://docs.joomla.org/images/4/4a/Googleanalyticscustomsegments.png"
 decoding="async" data-file-width="1582" data-file-height="1587"
-width="1582" height="1587" alt="Googleanalyticscustomsegments.png" />
+width="1582" height="1587" alt="Google analytics custom segments" />
 
 Once you have chosen which segments you wish to use, press apply and
 they will be applied to the data you are viewing. Below you can see the
@@ -162,7 +109,7 @@ filters being applied to show one, two, three, and three+ keywords.
 src="https://docs.joomla.org/images/4/4c/Googleanalyticscustomsegmentskeywords.png"
 decoding="async" data-file-width="1579" data-file-height="2852"
 width="1579" height="2852"
-alt="Googleanalyticscustomsegmentskeywords.png" />
+alt="Google analytics custom segments keywords" />
 
 ### Dashboards
 
@@ -181,7 +128,7 @@ profile
 <img
 src="https://docs.joomla.org/images/f/ff/Googleanayticsdashboard.png"
 decoding="async" data-file-width="1580" data-file-height="1119"
-width="1580" height="1119" alt="Googleanayticsdashboard.png" />
+width="1580" height="1119" alt="Google anaytics dashboard" />
 
 ### The Google Analytics Gallery
 
@@ -207,7 +154,7 @@ It is often difficult to manage all this. At a basic level it means four
 or five tabs open and flicking between them to get an idea of what is
 going on.
 
-<a href="https://www.cyfe.com/" class="external text" target="_blank"
+<a href="https://www.cyfe.com/"
 rel="nofollow noreferrer noopener">Cyfe.com</a> is a great tool that can
 be found via the Google Analytics Apps Gallery. Cyfe allows you to
 create dashboards and import all kinds of data from a staggering number
@@ -221,53 +168,51 @@ sales, and another to see social interaction, another to look at
 content.
 
 <table data-cellspacing="1">
-
+<thead>
+<tr>
+<th>Monitoring for Problems</th>
+<th>Monitoring for Performance</th>
+<th>Monitoring for Prominence & People</th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
-<td class="home-tile"><strong>Monitoring for Problems</strong> <img
-src="https://docs.joomla.org/images/thumb/9/9b/Nuvola_arrow_right.png/30px-Nuvola_arrow_right.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/9/9b/Nuvola_arrow_right.png/45px-Nuvola_arrow_right.png 1.5x, https://docs.joomla.org/images/thumb/9/9b/Nuvola_arrow_right.png/60px-Nuvola_arrow_right.png 2x"
-data-file-width="200" data-file-height="200" width="30" height="30"
-alt="Nuvola arrow right.png" />
-<a href="https://docs.joomla.org/Managing_404_Errors"
-title="Managing 404 Errors">404 errors</a>
-<a href="https://docs.joomla.org/Monitoring_Server_Health"
-title="Monitoring Server Health">Monitoring server health</a>
-<a href="https://docs.joomla.org/Alerting_about_errors"
-title="Alerting about errors">Getting alerted about errors</a></td>
-<td></td>
-<td class="home-tile"><strong>Monitoring for Performance</strong> <img
-src="https://docs.joomla.org/images/thumb/3/3b/Star_icon.png/30px-Star_icon.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/3/3b/Star_icon.png/45px-Star_icon.png 1.5x, https://docs.joomla.org/images/thumb/3/3b/Star_icon.png/60px-Star_icon.png 2x"
-data-file-width="128" data-file-height="128" width="30" height="30"
-alt="Star icon.png" />
-<a href="https://docs.joomla.org/Monitoring_Site_Speed"
-title="Monitoring Site Speed">Monitoring site speed</a>
-<a href="https://docs.joomla.org/Tracking_conversions"
-title="Tracking conversions">Tracking 'conversions'</a>
-<a href="https://docs.joomla.org/Analysing_User_Experience"
+<td class="home-tile">
+<ul>
+<li><a href="https://docs.joomla.org/Managing_404_Errors"
+title="Managing 404 Errors">404 errors</a></li>
+<li><a href="https://docs.joomla.org/Monitoring_Server_Health"
+title="Monitoring Server Health">Monitoring server health</a></li>
+<li><a href="https://docs.joomla.org/Alerting_about_errors"
+title="Alerting about errors">Getting alerted about errors</a>
+</ul>
+</td>
+<td class="home-tile">
+<ul>
+<li><a href="https://docs.joomla.org/Monitoring_Site_Speed"
+title="Monitoring Site Speed">Monitoring site speed</a></li>
+<li><a href="https://docs.joomla.org/Tracking_conversions"
+title="Tracking conversions">Tracking 'conversions'</a></li>
+<li><a href="https://docs.joomla.org/Analysing_User_Experience"
 title="Analysing User Experience">Analysing User Experience</a></td>
-<td></td>
-<td class="home-tile"><strong>Monitoring for Prominence &amp;
-People</strong> <img
-src="https://docs.joomla.org/images/thumb/2/28/Advanced_icon.png/40px-Advanced_icon.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/2/28/Advanced_icon.png/60px-Advanced_icon.png 1.5x, https://docs.joomla.org/images/thumb/2/28/Advanced_icon.png/80px-Advanced_icon.png 2x"
-data-file-width="128" data-file-height="128" width="40" height="40"
-alt="Advanced icon.png" />
-<a href="https://docs.joomla.org/Monitoring_Brand_Mentions"
-title="Monitoring Brand Mentions">Monitoring brand mentions</a>
-<a
+</li>
+</ul>
+<td class="home-tile">
+<ul>
+<li><a href="https://docs.joomla.org/Monitoring_Brand_Mentions"
+title="Monitoring Brand Mentions">Monitoring brand mentions</a></li>
+<li><a
 href="https://docs.joomla.org/index.php?title=Tracking_Topics_Of_Interest&amp;action=edit&amp;redlink=1"
 class="new"
 title="Tracking Topics Of Interest (page does not exist)">Tracking
-topics of interest</a>
-<a
+topics of interest</a></li>
+<li><a
 href="https://docs.joomla.org/index.php?title=Managing_Social_SEO&amp;action=edit&amp;redlink=1"
 class="new" title="Managing Social SEO (page does not exist)">Managing
-social SEO</a></td>
+social SEO</a>
+</li>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>

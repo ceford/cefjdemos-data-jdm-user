@@ -23,8 +23,8 @@ idea to have too many 404 errors on your site.
 
 The first step is to find out how many you have – which can be done
 using Google's
-<a href="https://developers.google.com/search" class="external text"
-target="_blank" rel="nofollow noreferrer noopener">Search Central</a>.
+<a href="https://developers.google.com/search"
+rel="nofollow noreferrer noopener">Search Central</a>.
 This is a free set of tools which allows you to analyse your website and
 pick up on problems, errors and issues quickly. It is recommended that
 you have every site you manage registered at Search Central to ensure
@@ -41,7 +41,7 @@ being fixed.
 
 <img src="https://docs.joomla.org/images/d/db/404discovery.png"
 decoding="async" data-file-width="1934" data-file-height="1543"
-width="1934" height="1543" alt="404discovery.png" />
+width="1934" height="1543" alt="webmaster tools" />
 
 ## Fixing Problems
 
@@ -66,11 +66,11 @@ on dead links.
 
 <img src="https://docs.joomla.org/images/4/43/Analyticsalerts.png"
 decoding="async" data-file-width="1179" data-file-height="518"
-width="1179" height="518" alt="Analyticsalerts.png" />
+width="1179" height="518" alt="Analytics alerts 404 traffic" />
 
 <img src="https://docs.joomla.org/images/6/62/Analyticsalerts2.png"
 decoding="async" data-file-width="1658" data-file-height="732"
-width="1658" height="732" alt="Analyticsalerts2.png" />
+width="1658" height="732" alt="Analytics alerts audience overview" />
 
 Google also has the ability, in Analytics, to set up alerts. Alerts
 allow you to be emailed when certain events occur. In this case, we can
@@ -83,7 +83,7 @@ in to look at your dashboard!
 
 <img src="https://docs.joomla.org/images/e/e1/Analyticsalertsemail.png"
 decoding="async" data-file-width="1171" data-file-height="456"
-width="1171" height="456" alt="Analyticsalertsemail.png" />
+width="1171" height="456" alt="Analytics alerts email" />
 
 ## Monitoring Errors with a Dashboard
 
@@ -95,4 +95,4 @@ profile to install it under.
 
 <img src="https://docs.joomla.org/images/e/e5/Dataintegrity.png"
 decoding="async" data-file-width="1650" data-file-height="1545"
-width="1650" height="1545" alt="Dataintegrity.png" />
+width="1650" height="1545" alt="Data integrity" />

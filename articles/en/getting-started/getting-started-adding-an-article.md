@@ -1,4 +1,4 @@
-<!-- Filename: J4.x:Getting_Started:_Adding_an_Article / Display title: Getting Started: Adding an Article -->
+<!-- Filename: J4.x:Getting_Started:_Adding_an_Article / Display title: Adding an Article -->
 
 ## Introduction
 
@@ -28,7 +28,7 @@ src="https://docs.joomla.org/images/thumb/9/9c/J4.x-getting-started-toolbar-scre
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/thumb/9/9c/J4.x-getting-started-toolbar-screenshot-en.png/1200px-J4.x-getting-started-toolbar-screenshot-en.png 1.5x, https://docs.joomla.org/images/9/9c/J4.x-getting-started-toolbar-screenshot-en.png 2x"
 data-file-width="1440" data-file-height="356" width="800" height="198"
-alt="J4.x-getting-started-toolbar-screenshot-en.png" />
+alt="Screenshot of articles toolbar" />
 
 ## The Articles Edit Page
 
@@ -42,7 +42,7 @@ The fields to fill in:
   much sense to have an article with no content. So start typing. If you
   just want something to try out copy the following paragraph:
 
-*Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
 Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
 imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper
 ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus
@@ -51,7 +51,7 @@ sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar,
 hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec
 vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit
 amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris
-sit amet nibh.*
+sit amet nibh.
 
 - **Featured.** To the right of the edit box (on laptop or bigger
   screens and below on smaller screens) there is a field to select to
@@ -68,7 +68,7 @@ src="https://docs.joomla.org/images/thumb/e/ea/J4.x-getting-started-my-first-art
 class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/e/ea/J4.x-getting-started-my-first-article-screenshot-en.png 1.5x"
 data-file-width="854" data-file-height="480" width="800" height="450"
-alt="J4.x-getting-started-my-first-article-screenshot-en.png" />
+alt="Screenshot of article in the site" />
 
 Note the article metadata: the information between the Title and the
 Content. You can configure what information appears and where it appears
@@ -83,7 +83,7 @@ Content button you will find it at the bottom of the list. The break
 appears as a horizontal dashed red line. Here is another paragraph of
 test text to insert below the page break:
 
-*Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales,
+>Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales,
 augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate
 eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed,
 nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu
@@ -92,7 +92,7 @@ orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi
 consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor,
 suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam
 ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget,
-posuere ut, mauris.*
+posuere ut, mauris.
 
 The result is that only the text before the page break appears on the
 Home page. Click the Article Title or the Read More button to see the
