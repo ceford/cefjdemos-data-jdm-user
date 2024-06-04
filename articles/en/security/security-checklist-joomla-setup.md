@@ -96,11 +96,11 @@ Joomla!</a> as soon as possible.
 Download Joomla! from official sites only, such as
 <a href="https://downloads.joomla.org/" class="external text"
 target="_blank" rel="noreferrer noopener">downloads.joomla.org</a>, and
-check the [MD5
-hash](https://docs.joomla.org/How_to_determine_a_package_checksum "How to determine a package checksum").
+check the  MD5
+hash.
 
-Use [Web Page Diagnostic
-Tools](https://docs.joomla.org/Web_page_diagnostic_tools "Web page diagnostic tools"),
+Use  Web Page Diagnostic
+Tools,
 i.e. Firefox Developer Tools, Microsoft Edge (Chromium) Developer Tools,
 Chrome Developer Tools, etc. to ensure that all files were installed
 correctly.
@@ -111,7 +111,7 @@ Change the user name of the default admin user. This simple step
 effectively increases the security of this critical account 50% by
 modifying one of the two variables attackers must know to gain access.
 The password is the other variable. Change it early and often.
-**([FAQ](https://docs.joomla.org/Security_and_Performance_FAQs#Why_should_I_immediately_change_the_name_of_the_default_admin_user_after_a_new_install.3F "Security and Performance FAQs"))**
+**(FAQ**
 
 ### Protect directories and files
 
@@ -327,8 +327,8 @@ Servers with SSL correctly configured are currently the only way to
 securely process confidential transactions and secure user
 authentication. SSL works by encrypting all HTTP communications between
 the Web server and Web clients. Thus, even if a transmission is
-intercepted, it cannot be read. For more information read our [dedicated
-article](https://docs.joomla.org/Enabling_HTTPS_on_your_site "Enabling HTTPS on your site")
+intercepted, it cannot be read. For more information read our  dedicated
+article
 in this Security Checklist (if you haven't already)
 
 Joomla! 1.0.x does not allow you to assign an SSL server to individual
@@ -354,7 +354,7 @@ height="17" alt="Joomla 3.0" /> The most significant upgrade in
 Joomla!'s history includes powerful security and performance
 enhancements.
 
-- [Why Migrate?](https://docs.joomla.org/Why_Migrate "Why Migrate")
+- Why Migrate?
 - <a href="https://downloads.joomla.org/cms" class="external text"
   target="_blank" rel="noreferrer noopener">Joomla Downloads</a>
 

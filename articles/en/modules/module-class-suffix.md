@@ -24,8 +24,8 @@ the existing CSS code. Note that, if you create a new class name, make
 sure it has a unique name and doesn't conflict with any existing class
 names.
 
-See [Using Class
-Suffixes](https://docs.joomla.org/Using_Class_Suffixes "Using Class Suffixes")
+See  Using Class
+Suffixes
 for more information.
 
 ## Usage
@@ -40,6 +40,6 @@ If you don't use a leading space, you will need to copy all of the
 styling code for the "moduletable" class and duplicate it for the new
 CSS class before making your CSS changes.
 
-See [the tutorial Using Class
-Suffixes](https://docs.joomla.org/Using_Class_Suffixes "Using Class Suffixes")
+See  the tutorial Using Class
+Suffixes
 for a detailed example of using Page and Module Class Suffixes.

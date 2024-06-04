@@ -1,8 +1,8 @@
 <!-- Filename: J4.x:Installing_Joomla / Display title: Instalación de Joomla -->
 
 Esta es una página temporal hasta que se lance Joomla 4. Hasta entonces,
-eche un vistazo a [Instalación de Joomla!
-3.x](https://docs.joomla.org/J3.x:Installing_Joomla "J3.x:Installing Joomla")
+eche un vistazo a  Instalación de Joomla!
+3.x
 
 Installing Joomla! for the first time is very easy. After completion of
 the preliminary steps, setting up a hosting environment and creating a
@@ -12,8 +12,8 @@ just a few minutes. The previous steps:
 ### Hosting Setup
 
 If you have not yet set up a hosting environment you need to do it now,
-either on a hosting service or your local computer. Read the [Hosting
-Setup](https://docs.joomla.org/J4.x:Hosting_Setup "J4.x:Hosting Setup")
+either on a hosting service or your local computer. Read the  Hosting
+Setup
 tutorial for details.
 
 Also, there are some PHP settings that need to be sufficient for Joomla
@@ -21,7 +21,7 @@ to install. The settings are usually in a *php.ini* or *user.ini*
 configuration file on the server. If you are on shared hosting, talk to
 your hosting service about how to change these settings if it is
 possible to do so. If working on a localhost, for example with
-[XAMPP](https://docs.joomla.org/XAMPP "Special:MyLanguage/XAMPP"), or a
+XAMPP, or a
 VPS or dedicated host, you should not be restricted by these settings
 and can set them yourself.
 
@@ -39,10 +39,10 @@ unpredictable problems.
 ### Database Setup
 
 If you have not yet set up a database do it now. It is covered for a
-hosting service in the [Hosting
-Setup](https://docs.joomla.org/J4.x:Hosting_Setup "J4.x:Hosting Setup")
-tutorial. There is also a [Creating a Database for
-Joomla!](https://docs.joomla.org/Creating_a_Database_for_Joomla! "Special:MyLanguage/Creating a Database for Joomla!")
+hosting service in the  Hosting
+Setup
+tutorial. There is also a  Creating a Database for
+Joomla!
 tutorial that covers localhost and phpMyAdmin methods.
 
 You will need to note basic database information needed when the actual
@@ -128,8 +128,8 @@ from your browser's language. You can change this if needed.
 Fill in the following information.
 
 - **Site Name**: The name of your website — this can be changed at any
-  point later in the [Site Global
-  Configuration](https://docs.joomla.org/Help40:Site_Global_Configuration#Site "Special:MyLanguage/Help40:Site Global Configuration")
+  point later in the  Site Global
+  Configuration
   page.
 
 When everything on the first page is completed, click the *Setup Login
@@ -150,13 +150,13 @@ Fill in the following information.
 - **Real Name**: The name of the Super User. This is how Joomla will
   greet you when you log in.
 - **Super User account username**: The username for the *Super User*.
-  Avoid using *admin* (a good [My
-  Profile](https://docs.joomla.org/Security_Checklist/Joomla!_Setup#Change_the_default_administrator_username "Special:MyLanguagehttps://docs.joomla.org/Help40:Site_My_Profile")
+  Avoid using *admin* (a good  My
+  Profile
   in the *Administration* interface to change it later.
 - **Admin Password**: Remember that a Super User has maximum control of
   the Site and Administrator interfaces, so use a difficult password.
-  Use [My
-  Profile](https://docs.joomla.org/Help40:Site_My_Profile "Special:MyLanguage/Help40:Site My Profile")
+  Use  My
+  Profile
   in the *Administration* interface to change it later.
 - **Super User Email Address**: The Super User email address. Enter a
   valid email in case you forget your password. This is the email
@@ -170,7 +170,7 @@ Database Connection* button to proceed.
 Enter the database information noted down when you created the database
 for this installation. You may also read or review [Creating a Database
 for
-[Special:MyLanguage/Creating a Database for Joomla!](https://docs.joomla.org/Creating_a_Database_for_Joomla!).
+Special:MyLanguage/Creating a Database for Joomla!.
 
 <img
 src="https://docs.joomla.org/images/4/4f/J40_Installation_screen_page_3.png"
@@ -207,8 +207,8 @@ at the end of the prefix.
   stick to the default. However this allows enterprises that use one or
   two way authentication for the database connection to provide it.
 
-All these choices and more can be edited on the [Site Global
-Configuration](https://docs.joomla.org/Help40:Site_Global_Configuration#Server "Special:MyLanguage/Help40:Site Global Configuration")
+All these choices and more can be edited on the  Site Global
+Configuration
 page, under *Server Options* after the installation is completed. Note,
 you will break your installation if you change these settings after
 installation unless you have a complete copy of the current database
@@ -232,8 +232,8 @@ class="thumbborder" decoding="async" data-file-width="500"
 data-file-height="318" width="500" height="318"
 alt="J40 Installation screen page 4.png" />
 
-If you want to start using Joomla right away without [installing extra
-languages](https://docs.joomla.org/J4.x:Installing_Joomla#Installing_Extra_Languages "Special:MyLanguage/J4.x:Installing Joomla")
+If you want to start using Joomla right away without  installing extra
+languages
 you can select *Open Administrator* to go to the *Administrator
 Dashboard* or select *Open Site* to go to the Site Home page.
 
@@ -312,13 +312,13 @@ selecting *Open Site*.
 
 ## Related Information
 
-- [Hosting
-  Setup](https://docs.joomla.org/J4.x:Hosting_Setup "Special:MyLanguage/J4.x:Hosting Setup")
-- [Hosting and Server
-  Setup](https://docs.joomla.org/Security_Checklist/Hosting_and_Server_Setup "Special:MyLanguage/Security Checklist/Hosting and Server Setup")
-- [Creating A VPS Testing
-  Server](https://docs.joomla.org/Creating_A_VPS_Testing_Server "Special:MyLanguage/Creating A VPS Testing Server")
-- [Setting up your local
-  environment](https://docs.joomla.org/J4.x:Setting_Up_Your_Local_Environment "Special:MyLanguage/J4.x:Setting Up Your Local Environment")
-- [Joomla CLI
-  Installation](https://docs.joomla.org/J4.x:Joomla_CLI_Installation "Special:MyLanguage/J4.x:Joomla CLI Installation")
+-  Hosting
+  Setup
+-  Hosting and Server
+  Setup
+-  Creating A VPS Testing
+  Server
+-  Setting up your local
+  environment
+-  Joomla CLI
+  Installation

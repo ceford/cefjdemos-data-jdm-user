@@ -56,14 +56,14 @@ verwendet werden:
     - Die Schlüsselwörter "hund" und "katze" dem passenden Beitrag
       hinzufügen.
     - Die Schlagwörter "Hund" und "Katze" zu den entsprechenden Bannern
-      auf der Seite [Banner:
-      Bearbeiten](https://docs.joomla.org/Help4.x:Banners:_Edit/de "Special:MyLanguage/Help4.x:Banners: Edit/de")
+      auf der Seite  Banner:
+      Bearbeiten
       hinzufügen.
     - Im Banner-Modul den Parameter 'Nach Schlüsselwort suchen' auf "Ja"
-      setzen [Site Modul:
-      Banner](https://docs.joomla.org/Help4.x:Site_Modules:_Banners/de "Special:MyLanguage/Help4.x:Site Modules: Banners/de").
-3.  Nur für Beiträge in Kombination mit dem Modul ['Beiträge -
-    Verwandte'](https://docs.joomla.org/Help4.x:Site_Modules:_Articles_-_Related/de "Special:MyLanguage/Help4.x:Site Modules: Articles - Related/de")
+      setzen  Site Modul:
+      Banner.
+3.  Nur für Beiträge in Kombination mit dem Modul  'Beiträge -
+    Verwandte'
     , zur Anzeige von Beiträgen, die mindestens ein Schlüsselwort
     gemeinsam haben. Wenn der aktuell angezeigte Beitrag zum Beispiel
     die Schlüsselwörter „Katzen, Hunde, Affen“ enthält, werden alle
@@ -122,30 +122,30 @@ greater than 7%!
 
 ### How to add meta keywords to your site
 
-- 
+-
 
 Add your core keywords to your Global Configuration \> Site \> Global
 site meta keywords if you wish to use global metadata
 
-- 
+-
 
 Add specific meta keywords (which may include core keywords) to articles
 using the metadata information (make sure the keywords listed here are
 in the content of the article, title, alias and meta description also)
 
-- 
+-
 
 Adding the data does not harm your rankings in search engines, and may
 help you in Yahoo, and meta crawlers
 
-- 
+-
 
 Do not add more than 25 words in the meta data
 
-- 
+-
 
 Ensure that you separate words and phrases with a comma
 
-- 
+-
 
 Do not repeat keywords

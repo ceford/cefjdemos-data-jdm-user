@@ -97,10 +97,7 @@ Development Environment, IDE) bietet viele Vorteile. Eine kostenlose
 IDE, die von vielen Joomla!-Entwicklern verwendet wird, ist
 <a href="https://code.visualstudio.com/" class="external text"
 target="_blank" rel="nofollow noreferrer noopener">Visual Studio
-Code</a>. Anweisungen zur Installation von VSCode sind unter
-[Konfigurieren von Visual Studio Code für die
-Joomla-Entwicklung](https://docs.joomla.org/Visual_Studio_Code "Special:MyLanguage/Visual Studio Code")
-zu finden.
+Code</a>. Anweisungen zur Installation von VSCode sind unterzu finden.
 
 ### Ein Versionierungssystem verwenden
 

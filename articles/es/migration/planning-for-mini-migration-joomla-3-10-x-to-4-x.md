@@ -31,14 +31,14 @@ rama de desarrollo de Joomla 4.x para ayudar a facilitar la transición a
 la próxima versión principal para la comunidad. Lo nuevo de Joomla
 3.10.x es que ofrece una característica excelente mediante el componente
 Actualización de Joomla! para ayudarle con su proceso de mini-migración:
-la [Comprobación de
-Pre-Actualización](https://docs.joomla.org/Pre-Update_Check/es "Special:MyLanguage/Pre-Update Check/es").
+la  Comprobación de
+Pre-Actualización.
 Una vez que su sitio web esté actualizado a 3.10, la comprobación de
 pre-ctualización le permitirá comprobar la compatibilidad con Joomla 4.0
 de sus opciones PHP y SQL, configuraciones, y las extensiones que está
 utilizando, siempre que los desarrolladores de extensiones utilicen la
-etiqueta targetplatform. Consulte la documentación de [Comprobación de
-Pre-Actualización](https://docs.joomla.org/Pre-Update_Check/es "Special:MyLanguage/Pre-Update Check/es")
+etiqueta targetplatform. Consulte la documentación de  Comprobación de
+Pre-Actualización
 para obtener más información.
 
 ## Planificar las Tareas
@@ -78,8 +78,8 @@ Pre-Actualización como parte de su planificación.
     vista resumida de las extensiones en uso y su compatibilidad. No
     sustituye a la necesidad de seguir utilizando Extensiones →
     Gestionar. Más sobre esto en el Paso-a-Paso y la documentación del
-    componente [Comprobación de
-    Pre-Actualización](https://docs.joomla.org/Pre-Update_Check/es "Special:MyLanguage/Pre-Update Check/es").
+    componente  Comprobación de
+    Pre-Actualización.
     Esto es simplemente para prepararse sobre qué extensiones de
     terceros permanecerán, desaparecerán o serán reemplazadas.
 7.  Determine si realmente necesita todas las extensiones que está

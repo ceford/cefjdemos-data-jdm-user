@@ -32,7 +32,7 @@ as required. They include Contrast, Form Labels, Links (Advanced) AAA,
 Readability AAA, Dark Mode and Colour Filter with simulation of four types of
 faulty colour vision.
 
-For more information see the [Sa11y Overview](https://sa11y.netlify.app/overview/)
+For more information see the Sa11y Overview
 
 For example, on Readability, it says:
 

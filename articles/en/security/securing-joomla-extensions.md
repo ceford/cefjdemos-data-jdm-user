@@ -130,7 +130,7 @@ raw \$\_GET array.
 By default JInput applies the CMD filter to user input, which only
 allows the following characters: a-z, 0-9, underscore, dot, dash. If you
 want to use other filters you can find out more about JInput at
-[Retrieving_request_data_using_JInput](https://docs.joomla.org/Retrieving_request_data_using_JInput "Retrieving request data using JInput").
+Retrieving_request_data_using_JInput.
 Note that using the CMD filter will prevent the inclusion of remote
 files by excluding the necessary charactes :/, also the exclusion of
 directory separators in the file name will prevent directory traversal,
@@ -191,7 +191,7 @@ to all strings that will be used in SQL queries, and apply
 
     $value = intval( $value );
 
-  
+
 to all integer numbers you use in SQL queries. It is a good idea to do
 this even if you think that the values will never be obtained from user
 input. You don't know how your code may be used in future. Again, for
@@ -345,7 +345,7 @@ control access to, for example:
 		<action name="core.admin" title="JACTION_ADMIN" description="JACTION_ADMIN_COMPONENT_DESC" />
 		<action name="core.manage" title="JACTION_MANAGE" description="JACTION_MANAGE_COMPONENT_DESC" />
         </section>
-</access>        
+</access>
 ```
 **Stage 2:** Include a permissions fieldset in your component's config.xml
 file, this will allow the site's administrator to set the
@@ -548,8 +548,8 @@ years.
 
 ### Secure your extension against cross-site request forgery
 
-- [How to add CSRF anti-spoofing to
-  forms](https://docs.joomla.org/How_to_add_CSRF_anti-spoofing_to_forms "Special:MyLanguage/How to add CSRF anti-spoofing to forms")
+-  How to add CSRF anti-spoofing to
+  forms
 
 ### Check access privileges of users
 

@@ -1,6 +1,6 @@
 <!-- Filename: J4.x:Adding_a_menu_link_in_an_article / Display title: Einem Beitrag einen Menülink hinzufügen -->
 
-<span id="main-portal-heading">**Tutorial**  
+<span id="main-portal-heading">**Tutorial**
 Einem Beitrag einen Menülink hinzufügen</span> Joomla!  4.x
 
 ## Einleitung
@@ -21,8 +21,8 @@ Den Beitrag bearbeiten, indem man:
 - zu **Inhalt**  **→**  **Artikel** geht und auf einen bestehenden
   Beitrag klickt, um ihn zu bearbeiten ***oder***
 - einen neuen Artikel erstellt. Wie das geht, kann man hier nachlesen:
-  [„Neuen Beitrag
-  anlegen“](https://docs.joomla.org/J4.x:Adding_a_New_Article "Special:MyLanguage/J4.x:Adding a New Article").
+   „Neuen Beitrag
+  anlegen“.
 
 ## Einfügen des Beitrags in ein Menü
 

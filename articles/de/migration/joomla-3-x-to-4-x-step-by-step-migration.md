@@ -14,7 +14,7 @@ werden darf. Es besteht kein Grund zur Eile. Bitte vorher alle
 Erweiterungen für Joomla 4.x vorbereiten. Joomla 3.10.x wird bis zum 16.
 August 2023 unterstützt.
 
-  
+
 Diese Dokumentation enthält eine Schritt-für-Schritt-Anleitung, um eine
 3.10.x Webseite nach Joomla! 4.x zu migrieren. Zwar gibt es hunderte von
 verschiedenen Szenarien, aber hier zeigen wir die grundlegende
@@ -36,9 +36,9 @@ welchen Weg man gehen muss, um von 3.10.x auf 4.x zu migrieren. Falls
 das noch nie getan wurde, könnte es interessant sein, die [Schritt für
 Schritt Migration -
 Selbsteinschätzung](https://docs.joomla.org/Migration_Step_by_Step_Self_Assessment "Special:MyLanguage/Migration Step by Step Self Assessment")
-und [Planen für die Mini-Migration - Joomla 3.10 nach
-4.x](https://docs.joomla.org/Planning_for_Mini-Migration_-_Joomla_3.10.x_to_4.x "Special:MyLanguage/Planning for Mini-Migration - Joomla 3.10.x to 4.x")
-zu lesen, bevor man die folgenden Schritte ausführt.  
+und  Planen für die Mini-Migration - Joomla 3.10 nach
+4.x
+zu lesen, bevor man die folgenden Schritte ausführt.
 Joomla! Kern-Erweiterungen sind:
 
 - Kategorien
@@ -71,10 +71,10 @@ Joomla! Kern-Erweiterungen sind:
 2.  Es muss ein Backup der aktuellen 3.10.x Website erstellt werden.
     Dazu kann ein empfohlenes Tool verwendet werden (siehe „Empfohlene
     Tools“ am Ende der Seite) oder man führt es manuell durch.
-    - [Backup Grundlagen für eine Joomla!
-      Webseite](https://docs.joomla.org/Backup_Basics_for_a_Joomla!_Web_Site "Special:MyLanguage/Backup Basics for a Joomla! Web Site")
-    - [Was ist die empfohlene Vorgehensweise für ein
-      Seiten-Backup?](https://docs.joomla.org/What_are_the_best_practices_for_site_backups%3F "Special:MyLanguage/What are the best practices for site backups?")
+    -  Backup Grundlagen für eine Joomla!
+      Webseite
+    -  Was ist die empfohlene Vorgehensweise für ein
+      Seiten-Backup?
 3.  Bevor man fortfährt, sollte sichergestellt sein, dass die vorhandene
     Systemumgebung die
     <a href="https://downloads.joomla.org/technical-requirements"
@@ -104,10 +104,10 @@ Joomla! Kern-Erweiterungen sind:
       Stammverzeichnis. (Wenn im Zuge der Migration die Hosts gewechselt
       werden sollen).
       - Wiederherstellung einer Website auf einem lokalen Rechner. Siehe
-        [Lokale
-        Joomla-Installation](https://docs.joomla.org/Installing_Joomla_locally "Special:MyLanguage/Installing Joomla locally")
-        und [Einrichten des Rechners für die
-        Joomla-Entwicklung](https://docs.joomla.org/Setting_up_your_workstation_for_Joomla_development "Special:MyLanguage/Setting up your workstation for Joomla development").
+         Lokale
+        Joomla-Installation
+        und  Einrichten des Rechners für die
+        Joomla-Entwicklung.
       - Wiederherstellen der Website mit einem der unten auf der Seite
         aufgeführten Tools (bitte die Entwicklerdokumentation lesen).
 6.  In einem Testumfeld sollte die Joomla! 3.10.x-Instanz auf die
@@ -134,7 +134,7 @@ Joomla! Kern-Erweiterungen sind:
 ### Jede Erweiterung einschätzen
 
 In der
-[Planung](https://docs.joomla.org/Planning_for_Mini-Migration_-_Joomla_3.10.x_to_4.x "Special:MyLanguage/Planning for Mini-Migration - Joomla 3.10.x to 4.x")
+Planung
 wurde bestimmt, welche Erweiterungen von Drittanbietern erhalten bleiben
 oder entfernt werden und wie sie migriert werden. Für diesen Teil der
 Schritt-für-Schritt-Anleitung werden zwei verschiedene Bereiche der
@@ -271,11 +271,11 @@ Komponenten
       sobald die Seite migriert ist. Ein Beispiel hierfür könnte ein
       Inhalts-Plugin sein. Es ist sehr einfach, das in 3.10.x zu
       deinstallieren und es dann in 4.x wieder zu installieren.
-    - Siehe [Überlegungen zum Template bei der
-      Migration](https://docs.joomla.org/Template_Considerations_During_Migration "Special:MyLanguage/Template Considerations During Migration")
+    - Siehe  Überlegungen zum Template bei der
+      Migration
       für weitere spezielle Informationen über Templates und
-      [Konvertieren eines Templates von einer früheren Joomla!
-      Version](https://docs.joomla.org/J3.x:Converting_A_Previous_Joomla!_Version_Template "Special:MyLanguage/J3.x:Converting A Previous Joomla! Version Template")
+       Konvertieren eines Templates von einer früheren Joomla!
+      Version
 
 #### Anmerkungen zur Suche (com_search)
 
@@ -380,8 +380,8 @@ folgenden Schritten weiter:
     sein!)
 14. Nun zum Frontend der Website gehen und nachsehen, ob sie angezeigt
     wird, selbst wenn es sich nicht um das richtige Template handelt.
-    Wenn ja, kann es weitergehen. Wenn nicht, siehe [„Häufige
-    Migrations-Fehler“](https://docs.joomla.org/Joomla_3.10_to_4.x_Common_Migration_Errors "Special:MyLanguage/Joomla 3.10 to 4.x Common Migration Errors").
+    Wenn ja, kann es weitergehen. Wenn nicht, siehe  „Häufige
+    Migrations-Fehler“.
 15. Ein neues Backup erstellen.
 16. Das neue Template oder andere Erweiterungen installieren, falls
     vorhanden. Häufig ein weiteres Backup erstellen.
@@ -441,6 +441,3 @@ rel="noreferrer noopener">Drittanbieter-Erweiterung</a>.
   rel="noreferrer noopener">Backup-Tools</a>.
 
 ## Verwandte Informationen
-
-[Kompatibilitätsprüfung (Pre-Update
-Check)](https://docs.joomla.org/:Pre-Update_Check "Special:MyLanguage/:Pre-Update Check")

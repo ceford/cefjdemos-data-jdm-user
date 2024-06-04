@@ -11,8 +11,8 @@ engine rankings by building large volumes of reciprocal links with
 websites over a short period of time. In an attempt to address this
 problem, search engines regularly update their algorithms, and penalise
 any sites they find to be operating outside their best practice
-guidelines (See [Google
-Updates](https://docs.joomla.org/Google_Updates "Special:MyLanguage/Google Updates")
+guidelines (See  Google
+Updates
 for more information).
 
 ### Safe link-building
@@ -26,11 +26,11 @@ website, should be related in some way to your site.
 
 Any links you have on your website which lead to an external resource
 should clearly inform your visitors what they are linking to without
-being spammy - for example [Joomla! Documentation
-Project](https://docs.joomla.org/Main_Page "Main Page") would be a clear
+being spammy - for example  Joomla! Documentation
+Project would be a clear
 indication that the link is directing people to the homepage of the
 Joomla! Documentation Project. If the link were to be written as
-[here](https://docs.joomla.org/Main_Page "Main Page") it is not so clear
+here it is not so clear
 what page you might be visiting - and as you haven't used any keywords
 from the landing page, their site will not be getting the best benefit
 from your link.
@@ -58,8 +58,8 @@ or area on your website) and also on external links to other sites.
 
 ### A word of warning
 
-It is important to note that with recent updates to [Google's
-algorithms](https://docs.joomla.org/Google_Updates "Special:MyLanguage/Google Updates")
+It is important to note that with recent updates to  Google's
+algorithms
 (named Panda, and more recently Penguin), sites with unnatural linking
 profiles may be down-ranked in search engine positions. One of the main
 factors in the Penguin update targeted websites which had a large amount

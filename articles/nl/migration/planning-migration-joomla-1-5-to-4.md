@@ -81,8 +81,8 @@ niet ieder mogelijk scenario noemen.
     de uitvoer van de Joomla! core overriden</a>, [Het begrijpen van
     output
     overrides](https://docs.joomla.org/Understanding_Output_Overrides "Special:MyLanguage/Understanding Output Overrides"),
-    [Layout overrides in
-    Joomla](https://docs.joomla.org/Layout_Overrides_in_Joomla "Special:MyLanguage/Layout Overrides in Joomla")).
+     Layout overrides in
+    Joomla.
 2.  Controleer uw gebruikers 'Beheerder'. Bnet u van plan ze allemaal
     over te brengen? Is er een opschoon actie noodzakelijk? Misschien
     Super gebruikers die geen toegang meer moeten hebben of spam
@@ -116,8 +116,8 @@ niet ieder mogelijk scenario noemen.
     er een migratie-pad gepubliceerd door de ontwikkelaar? Is de nieuwe
     versie responsive? Is uw template een aangepast template? Of is het
     een sterk aangepast template van derden? Zie, voor uitgebreide
-    [Template overwegingen tijdens
-    migraties](https://docs.joomla.org/Template_Considerations_During_Migration "Special:MyLanguage/Template Considerations During Migration").
+     Template overwegingen tijdens
+    migraties.
 1.  Als u uw template inwisselt voor een nieuwe, heeft het dan nieuwe
     afbeeldingen nodig? Bijvoorbeeld, als uw huidige site een witte
     achtergrond heeft en uw logo en andere afbeeldingen zijn .jpg

@@ -225,4 +225,4 @@ entries in the Permissions tab set the default permissions for the site.
 
 There are comprehensive descriptions of the use of the settings under
 this tab and the general principles of operation and set-up of
-permissions in an [Access Control List Tutorial](https://docs.joomla.org/J3.x:Access_Control_List_Tutorial#Global_Configuration "Special:MyLanguage/J3.x:Access Control List Tutorial").
+permissions in an Access Control List Tutorial.

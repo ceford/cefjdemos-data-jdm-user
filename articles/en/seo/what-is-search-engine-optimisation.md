@@ -19,4 +19,4 @@ the areas which may be focused on could include:
   'human readable'
 - Ensuring that content has appropriate structure using Semantic HTML
 - Adding contextual Semantic Markup using
-  [Microdata](https://docs.joomla.org/Microdata "Microdata")
+  Microdata

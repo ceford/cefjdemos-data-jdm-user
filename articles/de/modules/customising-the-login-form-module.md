@@ -26,9 +26,8 @@ oder mehreren Seiten der Joomla!-Site zugewiesen sein.
 
 Das Modul wird in der gewählten Position des aktuellen Templates
 angezeigt. Man kann das Modul auch im Hauptinhalt anzeigen lassen,
-nachdem ein Menüelement angeklickt wurde. Weitere Informationen unter
-[Creating a Login Form menu
-item](https://docs.joomla.org/Screen.menus.edit.15#Internal_Link_-_User "Special:MyLanguage/Screen.menus.edit.15").
+nachdem ein Menüelement angeklickt wurde. Weitere Informationen unter Creating a Login Form menu
+item.
 
 ## Einstellungen anpassen
 
@@ -79,8 +78,8 @@ veröffentlicht werden. Dafür gibt es zwei Möglichkeiten:
     Bearbeitungs-Formular den Status auf **Veröffentlicht** ändern und
     *Speichern*.
 
-Weitere Informationen unter [Modul "Anmeldung"
-anpassen](https://docs.joomla.org/Changing_the_Login_Form_module_settings "Special:MyLanguage/Changing the Login Form module settings")
+Weitere Informationen unter  Modul "Anmeldung"
+anpassen
 
 ### Siehe auch
 
@@ -88,18 +87,18 @@ Regeln für die Registrierung von Benutzern
 
 ;
 
-- [Logging in or out of the Administrator
-  back-end](https://docs.joomla.org/J3.x:Logging_in_or_out_of_the_Administrator_back-end "Special:MyLanguage/J3.x:Logging in or out of the Administrator back-end")
-- [Setting user registration
-  policy](https://docs.joomla.org/Setting_user_registration_policy "Special:MyLanguage/Setting user registration policy")
+-  Logging in or out of the Administrator
+  back-end
+-  Setting user registration
+  policy
 
 ## Menüzuweisung
 
 You can make the Login Form module appear on one or more pages by
 assigning it to selected Menu Items. This is done using the fields in
 the Menu Assignment group on the Module Edit screen. To learn how to do
-this see [Changing the Login Form module
-settings](https://docs.joomla.org/Changing_the_Login_Form_module_settings "Special:MyLanguage/Changing the Login Form module settings").
+this see  Changing the Login Form module
+settings.
 The following list describes the settings in the Menu Assignment group.
 
 - **Menus**: Is a radio button field with the following options:
@@ -120,5 +119,5 @@ If you wish to customise the information in the Login Module you will
 need to [navigate to the login module edit page in the Administration
 section of
 Joomla](https://docs.joomla.org/Changing_the_Login_Form_module_settings "Changing the Login Form module settings").
-Then consult [the help screen
-page](https://docs.joomla.org/Help310:Extensions_Module_Manager_Login "Help310:Extensions Module Manager Login")
+Then consult  the help screen
+page

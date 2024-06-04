@@ -30,11 +30,11 @@ sitio.
 
 Cualquier enlace que tienes en tu sitio web que conduce a un recurso
 externo debe informar claramente a los visitantes a que se están
-vinculando a sin ser spam - por ejemplo [Joomla! Documentación del
-Proyecto](https://docs.joomla.org/Main_Page/es "Main Page/es") sería una
+vinculando a sin ser spam - por ejemplo  Joomla! Documentación del
+Proyecto sería una
 clara indicación de que el enlace dirige a la gente a la página
 principal de la Documentación del Proyecto Joomla!. Si el enlace se
-escribe como [aquí](https://docs.joomla.org/Main_Page/es "Main Page/es")
+escribe como aquí
 no es tan claro qué página puedes visitar - y como no has utilizado
 ninguna de las palabras clave de la página de destino de tu sitio no vas
 a obtener el mejor beneficio de tu enlace.

@@ -103,7 +103,7 @@ Force</a>.
 
 Know the important steps to follow when your site has been compromised.
 Once your site has been cracked, there are few shortcuts.
-**([FAQ](https://docs.joomla.org/Security_and_Performance_FAQs#Help.21_My_site.27s_been_compromised._Now_what.3F "Security and Performance FAQs"))**
+**(FAQ**
 
 ### Reset your administrator password
 
@@ -121,7 +121,7 @@ title="How do you recover your admin password?">FAQ</a>)
 
 Know how to check for suspicious and/or modified files. Know how to
 check the raw Apache logs for suspicious activity on your site.
-**([FAQ](https://docs.joomla.org/Security_and_Performance_FAQs#How_do_I_find_exploits_using_the_.2ANIX_shell.3F "Security and Performance FAQs"))**
+**(FAQ**
 
 ## Your Turn...
 

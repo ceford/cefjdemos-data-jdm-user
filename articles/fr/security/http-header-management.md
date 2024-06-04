@@ -1,9 +1,9 @@
 <!-- Filename: J4.x:Http_Header_Management / Display title: Gestion des En-têtes HTTP -->
 
-Joomla!  4.0 Didacticiel  
+Joomla!  4.0 Didacticiel
 Comment utiliser le nouveau gestionnaire d'en-têtes HTTP dans Joomla 4.0
 
-  
+
 À partir de Joomla 4.0, Joomla a introduit un système de gestion
 d'en-tête HTTP. Ce système est conçu pour aider les propriétaires de
 sites à configurer les en-têtes de sécurité HTTP à partir du serveur
@@ -204,8 +204,8 @@ ligne, veuillez consulter les exemples ci-dessous.
         }
     ');
 
-Plus de détails ici:[Ajouter du JavaScript et des CSS à une
-page](https://docs.joomla.org/J3.x:Adding_JavaScript_and_CSS_to_the_page "Special:MyLanguage/J3.x:Adding JavaScript and CSS to the page")
+Plus de détails ici: Ajouter du JavaScript et des CSS à une
+page
 
 ## Additional resources about Content Security Policy and HTTP Headers
 

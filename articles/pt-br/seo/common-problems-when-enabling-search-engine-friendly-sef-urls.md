@@ -33,7 +33,7 @@ Joomla! será ignorado. A diretiva necessária é:
 
 Se você estiver usando o IIS, confira esses links que podem ser úteis:
 
-- [IIS](https://docs.joomla.org/IIS "IIS")
+- IIS
 - <a href="https://docs.joomla.org/IIS6_and_SEF_URLs_using_Joomla_1.5x"
   class="mw-redirect" title="IIS6 and SEF URLs using Joomla 1.5x">IIS6 e
   localizadores uniformes de recursos (URLs) amigáveis para mecanismos de

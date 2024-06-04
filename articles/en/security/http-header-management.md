@@ -1,9 +1,9 @@
 <!-- Filename: J4.x:Http_Header_Management / Display title: Http Header Management -->
 
-Joomla!  4.0 Tutorial  
+Joomla!  4.0 Tutorial
 How to Use the New HTTP Header Management in Joomla 4.0
 
-  
+
 As of Joomla 4.0, Joomla introduced an HTTP Header Management System.
 This System is designed to help site owners to configure the HTTP
 Security Headers from the Backend
@@ -200,8 +200,8 @@ JavaScript and CSS, please check the examples below.
         }
     ');
 
-More details can be found here:[Adding JavaScript and CSS to the
-page](https://docs.joomla.org/J3.x:Adding_JavaScript_and_CSS_to_the_page "Special:MyLanguage/J3.x:Adding JavaScript and CSS to the page")
+More details can be found here: Adding JavaScript and CSS to the
+page
 
 ## Additional resources about Content Security Policy and HTTP Headers
 

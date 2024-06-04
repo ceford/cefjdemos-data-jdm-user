@@ -81,7 +81,7 @@ width="532" height="105" alt="SEF-Titles.png" />
 Microdata is een meer geavanceerde vorm van Semantische HTML opmaak die
 het mogelijk maakt nog meer contextuele informatie te geven over de
 content en structuur van uw website - voor meer informatie zie
-[Microdata](https://docs.joomla.org/Microdata "Special:MyLanguage/Microdata").
+Microdata.
 
 <a href="http://en.wikipedia.org/wiki/Semantic_HTML"
 class="external text" target="_blank"

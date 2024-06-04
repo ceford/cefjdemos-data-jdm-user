@@ -43,8 +43,8 @@ alt="Requiere parte de los Ajustes de PHP del Componente de Comprobación de Pre
 Lo importante es comprobar si algo está en rojo y no es compatible con
 Joomla 4.x. Si es así, debe hablar con su proveedor de hosting o cambiar
 de proveedor antes de migrar a Joomla 4.x. Durante una migración, es un
-buen momento para cambiar de proveedor. Consulte [¿Por qué
-migrar?](https://docs.joomla.org/Why_Migrate/es "Special:MyLanguage/Why Migrate/es")
+buen momento para cambiar de proveedor. Consulte  ¿Por qué
+migrar?
 para obtener más información sobre la planificación y las instrucciones
 paso a paso.
 
@@ -55,8 +55,8 @@ extrae extensiones de terceros.
 
 La lista está dividida en secciones según la etiqueta "targetplatform",
 con las extensiones que están o no en uso. Para desarrolladores,
-consulte [Implementación de un Servidor de
-Actualización](https://docs.joomla.org/Deploying_an_Update_Server/es "Special:MyLanguage/Deploying an Update Server/es")
+consulte  Implementación de un Servidor de
+Actualización
 para obtener más información sobre estas etiquetas y cómo implementar un
 servidor de actualización. Para obtener más información sobre el sistema
 de actualización de Joomla, consulte <a
@@ -82,8 +82,8 @@ alt="Información de actualización no disponible" />
 Las extensiones enumeradas aquí aún no son compatibles con el sistema de
 actualización de Joomla o, al menos, no tienen una etiqueta
 targetplatform que indique compatibilidad con la versión de Joomla de
-destino seleccionada. (consulte [Implementación de un Servidor de
-Actualización](https://docs.joomla.org/Deploying_an_Update_Server/es "Special:MyLanguage/Deploying an Update Server/es")).
+destino seleccionada. (consulte  Implementación de un Servidor de
+Actualización.
 Comunique con el desarrollador de las extensiones enumeradas para
 asegurarse que sean compatibles con 4.x
 

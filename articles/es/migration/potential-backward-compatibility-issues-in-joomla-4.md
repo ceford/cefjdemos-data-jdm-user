@@ -15,14 +15,14 @@ class="external text" target="_blank" rel="noreferrer noopener"></a> <a
 href="https://docs.joomla.org//docs.joomla.org/index.php?title=Potential_backward_compatibility_issues_in_Joomla_4/es&amp;action=history"
 class="external text" target="_blank" rel="noreferrer noopener">has not
 been edited in several days</a>, please consider helping complete the
-content.  
+content.
 <span class="small">This article was <a
 href="https://docs.joomla.org//docs.joomla.org/index.php?title=Potential_backward_compatibility_issues_in_Joomla_4/es&amp;diff=cur"
 class="external text" target="_blank" rel="noreferrer noopener">last
 edited</a> by
-[FuzzyBot](https://docs.joomla.org/User:FuzzyBot "User:FuzzyBot")
-([talk](https://docs.joomla.org/User_talk:FuzzyBot "User talk:FuzzyBot")\|
-[contribs](https://docs.joomla.org/Special:Contributions/FuzzyBot "Special:Contributions/FuzzyBot"))
+FuzzyBot
+(talk\|
+contribs
 5 months ago. *(<a
 href="https://docs.joomla.org//docs.joomla.org/index.php?title=Potential_backward_compatibility_issues_in_Joomla_4/es&amp;action=purge"
 class="external text" target="_blank"
@@ -72,11 +72,11 @@ been deprecated.
 
 ### PHP GMP Extension
 
-This is required for using the [WebAuthn Passwordless
-Login](https://docs.joomla.org/WebAuthn_Passwordless_Login "WebAuthn Passwordless Login")
+This is required for using the  WebAuthn Passwordless
+Login
 feature. Note the PHP GMP Extension is installed by default on the
-majority of hosting sites. The [WebAuthn Passwordless
-Login](https://docs.joomla.org/WebAuthn_Passwordless_Login "WebAuthn Passwordless Login")
+majority of hosting sites. The  WebAuthn Passwordless
+Login
 System Plugin is enabled by default in Joomla 4 on https sites.
 
 ### PHP mcrypt Extension
@@ -326,8 +326,8 @@ interface rather than a concrete class.
   <img src="https://docs.joomla.org/images/a/a7/Compat_icon_3_7.png"
   decoding="async" data-file-width="40" data-file-height="17" width="40"
   height="17" alt="Joomla 3.7" />). For more information please see
-  [Discover on which client your extension code is
-  running](https://docs.joomla.org/J3.x:Discover_on_which_client_your_extension_code_is_running "Special:MyLanguage/J3.x:Discover on which client your extension code is running").
+   Discover on which client your extension code is
+  running.
 
 ##### JApplicationSite
 
@@ -1011,7 +1011,7 @@ Bin directory as it only contained keychain.
   3.7. You should either use your .htaccess file or the redirect
   component to fix any internal URLs that change. You can try the
   'Modern' mode in Joomla 3 by following the instructions
-  [here](https://docs.joomla.org/J3.x:New_Routing_System "Special:MyLanguage/J3.x:New Routing System")
+  here
 - The MailTo component has been removed without replacement. If you used
   this functionality you will need to find an alternative component on
   JED.
@@ -1040,7 +1040,7 @@ Bin directory as it only contained keychain.
 - For plugins using the 3.x compatibility layer, the name result is a
   protected property for both input parameters and return values. For
   information on the new recommended approach to plugins please read
-  [S:MyLanguage/J4.x:Creating_a_Plugin_for_Joomla](https://docs.joomla.org/J4.x:Creating_a_Plugin_for_Joomla "Special:MyLanguage/J4.x:Creating a Plugin for Joomla")
+  S:MyLanguage/J4.x:Creating_a_Plugin_for_Joomla
 - For plugins using the 3.x compatibility layer, for any type hints for
   events that require a class, that class **must** be autoloaded before
   the plugin is instantiated.
@@ -1144,9 +1144,6 @@ href="https://groups.google.com/forum/#!topic/joomla-dev-general/1ua9zIqlcVc"
 class="external text" target="_blank"
 rel="nofollow noreferrer noopener">SO confused about namespace &amp;
 enquemessage...</a> or use the generated file pdf reference file:
-[File:J! namespace
-reference.pdf](https://docs.joomla.org/File:J!_namespace_reference.pdf "File:J! namespace reference.pdf")
-
 #### Namespace mapping and manifest file name
 
 Automatic namespace mapping won't work with extension manifest files

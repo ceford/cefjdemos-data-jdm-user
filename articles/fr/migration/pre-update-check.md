@@ -50,8 +50,8 @@ L'important est de vérifier si quelque chose est rouge et n'est pas
 compatible avec Joomla 4.x. Si ce n'est pas le cas, vous devrez en
 parler à votre hébergeur ou changer d'hébergement avant de migrer vers
 Joomla 4.x. Pendant une migration, c'est le moment idéal pour changer
-d'hôte. Voir l'[entonnoir de la
-migration](https://docs.joomla.org/Why_Migrate "Special:MyLanguage/Why Migrate")
+d'hôte. Voir l' entonnoir de la
+migration
 pour plus d'informations sur la planification et les instructions étape
 par étape.
 
@@ -61,10 +61,7 @@ La partie extension du composant de vérification des mises à jour
 extrait des extensions tierces.
 
 La liste est divisée en sections basées sur la balise *targetplatform*,
-les extensions que vous utilisez ou non. Pour les développeurs, voir
-[Déployer un serveur de mise à
-jour](https://docs.joomla.org/Deploying_an_Update_Server "Special:MyLanguage/Deploying an Update Server")
-pour plus d'informations sur ces balises et sur la manière de déployer
+les extensions que vous utilisez ou non. Pour les développeurs, voirpour plus d'informations sur ces balises et sur la manière de déployer
 un serveur de mise à jour. Pour plus d'informations sur le système de
 mise à jour Joomla, voir les pages <a
 href="https://extensions.joomla.org/support/knowledgebase/submission-requirements/joomla-update-system-requirement/"
@@ -89,10 +86,7 @@ alt="Mise à jour des informations non disponibles" />
 
 Les extensions listées ici ne supportent pas encore le système de mise à
 jour de Joomla ou du moins n'ont pas de balise targetplatform qui
-indique le support de la version cible de Joomla sélectionnée. (voir
-[Deploying an Update
-Server](https://docs.joomla.org/Deploying_an_Update_Server "Deploying an Update Server"))
-Veuillez contacter le développeur des extensions listées pour vous
+indique le support de la version cible de Joomla sélectionnée. (voirVeuillez contacter le développeur des extensions listées pour vous
 assurer qu'elles sont compatibles avec la version 4.x.
 
 <img

@@ -16,7 +16,7 @@ which affect where a page might rank in a search engine.
   'human readable'
 - Adding contextual Semantic Markup using Schema data
 
-Resource: [Search Engine Optimization (SEO) Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide "")
+Resource: Search Engine Optimization (SEO) Starter Guide
 
 ## Site Structure and Descriptive URLs
 
@@ -67,8 +67,8 @@ only applied when 'Add suffix to URL' is disabled.
 
 **Canonical Tags** explanation from Daniel Morell:
 
-* [How to Create Joomla Canonical Tags](https://www.danielmorell.com/blog/how-to-create-joomla-canonical-tags "")
-* [Plugin and Documentation:](https://www.danielmorell.com/tools/joomla/custom-canonical "")
+* How to Create Joomla Canonical Tags
+* Plugin and Documentation:
 
 For Joomla 4 and 5, before enabling, the plugin needs `if ($app->isAdmin()) {`
 changed to `if ($app->isClient('admin')) {` on lines 72 and 99 of
@@ -166,8 +166,8 @@ in the `<description>` field. The Description is sometimes used to accompany
 a page Title in search results so it should pay to make it relevant.
 
 More information:
-* [Magazine article: Joomla SEO title tags](https://magazine.joomla.org/all-issues/september/joomla-seo-title-tags "")
-* [Explore the Core: Native SEO Options](https://magazine.joomla.org/all-issues/june/explore-the-core-native-seo-options "")
+* Magazine article: Joomla SEO title tags
+* Explore the Core: Native SEO Options
 
 ## Optimise Images
 

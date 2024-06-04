@@ -16,19 +16,19 @@ keywords.
 As a basic guideline, ask yourself (or your client) the following
 questions:
 
-1.  
+1.
 
 What are my top 20 keywords?
 
-1.  
+1.
 
 What other associated words and phrases are important?
 
-1.  
+1.
 
 What questions will people be asking which my website will answer?
 
-1.  
+1.
 
 What will be the most important pages on my website (this is not always
 the homepage, often these will be pages within the website which contain
@@ -53,12 +53,12 @@ Keywords must be entered separated by commas (for example, "cats, dogs,
 pets") and may be entered in upper or lower case. (For example, "CATS"
 will match "cats" or "Cats"). Keywords can be used in several ways:
 
-1.  
+1.
 
 To help Search Engines and other systems classify the content of the
 Article.
 
-1.  
+1.
 
 In combination with Banner tags, to display specific Banners based on
 the Article content. For example, say you have one Banner with an ad for
@@ -66,25 +66,25 @@ dog products and another Banner for cat products. You can have your dog
 Banner display when a User is viewing a dog-related Article and your cat
 Banner display for a cat-related Article. To do this, you would:
 
-1.  - 
+1.  -
 
 Add the keywords "dog" and "cat" to the appropriate Articles.
 
-1.  - 
+1.  -
 
-Add the Tags "dog" and "cat" to the appropriate Banners in [Banners:
-Edit](https://docs.joomla.org/Help4.x:Banners:_Edit/nl "Special:MyLanguage/Help4.x:Banners: Edit/nl").
+Add the Tags "dog" and "cat" to the appropriate Banners in  Banners:
+Edit.
 
-1.  - 
+1.  -
 
 Set the Banner module Parameter 'Search By Tags' to "Yes" in [Site
 Modules:
 Banners](https://docs.joomla.org/Help4.x:Site_Modules:_Banners/nl "Special:MyLanguage/Help4.x:Site Modules: Banners/nl").
 
-1.  
+1.
 
-For articles only, in combination with the ['Articles - Related'
-module](https://docs.joomla.org/Help4.x:Site_Modules:_Articles_-_Related/nl "Special:MyLanguage/Help4.x:Site Modules: Articles - Related/nl"),
+For articles only, in combination with the  'Articles - Related'
+module,
 to display Articles that share at least one keyword in common. For
 example, if the current Article displayed has the keywords "cats, dogs,
 monkeys", any other Articles with at least one of these keywords will
@@ -142,30 +142,30 @@ greater than 7%!
 
 ### How to add meta keywords to your site
 
-- 
+-
 
 Add your core keywords to your Global Configuration \> Site \> Global
 site meta keywords if you wish to use global metadata
 
-- 
+-
 
 Add specific meta keywords (which may include core keywords) to articles
 using the metadata information (make sure the keywords listed here are
 in the content of the article, title, alias and meta description also)
 
-- 
+-
 
 Adding the data does not harm your rankings in search engines, and may
 help you in Yahoo, and meta crawlers
 
-- 
+-
 
 Do not add more than 25 words in the meta data
 
-- 
+-
 
 Ensure that you separate words and phrases with a comma
 
-- 
+-
 
 Do not repeat keywords

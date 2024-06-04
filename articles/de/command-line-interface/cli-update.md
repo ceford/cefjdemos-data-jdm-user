@@ -435,5 +435,5 @@ Video erschaffen wurde.
 -
 -
 -
-- Eine CLI Anwendung mit Joomla 4 entwickeln [J4.x:Writing A CLI
-  Application](https://docs.joomla.org/J4.x:Writing_A_CLI_Application "J4.x:Writing A CLI Application")
+- Eine CLI Anwendung mit Joomla 4 entwickeln  J4.x:Writing A CLI
+  Application

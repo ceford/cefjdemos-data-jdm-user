@@ -9,8 +9,8 @@ leidraad. Onderaan iedere pagina bevinden zich twee opties voor de
 volgende stap. Hier zijn alle redenen om de sprong te wagen naar Joomla
 4.x!
 
-Allereerst moet u controleren welke [Versie van
-Joomla!](https://docs.joomla.org/How_to_check_the_Joomla_version%3F "Special:MyLanguage/How to check the Joomla version?")
+Allereerst moet u controleren welke  Versie van
+Joomla!
 actief is op uw website.
 
 ## Waarom zou u migreren?

@@ -11,11 +11,11 @@ alt="Copyedit.png" />This Article Needs Your Help
 the Joomla! Documentation Wiki by <a
 href="https://docs.joomla.org//docs.joomla.org/index.php?title=Template_Considerations_During_Migration/ru&amp;action=edit"
 class="external text" target="_blank"
-rel="noreferrer noopener">contributing to it</a>.  
+rel="noreferrer noopener">contributing to it</a>.
 <span class="small">More pages that need help similar to this one are
-[here](https://docs.joomla.org/Category:Needs_updating "Category:Needs updating").</span>
+here.</span>
 <span class="small">**NOTE-If you feel the need is satistified, please
-remove this notice.**</span>*  
+remove this notice.**</span>*
 **Reason:** See section 3.4 and 4
 
 Шаблоны во время миграции доставляют людям расстройство, но в этом нет
@@ -123,13 +123,13 @@ Joomla 3, смотрите следующий раздел.
 
 ### Конвертирование шаблонов с 1.5 на 3
 
-- [Миграция шаблона с Joomla 1.5 на
-  3.x](https://docs.joomla.org/Migrating_a_Template_from_Joomla_1.5_to_3.x "Special:MyLanguage/Migrating a Template from Joomla 1.5 to 3.x")
+-  Миграция шаблона с Joomla 1.5 на
+  3.x
 
 ### Конвертирование шаблона с 1.5 на 2.5
 
-- [Перенос шаблона с Joomla 1.5 на Joomla
-  2.5](https://docs.joomla.org/Upgrading_a_Joomla_1.5_template_to_Joomla_2.5 "Special:MyLanguage/Upgrading a Joomla 1.5 template to Joomla 2.5")
+-  Перенос шаблона с Joomla 1.5 на Joomla
+  2.5
 - <a
   href="http://magazine.joomla.org/issues/issue-may-2012/item/740-How-to-convert-Joomla-15-template-to-Joomla-25"
   class="external free" target="_blank"
@@ -137,8 +137,8 @@ Joomla 3, смотрите следующий раздел.
 
 ### Конвертирование шаблонов с 2.5 на 3
 
-- [Конвертирование шаблона предыдущей версии
-  Joomla](https://docs.joomla.org/J3.x:Converting_A_Previous_Joomla!_Version_Template "Special:MyLanguage/J3.x:Converting A Previous Joomla! Version Template")
+-  Конвертирование шаблона предыдущей версии
+  Joomla
 - <a
   href="http://stackoverflow.com/questions/16055707/convert-joomla-2-5-template-to-3-0"
   class="external free" target="_blank"

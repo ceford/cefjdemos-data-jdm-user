@@ -191,5 +191,5 @@ alt="privacy workflow delete with phpmyadmin" />
 
 ## Additional Resources
 
-- [Developer's Guide for the Privacy Tool
-  Suite](https://docs.joomla.org/J3.x:Integrate_Extensions_with_the_Privacy_Component "Special:MyLanguage/J3.x:Integrate Extensions with the Privacy Component")
+-  Developer's Guide for the Privacy Tool
+  Suite

@@ -12,8 +12,8 @@ PHP 8.0
 Joomla! 3.9.x
 
 NOTE: Intended as a quick-start installation guide, this article does
-not address optimal [security
-settings](https://docs.joomla.org/Security_Checklist "Special:MyLanguage/Security Checklist"),
+not address optimal  security
+settings,
 performance tuning, etc.
 
 ## Preparations
@@ -140,8 +140,8 @@ Add the following line to `/etc/rc.conf`:
 NOTE: MySQL 8 server initially defaults to creating users using
 authentication. Joomla will connect to it's database using a user with a
 if the php80-mysqli extension is configured and compiled from source.
-More details provided in previous section: [Installing Required PHP
-Extensions](https://docs.joomla.org/FreeBSD_Installation#Installing_Required_PHP_Extensions "FreeBSD Installation").
+More details provided in previous section:  Installing Required PHP
+Extensions.
 
 If you prefer to use authentication,
 edit `/usr/local/etc/mysql/my.cnf` and add the following line to the

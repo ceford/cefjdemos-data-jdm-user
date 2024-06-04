@@ -130,7 +130,7 @@ raw \$\_GET array.
 By default JInput applies the CMD filter to user input, which only
 allows the following characters: a-z, 0-9, underscore, dot, dash. If you
 want to use other filters you can find out more about JInput at
-[Retrieving_request_data_using_JInput](https://docs.joomla.org/Retrieving_request_data_using_JInput "Retrieving request data using JInput").
+Retrieving_request_data_using_JInput.
 Note that using the CMD filter will prevent the inclusion of remote
 files by excluding the necessary charactes :/, also the exclusion of
 directory separators in the file name will prevent directory traversal,
@@ -549,8 +549,8 @@ years.
 
 ### Secure your extension against cross-site request forgery
 
-- [How to add CSRF anti-spoofing to
-  forms](https://docs.joomla.org/How_to_add_CSRF_anti-spoofing_to_forms "Special:MyLanguage/How to add CSRF anti-spoofing to forms")
+-  How to add CSRF anti-spoofing to
+  forms
 
 ### Check access privileges of users
 

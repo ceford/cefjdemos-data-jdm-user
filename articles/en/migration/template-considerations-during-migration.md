@@ -11,11 +11,11 @@ alt="Copyedit.png" />This Article Needs Your Help
 the Joomla! Documentation Wiki by <a
 href="https://docs.joomla.org//docs.joomla.org/index.php?title=Template_Considerations_During_Migration/en&amp;action=edit"
 class="external text" target="_blank"
-rel="noreferrer noopener">contributing to it</a>.  
+rel="noreferrer noopener">contributing to it</a>.
 <span class="small">More pages that need help similar to this one are
-[here](https://docs.joomla.org/Category:Needs_updating "Category:Needs updating").</span>
+here.</span>
 <span class="small">**NOTE-If you feel the need is satistified, please
-remove this notice.**</span>*  
+remove this notice.**</span>*
 **Reason:** See section 3.4 and 4
 
 Templates sometimes throw people for a loop during a migration. It need
@@ -112,7 +112,7 @@ If that fails, then you will need to either:
 
 *Item 1* is self explanatory. You can choose a template from a
 commercial provider or customise the Cassiopeia default template (see
-more on Cassiopeia below) that installs with Joomla 4.x.  
+more on Cassiopeia below) that installs with Joomla 4.x.
 *Item 2* not as simple. In order to convert your existing template to be
 compatible with Joomla 3 (and in time Joomla 4), see the following
 section.
@@ -121,13 +121,13 @@ section.
 
 ### 1.5 to 3 Template Conversions
 
-- [Migrating a Template from Joomla 1.5 to
-  3.x](https://docs.joomla.org/Migrating_a_Template_from_Joomla_1.5_to_3.x "Special:MyLanguage/Migrating a Template from Joomla 1.5 to 3.x")
+-  Migrating a Template from Joomla 1.5 to
+  3.x
 
 ### 1.5 to 2.5 Template Conversions
 
-- [Upgrading a Joomla 1.5 template to Joomla
-  2.5](https://docs.joomla.org/Upgrading_a_Joomla_1.5_template_to_Joomla_2.5 "Special:MyLanguage/Upgrading a Joomla 1.5 template to Joomla 2.5")
+-  Upgrading a Joomla 1.5 template to Joomla
+  2.5
 - <a
   href="http://magazine.joomla.org/issues/issue-may-2012/item/740-How-to-convert-Joomla-15-template-to-Joomla-25"
   class="external free" target="_blank"
@@ -135,8 +135,8 @@ section.
 
 ### 2.5 to 3 Template Conversions
 
-- [J3.x:Converting A Previous Joomla! Version
-  Template](https://docs.joomla.org/J3.x:Converting_A_Previous_Joomla!_Version_Template "Special:MyLanguage/J3.x:Converting A Previous Joomla! Version Template")
+-  J3.x:Converting A Previous Joomla! Version
+  Template
 - <a
   href="http://stackoverflow.com/questions/16055707/convert-joomla-2-5-template-to-3-0"
   class="external free" target="_blank"

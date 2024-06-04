@@ -1,8 +1,8 @@
 <!-- Filename: J4.x:Installing_Joomla / Display title: Installation de Joomla! -->
 
 Ceci est une page temporaire jusqu'à la sortie de Joomla 4. En
-attendant, merci de consulter [Installation de Joomla!
-3.x](https://docs.joomla.org/J3.x:Installing_Joomla "Special:MyLanguage/J3.x:Installing Joomla")
+attendant, merci de consulter  Installation de Joomla!
+3.x
 
 Installer Joomla ! pour la première fois est très facile. Une fois les
 étapes préliminaires terminées, à savoir la configuration d'un
@@ -14,8 +14,8 @@ nouveau site en quelques minutes seulement. Les étapes précédentes :
 
 Si vous n'avez pas encore mis en place un environnement d'hébergement,
 vous devez le faire maintenant, soit sur un service d'hébergement, soit
-sur votre ordinateur local. Lisez la [Configuration de
-l'hébergement](https://docs.joomla.org/J4.x:Hosting_Setup "J4.x:Hosting Setup")
+sur votre ordinateur local. Lisez la  Configuration de
+l'hébergement
 pour plus de détails.
 
 En outre, certains paramètres PHP doivent être suffisants pour que
@@ -24,7 +24,7 @@ un fichier de configuration **php.ini** ou **user.ini** sur le serveur.
 Si vous êtes sur un hébergement partagé, demandez à votre service
 d'hébergement comment modifier ces paramètres si cela est possible. Si
 vous travaillez sur un hôte local, par exemple avec
-[XAMPP](https://docs.joomla.org/XAMPP "Special:MyLanguage/XAMPP"), ou
+XAMPP, ou
 sur un VPS ou un hôte dédié, vous ne devriez pas être limité par ces
 paramètres et vous pouvez les définir vous-même.
 
@@ -45,10 +45,10 @@ imprévisibles.
 
 Si vous n'avez pas encore configuré une base de données, faites-le
 maintenant. Elle est couverte pour un service d'hébergement dans le
-tutoriel [Configuration de
-l'hébergement](https://docs.joomla.org/J4.x:Hosting_Setup "J4.x:Hosting Setup").
-Il existe également un tutoriel [Création d'une base de données pour
-Joomla !](https://docs.joomla.org/Creating_a_Database_for_Joomla! "Special:MyLanguage/Creating a Database for Joomla!")
+tutoriel  Configuration de
+l'hébergement.
+Il existe également un tutoriel  Création d'une base de données pour
+Joomla !
 qui couvre les méthodes de l'hôte local et de phpMyAdmin.
 
 Vous devrez noter les informations de base sur la base de données
@@ -142,8 +142,8 @@ pouvez la modifier si nécessaire.
 Remplissez les informations suivantes.
 
 - *Nom du site* : le nom de votre site web - il peut être modifié à tout
-  moment ultérieurement dans la page [Configuration générale du
-  site](https://docs.joomla.org/Help40:Site_Global_Configuration#Site "Special:MyLanguage/Help40:Site Global Configuration").
+  moment ultérieurement dans la page  Configuration générale du
+  site.
 
 Lorsque tout est terminé sur la première page, cliquez sur le bouton
 **Configuration des données de connexion** pour continuer :
@@ -163,13 +163,13 @@ Remplissez les informations suivantes.
 - **Nom réel** : Le nom du super utilisateur. C'est ainsi que Joomla
   vous accueillera lorsque vous vous connecterez !
 - '*Nom d'utilisateur du Super Utilisateur* : Le nom d'utilisateur du
-  *Super Utilisateur*. Evitez d'utiliser admin (qui est une bonne [Mon
-  Profil](https://docs.joomla.org/Security_Checklist/Joomla!_Setup#Change_the_default_administrator_username "Special:MyLanguagehttps://docs.joomla.org/Help40:Site_My_Profile")
+  *Super Utilisateur*. Evitez d'utiliser admin (qui est une bonne  Mon
+  Profil
   dans l'interface *Administration* pour le changer plus tard.
 - **Mot de passe Admin** : rappelez-vous que le super utilisateur a le
   contrôle maximum du site (frontend & backend), donc essayez d'utiliser
-  un mot de passe difficile. Utilisez [Mon
-  Profil](https://docs.joomla.org/Help40:Site_My_Profile "Special:MyLanguage/Help40:Site My Profile")
+  un mot de passe difficile. Utilisez  Mon
+  Profil
   dans l'interface *Administration* pour le changer plus tard.
 - **Adresse email du super utilisateur** : L'adresse email du super
   utilisateur. Entrez un courriel valide au cas où vous oublieriez votre
@@ -228,9 +228,8 @@ d'installation sont explicites, mais les voici à nouveau :
   permet aux structures qui ont un chiffrement SSL bidirectionnel vers
   la base de données de le renseigner.
 
-Tous ces choix et bien d'autres peuvent être modifiés sur la page
-[Configuration générale du
-Site](https://docs.joomla.org/Help40:Site_Global_Configuration#Server "Special:MyLanguage/Help40:Site Global Configuration"),
+Tous ces choix et bien d'autres peuvent être modifiés sur la page Configuration générale du
+Site.
 sous les Options du serveur, une fois l'installation terminée. Notez que
 vous allez "casser" votre installation si vous modifiez ces paramètres
 après l'installation, à moins que vous ne disposiez d'une copie complète
@@ -266,9 +265,8 @@ class="thumbborder" decoding="async" data-file-width="500"
 data-file-height="318" width="500" height="318"
 alt="J40 Installation screen page 4.png" />
 
-Si vous souhaitez commencer à utiliser Joomla immédiatement sans
-[installation de langues
-supplémentaires](https://docs.joomla.org/J4.x:Installing_Joomla#Installing_Extra_Languages "Special:MyLanguage/J4.x:Installing Joomla"),
+Si vous souhaitez commencer à utiliser Joomla immédiatement sans installation de langues
+supplémentaires.
 vous pouvez sélectionner **Ouvrir l'administrateur** pour accéder au
 **Tableau de bord de l'administrateur** ou sélectionner **Ouvrir le
 site** pour accéder à la page d'accueil du site.
@@ -357,13 +355,13 @@ Site**.
 
 ## Related Information
 
-- [Hosting
-  Setup](https://docs.joomla.org/J4.x:Hosting_Setup "Special:MyLanguage/J4.x:Hosting Setup")
-- [Hosting and Server
-  Setup](https://docs.joomla.org/Security_Checklist/Hosting_and_Server_Setup "Special:MyLanguage/Security Checklist/Hosting and Server Setup")
-- [Creating A VPS Testing
-  Server](https://docs.joomla.org/Creating_A_VPS_Testing_Server "Special:MyLanguage/Creating A VPS Testing Server")
-- [Setting up your local
-  environment](https://docs.joomla.org/J4.x:Setting_Up_Your_Local_Environment "Special:MyLanguage/J4.x:Setting Up Your Local Environment")
-- [Joomla CLI
-  Installation](https://docs.joomla.org/J4.x:Joomla_CLI_Installation "Special:MyLanguage/J4.x:Joomla CLI Installation")
+-  Hosting
+  Setup
+-  Hosting and Server
+  Setup
+-  Creating A VPS Testing
+  Server
+-  Setting up your local
+  environment
+-  Joomla CLI
+  Installation

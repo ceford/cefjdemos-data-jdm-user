@@ -1,6 +1,6 @@
 <!-- Filename: J4.x:How_To_Use_Content_Tags_in_Joomla / Display title: Hoe inhouds-tags in Joomla gebruiken -->
 
-Joomla!  4.0 <span id="main-portal-heading">**Handleiding**  
+Joomla!  4.0 <span id="main-portal-heading">**Handleiding**
 Het gebruik van de tags component</span>
 
 ## Inleiding
@@ -15,8 +15,8 @@ supports the creation of parent and child tags.
 Unlike Joomla **Categories**, where only one category can be assigned to
 an item, you can assign multiple tags to an item making the Tags
 Component an extremely flexible way to organise content. For more
-information about categories read [Joomla!
-Category](https://docs.joomla.org/Category "Special:MyLanguage/Category").
+information about categories read  Joomla!
+Category.
 
 Note that unlike categories, it is not a requirement to assign tags to
 items.
@@ -130,8 +130,8 @@ It is possible to add new tags whilst creating or editing an article. In
 the article settings **Tags Field** enter the name of the new tag and
 press **Enter** to save and assign the tag to the article.
 
-For more information about tagging articles read [Article
-Settings.](https://docs.joomla.org/J4.x:Adding_a_New_Article "Special:MyLanguage/J4.x:Adding a New Article").
+For more information about tagging articles read  Article
+Settings..
 
 ### From within a Category
 
@@ -139,8 +139,8 @@ Tags can be added when creating a new category. On the **Category** Tab
 enter the tag name in the **Tags Field** and press **Enter** to create
 and assign the new tag.
 
-For more information about categories read [Adding and Managing Article
-Categories](https://docs.joomla.org/J4.x:Create_and_Manage_Article_Categories "Special:MyLanguage/J4.x:Create and Manage Article Categories").
+For more information about categories read  Adding and Managing Article
+Categories.
 
 ### From within a Contact
 
@@ -258,8 +258,8 @@ Configuration is outside the scope of this tutorial but **global
 configuration** is accessed from the sidebar menu, **Components \>
 Tags**. Click the **Options** button in the upper toolbar.
 
-For more information read: [Tags:
-Options](https://docs.joomla.org/Help4.x:Tags:_Options "Special:MyLanguage/Help4.x:Tags: Options").
+For more information read:  Tags:
+Options.
 
 Global configuration can be overridden at menu item level.
 

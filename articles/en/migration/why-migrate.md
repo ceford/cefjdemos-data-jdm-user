@@ -7,8 +7,8 @@ the right place. This documentation is a funnel. At the bottom of each
 page there are up to two options to take you to the next step. Now, here
 are all the reasons to take the plunge to Joomla 4.x!
 
-First of all, you have to check which [Version of
-Joomla!](https://docs.joomla.org/How_to_check_the_Joomla_version%3F "Special:MyLanguage/How to check the Joomla version?")
+First of all, you have to check which  Version of
+Joomla!
 is running on your website.
 
 ## Why should I migrate?

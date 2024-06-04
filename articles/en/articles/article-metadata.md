@@ -27,8 +27,8 @@ are covered here.
 ## The page Title
 
 An article title is required for any new page. A few guidelines and tips for
-composing good titles from the [Mozilla Developer
-Network:](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
+composing good titles from the  Mozilla Developer
+Network:
 
 >* Avoid one- or two-word titles. Use a descriptive phrase, or a term-definition pairing for glossary or reference-style pages.
 >* Search engines typically display about the first 55–60 characters of a page title. Text beyond that may be lost, so try not to have titles longer than that. If you must use a longer title, make sure the important parts come earlier and that nothing critical is in the part of the title that is likely to be dropped.

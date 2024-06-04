@@ -114,8 +114,8 @@ for doing this.
 5\. Does the extension validate all user input, such as in form fields
 and in the URL?
 
-6\. Check here, if the extension is listed as [vulnerable
-extension](https://docs.joomla.org/What_is_a_vulnerable_extension%3F "Special:MyLanguage/What is a vulnerable extension?")
+6\. Check here, if the extension is listed as  vulnerable
+extension
 
 7\. Does the extension use explicit path names when invoking external
 programs?

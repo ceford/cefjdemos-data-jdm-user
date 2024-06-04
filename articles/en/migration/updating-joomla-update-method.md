@@ -6,14 +6,14 @@ Not only is this the recommended method, it is the easiest method of
 updating the Joomla CMS. Sometimes this method is referred to as a
 ***One click update***. If you are unable to use this method because of
 specific use cases (distributions, languages, host speed), you can
-update the Joomla CMS using the **[install
-method](https://docs.joomla.org/J3.x:Updating_Joomla_(Install_Method) "Special:MyLanguage/J3.x:Updating Joomla (Install Method)")**.
+update the Joomla CMS using the ** install
+method**.
 
-This method is suitable for  
+This method is suitable for
 
 - All Joomla CMS **3.x.x** to **3.x.x** - updates (maintenance update)
 
-This method is not suitable for  
+This method is not suitable for
 
 - Joomla CMS **3.1.2** to **≥ 3.1.3** - see [Special Instructions for
   Version 3.1.2

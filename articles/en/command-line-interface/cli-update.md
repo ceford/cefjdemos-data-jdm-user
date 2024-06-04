@@ -1,7 +1,7 @@
 <!-- Filename: J4.x:CLI_Update / Display title: CLI Update -->
 
-<span id="main-portal-heading">GSoC 2018  
-CLI Update  
+<span id="main-portal-heading">GSoC 2018
+CLI Update
 Documentation</span> [<img
 src="https://docs.joomla.org/images/thumb/7/7d/Gsoc2016.png/75px-Gsoc2016.png"
 decoding="async"
@@ -66,8 +66,8 @@ Joomla! CMS that they are touching.
 The CLI Update provides a command to check for Joomla! updates, it works
 just like the web version of `com_joomlaupdate`, it retrieves update and
 tells if update is available or not. To run the update check, we will
-just issue the command like this from the root directory:  
-`php cli/joomla.php core:check-updates`  
+just issue the command like this from the root directory:
+`php cli/joomla.php core:check-updates`
 The command runs and the output displays an available update version, if
 available, or tell otherwise that the current installation is up to
 date.
@@ -155,7 +155,7 @@ The last command under this category is the `extension:remove` command
 that is used to remove extensions from the Joomla CMS. This command
 takes in the `extension_id` as an argument, you can always use the
 `extension:list` to display extension id. This is how we remove an
-extension of id `803`  
+extension of id `803`
 `php cli/joomla.php extension:remove 803`
 
 <img
@@ -169,8 +169,8 @@ alt="Extension Remove.png" />
 
 As much as the CLI Update provides a command to check update, it also
 provides a command to perform the update if an update is available. To
-perform update we will just run this:  
-`php cli/joomla.php core:update`  
+perform update we will just run this:
+`php cli/joomla.php core:update`
 This command updates the Joomla core updating it to the latest version
 available.
 
@@ -190,7 +190,7 @@ in 2 modes: The Interactive mode and the Non-interactive mode.
 ##### Interactive installation
 
 To have a fresh installation of Joomla using the interactive mode we
-will just run the `extension:install` command like so:  
+will just run the `extension:install` command like so:
 `php cli/joomla.php extension:install`
 
 The default installation mode will run and will ask you to input the
@@ -210,7 +210,7 @@ The next type of installation is the Non-interactive mode. In this mode
 you will not be asked to input the options but rather all options will
 be specified within a file and the command will take in an option that
 specifies the path to the file you want to load the options from, it's
-done like this:  
+done like this:
 `php cli/joomla.php core:install --file=/path/to/config.json`
 
 <img
@@ -220,7 +220,7 @@ srcset="https://docs.joomla.org/images/thumb/d/dd/Core_install_file.png/1200px-C
 data-file-width="1980" data-file-height="760" width="800" height="307"
 alt="Core install file.png" />
 
-An example of the contents of `config.json` can be:  
+An example of the contents of `config.json` can be:
 
 ```json
     {
@@ -268,7 +268,7 @@ viewing configuration options inside the Joomla installation:
 The CLI Update provides a command to change the value of an option
 existing in the configuration. Using the `config:get` command you can
 set any configuration option that exists inside the `configuration.php`.
-This is how to use command:  
+This is how to use command:
 `php cli/joomla.php config:set mailer=mail`
 
 <img
@@ -278,7 +278,7 @@ srcset="https://docs.joomla.org/images/thumb/6/6e/Config_set_single.png/1200px-C
 data-file-width="1980" data-file-height="648" width="800" height="262"
 alt="Config set single.png" />
 
-You can even add multiple option-value pairs like this:  
+You can even add multiple option-value pairs like this:
 `php cli/joomla.php config:set mailer=mail fromname=Joomla! sitename="Joomla Site"`
 This will set multiple options at once.
 
@@ -295,7 +295,7 @@ The next command in this category is the `config:get` command, as the
 name suggests it gets the value of an option that exists inside the
 `configuration.php`, when no argument is supplied to the command, it
 will display all the options available in a tabulated form. Here is the
-command:  
+command:
 `php cli/joomla.php config:get sitename`
 
 This will return the value for the option `sitename`.
@@ -342,7 +342,7 @@ CLI Update currently supports group values: mail, db and session.
 
 As their name suggests, these commands allow you to quickly put your
 Joomla powered website into offline or online mode. Here is how to use
-the commands:  
+the commands:
 `php cli/joomla.php site:up`
 
 <img
@@ -406,9 +406,9 @@ Video above.
   <a href="https://symfony.com/doc/current/console/style.html"
   class="external text" target="_blank"
   rel="nofollow noreferrer noopener">How to Style a Console Command</a>
--   
--   
--   
--   
-- Write a CLI Application with Joomla 4 [J4.x:Writing A CLI
-  Application](https://docs.joomla.org/J4.x:Writing_A_CLI_Application "J4.x:Writing A CLI Application")
+-
+-
+-
+-
+- Write a CLI Application with Joomla 4  J4.x:Writing A CLI
+  Application

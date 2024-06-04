@@ -37,7 +37,7 @@ d'un titre :
 - 'Marquez' votre titre, mais faites-le de façon concise et en relation
   avec le contenu proposé.
 - Utilisez le fichier
-  [robots.txt](https://docs.joomla.org/robots.txt_file "Special:MyLanguage/robots.txt file")
+  robots.txt
   attentivement, n'interdisez pas aux moteurs de recherche de visiter
   votre site web.
 

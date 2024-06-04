@@ -71,7 +71,7 @@ common HTML tags. Example: `a[href|target=_blank],strong/b,div[align],br`
 default ruleset or to modify an element in the default ruleset. Example:
 `img[class|src|border=0|alt|title|hspace|vspace|width|height|align|onmouseover|onmouseout|name]`
 
-See the [TinyMCE Documentation](https://www.tiny.cloud/docs-3x/reference/Configuration3x/Configuration3x@valid_elements/ ) for more explanation.
+See the TinyMCE Documentation for more explanation.
 
 To bypass the TinyMCE text filters and use Joomla text filters set *Use Joomla
 Text Filter* to **On**. The three additional fields described above disappear

@@ -164,13 +164,13 @@ Segui-los irá protegê-lo da maioria das catástrofes.
     Migração e atualização, Administração.
 
 As postagens mais úteis no Fórum de segurança do Joomla! são convertidas
-em [Perguntas frequentes de segurança e
-desempenho](https://docs.joomla.org/Security_and_Performance_FAQs "Security and Performance FAQs").
+em  Perguntas frequentes de segurança e
+desempenho.
 Muitos dos itens desta lista são explicados com muito mais detalhes nas
 Perguntas frequentes.
 
-Você pode querer ler o excelente [Guia absoluto para iniciantes no
-Joomla!](https://docs.joomla.org/Portal:Beginners/pt-br "Portal:Beginners/pt-br")
+Você pode querer ler o excelente  Guia absoluto para iniciantes no
+Joomla!
 Ele tem muitas dicas e truques apresentada(o)s em um formato fácil de
 entender. Mesmo entusiastas experientes no Joomla encontram ótimas
 ideias aqui.
@@ -216,8 +216,8 @@ Notícias de segurança do Joomla. Existem várias formas de subscrever:
     ou obter ajuda experiente de outras pessoas. Se você não investiu o
     tempo considerável que leva para aprender a manter um site seguro,
     certifique-se de consultar alguém que o tenha feito. Leia esta
-    descrição irônica dos [10 truques de administrador mais
-    estúpidos](https://docs.joomla.org/Top_10_Stupidest_Administrator_Tricks "Top 10 Stupidest Administrator Tricks"),
+    descrição irônica dos  10 truques de administrador mais
+    estúpidos,
     que ilustra exemplos típicos, passo a passo, de como aprender
     segurança na web da maneira mais difícil.
 

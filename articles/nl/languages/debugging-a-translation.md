@@ -10,7 +10,7 @@ and 3.x
 
 It has been suggested that this article or section be split into
 specific version
-*[Namespaces](https://docs.joomla.org/JDOC:Namespaces "JDOC:Namespaces")*.
+*Namespaces*.
 (<a
 href="https://docs.joomla.org/index.php?title=Talk:Debugging_a_translation/nl&amp;action=edit&amp;redlink=1"
 class="new"
@@ -19,7 +19,7 @@ If version split is not obvious, please allow split request to remain
 for 1 week pending discussions. <span class="small">*Proposed since **2
 years ago***.</span>
 
-  
+
 Joomla ondersteunt een aantal nuttige debug-mechanismen die het
 makkelijker maken onvertaalde strings te vinden en problemen te
 onderzoeken met vertalingen van geïnstalleerde extensies.

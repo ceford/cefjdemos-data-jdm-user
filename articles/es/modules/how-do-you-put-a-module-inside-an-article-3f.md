@@ -30,7 +30,7 @@ manera:
     siempre aparecera, no importa cómo el visitante accedió al artículo.
     El módulo no se mostrará a menos que se ponga el comando para cargar
     el módulo en un
-    [artículo](https://docs.joomla.org/article "Special:MyLanguage/article").
+    artículo.
 3.  Edita los artículos donde deseas que este módulo aparezca e insertar
     ***{loadposition miposicion}*** en el texto del artículo en el lugar
     donde deseas que el módulo quede posicionado.

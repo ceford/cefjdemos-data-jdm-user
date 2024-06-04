@@ -9,8 +9,8 @@ aan winkelwagen" en "Koop" knoppen in je website.
 Het heeft de algemene voorkeur om een custom HTML module te maken in
 plaats van de code in een artikel te plakken. Op deze manier kun je de
 link in een module postitie op zoveel pagina's als je wilt. Je kunt ook
-de module in een artikel plaatsen met gebruik van de [{loadposition
-myposition}](https://docs.joomla.org/How_do_you_put_a_module_inside_an_article%3F "Special:MyLanguage/How do you put a module inside an article?")
+de module in een artikel plaatsen met gebruik van de  {loadposition
+myposition}
 opdracht.
 
 ## PayPal Technische Documentatie

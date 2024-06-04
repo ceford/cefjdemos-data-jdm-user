@@ -94,8 +94,8 @@ possibles.
     substituer le rendu du noyau Joomla</a>, [Comprendre les
     substitutions de
     rendu](https://docs.joomla.org/Understanding_Output_Overrides "Special:MyLanguage/Understanding Output Overrides"),
-    [Substitutions de mise en page dans
-    Joomla](https://docs.joomla.org/Layout_Overrides_in_Joomla "Special:MyLanguage/Layout Overrides in Joomla")).
+     Substitutions de mise en page dans
+    Joomla.
 2.  Vérifiez votre Gestionnaire des utilisateurs. Avez-vous l'intention
     de tous les transférer ? Y-a-t-il du nettoyage à faire ? Peut-être
     que certains Supers Administrateurs ne devant plus avoir d'accès ou
@@ -133,8 +133,8 @@ possibles.
     responsive ? Est-ce que votre template est personnalisé ? Ou est-ce
     que votre template tiers a été fortement personnalisé ? Pour des
     informations sur les considérations en matière de template, voir
-    [Considérations sur les templates lors d'une
-    migration](https://docs.joomla.org/Template_Considerations_During_Migration "Special:MyLanguage/Template Considerations During Migration").
+     Considérations sur les templates lors d'une
+    migration.
 1.  Si vous remplacez votre template par un nouveau template, aura-t-il
     besoin de nouvelles images ? Par exemple, si votre site actuel a un
     fond blanc et que votre logo ou d'autres images sont des images .jpg

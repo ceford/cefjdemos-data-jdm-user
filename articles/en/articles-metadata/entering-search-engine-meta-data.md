@@ -48,8 +48,8 @@ pages of your site.
 
 ## Controlled Crawling
 
-It's important that search engine spiders find your [Robots.txt
-file](https://docs.joomla.org/Robots.txt_file "Robots.txt file") that
+It's important that search engine spiders find your  Robots.txt
+file that
 guides spiders to pages and directories you want crawled and denies them
 entry to areas that are off limits.
 

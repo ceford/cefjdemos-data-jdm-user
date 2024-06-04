@@ -30,15 +30,15 @@ de développement de Joomla 4.x pour aider à faciliter la transition vers
 la prochaine version majeure pour la communauté. La nouvelle version
 3.10.x de Joomla est une excellente fonctionnalité du composant de mise
 à jour de Joomla ! pour vous aider dans votre processus de
-mini-migration : le [Vérification avant mise à
-jour](https://docs.joomla.org/Pre-Update_Check "Special:MyLanguage/Pre-Update Check").
+mini-migration : le  Vérification avant mise à
+jour.
 Une fois que votre site web est mis à jour à la version 3.10, la
 vérification de pré-mise à jour vous permettra de vérifier la
 compatibilité avec Joomla 4.0 de vos options et paramètres PHP et SQL,
 ainsi que des extensions que vous utilisez, à condition que les
 développeurs d'extensions aient utilisé la balise targetplatform. Voir
-la documentation [Vérification avant mise à
-jour](https://docs.joomla.org/Pre-Update_Check "Special:MyLanguage/Pre-Update Check")
+la documentation  Vérification avant mise à
+jour
 pour plus d'informations.
 
 ## Planification des actions
@@ -80,8 +80,8 @@ Checker dans le cadre de votre planification.
     compatibilité. Il ne s'agit pas d'un substitut à la nécessité de
     toujours utiliser Extensions → Gérer. Vous en saurez plus à ce sujet
     dans le Pas à Pas et dans la documentation du composant
-    [Vérification avant mise à
-    jour](https://docs.joomla.org/Pre-Update_Check "Special:MyLanguage/Pre-Update Check").
+     Vérification avant mise à
+    jour.
     Il s'agit simplement de se préparer sur les extensions tierces qui
     vont rester ou partir ou être remplacées.
 7.  Déterminez si vous avez vraiment besoin de toutes les extensions que
@@ -101,8 +101,8 @@ Checker dans le cadre de votre planification.
     L'utilisation du template de base de Joomla pour Joomla 4.x,
     Cassiopeia, pourrait être une option pour vous. Pour un
     développement des considérations basées sur les templates, voir
-    [Considérations sur les templates pendant la
-    migration](https://docs.joomla.org/Template_Considerations_During_Migration "Special:MyLanguage/Template Considerations During Migration").
+     Considérations sur les templates pendant la
+    migration.
 10. Si vous remplacez votre template par un nouveau template, aura-t-il
     besoin de nouvelles images ? Par exemple, si votre site actuel a un
     fond blanc et que votre logo ou d'autres images sont des images .jpg

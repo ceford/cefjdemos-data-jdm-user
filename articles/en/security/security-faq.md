@@ -79,9 +79,6 @@ class="external text" target="_blank"
 rel="nofollow noreferrer noopener">How you can prevent an SQL
 injection</a>
 
-[Joomla! Security Checklist
-Category](https://docs.joomla.org/Category:Security_Checklist "Category:Security Checklist")
-
 <a
 href="https://extensions.joomla.org/vulnerable-extensions/vulnerable/"
 class="external text" target="_blank" rel="noreferrer noopener">Joomla

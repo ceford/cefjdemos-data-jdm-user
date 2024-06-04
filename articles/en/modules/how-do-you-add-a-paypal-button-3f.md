@@ -9,8 +9,8 @@ Now* buttons into your Website.
 It is generally preferable to create a Custom HTML module instead of
 just pasting the code into an article. This way you can put the link in
 a module position on as many page as you like. You can also put the
-module inside an article using the [{loadposition
-myposition}](https://docs.joomla.org/How_do_you_put_a_module_inside_an_article%3F "Special:MyLanguage/How do you put a module inside an article?")
+module inside an article using the  {loadposition
+myposition}
 command.
 
 ## PayPal Technical Documentation

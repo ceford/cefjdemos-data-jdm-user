@@ -18,7 +18,7 @@ XAMPP is covered in a separate article:
 * [Local Hosting with XAMPP](jdocmanual?manual=user&heading=hosting&filename=local-hosting-with-xampp.md "Internal link") for Linux, Mac and Windows.
 
 There is a comparison available:
-* [Umbrella: WAMP vs XAMPP](https://wp-umbrella.com/blog/wamp-vs-xampp/#XAMPP:-The-Ultimate-Local-Server-Toolkit-for-Developers)
+* Umbrella: WAMP vs XAMPP
 
 ## Local Hosting with WampServer
 

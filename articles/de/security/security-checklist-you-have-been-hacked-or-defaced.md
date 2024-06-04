@@ -93,8 +93,8 @@ dann als Vorlage für den Beitrag verwendet werden..
 
 ### Liste der Maßnahmen
 
-- Die Webseite [offline
-  nehmen](https://docs.joomla.org/Taking_the_website_temporarily_offline#Using_the_htaccess_method_.28cpanel.29 "Special:MyLanguage/Taking the website temporarily offline")
+- Die Webseite  offline
+  nehmen
   (**Wir empfehlen die htaccess-Methode**)
 - Das <a href="https://github.com/ForumPostAssistant/FPA/zipball/en-GB"
   class="external text" target="_blank"
@@ -137,20 +137,20 @@ oder
     ../../../../../../../../../../../../../../../../proc/self/environ
 
 - Die
-  [Sicherheits-Checkliste](https://docs.joomla.org/Security_Checklist "Special:MyLanguage/Security Checklist")
+  Sicherheits-Checkliste
   überprüfen, um sicherzustellen, dass alle Schritte durchlaufen wurden
   (bitte beachten, dass einige Schritte optional sind, aber trotzdem
   überprüft werden sollten).
 - **Alle Passwörter ändern** und wenn möglich auch die Benutzernamen für
-  die Admin-Oberfläche des Hosting-Providers, mysql, FTP, [Joomla! Super
-  Admin](https://docs.joomla.org/Why_should_you_immediately_change_the_name_of_the_default_admin_user%3F "Special:MyLanguage/Why should you immediately change the name of the default admin user?")
+  die Admin-Oberfläche des Hosting-Providers, mysql, FTP,  Joomla! Super
+  Admin
   und Joomla! Admin Passwort.Diese sollten häufig geändert werden.
   Passwörter sollten aus mindestens 12 gemischten alphanumerischen
   Zeichen bestehen und keine gemeinsamen Wortphrasen enthalten.
 - Der Standard-Admin-Benutzer sollte nicht verwendet, sondern
   deaktiviert werden. Wenn das Admin-Passwort zugesetzt werden muss,
-  sollten [diese
-  Anweisungen](https://docs.joomla.org/How_do_you_recover_your_admin_password%3F "Special:MyLanguage/How do you recover your admin password?")
+  sollten  diese
+  Anweisungen
   befolgt werden.
 - Alle Templates und Dateien **löschen und durch saubere Kopien
   ersetzen**
@@ -446,8 +446,8 @@ cPanel aktiviert wird!
 Dieses Dokument gilt für alle Versionen von Joomla. Für die Reparatur
 einer Webseite sollte stets die neueste Version von Joomla verwendet
 werden, die mit der Version der bestehenden Joomla-Webseite kompatibel
-ist. Einige Versions-Upgrades erfordern eine [Migration der
-Webseite](https://docs.joomla.org/Migrating_from_Joomla_1.5_to_Joomla_2.5 "Special:MyLanguage/Migrating from Joomla 1.5 to Joomla 2.5")
+ist. Einige Versions-Upgrades erfordern eine  Migration der
+Webseite
 und machen die Joomla-Website unbrauchbar, wenn sie verwendet werden, um
 eine frühere Version von Joomla bei der Reparatur einer gehackten
 Webseite zu ersetzen. Zum Beispiel: Eine auf 1.5.xx basierende Website

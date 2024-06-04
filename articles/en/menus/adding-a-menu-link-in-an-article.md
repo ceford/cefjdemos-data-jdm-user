@@ -1,6 +1,6 @@
 <!-- Filename: J4.x:Adding_a_menu_link_in_an_article / Display title: Adding a menu link in an article -->
 
-<span id="main-portal-heading">**Tutorial**  
+<span id="main-portal-heading">**Tutorial**
 How to add a Menu Item from an Article</span> Joomla!  4.x
 
 ## Introduction
@@ -19,8 +19,8 @@ Edit your article by:
 
 - Going to **Content**  **→**  **Articles** and click on an existing one
   to edit it ***or***
-- Create a new one. See how to do this here: [Adding a new
-  Article](https://docs.joomla.org/J4.x:Adding_a_New_Article "Special:MyLanguage/J4.x:Adding a New Article").
+- Create a new one. See how to do this here:  Adding a new
+  Article.
 
 ## Adding the Article to a Menu
 

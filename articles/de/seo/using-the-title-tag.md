@@ -34,7 +34,7 @@ Seitentitels zu berücksichtigen:
 - Brand your titles, but do it concisely and in relation to the content
   being served
 - Use
-  [robots.txt](https://docs.joomla.org/robots.txt_file "Special:MyLanguage/robots.txt file")
+  robots.txt
   carefully, don't disallow search engines from visiting your website
 
 There are various Webmaster Tools which can be used to identify if there

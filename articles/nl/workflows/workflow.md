@@ -34,12 +34,9 @@ ze in categorieën groeperen.
 
 Er is een handleiding-pagina met stappen voor het aanmaken van je eerste
 workflow:
-[Scenario's](https://docs.joomla.org/Publishing_Workflowhttps://docs.joomla.org/Publishing%20Workflow/Scenarios).  
+Scenario's.
 Je vindt meer informatie over de implementatie van de component op
 andere plekken op de pagina van het Google Summer of Code project DOC:
-[Publiceren workflow
-implementatie](https://docs.joomla.org/Publishing_Workflow_Implementation "Special:MyLanguage/Publishing Workflow Implementation")
-
 You can disable workflows at any time by visiting "articles" or
 "workflows" and clicking "options" in the top right. Switch to the tab
 "Integration" and scroll down to "Enable Workflow".
@@ -77,14 +74,14 @@ alt="Workflows List" />
     Rechten (Rechten beheer)
 - Naast de titel vind je de optie om de *Beheer* de workflow status (zie
   voor meer informatie
-  [Statussen](https://docs.joomla.org/Publishing_Workflow#States "Special:MyLanguage/Publishing Workflow"))
+  Statussen
 - Naast de "Status" staat de standaard optie
 - Je vind een geel cirkel-icoon naast "standaard", wat het aantal
   bestaande statussen in de workflow aangeeft
 - Naast de gele cirkel staat een blauw pijl-icoon welke het aantal
   veranderingen in deze workflow vertegenwoordigt (voor meer informatie
   see
-  [Veranderingen](https://docs.joomla.org/Publishing_Workflow#Transitions "Special:MyLanguage/Publishing Workflow"))
+  Veranderingen
 - Daarnaast zie je de aanmaakdatum van de workflow, de auteur en de ID.
 
 ## Statussen
@@ -94,7 +91,7 @@ De status kan bereikt worden via het "Workflow overzicht" door op de
 (welke de conditie "gepubliceerd" moet hebben). Door op de titel te
 klikken kun je de status *Bewerken*.
 
-  
+
 <img
 src="https://docs.joomla.org/images/thumb/a/ac/Stages-en.png/800px-Stages-en.png"
 decoding="async"
@@ -153,8 +150,8 @@ been written but needs to be proofread, you could send an email
 notification to the editor.
 
 You can also add additional message text. This will also allow you to
-use a [language
-string](https://docs.joomla.org/J3.x:Language_Overrides_in_Joomla "J3.x:Language Overrides in Joomla")
+use a  language
+string
 which would make the message text translatable.
 
 The Usergroups option will allow you to define who will receive the
@@ -224,6 +221,6 @@ conflicts.
 
 See also:
 
-- [Publishing Workflow
-  Implementation](https://docs.joomla.org/Publishing_Workflow_Implementation "Special:MyLanguage/Publishing Workflow Implementation")
-- [Scenarios](https://docs.joomla.org/J4.x:Workflowhttps://docs.joomla.org/J4.x:Workflow/Scenarios)
+-  Publishing Workflow
+  Implementation
+- Scenarios

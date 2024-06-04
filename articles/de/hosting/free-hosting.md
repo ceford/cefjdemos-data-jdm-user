@@ -95,7 +95,7 @@ target="_blank" rel="noreferrer noopener">issues.joomla.org</a> melden.
 Um Tester zu werden sind keine besonderen Fähigkeiten erforderlich! Wer
 noch nie Pull-Requests getestet hat, dem bietet die Joomla-Dokumentation
 alle
-[Tutorials](https://docs.joomla.org/Testing_Joomla!_patches "Special:MyLanguage/Testing Joomla! patches"),
+Tutorials,
 die man benötigt.
 
 Tests sind in einem Open-Source-Projekt wie Joomla wichtig, da sie die

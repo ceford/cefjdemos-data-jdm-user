@@ -26,8 +26,8 @@ cuenta que, si crea un nuevo nombre de clase, debe asegurarse de que es
 un nombre único que no entra en conflicto con ningún nombre de clase ya
 existente.
 
-Ver [usando sufijos de
-clase](https://docs.joomla.org/Using_Class_Suffixes "Special:MyLanguage/Using Class Suffixes")
+Ver  usando sufijos de
+clase
 para más información.
 
 ## Uso
@@ -43,7 +43,7 @@ Si no usa un espacio delante, necesitará copiar todo el código de estilo
 para la clase "moduletable" y duplicarlo para la nueva clase CSS antes
 de hacer sus cambios en el código CSS.
 
-Vea [el tutorial sobre cómo usar sufijos de
-clase](https://docs.joomla.org/Using_Class_Suffixes "Special:MyLanguage/Using Class Suffixes")
+Vea  el tutorial sobre cómo usar sufijos de
+clase
 para un ejemplo detallado sobre cómo usar los sufijos de clase de página
 y módulo.

@@ -31,10 +31,10 @@ categories.
 
 There is a tutorial page containing steps for the creation of your first
 workflow:
-[Workflow Scenarios](https://docs.joomla.org/J4.x:Workflowhttps://docs.joomla.org/J4.x:Workflow/Scenarios).
+Workflow Scenarios.
 You can find more information about the implementation of the component
 in other areas on the page of the Google Summer of Code project DOC:
-[Publishing Workflow Implementation](https://docs.joomla.org/Special:MyLanguage/Publishing_Workflow_Implementation "Publishing Workflow Implementation")
+Publishing Workflow Implementation
 
 You can disable workflows at any time by visiting "articles" or
 "workflows" and clicking "options" in the top right. Switch to the tab
@@ -74,13 +74,13 @@ alt="Screenshot of Workflows List" />
     Permissions (Rights Management)
 - Next to the title you find the option to *Manage* the workflow stages
   (for more info see
-  [Publishing Workflow Stages](https://docs.joomla.org/Special:MyLanguage/Publishing_Workflow#Stages "Publishing Workflow Stages"))
+  Publishing Workflow Stages
 - Next to the "Stages" is the default option
 - You find a yellow icon, next to "default", representing the number of
   existing stages in this workflow
 - Next to the yellow circle is a blue icon that represents the number of
   existing transitions in this workflow (for more info see
-  [Publishing Workflow Transitions](https://docs.joomla.org/Special:MyLanguage/Publishing_Workflow#Transitions "Publishing Workflow Transitions"))
+  Publishing Workflow Transitions
 - You can also see the workflow ID.
 
 ## Stages
@@ -148,8 +148,8 @@ been written but needs to be proofread, you could send an email
 notification to the editor.
 
 You can also add additional message text. This will also allow you to
-use a [language
-string](https://docs.joomla.org/J3.x:Language_Overrides_in_Joomla "J3.x:Language Overrides in Joomla")
+use a  language
+string
 which would make the message text translatable.
 
 The Usergroups option will allow you to define who will receive the

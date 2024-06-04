@@ -93,8 +93,8 @@ read this</a> checklist summary, then use it as a post template.
 
 ### On Line Action List
 
-- Take your [website
-  offline](https://docs.joomla.org/Taking_the_website_temporarily_offline#Using_the_htaccess_method_.28cpanel.29 "Taking the website temporarily offline")
+- Take your  website
+  offline
   (**We recommend the htaccess method**)
 - Run the
   <a href="https://github.com/ForumPostAssistant/FPA/zipball/en-GB"
@@ -134,18 +134,18 @@ or
 
     ../../../../../../../../../../../../../../../../proc/self/environ
 
-- Review and action [Security
-  Checklist](https://docs.joomla.org/Security_Checklist "Security Checklist")
+- Review and action  Security
+  Checklist
   to make sure you've gone through all of the steps (please note some
   steps are optional, but please review them all).
 - **Change all passwords** and if possible user names for the domains
-  control panel, mysql, FTP, [Joomla! Super
-  Admin](https://docs.joomla.org/Why_should_you_immediately_change_the_name_of_the_default_admin_user%3F "Why should you immediately change the name of the default admin user?"),
+  control panel, mysql, FTP,  Joomla! Super
+  Admin,
   and Joomla! Admin password; do change them often. Passwords should be
   at least 12 mixed alphanumeric characters and contain no common word
   phrases.
-- Do not use the standard Admin user, [disable
-  it](https://docs.joomla.org/Why_should_you_immediately_change_the_name_of_the_default_admin_user%3F "Why should you immediately change the name of the default admin user?").
+- Do not use the standard Admin user,  disable
+  it.
   If you need to reset your admin password, see <a
   href="https://docs.joomla.org/How_do_you_recover_your_admin_password%3F"
   class="mw-redirect"

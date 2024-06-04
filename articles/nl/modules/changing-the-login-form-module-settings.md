@@ -5,8 +5,8 @@ die bepalen welke informatie weergegeven wordt alsook enkele aspecten
 van het gedrag.
 
 1.  Log in op de Administrator back-end. Hoe u dat doet leest u op
-    [Inloggen of uitloggen in de Administrator
-    back-end](https://docs.joomla.org/Logging_in_or_out_of_the_Administrator_back-end "Special:MyLanguage/Logging in or out of the Administrator back-end").
+     Inloggen of uitloggen in de Administrator
+    back-end.
 2.  Klik op de **Extensies **→** Modules** menu-item.
 3.  In de lijst van Modules zoek naar een type "Login" of "Inloggen". De
     lijst kan meerdere pagina 's bevatten, waardoor je evt. naar een

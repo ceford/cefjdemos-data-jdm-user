@@ -34,11 +34,11 @@ Beiträge erstellen und sie in Kategorien gruppieren.
 
 Es gibt ein eigenes Tutorial, welche die Schritte für das Erzeugen eines
 eigenen ersten Workflows enthalten:
-[Szenarios](https://docs.joomla.org/J4.x:Workflowhttps://docs.joomla.org/J4.x:Workflow/Scenarios).  
+Szenarios.
 Weitere Informationen über die Implementierung der Komponente in anderen
 Bereichen findet man auf der Seite des Google Summer of Code Projekts
-DOC: [Implementierung der Arbeitsschritte zur
-Veröffentlichung](https://docs.joomla.org/Publishing_Workflow_Implementation "Special:MyLanguage/Publishing Workflow Implementation")
+DOC:  Implementierung der Arbeitsschritte zur
+Veröffentlichung
 
 Workflows können jederzeit deaktiviert werden, wenn man „Beiträge“ oder
 „Workflows“ aufruft und oben rechts auf „Optionen“ klickt. Dort zu der
@@ -81,7 +81,7 @@ alt="Workflows List" />
     Permissions (Rights Management)
 - Neben dem Titel befindet sich die Option *Manage* / *Verwalte* die
   Ablaufplanstadien (weiterführende Informationen unter
-  [Stadien](https://docs.joomla.org/Publishing_Workflow#States "Special:MyLanguage/Publishing Workflow"))
+  Stadien
 - Wiederum neben den "Stadien" befindet sich die Option "als Standard
   setzen"
 - Ein gelbes Kreissymbol unterhalb von "Als Standard" oder "default"
@@ -90,7 +90,7 @@ alt="Workflows List" />
 - Auch wieder neben dem gelben Kreis befindet sich ein blaues
   Pfeilsymbol, welches die Zahl der bestehenden Übergänge in diesem
   Ablaufplan zeigt (weiterführende Infos unter
-  [Übergänge](https://docs.joomla.org/Publishing_Workflow#Transitions "Special:MyLanguage/Publishing Workflow"))
+  Übergänge
 - Darüber hinaus zeigt die Übersicht das Datum, an dem der Ablaufplan
   erstellt wurde, den Author und eine ID.
 
@@ -101,7 +101,7 @@ indem man auf das gelbe Symbol klickt, das die Anzahl der Stufen
 anzeigt. Der Name einer Stufe kann durch einen Klick auf die Stufe
 bearbeitet werden.
 
-  
+
 <img
 src="https://docs.joomla.org/images/thumb/3/3a/Stages-de.png/800px-Stages-de.png"
 decoding="async"
@@ -163,7 +163,7 @@ könnte eine E-Mail an den Redakteur gesendet werden.
 
 Außerdem kann ein zusätzlicher Nachrichtentext eingegeben werden. Hier
 ist auch die Verwendung eines
-[Sprach-Strings](https://docs.joomla.org/J3.x:Language_Overrides_in_Joomla "J3.x:Language Overrides in Joomla")
+Sprach-Strings
 erlaubt, der den Nachrichtentext übersetzbar machen würde.
 
 Mit der Option "Benutzergruppen" können Sie festlegen, wer die
@@ -235,6 +235,6 @@ von der Versionierung ausgeschlossen (wie zum Beispiel „Status“ oder
 
 Siehe auch:
 
-- [Umsetzung des
-  Publishing-Workflows](https://docs.joomla.org/Publishing_Workflow_Implementation "Special:MyLanguage/Publishing Workflow Implementation")
-- [Workflow/Szenarien](https://docs.joomla.org/J4.x:Workflowhttps://docs.joomla.org/J4.x:Workflow/Scenarios)
+-  Umsetzung des
+  Publishing-Workflows
+- Workflow/Szenarien

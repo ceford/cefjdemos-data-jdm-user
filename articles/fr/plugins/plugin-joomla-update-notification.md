@@ -8,8 +8,8 @@ reminding you to update Joomla.
 The emails sent by the Joomla! Update Notification System Plugin are
 intended to help keep your software up to date, which helps your website
 stay secure. It is recommended to install the update as soon as
-possible. See the [Joomla! Security
-Checklist](https://docs.joomla.org/Security_Checklist/Joomla!_Setup "Security Checklist/Joomla! Setup")
+possible. See the  Joomla! Security
+Checklist
 for more security tips.
 
 ## Options du plugin
@@ -85,9 +85,9 @@ your Joomla website is a popular website.
 
 ## Informations connexes
 
-- [Language
-  Overrides](https://docs.joomla.org/J3.x:Language_Overrides_in_Joomla "Special:MyLanguage/J3.x:Language Overrides in Joomla")
-- [Mettre à jour
-  Joomla!](https://docs.joomla.org/J3.x:Updating_Joomla_(Update_Method) "Special:MyLanguage/J3.x:Updating Joomla (Update Method)")
-- [Joomla! Security
-  Checklist](https://docs.joomla.org/Security_Checklist/Joomla!_Setup "Special:MyLanguage/Security Checklist/Joomla! Setup")
+-  Language
+  Overrides
+-  Mettre à jour
+  Joomla!
+-  Joomla! Security
+  Checklist

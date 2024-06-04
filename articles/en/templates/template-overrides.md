@@ -162,16 +162,16 @@ When an override file is created it is found in:
 
 ## Further Information
 
-- [Template
-  Basics](https://docs.joomla.org/J4.x:Template_Basics "Special:MyLanguage/J4.x:Template Basics")
-- [Cassiopeia Template Folders and
-  Files](https://docs.joomla.org/J4.x:Cassiopeia_Template_Folders_and_Files "Special:MyLanguage/J4.x:Cassiopeia Template Folders and Files")
-- [Cassiopeia Template
-  Customisation](https://docs.joomla.org/J4.x:Cassiopeia_Template_Customisation "Special:MyLanguage/J4.x:Cassiopeia Template Customisation")
-- [Template
-  Overrides](https://docs.joomla.org/J4.x:Template_Overrides "Special:MyLanguage/J4.x:Template Overrides")
-- [Template
-  Layouts](https://docs.joomla.org/J4.x:Template_Layouts "Special:MyLanguage/J4.x:Template Layouts")
-- [Cassiopeia Template Simplified - A Case
-  Study](https://docs.joomla.org/J4.x:Cassiopeia_Template_Simplified_-_A_Case_Study "Special:MyLanguage/J4.x:Cassiopeia Template Simplified - A Case Study") -
+-  Template
+  Basics
+-  Cassiopeia Template Folders and
+  Files
+-  Cassiopeia Template
+  Customisation
+-  Template
+  Overrides
+-  Template
+  Layouts
+-  Cassiopeia Template Simplified - A Case
+  Study -
   a simple template based on Cassiopeia

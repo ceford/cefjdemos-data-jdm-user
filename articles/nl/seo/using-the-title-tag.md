@@ -37,7 +37,7 @@ een titel:
 - Merk je titels, maar wees kort en bondig en in relatie tot de inhoud
   die wordt getoond
 - Gebruik
-  [robots.txt](https://docs.joomla.org/robots.txt_file "Special:MyLanguage/robots.txt file")
+  robots.txt
   zorgvuldig, verbied zoekmachines om uw website te bezoeken
 
 Er zijn verschillende Webmaster Tools die gebruikt kunnen worden om vast

@@ -6,8 +6,8 @@ forma você ouviu falar ou soube que precisa migrar para uma versão mais
 nova e veio parar aqui. Você está no lugar certo. Aqui estão todas as
 razões para dar o próximo passo!
 
-Primeiro de tudo, você tem que verificar qual [Versão do
-Joomla!](https://docs.joomla.org/How_to_check_the_Joomla_version%3F "Special:MyLanguage/How to check the Joomla version?")
+Primeiro de tudo, você tem que verificar qual  Versão do
+Joomla!
 está sendo executada no seu site.
 
 ## Por que devo migrar?

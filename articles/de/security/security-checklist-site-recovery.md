@@ -125,7 +125,7 @@ title="How do you recover your admin password?">FAQs</a>**)
 Es ist wichtig zu wissen, wie nach verdächtigen und/oder modifizierten
 Dateien gesucht werden kann und wie die primären Apache-Protokolle auf
 verdächtige Aktivitäten auf der Website überprüft werden können.
-**(**[FAQs](https://docs.joomla.org/Security_and_Performance_FAQs#How_do_I_find_exploits_using_the_.2ANIX_shell.3F "Security and Performance FAQs")**)**
+**(**FAQs**
 
 ## Was noch wichtig ist
 

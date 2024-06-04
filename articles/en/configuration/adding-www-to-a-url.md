@@ -52,5 +52,5 @@ the same time:
 If you would like to understand what all of this means you could read these
 articles:
 
-* [Apache mod_rewrite Introduction](https://httpd.apache.org/docs/2.4/rewrite/intro.html)
-* [Introduction to .htaccess Redirects](https://www.danielmorell.com/guides/htaccess-seo/redirects/introduction-to-redirects)
+* Apache mod_rewrite Introduction
+* Introduction to .htaccess Redirects

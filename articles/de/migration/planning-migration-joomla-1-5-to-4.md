@@ -92,8 +92,8 @@ Forum</a>. stellen.
     to override the output from the Joomla! core</a>, [Understanding
     Output
     Overrides](https://docs.joomla.org/Understanding_Output_Overrides "Special:MyLanguage/Understanding Output Overrides"),
-    [Layout Overrides in
-    Joomla](https://docs.joomla.org/Layout_Overrides_in_Joomla "Special:MyLanguage/Layout Overrides in Joomla")).
+     Layout Overrides in
+    Joomla.
 9.  Prüfe den User Manager. Möchtest Du alle Nutzer in die neue Version
     mitnehmen? Ist ein Aufräumen angebracht? Vielleicht existieren noch
     Super Administratoren die nicht länger einen Zugriff haben dürfen
@@ -130,8 +130,8 @@ Forum</a>. stellen.
     die neue Version responsiv und unterstützt sie mobile Geräte? Wurde
     das Template für den Kunden entwickelt oder handelt es sich um ein
     stark angepasstes Drittanbieter-Template? Für eine Anpassung des
-    Templates siehe [Template Considerations During
-    Migration](https://docs.joomla.org/Template_Considerations_During_Migration "Special:MyLanguage/Template Considerations During Migration").
+    Templates siehe  Template Considerations During
+    Migration.
 5.  Wenn Du Dein Template änderst, wie sieht es mit aktuellen Bildern
     aus? Zum Beispiel wenn Deine Webseite einen weißen Hintergrund hat
     und Dein Logo oder andere Bilder sind .jpg-Bilder mit weißem

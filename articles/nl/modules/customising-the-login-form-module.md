@@ -27,9 +27,8 @@ zijn op één of meer pagina's op uw Joomla! website.
 De Inloggen module kan op iedere module positie weergegeven worden
 waaraan het is toegekend binnen de huidige template. Het is ook mogelijk
 een loginformulier weer te geven op de plaats van de reguliere content
-als er een menu-item is aangeklikt. Om te leren hoe u dit kunt doen zie:
-[Een Inloggen menu-item
-aanmaken](https://docs.joomla.org/Screen.menus.edit.15#Internal_Link_-_User "Special:MyLanguage/Screen.menus.edit.15").
+als er een menu-item is aangeklikt. Om te leren hoe u dit kunt doen zie: Een Inloggen menu-item
+aanmaken.
 
 ### Aanpassen van de Inloggen module instellingen
 
@@ -38,8 +37,8 @@ die bepalen welke informatie weergegeven wordt alsook enkele aspecten
 van het gedrag.
 
 1.  Log in op de Administrator back-end. Hoe u dat doet leest u op
-    [Inloggen of uitloggen in de Administrator
-    back-end](https://docs.joomla.org/Logging_in_or_out_of_the_Administrator_back-end "Special:MyLanguage/Logging in or out of the Administrator back-end").
+     Inloggen of uitloggen in de Administrator
+    back-end.
 2.  Klik op de **Extensies **→** Modules** menu-item.
 3.  In de lijst van Modules zoek naar een type "Login" of "Inloggen". De
     lijst kan meerdere pagina 's bevatten, waardoor je evt. naar een
@@ -80,15 +79,15 @@ must be published. To publish the Login Form module:
     is a red cross, it is currently disabled. Click on the red cross to
     enable.
 
-To learn more see [Changing the Login Form module
-settings](https://docs.joomla.org/Changing_the_Login_Form_module_settings "Special:MyLanguage/Changing the Login Form module settings");
+To learn more see  Changing the Login Form module
+settings;
 
 ### See also
 
-- [Logging in or out of the Administrator
-  back-end](https://docs.joomla.org/J3.x:Logging_in_or_out_of_the_Administrator_back-end "Special:MyLanguage/J3.x:Logging in or out of the Administrator back-end")
-- [Setting user registration
-  policy](https://docs.joomla.org/Setting_user_registration_policy "Special:MyLanguage/Setting user registration policy")
+-  Logging in or out of the Administrator
+  back-end
+-  Setting user registration
+  policy
 
 ## Toewijzen van de Inloggen module aan specifieke webpagina's
 
@@ -121,5 +120,5 @@ If you wish to customise the information in the Login Module you will
 need to [navigate to the login module edit page in the Administration
 section of
 Joomla](https://docs.joomla.org/Changing_the_Login_Form_module_settings "Changing the Login Form module settings").
-Then consult [the help screen
-page](https://docs.joomla.org/Help310:Extensions_Module_Manager_Login "Help310:Extensions Module Manager Login")
+Then consult  the help screen
+page

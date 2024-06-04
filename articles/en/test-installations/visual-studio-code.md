@@ -8,7 +8,7 @@ embedded Git control and GitHub, syntax highlighting, intelligent code
 completion, snippets, and code refactoring.
 
 The main characteristic of the editor is that it is extensible and it
-has a huge collection of [extensions](https://marketplace.visualstudio.com/VSCode "")
+has a huge collection of extensions
 maintained by users and by Microsoft itself.
 
 As a general introduction, this is a presentation about the topic
@@ -151,7 +151,7 @@ The extension supports the most common configurations of PHP
 rel="nofollow noreferrer noopener">XDebug</a>. It fully integrates all
 VSCode features to debug PHP scripts.
 
-To configure the extension, visit the [official documentation](https://github.com/felixfbecker/vscode-php-debug#installation "")
+To configure the extension, visit the official documentation
 
 As a sample configuration for VSCode debugging, this is a common
 launch.json:
@@ -225,7 +225,7 @@ check the [documentation](Xdebug 3 — Documentation).
 ## phpcs Configuration
 
 To configure the extension, visit the
-[official documentation](https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs "").
+official documentation.
 The extension supports the most common configurations of
 <a href="https://pear.php.net/package/PHP_CodeSniffer/"
 rel="nofollow noreferrer noopener">PHP_CodeSniffer</a>.
@@ -237,7 +237,7 @@ the extension is installed, it works with **PSR2**.
 
 To configure the extension to apply the **Joomla! Coding Standards**,
 install the rules following the
-[official guide](https://developer.joomla.org/coding-standards/html.html "")
+official guide
 Once the **Joomla! Coding Standards** is installed, configure the User
 Settings following this sample configuration:
 
@@ -246,7 +246,7 @@ Settings following this sample configuration:
 ## Configuration of PHP Intelephense
 
 To configure the extension, visit the
-[intelephense documentation](https://github.com/bmewburn/vscode-intelephense#quick-start "").
+intelephense documentation.
 The extension does not require additional configuration.
 
 VSCode comes with basic support of the PHP language. So, it is probably
@@ -266,7 +266,7 @@ Advanced Autocompletion and Refactoring support for PHP.
 
 ## PHPUnit Configuration
 
-To configure the extension, visit the [vscode phpunit documentation](https://github.com/elonmallin/vscode-phpunit#setup "")
+To configure the extension, visit the vscode phpunit documentation
 
 The extension integrates
 <a href="https://phpunit.de/"
@@ -288,7 +288,7 @@ This is a sample configuration of the extension:
 
 ## php cs fixer Configuration (Only for PSR2)
 
-To configure the extension, visit the [vscode php cs fixer documentation](https://github.com/junstyle/vscode-php-cs-fixer#installation "").
+To configure the extension, visit the vscode php cs fixer documentation.
 The extension integrates
 <a href="https://github.com/FriendsOfPHP/PHP-CS-Fixer"
 rel="nofollow noreferrer noopener">PHP-CS-Fixer</a> with VSCode, so all
@@ -306,7 +306,7 @@ settings in this way:
 ## PHP Phan (Analyzer) Configuration
 
 To configure the extension, visit the
-[official documentation](https://marketplace.visualstudio.com/items?itemName=TysonAndre.php-phan "").
+official documentation.
 This is a sample configuration of the extension:
 
         "phan.phpExecutablePath": "/usr/bin/php",
@@ -317,7 +317,7 @@ This is a sample configuration of the extension:
 ## phpmd Configuration
 
 To configure the extension, visit the
-[official documentation](https://github.com/felixfbecker/vscode-php-debug#installation "").
+official documentation.
 The extension does not require additional configuration.
 
 This is a sample configuration of the extension:

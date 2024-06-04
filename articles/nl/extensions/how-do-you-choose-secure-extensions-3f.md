@@ -117,8 +117,8 @@ goede reden hebben om dit te doen.
 5\. Valideert de extensie door gebruikers ingevulde gegevens, zoals
 bijvoorbeeld in formuliervelden en in de URL?
 
-6\. Controleer hier, of de extensie staat bij de [kwetsbare
-extensies](https://docs.joomla.org/What_is_a_vulnerable_extension%3F "What is a vulnerable extension?")
+6\. Controleer hier, of de extensie staat bij de  kwetsbare
+extensies
 
 7\. Gebruikt de extensie expliciete pad-namen bij het aanroepen van
 externe programma's?

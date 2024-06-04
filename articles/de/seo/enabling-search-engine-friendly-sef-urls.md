@@ -10,8 +10,8 @@ verschiedenen Formaten erzeugen und parsen, darunter auch SEF URLs.
 Dabei ist Joomla nicht vom URL-Rewriting (Apache mod-rewrite Modul) des
 Webservers abhängig. SEF URLs können auch auf jedem Nicht-Apache Server
 generiert werden. SEF URLs haben ein feststehendes Muster. Der Benutzer
-kann jedoch [kurze, beschreibende Texte
-(Aliase)](https://docs.joomla.org/Alias "Alias") für jeden Teil der URL
+kann jedoch  kurze, beschreibende Texte
+(Aliase) für jeden Teil der URL
 definieren.
 
 Intern wird der lokale Teil der SEF URL (der Teil des Domain Namens)
@@ -24,11 +24,8 @@ unterscheidet sich je nach dem verwendeten Webserver. Wenn Shared
 Hosting verwendet wird, handelt es sich vermutlich um Apache. Weitere
 Informationen gibt der Hosting-Provider, falls Zweifel bestehen.
 
-Only the most popular web servers have been included on this page. Visit
-[Enabling Search Engine Friendly (SEF) URLs on
-IIS](https://docs.joomla.org/Enabling_Search_Engine_Friendly_(SEF)_URLs_on_IIS "Enabling Search Engine Friendly (SEF) URLs on IIS")
-and [Category:Search Engine Friendly
-URLs](https://docs.joomla.org/Category:Search_Engine_Friendly_URLs "Category:Search Engine Friendly URLs")
+Only the most popular web servers have been included on this page. Visitand  Category:Search Engine Friendly
+URLs
 for more articles.
 
 ## Apache
@@ -172,45 +169,45 @@ rel="nofollow noreferrer noopener">Translate <em>.htaccess</em> Content
 to IIS <em>web.config</em></a>
 
 
-        
-            
-                
-                    
-                    
-                        
-                        
-                            
-                            
-                            
-                            
-                            
-                        
-                        
-                    
-                    
-                        
-                        
-                            
-                        
-                        
-                    
-                    
-                        
-                        
-                            
-                            
-                            
-                        
-                        
-                    
-                
-            
-            
-                
-                    
-                
-            
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Nginx
 

@@ -1,7 +1,7 @@
 <!-- Filename: What_is_a_vulnerable_extension%3F / Display title: Wat is een kwetsbare extensie? -->
 
 Een **kwetsbare extensie** is een extensie die een
-[beveiligings](https://docs.joomla.org/security "Special:MyLanguage/security")
+beveiligings
 kwetsbaarheid heeft (of daaraan bijdraagt).
 
 Kwetsbare extensies zijn niet niet per se slecht gecodeerd. Naarmate het

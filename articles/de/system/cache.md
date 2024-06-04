@@ -309,8 +309,8 @@ Methode und damit eines tieferen MVC-Teils hinzu.)
   Funktionen oder Methoden zurück.
 
 Wenn man Abfragen zwischenspeichern möchte, ist dies eine gute Klasse,
-wie hier gezeigt: [Using caching to speed up your
-code](https://docs.joomla.org/Using_caching_to_speed_up_your_code "Special:MyLanguage/Using caching to speed up your code")
+wie hier gezeigt:  Using caching to speed up your
+code
 
 - *JCacheOutput* cacht und gibt die Ausgabe zurück.
 

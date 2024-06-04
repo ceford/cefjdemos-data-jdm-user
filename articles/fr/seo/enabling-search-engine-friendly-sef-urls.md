@@ -27,10 +27,10 @@ partagé, vous utilisez probablement Apache. Demandez confirmation à
 votre hébergeur si vous n'êtes pas certain.
 
 Seuls les serveurs web les plus utilisés ont été inclus dans cette page.
-Rendez-vous sur [Autoiser les réécritures d'URL pour
-IIS](https://docs.joomla.org/Enabling_Search_Engine_Friendly_(SEF)_URLs_on_IIS "Enabling Search Engine Friendly (SEF) URLs on IIS")
-et [Optimisation des URLs pour les moteurs de
-recherche](https://docs.joomla.org/Category:Search_Engine_Friendly_URLs/fr "Category:Search Engine Friendly URLs/fr")
+Rendez-vous sur  Autoiser les réécritures d'URL pour
+IIS
+et  Optimisation des URLs pour les moteurs de
+recherche
 pour accéder à plus d'articles.
 
 ## Apache

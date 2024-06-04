@@ -420,5 +420,5 @@ Video above.
 -
 -
 -
-- Write a CLI Application with Joomla 4 [J4.x:Writing A CLI
-  Application](https://docs.joomla.org/J4.x:Writing_A_CLI_Application "J4.x:Writing A CLI Application")
+- Write a CLI Application with Joomla 4  J4.x:Writing A CLI
+  Application

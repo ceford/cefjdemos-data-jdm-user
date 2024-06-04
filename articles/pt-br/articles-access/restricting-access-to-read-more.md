@@ -39,8 +39,8 @@ acesso à visualização completa do artigo, faça o seguinte:
 (Estas opções podem ser substituídas pelas configurações do menu
 correspondentes ou pelas configurações do artigo se as configurações do
 menu estiverem definidas para usar as configurações do artigo) -
-Consulte [Opções de
-artigo](https://docs.joomla.org/Help32:Menus_Menu_Item_Article_Category_Blog#Article_Options "Special:MyLanguage/Help32:Menus Menu Item Article Category Blog")
+Consulte  Opções de
+artigo
 
 **Nota:** Texto em artigos sem um leia mais é tratado como "texto de
 introdução". Se você tiver artigos apenas para registrados, mas que não

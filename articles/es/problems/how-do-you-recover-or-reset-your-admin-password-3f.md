@@ -3,8 +3,8 @@
 Recuperación de contraseña en Joomla! 1.5
 
 Esta página sólo es para la versión 2.5 de Joomla! o posterior. Si aún
-usa Joomla! 1.5  [puede encontrar instrucciones
-aquí](https://docs.joomla.org/J1.5:How_do_you_recover_or_reset_your_admin_password%3F "Special:MyLanguage/J1.5:How do you recover or reset your admin password?").
+usa Joomla! 1.5   puede encontrar instrucciones
+aquí.
 
 Normalmente, puede añadir, editar y borrar usuarios y contraseñas desde
 el gestor de usuarios del back-end. Para hacer esto, debe haber iniciado
@@ -198,7 +198,7 @@ puede ser hackeado si no cambiar la contraseña a un valor seguro después
 de iniciar la sesión. Asegúrese de cambiar la contraseña a un valor
 seguro después de iniciar la sesión.
 
-  
+
 Los ejemplos anteriores cambiarán la contraseña a "secret". Otros dos
 posibles valores se muestran a continuación:
 

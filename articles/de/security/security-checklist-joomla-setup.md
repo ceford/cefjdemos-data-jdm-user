@@ -2,21 +2,21 @@
 
 |                                                                                                                                                                              |                                                                                                                                                                                                                                                                                                                                       |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <img                                                                                                                                                                         
- src="https://docs.joomla.org/images/thumb/6/69/Split-icon.png/50px-Split-icon.png"                                                                                            
- decoding="async"                                                                                                                                                              
- srcset="https://docs.joomla.org/images/thumb/6/69/Split-icon.png/75px-Split-icon.png 1.5x, https://docs.joomla.org/images/thumb/6/69/Split-icon.png/100px-Split-icon.png 2x"  
- data-file-width="200" data-file-height="67" width="50" height="17"                                                                                                            
- alt="Split-icon.png" />                                                                                                                                                       | It has been suggested that this article or section be split into multiple pages. *Reason: Informations for EOL versions will be moved to a separate page. [m-b-o (Mike Brandner)](https://docs.joomla.org/User:M-b-o "User:M-b-o") ([talk](https://docs.joomla.org/User_talk:M-b-o "User talk:M-b-o")) 17:35, 19 April 2020 (CDT) (<a 
-                                                                                                                                                                                href="https://docs.joomla.org/index.php?title=Talk:Security_Checklist/Joomla!_Setup/de&amp;action=edit&amp;redlink=1"                                                                                                                                                                                                                  
-                                                                                                                                                                                class="new"                                                                                                                                                                                                                                                                                                                            
-                                                                                                                                                                                title="Talk:Security Checklist/Joomla! Setup/de (page does not exist)">Click                                                                                                                                                                                                                                                           
-                                                                                                                                                                                to discuss</a>) this split suggestion. If split is not obvious, please allow split request to remain for 1 week pending discussions. <span class="small">This article was <a                                                                                                                                                           
-                                                                                                                                                                                href="https://docs.joomla.org//docs.joomla.org/index.php?title=Security_Checklist/Joomla!_Setup/de&amp;diff=cur"                                                                                                                                                                                                                       
-                                                                                                                                                                                class="external text" target="_blank" rel="noreferrer noopener">last                                                                                                                                                                                                                                                                   
-                                                                                                                                                                                edited</a> by [FuzzyBot](https://docs.joomla.org/User:FuzzyBot "User:FuzzyBot") ([talk](https://docs.joomla.org/User_talk:FuzzyBot "User talk:FuzzyBot")\| [contribs](https://docs.joomla.org/Special:Contributions/FuzzyBot "Special:Contributions/FuzzyBot")) 22 months ago.</span>* <span class="small">(<a                         
-                                                                                                                                                                                href="https://docs.joomla.org//docs.joomla.org/index.php?title=Security_Checklist/Joomla!_Setup/de&amp;action=purge"                                                                                                                                                                                                                   
-                                                                                                                                                                                class="external text" target="_blank"                                                                                                                                                                                                                                                                                                  
+| <img
+ src="https://docs.joomla.org/images/thumb/6/69/Split-icon.png/50px-Split-icon.png"
+ decoding="async"
+ srcset="https://docs.joomla.org/images/thumb/6/69/Split-icon.png/75px-Split-icon.png 1.5x, https://docs.joomla.org/images/thumb/6/69/Split-icon.png/100px-Split-icon.png 2x"
+ data-file-width="200" data-file-height="67" width="50" height="17"
+ alt="Split-icon.png" />                                                                                                                                                       | It has been suggested that this article or section be split into multiple pages. *Reason: Informations for EOL versions will be moved to a separate page. m-b-o (Mike Brandner)](https://docs.joomla.org/User:M-b-o "User:M-b-o") ([talk (<a
+                                                                                                                                                                                href="https://docs.joomla.org/index.php?title=Talk:Security_Checklist/Joomla!_Setup/de&amp;action=edit&amp;redlink=1"
+                                                                                                                                                                                class="new"
+                                                                                                                                                                                title="Talk:Security Checklist/Joomla! Setup/de (page does not exist)">Click
+                                                                                                                                                                                to discuss</a>) this split suggestion. If split is not obvious, please allow split request to remain for 1 week pending discussions. <span class="small">This article was <a
+                                                                                                                                                                                href="https://docs.joomla.org//docs.joomla.org/index.php?title=Security_Checklist/Joomla!_Setup/de&amp;diff=cur"
+                                                                                                                                                                                class="external text" target="_blank" rel="noreferrer noopener">last
+                                                                                                                                                                                edited</a> by FuzzyBot](https://docs.joomla.org/User:FuzzyBot "User:FuzzyBot") ([talk](https://docs.joomla.org/User_talk:FuzzyBot "User talk:FuzzyBot")\| [contribs 22 months ago.</span>* <span class="small">(<a
+                                                                                                                                                                                href="https://docs.joomla.org//docs.joomla.org/index.php?title=Security_Checklist/Joomla!_Setup/de&amp;action=purge"
+                                                                                                                                                                                class="external text" target="_blank"
                                                                                                                                                                                 rel="noreferrer noopener">Purge</a>)</span>                                                                                                                                                                                                                                                                                            |
 
 <table class="navbox" data-cellspacing="0">
@@ -117,10 +117,10 @@ Joomla! sollte nur von offiziellen Seiten wie
 <a href="https://downloads.joomla.org" class="external text"
 target="_blank" rel="noreferrer noopener">downloads.joomla.org</a>
 heruntergeladen werden. Außerdem ist es wichtig, den
-[MD5-Hash](https://docs.joomla.org/How_to_determine_a_package_checksum "Special:MyLanguage/How to determine a package checksum")
+MD5-Hash
 zu überprüfen.\]\].
 
-[Webseiten-Diagnosetools](https://docs.joomla.org/Web_page_diagnostic_tools "Special:MyLanguage/Web page diagnostic tools"),
+Webseiten-Diagnosetools,
 z. B. Firefox Developer Tools, Microsoft Edge (Chromium) Developer
 Tools, Chrome Developer Tools, können bei der korrekten Installation der
 Dateien hilfreich sein.
@@ -132,7 +132,7 @@ Dieser einfache Schritt erhöht die Sicherheit dieses wichtigen Kontos
 effektiv um 50 %, indem eine der beiden Variablen geändert wird, die
 Angreifer für den Zugriff benötigen. Das Passwort ist die andere
 Variable und sollte daher früh und häufig geändert werden.
-**([FAQ](https://docs.joomla.org/Security_and_Performance_FAQs#Why_should_I_immediately_change_the_name_of_the_default_admin_user_after_a_new_install.3F "Security and Performance FAQs"))**
+**(FAQ**
 
 ### Verzeichnisse und Dateien schützen
 
@@ -256,9 +256,8 @@ Angreifer. Jeder Hosting-Provider, der darauf besteht, dass Register
 Globals eingeschaltet werden sollten, ist entweder ignorant oder
 inkompetent!
 
-Weitere Informationen zu register_globals sind hier zu finden:
-[Sicherheits-Checkliste: PHP:
-register_globals](https://docs.joomla.org/Security_Checklist/Hosting_and_Server_Setup#Don.27t_use_PHP_register_globals "Security Checklist/Hosting and Server Setup").
+Weitere Informationen zu register_globals sind hier zu finden: Sicherheits-Checkliste: PHP:
+register_globals.
 
 ## Installation von Joomla!-Erweiterungen
 
@@ -368,10 +367,7 @@ Möglichkeit, vertrauliche Transaktionen und eine sichere
 Benutzerauthentifizierung sicher zu verarbeiten. SSL funktioniert durch
 Verschlüsselung der gesamten HTTP-Kommunikation zwischen dem Web-Server
 und den Web-Clients. Selbst wenn eine Übertragung abgefangen wird, kann
-sie daher nicht gelesen werden. Weitere Informationen sind im Artikel
-[Aktivierung von HTTPS für die
-Webseite](https://docs.joomla.org/Enabling_HTTPS_on_your_site "Special:MyLanguage/Enabling HTTPS on your site")
-zu finden.
+sie daher nicht gelesen werden. Weitere Informationen sind im Artikelzu finden.
 
 Die Konfiguration von SSL-Optionen wird von Joomla! 1.5 und höher
 unterstützt.
@@ -395,7 +391,7 @@ height="17" alt="Joomla 3.0" /> Das bedeutendste Upgrade in der
 Geschichte von Joomla! umfasst leistungsstarke Sicherheits- und
 Leistungsverbesserungen.
 
-- [Warum migrieren?](https://docs.joomla.org/Why_Migrate "Why Migrate")
+- Warum migrieren?
 - <a href="https://downloads.joomla.org/cms" class="external text"
   target="_blank" rel="noreferrer noopener">Joomla Downloads</a>
 

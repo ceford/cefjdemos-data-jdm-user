@@ -12,8 +12,8 @@ artificiellement leur classement dans les moteurs de recherche en créant
 de gros volumes de liens réciproques avec des sites Web sur une courte
 période. Pour tenter de résoudre ce problème, les moteurs de recherche
 mettent régulièrement à jour leurs algorithmes et pénalisent les sites
-qui ne respectent pas leurs directives de bonnes pratiques (voir [Google
-Updates](https://docs.joomla.org/Google_Updates "Special:MyLanguage/Google Updates")
+qui ne respectent pas leurs directives de bonnes pratiques (voir  Google
+Updates
 pour plus d'informations).
 
 ### Construction de liens Safe
@@ -28,8 +28,8 @@ d'une manière ou d'une autre à votre site.
 
 Tous les liens que vous avez sur votre site Web et qui mènent à une
 ressource externe doivent clairement informer vos visiteurs de ce à quoi
-ils renvoient, sans pour autant être du spam. Par exemple, [Joomla !
-Projet de documentation](https://docs.joomla.org/Main_Page "Main Page")
+ils renvoient, sans pour autant être du spam. Par exemple,  Joomla !
+Projet de documentation
 indique clairement que le lien dirige les visiteurs vers la page
 d'accueil du projet de documentation de Joomla ! Si le lien est écrit
 sous la forme <a
@@ -67,7 +67,7 @@ externes vers d'autres sites.
 
 Il est important de noter qu'avec les récentes mises à jour des
 algorithmes de
-[Google](https://docs.joomla.org/Google_Updates "Special:MyLanguage/Google Updates")
+Google
 (nommés Panda, et plus récemment Penguin), les sites présentant des
 profils de liens non naturels peuvent être déclassés dans les positions
 des moteurs de recherche. L'un des principaux facteurs de la mise à jour

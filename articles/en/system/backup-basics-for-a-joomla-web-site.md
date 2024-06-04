@@ -55,7 +55,7 @@ This is the preferred method using the Akeeba Backup Extension.
   location and prompts for the new database details.
 
 You can download the Akeeba Backup extension from the
-[Joomla extension directory](https://extensions.joomla.org/extensions/extension/access-a-security/site-security/akeeba-backup "").
+Joomla extension directory.
 There is a link to full instructions there as well.
 
 ## Backup Two-Part Method
@@ -172,6 +172,6 @@ back-end. Then disable all plugins under the *twofactorauth* group.
 Finally, rename the *plugins/twofactorauth.BAK* folder of your site to
 *twofactorauth*.
 
-- See also the [Two Factor
-  Authentication](https://docs.joomla.org/J3.x:Two_Factor_Authentication "Special:MyLanguage/J3.x:Two Factor Authentication")
+- See also the  Two Factor
+  Authentication
   tutorial.

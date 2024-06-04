@@ -8,8 +8,8 @@ Helicon provides one which directly supports .htaccess rules.
 Tutorials are available for at least the following versions:
 
 - <span class="mw-selflink selflink">IIS6</span>
-  - [1.0](https://docs.joomla.org/Enabling_Search_Engine_Friendly_(SEF)_URLs_on_IIS/IIS6/1.0 "Enabling Search Engine Friendly (SEF) URLs on IIS/IIS6/1.0")
-  - [1.5](https://docs.joomla.org/Enabling_Search_Engine_Friendly_(SEF)_URLs_on_IIS/IIS6/1.5 "Enabling Search Engine Friendly (SEF) URLs on IIS/IIS6/1.5")
+  - 1.0
+  - 1.5
 
 Some of these tutorials are included below.
 

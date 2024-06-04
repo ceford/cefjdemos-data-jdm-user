@@ -83,7 +83,7 @@ with a suitable design. In this example, the favicon will be the letters
 
 Inkscape is a free, Open Source, cross-platform, vector graphics
 application used to work with SVG files. It works on Linux, Mac and
-Windows. Go to the [Inkscape (inkscape.org)](https://inkscape.org/ "") site to download a
+Windows. Go to the Inkscape (inkscape.org) site to download a
 copy for your platform. The following illustrations shows the Inkscape
 screen part way through the following instructions.
 
@@ -163,7 +163,7 @@ need using your newly created SVG as a master.
 
 ### Online Processing
 
-Go to the [Real Favicon Generator](https://realfavicongenerator.net/ "") site.
+Go to the Real Favicon Generator site.
 Other sites are available but this one seems particularly comprehensive.
 
 1.  Select the button labeled *Select your Favicon image*

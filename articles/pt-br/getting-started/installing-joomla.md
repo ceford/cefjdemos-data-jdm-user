@@ -8,8 +8,8 @@ integrado do Joomla facilita muito a configuração do seu novo site.
 ### Hosting Setup
 
 If you have not yet set up a hosting environment you need to do it now,
-either on a hosting service or your local computer. Read the [Hosting
-Setup](https://docs.joomla.org/J4.x:Hosting_Setup "J4.x:Hosting Setup")
+either on a hosting service or your local computer. Read the  Hosting
+Setup
 tutorial for details.
 
 Also, there are some PHP settings that need to be sufficient for Joomla
@@ -17,7 +17,7 @@ to install. The settings are usually in a *php.ini* or *user.ini*
 configuration file on the server. If you are on shared hosting, talk to
 your hosting service about how to change these settings if it is
 possible to do so. If working on a localhost, for example with
-[XAMPP](https://docs.joomla.org/XAMPP "Special:MyLanguage/XAMPP"), or a
+XAMPP, or a
 VPS or dedicated host, you should not be restricted by these settings
 and can set them yourself.
 
@@ -35,10 +35,10 @@ unpredictable problems.
 ### Database Setup
 
 If you have not yet set up a database do it now. It is covered for a
-hosting service in the [Hosting
-Setup](https://docs.joomla.org/J4.x:Hosting_Setup "J4.x:Hosting Setup")
-tutorial. There is also a [Creating a Database for
-Joomla!](https://docs.joomla.org/Creating_a_Database_for_Joomla! "Special:MyLanguage/Creating a Database for Joomla!")
+hosting service in the  Hosting
+Setup
+tutorial. There is also a  Creating a Database for
+Joomla!
 tutorial that covers localhost and phpMyAdmin methods.
 
 1.  Se você precisa criar um banco de dados, por favor leia "**[Criando
@@ -137,8 +137,8 @@ isso, se necessário.
 Preencha as seguintes informações.
 
 - **Nome do site**: O nome do seu site — pode ser alterado a qualquer
-  momento posteriormente na página [Configuração global do
-  site](https://docs.joomla.org/Help40:Site_Global_Configuration#Site "Special:MyLanguage/Help40:Site Global Configuration").
+  momento posteriormente na página  Configuração global do
+  site.
 
 Quando tudo na primeira página estiver concluído, clique no botão
 **Configurar dados de início de sessão** para prosseguir:
@@ -158,13 +158,13 @@ Preencha as seguintes informações.
 - **Nome real**: O nome do Superusuário. É assim que o Joomla irá
   cumprimentá-lo quando você iniciar a sessão.
 - **Nome de usuário da conta de superusuário**: O nome de usuário do
-  **Superusuário**. Evite usar admin (por ser uma boa [Meu
-  perfil](https://docs.joomla.org/Security_Checklist/Joomla!_Setup#Change_the_default_administrator_username "Special:MyLanguagehttps://docs.joomla.org/Help40:Site_My_Profile")
+  **Superusuário**. Evite usar admin (por ser uma boa  Meu
+  perfil
   na interface da *administração* para alterá-lo mais tarde.
 - **Senha do administrador**: Lembre-se que o superusuário tem o
   controle máximo do site (frontal e bastidores), então tente usar uma
-  senha difícil. Use [Meu
-  perfil](https://docs.joomla.org/Help40:Site_My_Profile "Special:MyLanguage/Help40:Site My Profile")
+  senha difícil. Use  Meu
+  perfil
   na interface da *administração* para alterá-la mais tarde.
 - **Endereço de e-mail do superusuário**: O endereço de e-mail do
   superusuário. Insira um e-mail válido caso esqueça sua senha. Este é o
@@ -237,8 +237,8 @@ deverá ver a página de sucesso!
 ### Sucesso e finalização da instalação
 
 Parabéns! O Joomla! 4 já está instalado. Se você quiser começar a usar o
-Joomla do jeito certo sem [instalar idiomas
-extras](https://docs.joomla.org/J4.x:Installing_Joomla#Installing_Extra_Languages "Special:MyLanguage/J4.x:Installing Joomla")
+Joomla do jeito certo sem  instalar idiomas
+extras
 há um último passo para completar a instalação. Você deve excluir a
 **Pasta de instalação**. Clique em **Remover pasta de instalação** e uma
 mensagem de sucesso aparecerá. Agora você pode navegar para o início de
@@ -252,8 +252,8 @@ class="thumbborder" decoding="async" data-file-width="500"
 data-file-height="318" width="500" height="318"
 alt="J40 Installation screen page 4.png" />
 
-If you want to start using Joomla right away without [installing extra
-languages](https://docs.joomla.org/J4.x:Installing_Joomla#Installing_Extra_Languages "Special:MyLanguage/J4.x:Installing Joomla")
+If you want to start using Joomla right away without  installing extra
+languages
 you can select *Open Administrator* to go to the *Administrator
 Dashboard* or select *Open Site* to go to the Site Home page.
 
@@ -338,13 +338,13 @@ site clicando em **Concluir e abrir o site**.
 
 ## Related Information
 
-- [Hosting
-  Setup](https://docs.joomla.org/J4.x:Hosting_Setup "Special:MyLanguage/J4.x:Hosting Setup")
-- [Hosting and Server
-  Setup](https://docs.joomla.org/Security_Checklist/Hosting_and_Server_Setup "Special:MyLanguage/Security Checklist/Hosting and Server Setup")
-- [Creating A VPS Testing
-  Server](https://docs.joomla.org/Creating_A_VPS_Testing_Server "Special:MyLanguage/Creating A VPS Testing Server")
-- [Setting up your local
-  environment](https://docs.joomla.org/J4.x:Setting_Up_Your_Local_Environment "Special:MyLanguage/J4.x:Setting Up Your Local Environment")
-- [Joomla CLI
-  Installation](https://docs.joomla.org/J4.x:Joomla_CLI_Installation "Special:MyLanguage/J4.x:Joomla CLI Installation")
+-  Hosting
+  Setup
+-  Hosting and Server
+  Setup
+-  Creating A VPS Testing
+  Server
+-  Setting up your local
+  environment
+-  Joomla CLI
+  Installation

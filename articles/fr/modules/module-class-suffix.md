@@ -27,8 +27,8 @@ avoir besoin de recréer tout le code CSS existant. Attention, si vous
 créez un nouveau nom de classe, assurez-vous que son nom soit unique et
 n'entre pas en conflit avec un nom de classe existant.
 
-Voir également : [Utilisation des Suffixes de
-Classe](https://docs.joomla.org/Using_Class_Suffixes "Special:MyLanguage/Using Class Suffixes").
+Voir également :  Utilisation des Suffixes de
+Classe.
 
 ## Utilisation
 
@@ -44,7 +44,7 @@ l'intégralité des codes de style de la classe "moduletable" et les
 dupliquer dans la nouvelle classe CSS avant de commencer vos
 modifications de CSS.
 
-Voir [le tutoriel d'utilisation des Suffixes de
-Classe](https://docs.joomla.org/Using_Class_Suffixes "Special:MyLanguage/Using Class Suffixes")
+Voir  le tutoriel d'utilisation des Suffixes de
+Classe
 pour un exemple détaillé d'utilisation des Suffixes de Classe de Page et
 de Module.

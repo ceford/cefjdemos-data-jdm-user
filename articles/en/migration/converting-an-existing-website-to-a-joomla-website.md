@@ -50,8 +50,8 @@ class="internal" title="Enlarge"></a>Article Manager Edit Screen
   Joomla!. The editor also lets you add images, links and other HTML
   elements such as tables.
 - For more information on the creation and configuration of articles
-  please see **[Article
-  Manager](https://docs.joomla.org/Help39:Content_Article_Manager_Edit "Special:MyLanguage/Help39:Content Article Manager Edit")**.
+  please see ** Article
+  Manager**.
 
 ### Linking Articles to a Menu
 
@@ -92,8 +92,8 @@ class="internal" title="Enlarge"></a>Expandable List of Menu Item Types
   one or more submenus and then add Menu Items for these in the same
   manner.
 - For more information on the creation and configuration of menu items
-  please see **[Menu Item
-  Manager](https://docs.joomla.org/Help39:Menus_Menu_Item_Manager_Edit "Special:MyLanguage/Help39:Menus Menu Item Manager Edit")**.
+  please see ** Menu Item
+  Manager**.
 
 ### Placing the Menu on the Website
 
@@ -111,7 +111,7 @@ height="164" />
 class="internal" title="Enlarge"></a>Module Manager - Menu
 
 - In Joomla!, menus have to be assigned to a
-  **[module](https://docs.joomla.org/module "Special:MyLanguage/module")**
+  **module**
   in order to show up on your website.
 - Go to **Extensions **→** Modules** to access the Module Manager. Even
   if you started with no sample data, you will already have a Main Menu
@@ -131,7 +131,7 @@ class="internal" title="Enlarge"></a>Template Preview Mode
 - The **Position** selection on the right side of the edit form tells
   Joomla! where to display the menu module on each page. This may vary
   depending on the
-  **[template](https://docs.joomla.org/template "Special:MyLanguage/template")**
+  **template**
   you are using. Typical menu locations include **top**, **left** and
   **navigation**. A trick in Joomla! for seeing the available positions
   is to add the letters **?tp=1** to the end of a Joomla! URL after
@@ -158,8 +158,8 @@ Tab
   pages. If you have additional menus assigned to a module, each of them
   will be displayed in the pages you assign them to by selecting the
   corresponding menu items from the drop-down list.
-- **Note**: If you enable **[user
-  registration](https://docs.joomla.org/Allowing_user_registration "Special:MyLanguage/Allowing user registration")**,
+- **Note**: If you enable ** user
+  registration**,
   you can configure a module to be displayed to certain user groups
   only, for example to registered users.
 - You may press the Preview link in the upper right corner at any time
@@ -175,8 +175,8 @@ Tab
   the left position), others in a horizontal list. (for example,
   suitable for the top position).
 - If you need more information on the configuration options for menu
-  modules, please see the **[Module Manager -
-  Menu](https://docs.joomla.org/Help39:Extensions_Module_Manager_Menu "Special:MyLanguage/Help39:Extensions Module Manager Menu")**
+  modules, please see the ** Module Manager -
+  Menu**
   page.
 - **Congratulations!** At this point, your static content should be
   available. Now you can think about adding new modules, customizing
@@ -224,6 +224,6 @@ charge.
   with template files or only need to change a few things. Just go to
   **Extensions **→** Templates **→** Styles** and open the Style you
   want to change.
-- See also **[Modifying a Joomla!
-  Template](https://docs.joomla.org/J3.x:Modifying_a_Joomla!_Template "Special:MyLanguage/J3.x:Modifying a Joomla! Template")**
+- See also ** Modifying a Joomla!
+  Template**
   for more information on working with templates.

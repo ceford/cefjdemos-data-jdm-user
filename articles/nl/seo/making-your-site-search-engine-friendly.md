@@ -38,30 +38,3 @@ zoekresultaten wanneer mensen op zoek zijn naar onderwerpen.
  
 
 ## Belangrijkste SEO Concepten
-
-[Over zoekmachinevriendelijke
-URL's](https://docs.joomla.org/Search_Engine_Friendly_URLs "Special:MyLanguage/Search Engine Friendly URLs")
-
-[SEF URL's
-activeren](https://docs.joomla.org/Enabling_Search_Engine_Friendly_(SEF)_URLs "Special:MyLanguage/Enabling Search Engine Friendly (SEF) URLs")
-
-[Een sitemap
-gebruiken](https://docs.joomla.org/Using_A_Sitemap "Special:MyLanguage/Using A Sitemap")
-
-[De titel Tag
-gebruiken](https://docs.joomla.org/Using_The_Title_Tag "Special:MyLanguage/Using The Title Tag")
-
-[Gebruik van de
-metabeschrijving](https://docs.joomla.org/Using_The_Meta_Description "Special:MyLanguage/Using The Meta Description")
-
-[Sleutelwoorden
-gebruiken](https://docs.joomla.org/Using_Keywords "Special:MyLanguage/Using Keywords")
-
-[Een semantische HTML Markup
-gebruiken](https://docs.joomla.org/Semantic_HTML_Markup "Special:MyLanguage/Semantic HTML Markup")
-
-[Linken naar andere sites en link
-building](https://docs.joomla.org/Linking_To_Other_Sites "Special:MyLanguage/Linking To Other Sites")
-
-[Belangrijke punten om te
-onthouden](https://docs.joomla.org/Important_SEO_Points_To_Remember "Special:MyLanguage/Important SEO Points To Remember")

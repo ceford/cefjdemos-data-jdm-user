@@ -20,15 +20,15 @@ version numbers are indicated in the following tables:
 
 | Software                                  | Recommended     | Minimum     |
 |-------------------------------------------|-----------------|-------------|
-| [PHP](https://php.net)                    | 8.3             | 8.1.0       |
+| PHP                    | 8.3             | 8.1.0       |
 | **Databases**                             |                 |             |
-| [MySQL](https://mysql.com)                | 8.1             | 8.0.13      |
-| [MariaDB](https://mariadb.com)            | 11.1.0          | 10.4.0      |
-| [PostgreSQL](https://postgresql.org)      | 16.0            | 12.0        |
+| MySQL                | 8.1             | 8.0.13      |
+| MariaDB            | 11.1.0          | 10.4.0      |
+| PostgreSQL      | 16.0            | 12.0        |
 | **Web Servers**                           |                 |             |
-| [Apache](https://httpd.apache.org)        | 2.4             | 2.4         |
-| [Nginx](https://nginx.com)                | 1.25            | 1.21        |
-| [Microsoft IIS](https://www.iis.net)      | 10              | 10          |
+| Apache        | 2.4             | 2.4         |
+| Nginx                | 1.25            | 1.21        |
+| Microsoft IIS      | 10              | 10          |
 
 ### Requirements for Joomla! 4.x
 

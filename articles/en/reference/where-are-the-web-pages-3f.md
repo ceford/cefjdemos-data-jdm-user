@@ -23,5 +23,5 @@ rel="nofollow noreferrer noopener">phpMyAdmin</a>. This
 will allow you to view your database.
 
 For a short tutorial on converting a static HTML web site to Joomla!,
-see [Converting an existing website to a Joomla!
-website](https://docs.joomla.org/Converting_an_existing_website_to_a_Joomla!_website "Converting an existing website to a Joomla! website").
+see  Converting an existing website to a Joomla!
+website.

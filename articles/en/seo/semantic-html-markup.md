@@ -80,7 +80,7 @@ width="532" height="105" alt="SEF-Titles.png" />
 Microdata is a more advanced form of Semantic HTML Markup which allows
 you to give even more contextual information about the content and
 structure of your website - for more information see :
-[Microdata](https://docs.joomla.org/Microdata "Special:MyLanguage/Microdata").
+Microdata.
 
 <a href="http://en.wikipedia.org/wiki/Semantic_HTML"
 class="external text" target="_blank"

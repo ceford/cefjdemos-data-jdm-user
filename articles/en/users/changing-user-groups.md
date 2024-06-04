@@ -29,8 +29,8 @@ User.
 
 ## Access Control List (ACL) for Joomla
 
-The following lists the [Access Control
-List](https://docs.joomla.org/Access_Control_List "Access Control List")
+The following lists the  Access Control
+List
 (ACL) for Joomla. The user group is listed, and the bullets below
 describe the permissions associated with that group.
 

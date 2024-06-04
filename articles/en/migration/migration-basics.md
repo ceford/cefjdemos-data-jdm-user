@@ -14,7 +14,7 @@ the next version in a sequence of *Minor* versions.
 Update component. It is the word seen in the Administrator interface in
 Joomla! 3, 4 and 5. From now on the term *Update* will be used in this article.
 
-See this article for a complete list of [Joomla! CMS Versions](https://docs.joomla.org/Joomla!_CMS_versions).
+See this article for a complete list of Joomla! CMS Versions.
 
 It is also worth knowing that Joomla follows the Semantic Versioning standard.
 In brief, given a version number MAJOR.MINOR.PATCH, such as 5.1.0:

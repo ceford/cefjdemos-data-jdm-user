@@ -19,13 +19,13 @@ change. Active projects release new versions of their extensions as
 requirements change and quickly fix any reported vulnerabilities.
 
 If you are concerned about any of your extensions you should consult the
-[Joomla Vulnerable Extensions](https://extensions.joomla.org/vulnerable-extensions/vulnerable/)
+Joomla Vulnerable Extensions
 list (VEL) which contains information on 240+ mostly old extensions.
 
 ## The JED Checker
 
 If you are concerned about an extension that does not appear in the VEL you
-can use the [JED Checker](https://extensions.joomla.org/extension/jedchecker/)
+can use the JED Checker
 extension. This is an extension used to check extensions submitted to appear
 in the Joomla Extensions Directory list. It is installed like any other
 extension. In use, it accepts an extension zip file and examines its contents

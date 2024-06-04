@@ -12,8 +12,8 @@ PHP 8.0
 Joomla! 3.9.x
 
 NOTE: Intended as a quick-start installation guide, this article does
-not address optimal [security
-settings](https://docs.joomla.org/Security_Checklist "Special:MyLanguage/Security Checklist"),
+not address optimal  security
+settings,
 performance tuning, etc.
 
 ## Preparations

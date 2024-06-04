@@ -82,10 +82,10 @@ posibles escenarios.
     href="https://docs.joomla.org/How_to_override_the_output_from_the_Joomla!_core"
     class="new"
     title="Special:MyLanguage/How to override the output from the Joomla! core (page does not exist)">Cómo
-    anular la salida del núcleo de Joomla</a>, [Entendiendo overrides de
-    salida](https://docs.joomla.org/Understanding_Output_Overrides "Special:MyLanguage/Understanding Output Overrides"),
-    [Overides a la plantilla en
-    Joomla](https://docs.joomla.org/Layout_Overrides_in_Joomla "Special:MyLanguage/Layout Overrides in Joomla")).
+    anular la salida del núcleo de Joomla</a>,  Entendiendo overrides de
+    salida,
+     Overides a la plantilla en
+    Joomla.
 2.  Compruebe su Gestor de usuarios. ¿Tiene la intención de migrarlos
     todos? ¿Se requiere una limpieza? ¿Quizás hay superadministradores
     que ya no deberían tener acceso o spam de usuarios que necesitan
@@ -121,8 +121,8 @@ posibles escenarios.
     desarrollador? La nueva versión es responsiva? ¿Es una plantilla
     personalizada? ¿O fue muy personalizada, partir de una plantilla de
     terceros? Para una ampliación de las consideraciones para las
-    plantillas, ver [Consideraciones sobre la plantilla durante la
-    migración](https://docs.joomla.org/Template_Considerations_During_Migration "Special:MyLanguage/Template Considerations During Migration").
+    plantillas, ver  Consideraciones sobre la plantilla durante la
+    migración.
 1.  Si va a cambiar tu plantilla por una nueva, ¿va a necesitar nuevas
     imágenes? Por ejemplo, si su sitio actual tiene un fondo blanco y su
     logotipo, u otras imágenes, son .jpg, con fondo blanco, no quedarán

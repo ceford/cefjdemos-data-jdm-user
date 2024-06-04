@@ -17,5 +17,5 @@ If banners are too attention-grabbing, users become annoyed with them and employ
 
 ## More information
 
-* On banners in Joomla: see this [Magazine Article](https://magazine.joomla.org/all-issues/september/explore-the-core-joomla-4-banner-manager).
-* On banners in general: [Wikipedia: Web banner](https://en.wikipedia.org/wiki/Web_banner).
+* On banners in Joomla: see this Magazine Article.
+* On banners in general: Wikipedia: Web banner.

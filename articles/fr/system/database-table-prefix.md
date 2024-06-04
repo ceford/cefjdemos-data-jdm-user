@@ -2,7 +2,7 @@
 
 Le préfixe de table de base de données est une chaîne de caractères
 (contenant peu de caractères) ajoutée devant les noms des
-[tables](https://docs.joomla.org/tables "Special:MyLanguage/tables") de
+tables de
 Joomla!. L'utilisation d'un préfixe vous permet d'exécuter plusieurs
 installations de Joomla! à l'aide d'une base de données unique.
 
@@ -12,12 +12,12 @@ ultérieurement mais nécessite un accès à la base de données par un
 système externe à Joomla! ou par une extension comme Akeeba Admin Tools.
 
 Les développeurs
-d'[extension](https://docs.joomla.org/Extension "Special:MyLanguage/Extension")
+d'extension
 doivent utiliser la chaîne de caractères `#__` comme préfixe. Cette
 chaîne sera remplacée par le vrai préfixe de table lors de l'exécution
 de la commande par Joomla!.
 
 ## Voir également
 
-- [Créer une base de données pour
-  Joomla!](https://docs.joomla.org/Creating_a_Database_for_Joomla! "Special:MyLanguage/Creating a Database for Joomla!")
+-  Créer une base de données pour
+  Joomla!

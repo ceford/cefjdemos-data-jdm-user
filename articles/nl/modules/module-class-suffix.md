@@ -27,8 +27,8 @@ module, zonder dat de al bestaande CSS-code aangepast hoeft te worden.
 Let op: iedere nieuwe class-naam moet uniek zijn om niet in conflict te
 komen met al bestaande class-namen.
 
-Zie: [Gebruik van class
-achtervoegsels](https://docs.joomla.org/Using_Class_Suffixes "Special:MyLanguage/Using Class Suffixes").
+Zie:  Gebruik van class
+achtervoegsels.
 
 ## Gebruik
 
@@ -43,7 +43,7 @@ Als er niet gebruik wordt gemaakt van een voorafgaande spatie, dan moet
 een kopie van alle styling-code van de "moduletable" class worden
 gemaakt in de nieuwe CSS class voor het maken van CSS wijzigingen.
 
-Zie [de handleiding voor het gebruik van class
-achtervoegsels](https://docs.joomla.org/Using_Class_Suffixes "Special:MyLanguage/Using Class Suffixes")
+Zie  de handleiding voor het gebruik van class
+achtervoegsels
 voor een gedetailleerd voorbeeld van het gebruik van pagina- en module
 class achtervoegsels.

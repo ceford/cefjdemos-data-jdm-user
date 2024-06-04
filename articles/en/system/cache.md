@@ -307,8 +307,8 @@ MVC-part.)
   functions or methods.
 
 If you want to cache queries, this is a good class for it, as
-illustrated here: [Using caching to speed up your
-code](https://docs.joomla.org/Using_caching_to_speed_up_your_code "Special:MyLanguage/Using caching to speed up your code")
+illustrated here:  Using caching to speed up your
+code
 
 - **JCacheOutput** caches and returns output.
 

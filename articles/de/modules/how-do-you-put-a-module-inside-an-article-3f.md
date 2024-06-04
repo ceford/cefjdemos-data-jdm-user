@@ -31,7 +31,7 @@ den Beitrag geladen:
     Dies stellt sicher, das das Modul immer zu sehen ist, unabhängig
     davon wie der Seitenbesucher zu dem Beitrag gelangt. Das Modul wird
     nur angezeigt, wenn die load-Anweisung für das Modul in einem
-    [Beitrag](https://docs.joomla.org/article "Special:MyLanguage/article")
+    Beitrag
     erscheint.
 3.  Im Bearbeiten-Modus wird im Beitrag an die Stelle in der das Modul
     erscheinen soll der Text ***{loadposition meineposition}***

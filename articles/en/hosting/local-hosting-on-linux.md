@@ -42,7 +42,7 @@ It is probably best to install PHP using the command line. One reason for this
 is that, at the time of writing, the Synaptic Package Manager only offers PHP8.1
 although PHP8.2 has been available for some time and can be installed from a
 third party repository. There is a good description of the procedure in this
-[tutorial](https://php.watch/articles/install-php82-ubuntu-debian) with Quickstart
+tutorial with Quickstart
 and Detailed sections.
 
 First close your Synaptic Package Manager GUI and then open a Terminal window
@@ -276,6 +276,6 @@ database data that is usually in the root directory, specifically in
 /var/lib/mysql. You can move the MySQL/MariaDB data directory
 to a location available to both operating systems, either in the /home
 partition or in a separate partition. This tutorial describes how to
-[Change the MySQL Data Directory](https://tecadmin.net/change-mysql-data-directory-on-ubuntu/)
+Change the MySQL Data Directory
 in Ubuntu and Debian Linux. That needs to be done for each operating system
 but is not covered here.

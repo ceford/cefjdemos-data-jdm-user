@@ -87,7 +87,7 @@ or LAN then changing the defaults is a personal decision.
 
 #### Get Joomla
 
-* Download the latest [Joomla installation zip](https://www.joomla.org/download.html)
+* Download the latest Joomla installation zip
 * Unzip to your hard drive
 * Connect to localhost with an FTP client Default
 

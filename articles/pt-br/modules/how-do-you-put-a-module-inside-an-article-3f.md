@@ -30,13 +30,13 @@ posição e carrega essa posição no artigo da seguinte forma:
     ele sempre apareça, não importa como o visitante chegou ao artigo. O
     módulo não será exibido a menos que você coloque o comando para
     carregar o módulo em um
-    [artigo](https://docs.joomla.org/article "Special:MyLanguage/article").
+    artigo.
 3.  Edite os artigos onde deseja que este módulo apareça e insira o
     texto ***{loadposition minhaposição}*** no artigo, no local onde
     deseja o módulo.
 
-\*Observe que isso só funcionará se o [plugin *Conteúdo - Carregar
-módulo*](https://docs.joomla.org/Help25:Extensions_Plugin_Manager_Edit#Content_-_Load_Modules "Special:MyLanguage/Help25:Extensions Plugin Manager Edit")
+\*Observe que isso só funcionará se o  plugin *Conteúdo - Carregar
+módulo*
 (apenas em inglês) estiver habilitado. Se este plugin estiver
 desabilitado, o texto *{loadposition minhaposição}* será exibido
 inalterado no artigo. Além disso, o nome da posição deve ser todo em

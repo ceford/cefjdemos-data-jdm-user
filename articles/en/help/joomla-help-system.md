@@ -29,7 +29,7 @@ when the Help toolbar button is pressed on a particular screen, it is
 necessary to pass a "key reference" from the toolbar button to the Help
 server. For Joomla itself, these Help screen key references are
 standardised and a complete list is
-[available](https://docs.joomla.org/Help16:Help_screens "Help16:Help screens").
+available.
 Extension developers are free to construct their own key reference
 scheme.
 
@@ -113,7 +113,7 @@ Help system.
 Note that the Help screen key references changed considerably between
 Joomla 1.5 and Joomla 1.6. The key references used in Joomla 1.5 can be
 found
-[here](https://docs.joomla.org/Help15:Help_screens "Help15:Help screens").
+here.
 
 ## Serving Help Screens from a MediaWiki Installation
 

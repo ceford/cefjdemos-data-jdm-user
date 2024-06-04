@@ -13,7 +13,7 @@ avant de passer à Joomla 4. Il n'y a pas d'urgence. Assurez-vous que
 toutes vos extensions sont prêtes pour Joomla 4.x. Joomla 3.10.x sera
 supporté jusqu'au 16 août 2023.
 
-  
+
 Voici les instructions étape par étape pour migrer votre site 3.10.x
 vers Joomla ! 4.x. Bien qu'il existe des centaines de scénarios
 différents, ceci vous donnera la procédure de base à suivre. Les
@@ -33,10 +33,10 @@ sont pas. Vous devez examiner chacune d'entre elles et déterminer le
 chemin que l'extension doit suivre pour passer de la version 3.10 à la
 version 4.x. Si vous ne l'avez pas encore fait, vous pourriez être
 intéressé par la lecture des documents suivants :
-[Auto-évaluation](https://docs.joomla.org/Migration_Step_by_Step_Self_Assessment "Special:MyLanguage/Migration Step by Step Self Assessment")
-et [Planification de la migration de 3.10 à
-4.x](https://docs.joomla.org/Planning_for_Mini-Migration_-_Joomla_3.10.x_to_4.x "Special:MyLanguage/Planning for Mini-Migration - Joomla 3.10.x to 4.x")
-avant de suivre les étapes suivantes  
+Auto-évaluation
+et  Planification de la migration de 3.10 à
+4.x
+avant de suivre les étapes suivantes
 Les extensions de base de Joomla ! sont :
 
 - Catégories
@@ -68,10 +68,10 @@ Les extensions de base de Joomla ! sont :
 2.  Faites une sauvegarde de votre site 3.10.x. Vous pouvez utiliser un
     outil suggéré (voir les *Outils suggérés* en bas de page) ou vous
     pouvez le faire manuellement.
-    - [Principes de base de la sauvegarde d'un site web
-      Joomla !](https://docs.joomla.org/Backup_Basics_for_a_Joomla!_Web_Site "Special:MyLanguage/Backup Basics for a Joomla! Web Site")
-    - [Quelles sont les meilleures pratiques pour les sauvegardes de
-      sites ?](https://docs.joomla.org/What_are_the_best_practices_for_site_backups%3F "Special:MyLanguage/What are the best practices for site backups?")
+    -  Principes de base de la sauvegarde d'un site web
+      Joomla !
+    -  Quelles sont les meilleures pratiques pour les sauvegardes de
+      sites ?
 3.  Assurez-vous que votre environnement est conforme aux
     <a href="https://downloads.joomla.org/technical-requirements"
     class="external text" target="_blank"
@@ -88,7 +88,7 @@ Les extensions de base de Joomla ! sont :
       l'installation de
       <a href="https://sourceforge.net/projects/xampp/" class="external text"
       target="_blank" rel="nofollow noreferrer noopener">XAMPP</a> à
-      [XAMPP](https://docs.joomla.org/XAMPP "XAMPP"). Cependant,
+      XAMPP. Cependant,
       <a href="https://www.wampserver.com/en/" class="external text"
       target="_blank" rel="nofollow noreferrer noopener">WAMP</a>,
       <a href="https://www.mamp.info/en/windows/" class="external text"
@@ -100,8 +100,8 @@ Les extensions de base de Joomla ! sont :
       racine. (Si vous souhaitez changer d'hébergement au cours du
       processus de migration).
       - Restauration d'un site sur un périphérique local. Voir
-        [Installation de Joomla
-        localement](https://docs.joomla.org/Installing_Joomla_locally "Special:MyLanguage/Installing Joomla locally")
+         Installation de Joomla
+        localement
         et [Configuration de votre poste de travail pour le
         développement de
         Joomla](https://docs.joomla.org/Setting_up_your_workstation_for_Joomla_development "Special:MyLanguage/Setting up your workstation for Joomla development").
@@ -131,7 +131,7 @@ Les extensions de base de Joomla ! sont :
 ### Evaluer chaque extension
 
 Dans votre
-[planning](https://docs.joomla.org/Planning_for_Mini-Migration_-_Joomla_3.10.x_to_4.x "Special:MyLanguage/Planning for Mini-Migration - Joomla 3.10.x to 4.x"),
+planning,
 vous avez déterminé quelles extensions tierces restaient ou partaient et
 comment elles migraient. Pour cette partie de l'étape par étape, vous
 allez utiliser deux sections différentes du site de manière intensive ;
@@ -241,7 +241,7 @@ Composants
     pas désinstaller un template qui est défini par défaut. Vous devrez
     sélectionner un template supporté par Core comme Beez3 ou Protostar
     et ensuite désinstaller le template si vous avez besoin de le
-    faire.  
+    faire.
     *Autre rappel :'* **Protostar n'est pas compatible avec Joomla
     4.x**. Lors de la migration, il disparaîtra. En le sélectionnant par
     défaut, vous arrivez simplement à Joomla 4.x.
@@ -266,11 +266,11 @@ Composants
       fois que le site est migré. Un exemple de ceci pourrait être un
       plugin de contenu. Il est très simple de le désinstaller en 3.10.x
       puis de le réinstaller en 4.x.
-    - Voir [Considérations sur les
-      templates](https://docs.joomla.org/Template_Considerations_During_Migration "Special:MyLanguage/Template Considerations During Migration")
+    - Voir  Considérations sur les
+      templates
       pour des informations plus spécifiques sur les templates et
-      [Conversion d'un template précédent de version de
-      Joomla !](https://docs.joomla.org/J3.x:Converting_A_Previous_Joomla!_Version_Template "Special:MyLanguage/J3.x:Converting A Previous Joomla! Version Template")
+       Conversion d'un template précédent de version de
+      Joomla !
       .
 
 #### Notes sur la recherche (com_search)
@@ -397,8 +397,8 @@ installation, continuez avec les étapes suivantes :
 4.  Si vous aviez apporté des modifications de sécurité au fichier
     .htaccess, vous aurez peut-être à modifier une ou plusieurs lignes
     pour passer à la prochaine version de Joomla 4. Veuillez consulter
-    [Modifications du htaccess après Joomla
-    4.0.4](https://docs.joomla.org/Htaccess_changes_after_joomla4.0.4 "Special:MyLanguage/Htaccess changes after joomla4.0.4")
+     Modifications du htaccess après Joomla
+    4.0.4
     pour déterminer si vous devez modifier votre fichier ou non.
 5.  Retirez le site Joomla ! 3.10 du serveur dans les deux jours qui
     suivent, sauf si vous avez modifié votre fichier *robots.txt* pour
@@ -427,6 +427,3 @@ rel="noreferrer noopener">extension tierce</a>.
   de sauvegarde</a>.
 
 ## Informations connexes
-
-[Vérification préalable à la mise à
-jour](https://docs.joomla.org/:Pre-Update_Check "Special:MyLanguage/:Pre-Update Check")

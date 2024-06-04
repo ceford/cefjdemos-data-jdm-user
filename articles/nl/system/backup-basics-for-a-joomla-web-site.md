@@ -180,5 +180,5 @@ op uw beheersgedeelte. Schakel alle plug-ins onder de "twofactorauth"
 groep uit. Tot slot, verander de naam van de plug-ins/twofactorauth.BAK
 map van uw site terug naar twofactorauth.
 
-- Zie ook:[Twee-factor authenticatie
-  handleiding](https://docs.joomla.org/J3.x:Two_Factor_Authentication "Special:MyLanguage/J3.x:Two Factor Authentication")
+- Zie ook: Twee-factor authenticatie
+  handleiding

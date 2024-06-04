@@ -9,7 +9,7 @@ creating and parsing URLs in any format, including SEF URLs. This does
 not depend on URL rewriting executed by the web server, so it works even
 if Joomla! runs a server other than Apache with the mod_rewrite module.
 The SEF URLs follow a certain fixed pattern, but the user can define a
-[short descriptive text (alias)](https://docs.joomla.org/Alias "Alias")
+short descriptive text (alias)
 for each segment of the URL.
 
 Internally, the local part of a SEF URL (the part after the domain name)

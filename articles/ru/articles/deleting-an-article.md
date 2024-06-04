@@ -1,6 +1,6 @@
 <!-- Filename: J4.x:Deleting_an_Article / Display title: Deleting an Article -->
 
-<span id="main-portal-heading">**Tutorial**  
+<span id="main-portal-heading">**Tutorial**
 How to Delete an Article</span> Joomla!  4.0
 
 ## Introduction
@@ -27,13 +27,13 @@ Consider why you want to delete the article:
 ## Moving the Article to Trash
 
 - Log in to the Administrator Home Dashboard. More on this here:
-  [Logging in or out of the Administrator
-  Dashboard](https://docs.joomla.org/J4.x:Logging_in_to_Joomla "Special:MyLanguage/J4.x:Logging in to Joomla").
+   Logging in or out of the Administrator
+  Dashboard.
 - From the Sidebar Menu navigate to **Content** then **Articles** to
   open the **Articles List**.
 - Click the checkbox to select the article you want to delete.
 
-  
+
 <img
 src="https://docs.joomla.org/images/thumb/d/db/J4x_select_and_delete_article-en.png/800px-J4x_select_and_delete_article-en.png"
 class="thumbborder" decoding="async"
@@ -46,7 +46,7 @@ toolbar.
 
 Click the **Actions** button then click **Trash** in the dropdown menu.
 
-  
+
 <img
 src="https://docs.joomla.org/images/thumb/9/96/J4x_delete_article_confirmed-en.png/800px-J4x_delete_article_confirmed-en.png"
 class="thumbborder" decoding="async"

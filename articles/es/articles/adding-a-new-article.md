@@ -1,6 +1,6 @@
 <!-- Filename: J4.x:Adding_a_New_Article / Display title: Añadir un Artículo Nuevo -->
 
-Joomla!  4.0 <span id="main-portal-heading">**Tutorial**  
+Joomla!  4.0 <span id="main-portal-heading">**Tutorial**
 Añadir un Artículo Nuevo</span>
 
 ## Introducción
@@ -13,15 +13,15 @@ sesión en el Panel de Administración, y está basado en una instalación
 estándar de Joomla, utilizando el editor de contenido predeterminado.
 
 Para más información sobre los diferentes editores disponibles en
-Joomla, lea: [Creadores de
-Contenido](https://docs.joomla.org/Content_creators/es#Content_Editors.2Fes "Special:MyLanguage/Content creators/es").
+Joomla, lea:  Creadores de
+Contenido.
 
 Antes de comenzar, además del contenido, si lo usa, necesitará saber qué
 categoría y qué etiquetas asignará al artículo.
 
 - Acceda al Inicio del Panel de Administración. Más sobre esto aquí:
-  [Logging in or out of the Administrator
-  Dashboard](https://docs.joomla.org/J4.x:Logging_in_to_Joomla "Special:MyLanguage/J4.x:Logging in to Joomla").
+   Logging in or out of the Administrator
+  Dashboard.
 
 ## Comenzando
 

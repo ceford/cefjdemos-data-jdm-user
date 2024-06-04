@@ -200,5 +200,5 @@ au backend de votre site. Ensuite, désactivez tous les plugins du groupe
 "twofactorauth". Enfin, renommez le dossier plugins/twofactorauth.BAK de
 votre site en twofactorauth.
 
-- Voir également : [Didacticiel sur l'authentification en deux
-  étapes](https://docs.joomla.org/J3.x:Two_Factor_Authentication "Special:MyLanguage/J3.x:Two Factor Authentication")
+- Voir également :  Didacticiel sur l'authentification en deux
+  étapes

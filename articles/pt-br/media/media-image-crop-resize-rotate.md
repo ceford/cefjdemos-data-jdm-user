@@ -69,11 +69,11 @@ Selecione a guia de rotação e o ângulo apropriado.
 
 Nesta série de tutoriais:
 
-- [Gerenciando
-  mídia](https://docs.joomla.org/J4.x:Managing_Media "J4.x:Managing Media")
-- [Mídia: Carregar, excluir,
-  renomear](https://docs.joomla.org/J4.x:Media:_Upload_Delete_Rename "J4.x:Media: Upload Delete Rename")
-- [Mídia: corte de imagem, redimensionamento,
-  rotação](https://docs.joomla.org/J4.x:Media:_Image_Crop_Resize_Rotate "J4.x:Media: Image Crop Resize Rotate")
-- [Mídia:
-  Opções](https://docs.joomla.org/J4.x:Media:_Options "J4.x:Media: Options")
+-  Gerenciando
+  mídia
+-  Mídia: Carregar, excluir,
+  renomear
+-  Mídia: corte de imagem, redimensionamento,
+  rotação
+-  Mídia:
+  Opções

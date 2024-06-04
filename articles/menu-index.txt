@@ -19,6 +19,7 @@ user=getting-started=keyboard-shortcuts.md
 heading=articles=Articles
 user=articles=create-and-manage-article-categories.md
 user=articles=adding-a-new-article.md
+user=articles=version-history.md
 user=articles=deleting-an-article.md
 user=articles=featured-articles.md
 user=articles=how-to-archive-an-article.md
@@ -185,6 +186,7 @@ user=plugins=about-plugins.md
 user=plugins=plugin-joomla-update-notification.md
 
 heading=privacy=Privacy
+user=privacy=privacy-outline.md
 user=privacy=privacy-setup.md
 user=privacy=privacy-workflow.md
 user=privacy=cookie-notification.md

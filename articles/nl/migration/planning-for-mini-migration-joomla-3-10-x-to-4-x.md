@@ -28,15 +28,12 @@ een release zijn die achterdeuren bevat voor de API wijzigingen in de
 Joomla 4.x ontwikkeltak om de overgang naar de volgende hoofdrelease
 voor de community te vergemakkelijken. Nieuw in Joomla 3.10.x is een
 geweldige functie in de Joomla! update-component om u te helpen met het
-mini-migratie proces: de [voor-update
-controle](https://docs.joomla.org/Pre-Update_Check "Special:MyLanguage/Pre-Update Check").
+mini-migratie proces: de  voor-update
+controle.
 Zodra uw website geüpdatet is naar 3.10, zal de voor-update controle u
 toestaan de compatibiliteit te controleren met Joomla 4.0 van uw PHP en
 SQL opties, instellingen, en de extensies die u gebruikt zolang de
-extensie-ontwikkelaars de doelplatform tag gebruiken. Zie de
-[voor-update
-controle](https://docs.joomla.org/Pre-Update_Check "Special:MyLanguage/Pre-Update Check")
-documentatie voor meer informatie.
+extensie-ontwikkelaars de doelplatform tag gebruiken. Zie dedocumentatie voor meer informatie.
 
 ## Plannen van acties
 
@@ -73,8 +70,8 @@ voor-update controle als onderdeel van uw planning.
     controle wordt getoond. Dit helpt je om een opsomming te krijgen van
     extensies die gebruikt worden en hun compatibiliteit. Het is niet
     een vervanging van het gebruik van Extensies → Beheren. Meer
-    hierover in de Stap-voor-Stap en de documentatie van de [Voor-update
-    controle](https://docs.joomla.org/Pre-Update_Check "Special:MyLanguage/Pre-Update Check")
+    hierover in de Stap-voor-Stap en de documentatie van de  Voor-update
+    controle
     component. Dit is eenvoudig om voorbereid te zijn op wat extensies
     van derden blijven, verdwijnen of vervangen worden.
 7.  Stel vast of u echt al de extensies die u gebruikt nodig heeft. Is
@@ -91,8 +88,8 @@ voor-update controle als onderdeel van uw planning.
     4**. Na migratie verdwijnt het. Het gebruik van het Joomla core
     template voor Joomla 4.x, Cassiopeia kan een optie zijn. Kijk, voor
     een uitgebreid overzicht met template gebaseerde overwegingen, bij
-    [Template overwegingen tijdens de
-    migratie](https://docs.joomla.org/Template_Considerations_During_Migration "Special:MyLanguage/Template Considerations During Migration").
+     Template overwegingen tijdens de
+    migratie.
 10. Als u uw template inwisselt voor een nieuwe, heeft het dan nieuwe
     afbeeldingen nodig? Bijvoorbeeld, als uw huidige site een witte
     achtergrond heeft en uw logo en andere afbeeldingen zijn .jpg

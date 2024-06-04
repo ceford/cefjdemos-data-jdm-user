@@ -1,6 +1,6 @@
 <!-- Filename: J4.x:Adding_a_New_Article / Display title: Ajouter un nouvel article -->
 
-Joomla!  4.0 <span id="main-portal-heading">**Didacticiel**  
+Joomla!  4.0 <span id="main-portal-heading">**Didacticiel**
 Ajouter un nouvel article</span>
 
 ## Introduction
@@ -14,8 +14,8 @@ une installation standard de Joomla utilisant l'éditeur de contenu par
 défaut.
 
 Pour plus d'informations sur les différents éditeurs disponibles dans
-Joomla, lisez : [Créateurs de
-contenu](https://docs.joomla.org/Content_creators#Content_Editors "Special:MyLanguage/Content creators").
+Joomla, lisez :  Créateurs de
+contenu.
 
 Avant de commencer, outre le contenu, si vous en utilisez, vous devrez
 savoir quelle catégorie et quels tags vous allez attribuer à l'article.

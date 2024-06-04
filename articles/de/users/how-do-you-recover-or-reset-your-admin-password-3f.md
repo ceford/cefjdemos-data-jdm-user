@@ -3,8 +3,8 @@
 Passwort Wiederherstellung für Joomla! 2.5 und höher
 
 Diese Anleitung ist für die Versionen ab Joomla! 2.5 zu verwenden. Falls
-noch Joomla! 1.5 eingesetzt wird [sind die Anweisungen hier zu
-finden.](https://docs.joomla.org/J1.5:How_do_you_recover_or_reset_your_admin_password%3F "Special:MyLanguage/J1.5:How do you recover or reset your admin password?").
+noch Joomla! 1.5 eingesetzt wird  sind die Anweisungen hier zu
+finden..
 
 Normalerweise können in der Benutzerverwaltung des Backends Benutzer und
 deren Passwörter anlegt, bearbeitet und gelöscht werden. Dazu muss man
@@ -194,7 +194,7 @@ auf sichere Werte geändert werden, kann die Webseite gehackt werden. Die
 Passwörter müssen unbedingt nach dem Anmelden auf sichere Werte geändert
 werden.
 
-  
+
 Die obigen Code Beispiele ändern das Passwort zu "secret". Zwei andere
 mögliche Werte sind nachfolgend aufgezeigt.
 

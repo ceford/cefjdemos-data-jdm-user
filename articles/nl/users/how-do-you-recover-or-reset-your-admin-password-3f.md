@@ -3,8 +3,8 @@
 Joomla! 1.5 wachtwoord herstel
 
 Deze pagina is alleen voor Joomla! 2.5 of hogere versies. Voor Joomla!
-1.5 website's [zijn hier instructies te
-vinden](https://docs.joomla.org/J1.5:How_do_you_recover_or_reset_your_admin_password%3F "Special:MyLanguage/J1.5:How do you recover or reset your admin password?").
+1.5 website's  zijn hier instructies te
+vinden.
 
 Normaal gesproken kunnen in het gebruikersbeheer de wachtwoorden van
 gebruikers worden gewijzigd. Om dit te doen, moet je ingelogd zijn met
@@ -192,7 +192,7 @@ gehackt worden als u deze wachtwoorden niet wijzigt in een veilige
 waarde na het inloggen. Zorg ervoor dat u het wachtwoord wijzigt in een
 veilige waarde na het inloggen!
 
-  
+
 Bovenstaande voorbeelden wijzigen het wachtwoord in "secret". Twee
 andere mogelijke waarden worden hieronder getoond:
 

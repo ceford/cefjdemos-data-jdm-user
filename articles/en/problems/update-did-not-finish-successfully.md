@@ -6,8 +6,8 @@ server is busy and the update is unable to complete within a given
 amount of time. (For example, within 2 minutes for GoDaddy.com.)
 
 In this case, the update may be partially completed and the site may be
-damaged. You can repair the site using the [Manually Copy New Program
-Files](https://docs.joomla.org/J3.x:Updating_from_an_existing_version#Manually_Copy_New_Program_Files "J3.x:Updating from an existing version")
+damaged. You can repair the site using the  Manually Copy New Program
+Files
 update method.
 
 Also, there is a third party extension called <a
@@ -17,6 +17,6 @@ Tools</a> that can do updates on slower shared host systems.
 
 ## See Also
 
-- [Upgrading
-  Versions](https://docs.joomla.org/Portal:Upgrading_Versions "Portal:Upgrading Versions")
+-  Upgrading
+  Versions
   for more information.

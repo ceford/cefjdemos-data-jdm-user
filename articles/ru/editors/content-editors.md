@@ -28,8 +28,8 @@ alt="Help25-screenshot-editor-codemirror-example-en.png" />
 CodeMirror offers some of the same advantages of using No Editor, but
 makes it somewhat easier to work with raw HTML code.
 
-To set options: [CodeMirror Editor
-Plugin](https://docs.joomla.org/Help310:Extensions_Plugin_Manager_Edit#Editor_-_CodeMirror "Special:MyLanguage/Help310:Extensions Plugin Manager Edit")
+To set options:  CodeMirror Editor
+Plugin
 
 ## Редактор - Без редактора
 

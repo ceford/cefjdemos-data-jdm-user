@@ -108,21 +108,21 @@ alt="Stop hand nuvola.svg.png" />Warning!
 
 A aplicação de permissões de arquivo, permissões de diretório e seu
 controle depende do sistema operacional do servidor e pode ser complexa.
-Por favor, leia sobre as [configurações de permissão recomendadas para o
-Joomla!](https://docs.joomla.org/Verifying_permissions#Recommended_settings "Verifying permissions")
-ou [bad server
-permission](https://docs.joomla.org/Security_Checklist/You_have_been_hacked_or_defaced#777_Permissions "Security Checklist/You have been hacked or defaced").
+Por favor, leia sobre as  configurações de permissão recomendadas para o
+Joomla!
+ou  bad server
+permission.
 
 Leia mais sobre permissões e como alterá-las usando o link apropriado
 para o sistema operacional ou configuração do servidor correto(a):
 
-- [Como funcionam as permissões de arquivo do
-  UNIX?](https://docs.joomla.org/How_do_UNIX_file_permissions_work%3F "How do UNIX file permissions work?")
-- [Como funcionam as permissões de arquivo do
-  phpSuExec?](https://docs.joomla.org/How_do_phpSuExec_file_permissions_work%3F "How do phpSuExec file permissions work?")
+-  Como funcionam as permissões de arquivo do
+  UNIX?
+-  Como funcionam as permissões de arquivo do
+  phpSuExec?
 
 Servidores baseados no Windows da Microsoft, o IIS (Internet Information
 Server) e o PWS (Personal WebServer)
 
-- [Como funcionam as permissões de arquivo do
-  Windows?](https://docs.joomla.org/How_do_Windows_file_permissions_work%3F "How do Windows file permissions work?")
+-  Como funcionam as permissões de arquivo do
+  Windows?

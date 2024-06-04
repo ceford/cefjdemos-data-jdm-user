@@ -1,8 +1,8 @@
 <!-- Filename: J4.x:Installing_Joomla / Display title: Het installeren van Joomla -->
 
 Dit is een tijdelijke pagina tot Joomla 4 is vrijgegeven. Kijk tot dan
-bij de [Joomla! 3.x
-installatie](https://docs.joomla.org/J3.x:Installing_Joomla "J3.x:Installing Joomla")
+bij de  Joomla! 3.x
+installatie
 
 Het voor het eerst installeren van Joomla! is erg eenvoudig. Na het
 voltooien van de voorbereidende stappen, het opzetten van een hosting
@@ -13,8 +13,8 @@ De vorige stappen:
 ### Hosting instellen
 
 Al je nog geen hosting omgeving hebt ingesteld moet je dat nu doen, of
-bij een hosting bedrijf of op je lokale computer. Lees de [Hosting
-instellen](https://docs.joomla.org/J4.x:Hosting_Setup "J4.x:Hosting Setup")
+bij een hosting bedrijf of op je lokale computer. Lees de  Hosting
+instellen
 handleiding voor de details.
 
 Er zijn ook wat PHP instellingen die geschikt moeten zijn om Joomla te
@@ -23,7 +23,7 @@ installeren. De instellingen staan normaliter in een *php.ini* of
 zit, neem dan contact op met je hosting dienst over hoe deze
 instellingen aan te passen en of het mogelijk is. Als je werkt op een
 localhost, bijvoorbeeld met
-[XAMPP](https://docs.joomla.org/XAMPP "Special:MyLanguage/XAMPP"), of
+XAMPP, of
 een VPS of dedicated host, dan ben je niet beperkt door deze
 instellingen en kun je ze zelf aanpassen.
 
@@ -41,10 +41,10 @@ uploaden en veroorzaken onvoorspelbare problemen.
 ### Database instellen
 
 Als je nog geen database hebt aangemaakt, doe dat dan nu. Het wordt voor
-een hosting bedrijf beschreven in de [Hosting
-instellen](https://docs.joomla.org/J4.x:Hosting_Setup "J4.x:Hosting Setup")
-handleiding. Er is ook een [Aanmaken van een Database voor
-Joomla!](https://docs.joomla.org/Creating_a_Database_for_Joomla! "Special:MyLanguage/Creating a Database for Joomla!")
+een hosting bedrijf beschreven in de  Hosting
+instellen
+handleiding. Er is ook een  Aanmaken van een Database voor
+Joomla!
 handleiding die gaat over localhost en phpMyAdmin methodes.
 
 U heeft de basisgegevens van de database nodig als de Joomla installatie
@@ -142,8 +142,8 @@ vanuit de taal van de browser. Dit kan indien gewenst veranderd worden.
 Vul de volgende informatie in.
 
 - **Websitenaam**: De naam van jouw website — deze kan op elk moment
-  gewijzigd worden op de [Algemene
-  instellingen](https://docs.joomla.org/Help40:Site_Global_Configuration#Site "Special:MyLanguage/Help40:Site Global Configuration")
+  gewijzigd worden op de  Algemene
+  instellingen
   pagina.
 
 Klik, wanneer alles op de eerste pagina voltooid is, op de
@@ -164,13 +164,13 @@ Vul de volgende informatie in.
 - **Echte naam**: De naam van de Super gebruiker. Met deze naam word je
   begroet door Joomla als je inlogt.
 - **Super gebruiker gebruikersnaam**: De gebruikersnaam voor de *Super
-  User*. Vermijdt admin (wat een goede [Mijn
-  Profiel](https://docs.joomla.org/Security_Checklist/Joomla!_Setup#Change_the_default_administrator_username "Special:MyLanguagehttps://docs.joomla.org/Help40:Site_My_Profile")
+  User*. Vermijdt admin (wat een goede  Mijn
+  Profiel
   in de *beheer* interface om het later te veranderen.
 - **Administrator Wachtwoord**: Onthoud dat de Super user de maximale
   rechten heeft op de website en de beheer omgeving, gebruik dus een
-  moeilijk wachtwoord. Gebruik [Mijn
-  Profiel](https://docs.joomla.org/Help40:Site_My_Profile "Special:MyLanguage/Help40:Site My Profile")
+  moeilijk wachtwoord. Gebruik  Mijn
+  Profiel
   in de *Administrator* interface om het later te wijzigen. Bevestig het
   wachtwoord in het **Bevestig Administrator Wachtwoord** veld.
 - **Super user Email Addres**: Het email adres van de Super user. Vul
@@ -184,8 +184,8 @@ configuratie* knop om verder te gaan.
 ## Database configuratie
 
 Voer de database informatie in die je hebt genoteerd toen de database
-werd aangemaakt. Je kunt ook kijken bij [Maak een database aan voor
-Joomla!](https://docs.joomla.org/Creating_a_Database_for_Joomla! "Special:MyLanguage/Creating a Database for Joomla!").
+werd aangemaakt. Je kunt ook kijken bij  Maak een database aan voor
+Joomla!.
 
 <img
 src="https://docs.joomla.org/images/4/4f/J40_Installation_screen_page_3.png"
@@ -217,8 +217,8 @@ installatiepagina verklaren zichzelf, maar hier zijn ze nogmaals:
   richtingen authenticatie voor de database verbinding hebben, deze
   verstrekken.
 
-Al deze keuzes kunnen bewerkt worden op de [Algemene
-instellingen](https://docs.joomla.org/Help30:Site_Global_Configuration#Server "Special:MyLanguage/Help30:Site Global Configuration")
+Al deze keuzes kunnen bewerkt worden op de  Algemene
+instellingen
 pagina, onder *Server opties* nadat de installatie voltooid is. Let op,
 de installatie breekt indien je deze instellingen wijzigt na de
 installatie tenzij je een kopie van de huidige database hebt die door de
@@ -324,13 +324,13 @@ website gaan door te kiezen voor *Open website*.
 
 ## Verwante informatie
 
-- [Hosting
-  instellen](https://docs.joomla.org/J4.x:Hosting_Setup "Special:MyLanguage/J4.x:Hosting Setup")
-- [Hosting en Server
-  instellen](https://docs.joomla.org/Security_Checklist/Hosting_and_Server_Setup "Special:MyLanguage/Security Checklist/Hosting and Server Setup")
-- [Maak een VPS
-  Test-server](https://docs.joomla.org/Creating_A_VPS_Testing_Server "Special:MyLanguage/Creating A VPS Testing Server")
-- [Instellen van je lokale
-  omgeving](https://docs.joomla.org/J4.x:Setting_Up_Your_Local_Environment "Special:MyLanguage/J4.x:Setting Up Your Local Environment")
-- [Joomla CLI
-  installatie](https://docs.joomla.org/J4.x:Joomla_CLI_Installation "Special:MyLanguage/J4.x:Joomla CLI Installation")
+-  Hosting
+  instellen
+-  Hosting en Server
+  instellen
+-  Maak een VPS
+  Test-server
+-  Instellen van je lokale
+  omgeving
+-  Joomla CLI
+  installatie

@@ -33,7 +33,7 @@ título:
 - marque seus títulos, mas faça isso de forma concisa e em relação ao
   conteúdo que está sendo veiculado;
 - use o
-  [robots.txt](https://docs.joomla.org/robots.txt_file "Special:MyLanguage/robots.txt file")
+  robots.txt
   com cuidado, não impeça que mecanismos de pesquisa visitem seu site.
 
 Existem várias ferramentas para webmasters que podem ser usadas para

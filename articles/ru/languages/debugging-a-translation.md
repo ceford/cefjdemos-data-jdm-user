@@ -10,7 +10,7 @@ and 3.x
 
 It has been suggested that this article or section be split into
 specific version
-*[Namespaces](https://docs.joomla.org/JDOC:Namespaces "JDOC:Namespaces")*.
+*Namespaces*.
 (<a
 href="https://docs.joomla.org/index.php?title=Talk:Debugging_a_translation/ru&amp;action=edit&amp;redlink=1"
 class="new"
@@ -19,7 +19,7 @@ If version split is not obvious, please allow split request to remain
 for 1 week pending discussions. <span class="small">*Proposed since **2
 years ago***.</span>
 
-  
+
 Joomla! поддерживает некоторые пригодные механизмы отладки, которые
 могут помочь в поиске непереведенных строк и диагностике проблем с
 переводом установленных расширений.
@@ -66,7 +66,7 @@ class="new" title="File:Global-config-language-debug-ru.png">250px</a>
   путях к ним. Это может пригодиться для проверки были ли загружены
   исполненные файлы. Число после каждого пути - число, указывающее
   сколько раз \[система\] сослалась на этот файл.
-- 
+-
 
 **Непереведенные строки** - список всех найденных непереведенных строк и
 вероятный путь к файлу, где эти строки были вызваны функцией **JText.**
@@ -100,7 +100,7 @@ title="File:Debug-plugin-ru.png">File:Debug-plugin-ru.png</a>
   формат показа: КЛЮЧ=строка. При настройке на "Все режимы" в информацию
   по отладке будут включены списки как режима диагностики, так и режима
   дизайна.
-- 
+-
 
 **Удалить приставку ключа**. Используется только когда \[параметр\]
 **Показывать неопределенные языковые строки** настроен на **Режим

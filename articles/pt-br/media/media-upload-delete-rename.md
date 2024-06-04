@@ -2,8 +2,8 @@
 
 ## Funções de mídia simples
 
-O tutorial anterior desta série abordou o [gerenciamento de
-mídias](https://docs.joomla.org/J4.x:Managing_Media/pt-br "J4.x:Managing Media/pt-br")
+O tutorial anterior desta série abordou o  gerenciamento de
+mídias
 com sugestões sobre como gerenciar pastas e um resumo de como usar a
 página do componente de mídia. Agora você está pronto para os recursos
 simples de manipulação de mídia. Nesta fase, não importa se você está
@@ -60,11 +60,11 @@ renomeação.
 
 Nesta série de tutoriais:
 
-- [Gerenciando
-  mídias](https://docs.joomla.org/J4.x:Managing_Media "Special:MyLanguage/J4.x:Managing Media")
-- [Mídia: Carregar, excluir,
-  renomear](https://docs.joomla.org/J4.x:Media:_Upload_Delete_Rename "Special:MyLanguage/J4.x:Media: Upload Delete Rename")
-- [Mídia: corte, redimensionamento, rotação de
-  imagem](https://docs.joomla.org/J4.x:Media:_Image_Crop_Resize_Rotate "Special:MyLanguage/J4.x:Media: Image Crop Resize Rotate")
-- [Mídia:
-  Opções](https://docs.joomla.org/J4.x:Media:_Options "Special:MyLanguage/J4.x:Media: Options")
+-  Gerenciando
+  mídias
+-  Mídia: Carregar, excluir,
+  renomear
+-  Mídia: corte, redimensionamento, rotação de
+  imagem
+-  Mídia:
+  Opções

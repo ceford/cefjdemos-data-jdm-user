@@ -1,7 +1,7 @@
 <!-- Filename: What_is_a_vulnerable_extension%3F / Display title: Was ist eine gefährliche Erweiterung? -->
 
 Eine **gefährliche Erweiterung** ist eine Erweiterung, die eine
-[Sicherheitslücke](https://docs.joomla.org/security "Special:MyLanguage/security")
+Sicherheitslücke
 enthält (oder dazu beiträgt).
 
 Sicherheitslücken in Erweiterungen sind nicht unbedingt schlecht

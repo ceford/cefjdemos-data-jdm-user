@@ -11,8 +11,8 @@ Web-Installer zu einem Kinderspiel. Die einzelnen Schritte sind:
 
 Wenn noch keine Hosting-Umgebung eingerichtet ist, muss dies jetzt
 nachgeholt werden, entweder bei einem Hosting-Anbieter oder auf dem
-lokalen Computer. Details findet man in [Hosting
-Setup](https://docs.joomla.org/J4.x:Hosting_Setup "J4.x:Hosting Setup").
+lokalen Computer. Details findet man in  Hosting
+Setup.
 
 Außerdem gibt es einige PHP-Einstellungen, die zur Installation von
 Joomla erforderlich sind. Die Einstellungen befinden sich normalerweise
@@ -20,7 +20,7 @@ in einer *php.ini* oder *user.ini* Konfigurationsdatei auf dem Server.
 Wenn ein Shared Hosting zur Verfügung steht, sollte man sich bei seinem
 Provider erkundigen, wie man diese Einstellungen ändern kann, sofern
 dies möglich ist. Falls eine lokale Umgebung, z.B. mit
-[XAMPP](https://docs.joomla.org/XAMPP "Special:MyLanguage/XAMPP"), ein
+XAMPP, ein
 VPS oder dedizierter Rechner verwendet wird, sollten diese Einstellungen
 uneingeschränkt möglich sein und selbst vorgenommen werden können.
 
@@ -39,10 +39,10 @@ fehlschlagen und unvorhersehbare Probleme verursachen.
 ### Datenbank Setup
 
 Wenn noch keine Datenbank eingerichtet ist, sollte dies jetzt nachgeholt
-werden. Es wird für einen Hosting-Service im [Hosting
-Setup](https://docs.joomla.org/J4.x:Hosting_Setup "Special:MyLanguage/J4.x:Hosting Setup")-Tutorial
-behandelt. Ferner gibt es das Tutorial [Erstellen einer Datenbank für
-Joomla!](https://docs.joomla.org/Creating_a_Database_for_Joomla! "Special:MyLanguage/Creating a Database for Joomla!"),
+werden. Es wird für einen Hosting-Service im  Hosting
+Setup-Tutorial
+behandelt. Ferner gibt es das Tutorial  Erstellen einer Datenbank für
+Joomla!,
 das die Möglichkeiten von localhost und phpMyAdmin beschreibt.
 
 Grundlegende Datenbankinformationen, die beim Start der eigentlichen
@@ -149,8 +149,8 @@ Bedarf lässt sich diese Einstellung ändern.
 Bitte die nachfolgenden Informationen eingeben:
 
 - **Name der Website**: Der Name der Joomla!-Website – dies kann später
-  auf der Seite [Globale Konfiguration der
-  Website](https://docs.joomla.org/Help40:Site_Global_Configuration#Site "Special:MyLanguage/Help40:Site Global Configuration")
+  auf der Seite  Globale Konfiguration der
+  Website
   zu jedem beliebigen späteren Zeitpunkt geändert werden.
 
 Wenn alles auf der ersten Seite ausgefüllt ist, auf die Schaltfläche
@@ -172,15 +172,15 @@ Bitte die nachfolgenden Informationen eingeben:
 - **Name des Super-Benutzers**: der Real-Name des Administrators. So
   wird die Begrüßung durch Joomla beim Anmelden aussehen.
 - **Benutzername des Super-Benutzers**: Der Benutzername für den **Super
-  User**. Er sollte nicht *admin* lauten (das wäre eine gute [Mein
-  Profil](https://docs.joomla.org/Security_Checklist/Joomla!_Setup#Change_the_default_administrator_username "Special:MyLanguagehttps://docs.joomla.org/Help40:Site_My_Profile")
+  User**. Er sollte nicht *admin* lauten (das wäre eine gute  Mein
+  Profil
   beschrieben, auf der *Administration*-Oberfläche geändert werden.
 - **Passwort des Super-Benutzers**: Bitte bedenken, dass der Superuser
   die maximale Kontrolle über die Website und die
   Administrator-Oberfläche hat. Es sollte deshalb ein komplexes Passwort
   gewählt werden. Um es später zu ändern, kann in der
   *Administration*-Oberfläche das
-  [Benutzermenü](https://docs.joomla.org/Help40:Site_My_Profile "Special:MyLanguage/Help40:Site My Profile")
+  Benutzermenü
   aufgerufen werden.
 - **E-Mail-Adresse des Super Benutzers**: Bitte hier eine gültige E-Mail
   eingeben, für den Fall, dass das Passwort vergessen wurde. An diese
@@ -195,8 +195,8 @@ fortzufahren.
 
 Die Informationen über die Datenbank, die bei der Erstellung der
 Datenbank für diese Installation notiert wurden, sind hier einzutragen.
-Siehe auch die Seite [Datenbank für Joomla!
-erstellen](https://docs.joomla.org/Creating_a_Database_for_Joomla! "Special:MyLanguage/Creating a Database for Joomla!").
+Siehe auch die Seite  Datenbank für Joomla!
+erstellen.
 
 <img
 src="https://docs.joomla.org/images/thumb/1/1a/J40_Installation_screen_page_3-de.png/500px-J40_Installation_screen_page_3-de.png"
@@ -232,7 +232,7 @@ sie noch einmal aufgeführt:
   die Datenbankverbindung verwenden, diese zu ermöglichen.
 
 Alle diese und weitere Einstellungen können auf der Seite
-[Konfiguration](https://docs.joomla.org/Help40:Site_Global_Configuration#Server "Special:MyLanguage/Help40:Site Global Configuration")
+Konfiguration
 unter *Server-Optionen*, nach Abschluss der Installation, bearbeitet
 werden. Bitte beachten, dass die Installation beschädigt wird, wenn
 diese Einstellungen nach der Installation geändert werden, es sei denn,
@@ -258,8 +258,8 @@ srcset="https://docs.joomla.org/images/thumb/f/f1/J40_Installation_screen_page_4
 data-file-width="1384" data-file-height="600" width="500" height="217"
 alt="J40 Installation screen page 4 de.png" />
 
-Wenn Joomla ohne die [Installation zusätzlicher
-Sprachen](https://docs.joomla.org/J4.x:Installing_Joomla#Installing_Extra_Languages "Special:MyLanguage/J4.x:Installing Joomla")
+Wenn Joomla ohne die  Installation zusätzlicher
+Sprachen
 sofort verwendet werden soll, dann wählt man *Administrator öffnen*, um
 zum *Administrator Dashboard* zu kommen oder wählt die Option *Site
 öffnen*, um zur Homepage der Website zu springen. Möglicherweise ist ein
@@ -311,7 +311,7 @@ Bitte Folgendes im Hinterkopf behalten:
 - Die nicht angepassten Sprachpakete werden als Update bereitgestellt,
   sobald die Pakete von den registrierten Übersetzungsteams aktualisiert
   werden. Das verfügbare Update wird sowohl im Dashboard als auch in
-  **System **→** Erweiterungen **→** Sprachen** angezeigt.  
+  **System **→** Erweiterungen **→** Sprachen** angezeigt.
   Dieses Verfahren ist vergleichbar mit
   **System **→** Verwalten **→** Sprachen **→** Sprachen installieren**.
 
@@ -348,13 +348,13 @@ indem man *Site öffnen* anklickt.
 
 ## Verwandte Informationen
 
-- [Hosting
-  Setup](https://docs.joomla.org/J4.x:Hosting_Setup "Special:MyLanguage/J4.x:Hosting Setup")
-- [Sicherheits-Checkliste / Einrichtung von Hosting und
-  Server](https://docs.joomla.org/Security_Checklist/Hosting_and_Server_Setup "Special:MyLanguage/Security Checklist/Hosting and Server Setup")
-- [Creating A VPS Testing
-  Server](https://docs.joomla.org/Creating_A_VPS_Testing_Server "Special:MyLanguage/Creating A VPS Testing Server")
-- [Joomla! an die eigene Umgebung
-  anpassen](https://docs.joomla.org/J4.x:Setting_Up_Your_Local_Environment "Special:MyLanguage/J4.x:Setting Up Your Local Environment")
-- [Joomla CLI
-  Installation](https://docs.joomla.org/J4.x:Joomla_CLI_Installation "Special:MyLanguage/J4.x:Joomla CLI Installation")
+-  Hosting
+  Setup
+-  Sicherheits-Checkliste / Einrichtung von Hosting und
+  Server
+-  Creating A VPS Testing
+  Server
+-  Joomla! an die eigene Umgebung
+  anpassen
+-  Joomla CLI
+  Installation

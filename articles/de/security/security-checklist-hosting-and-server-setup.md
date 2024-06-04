@@ -94,7 +94,7 @@ erstellen. Hier ist
 class="external text" target="_blank" rel="noreferrer noopener">eine
 Liste von Anbietern</a>**, die die Sicherheitsanforderungen für eine
 typische Joomla-Seite erfüllen.
-([FAQ](https://docs.joomla.org/Security_and_Performance_FAQs#How_do_I_choose_a_quality_hosting_provider.3F "Special:MyLanguage/Security and Performance FAQs"))
+(FAQ
 
 ### Risiken von gemeinsam genutzten Servern
 
@@ -109,8 +109,8 @@ Serverumgebungen.
 
 ### Die Datei .htaccess verwenden
 
-*Mehr Informationen dazu sind unter [Beispiele für die
-.htaccess-Datei](https://docs.joomla.org/htaccess_examples_(security) "Special:MyLanguage/htaccess examples (security)")
+*Mehr Informationen dazu sind unter  Beispiele für die
+.htaccess-Datei
 zu finden.*
 
 Typische Exploit-Versuche können mit lokalen .htaccess-Dateien des
@@ -122,8 +122,8 @@ auf sensible Verzeichnisse nach IP-Adresse eingeschränkt werden. Je nach
 Konfiguration des Servers kann die Sicherheit außerdem durch den Wechsel
 zu PHP7 erhöht werden.
 
-Joomla enthält bereits eine [vorkonfigurierte
-.htaccess-Datei](https://docs.joomla.org/Preconfigured_htaccess "Special:MyLanguage/Preconfigured htaccess"),
+Joomla enthält bereits eine  vorkonfigurierte
+.htaccess-Datei,
 aber der Administrator muss entscheiden, ob er diese nutzen möchte. Die
 Datei heißt htaccess.txt. Um sie zu aktivieren, muss sie in .htaccess
 umbenannt und per FTP in das Root-Verzeichnis der Webseite hochgeladen
@@ -161,19 +161,19 @@ Die beiden besten Tutorials und Erklärungen zu Berechtigungen,
 Eigentümerschaft an Ressourcen und deren Beziehungen sind von dieser
 offiziellen Joomla-Doku-Seite:
 
-- [Dateiberechtigungen](https://docs.joomla.org/Where_can_you_learn_more_about_file_permissions%3F "Special:MyLanguage/Where can you learn more about file permissions?")
-- [Hinweise zu
-  Dateiberechtigungen](https://docs.joomla.org/Why_can%27t_you_install_any_extensions%3F#File_ownership_advice_from_ianmac "Special:MyLanguage/Why can't you install any extensions?")
+- Dateiberechtigungen
+-  Hinweise zu
+  Dateiberechtigungen
 
 Weitere Informationen zu speziellen Themen sind hier zu finden:
 
-- [Wie funktionieren
-  Unix-Berechtigungen?](https://docs.joomla.org/How_do_UNIX_file_permissions_work%3F "Special:MyLanguage/How do UNIX file permissions work?")
+-  Wie funktionieren
+  Unix-Berechtigungen?
 
 Informationen zu phpSuExec und ähnlichen Anwendungen:
 
-- [Verwendung von
-  phpSuExec](https://docs.joomla.org/Using_phpSuExec "Special:MyLanguage/Using phpSuExec")
+-  Verwendung von
+  phpSuExec
 
 ### Das Apache-Modul mod_security verwenden
 
@@ -326,8 +326,8 @@ angepasst werden.
 - Die empfohlene Einstellung für Joomla! 1.0.x ist ON, um vor schlecht
   geschriebenen Erweiterungen von Drittanbietern zu schützen.
 
-Weitere Informationen sind unter [Magic Quotes und
-Sicherheit](https://docs.joomla.org/Magic_quotes_and_security "Special:MyLanguage/Magic quotes and security")
+Weitere Informationen sind unter  Magic Quotes und
+Sicherheit
 oder im <a href="http://php.net/magic_quotes" class="external text"
 target="_blank" rel="nofollow noreferrer noopener">PHP-Handbuch, Kapitel
 31. Magic Quotes</a> zu finden.
@@ -415,7 +415,7 @@ allow_url_include</a> zu finden.
        Proper setup will have this:
                     allow_url_fopen = 1
                   allow_url_include = 0
-      
+
        PHP default: allow_url_fopen is enabled
        PHP default: allow_url_include is disabled
 
@@ -472,7 +472,7 @@ Faustregel gilt: Je geringer der Preis für das Hosting, desto weniger
 Service kann erwartet werden.
 
 Weitere Informationen über Dateiberechtigungen sind hier zu finden:
-[Datei-Berechtigungen](https://docs.joomla.org/Security_Checklist/Where_can_you_learn_more_about_file_permissions%3F "Special:MyLanguage/Security Checklist/Where can you learn more about file permissions?")
+Datei-Berechtigungen
 
 ## Einen Sicherungs- und Wiederherstellungsprozess einrichten
 

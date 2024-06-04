@@ -18,8 +18,8 @@ however, running PHP as an Apache Module does have a slight performance
 gain and is generally how most pre-configured systems will be delivered
 out of the box.
 
-See also: [J4.x:Apache PHP
-Handler](https://docs.joomla.org/J4.x:Apache_PHP_Handler "J4.x:Apache PHP Handler")
+See also:  J4.x:Apache PHP
+Handler
 
 ## What is the difference between CGI and apache Module Mode?
 

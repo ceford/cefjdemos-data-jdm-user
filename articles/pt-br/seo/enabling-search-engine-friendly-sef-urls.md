@@ -15,8 +15,8 @@ localizadores uniformes de recursos (URLs) executada pelo servidor web,
 então funciona mesmo que o Joomla! seja executado um servidor diferente
 do Apache com o módulo mod_rewrite. Os localizadores uniformes de
 recursos (URLs) amigáveis para mecanismos de pesquisas (SEFs) seguem um
-certo padrão fixo, mas o usuário pode definir um [texto descritivo curto
-(alias)](https://docs.joomla.org/Alias/pt-br "Alias/pt-br") para cada
+certo padrão fixo, mas o usuário pode definir um  texto descritivo curto
+(alias) para cada
 segmento dos localizadores uniformes de recursos (URLs).
 
 Internamente, a parte local de um localizador uniforme de recursos (URL)

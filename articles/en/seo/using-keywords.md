@@ -52,13 +52,13 @@ will match "cats" or "Cats"). Keywords can be used in several ways:
     this, you would:
     - Add the keywords "dog" and "cat" to the appropriate Articles.
     - Add the Tags "dog" and "cat" to the appropriate Banners in
-      [Banners:
-      Edit](https://docs.joomla.org/Help4.x:Banners:_Edit/en "Special:MyLanguage/Help4.x:Banners: Edit/en").
+       Banners:
+      Edit.
     - Set the Banner module Parameter 'Search By Tags' to "Yes" in [Site
       Modules:
       Banners](https://docs.joomla.org/Help4.x:Site_Modules:_Banners/en "Special:MyLanguage/Help4.x:Site Modules: Banners/en").
-3.  For articles only, in combination with the ['Articles - Related'
-    module](https://docs.joomla.org/Help4.x:Site_Modules:_Articles_-_Related/en "Special:MyLanguage/Help4.x:Site Modules: Articles - Related/en"),
+3.  For articles only, in combination with the  'Articles - Related'
+    module,
     to display Articles that share at least one keyword in common. For
     example, if the current Article displayed has the keywords "cats,
     dogs, monkeys", any other Articles with at least one of these

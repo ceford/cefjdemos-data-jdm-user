@@ -137,7 +137,7 @@ traditionnelles, à l'alias d'un élément de menu. L'URL SEF est
 entièrement déterminés par le routeur du composant qui fournit le type
 de l'élément de menu. Par exemple, le type d'élément de menu
 *Catégorie - Blog* est fourni par le composant de
-[Contenu](https://docs.joomla.org/Content "Special:MyLanguage/Content"),
+Contenu,
 et donc le routeur de ce composant est responsable de la construction et
 de l'analyse des segments restants.
 
@@ -157,7 +157,7 @@ conduit à un composant en particulier. Il est toutefois possible de
 créer une route sans pour autant l'afficher sur le site (dans un menu).
 Une méthode souvent appliquée est de créer un élément de menu dans un
 menu qui ne s'affiche nulle part. Un tel menu est généralement appelé un
-[menu caché](https://docs.joomla.org/Menu "Special:MyLanguage/Menu").
+menu caché.
 
 Le précédent paragraphe implique qu'il n'est pas possible de rendre un
 composant responsable du traitement de toutes les routes. Par exemple,
@@ -179,8 +179,8 @@ routeur de composant doit être utilisé pour l'analyser.
 ### Gestion des Routes
 
 *Cette section décrit l'implémentation du routage. Si vous développez
-des extensions, consultez [Supporter des URL SEF dans votre
-composant](https://docs.joomla.org/Supporting_SEF_URLs_in_your_component "Special:MyLanguage/Supporting SEF URLs in your component").*
+des extensions, consultez  Supporter des URL SEF dans votre
+composant.*
 
 Les routes Joomla! sont créées et réglées par la
 <a href="https://docs.joomla.org/JRouter" class="new"
@@ -250,5 +250,5 @@ fonction `JPlugin::onAfterInitialise()`. Cette fonction va analyser
 l'URL et créer les variables nécessaires au `$ _GET` avant que le
 routage standard de Joomla! ne soit fait.
 
-*A titre d'exemple, voir [Création d'un Plugin Système pour augmenter
-JRouter](https://docs.joomla.org/Creating_a_System_Plugin_to_augment_JRouter "Special:MyLanguage/Creating a System Plugin to augment JRouter").*
+*A titre d'exemple, voir  Création d'un Plugin Système pour augmenter
+JRouter.*

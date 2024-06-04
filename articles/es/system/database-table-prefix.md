@@ -2,7 +2,7 @@
 
 El prefijo de tabla de la base de datos es una cadena (de unos cuantos
 caracteres) que se antepone al nombre de las
-[tablas](https://docs.joomla.org/tables "Special:MyLanguage/tables") de
+tablas de
 Joomla!. Usar un prefijo le permite tener varias instalaciones de
 Joomla! usando una única base de datos.
 
@@ -14,11 +14,11 @@ que el sitio esté fuera de línea durante un tiempo (unos pocos minutos
 como mucho, normalmente).
 
 Los desarrolladores de
-[extensiones](https://docs.joomla.org/Extension "Special:MyLanguage/Extension")
+extensiones
 necesitarán usar la cadena `#__` para representar el prefijo. Joomla
 reemplazará esto por el prefijo real durante la ejecución.
 
 ## Ver también
 
-- [Creando una Base de Datos para
-  Joomla!](https://docs.joomla.org/Creating_a_Database_for_Joomla! "Special:MyLanguage/Creating a Database for Joomla!")
+-  Creando una Base de Datos para
+  Joomla!

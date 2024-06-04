@@ -17,7 +17,7 @@ to install. The settings are usually in a *php.ini* or *user.ini*
 configuration file on the server. If you are on shared hosting, talk to
 your hosting service about how to change these settings if it is
 possible to do so. If working on a localhost, for example with
-[XAMPP](https://docs.joomla.org/Special:MyLanguage/XAMPP "XAMPP"), or a
+XAMPP, or a
 VPS or dedicated host, you should not be restricted by these settings
 and can set them yourself.
 
@@ -35,8 +35,8 @@ unpredictable problems.
 ### Database Setup
 
 If you have not yet set up a database do it now. It is covered for a cPanel
-hosting service in the [cPanel Hosting](jdocmanual?manual=user&heading=hosting&filename=cpanel-hosting.md) tutorial. There is also a [Creating a Database for
-Joomla!](https://docs.joomla.org/Special:MyLanguage/Creating_a_Database_for_Joomla! "Creating a Database for Joomla!")
+hosting service in the  cPanel Hosting](jdocmanual?manual=user&heading=hosting&filename=cpanel-hosting.md) tutorial. There is also a [Creating a Database for
+Joomla!
 tutorial that covers localhost and phpMyAdmin methods.
 
 You will need to note basic database information needed when the actual
@@ -89,7 +89,7 @@ The zip package files can be extracted directly on the host using
 various command line tools (e.g. unzip), which needs to be installed on
 the server. If your hosting service uses the admin tool cPanel, the
 Extract button can be pressed in the File Manager. Apart from that, the
-free third-party [Akeeba Kickstart](https://www.akeeba.com/products/akeeba-kickstart.html)
+free third-party Akeeba Kickstart
 tool may also be used for this purpose. The unzipped files and directories
 will be placed in the current folder. Extraction on your local computer depends
 on your OS. Try a right-click and see if there is an extract menu. In this case
@@ -119,7 +119,7 @@ from your browser's language. You can change this if needed.
 Fill in the following information.
 
 - **Site Name**: The name of your website — this can be changed at any
-  point later in the [Site Global Configuration](https://docs.joomla.org/Special:MyLanguage/Help40:Site_Global_Configuration#Site "Help40:Site Global Configuration")
+  point later in the Site Global Configuration
   page.
 
 When everything on the first page is completed, click the *Setup Login

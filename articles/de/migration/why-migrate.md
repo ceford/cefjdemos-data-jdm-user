@@ -8,8 +8,8 @@ Hier sind wir richtig. Diese Dokumentation ist ein wahres Sammelbecken.
 Am Ende jeder Seite finden sich bis zu zwei Optionen, die zum nächsten
 Schritt führen. Hier sind die Gründe, den Sprung zu Joomla 4.x zu wagen!
 
-Zuerst feststellen, welche [Version von
-Joomla!](https://docs.joomla.org/How_to_check_the_Joomla_version%3F "Special:MyLanguage/How to check the Joomla version?")
+Zuerst feststellen, welche  Version von
+Joomla!
 auf der Website läuft.
 
 ## Warum soll ich migrieren?

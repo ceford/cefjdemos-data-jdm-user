@@ -36,7 +36,7 @@ target="_blank" rel="noreferrer noopener">Launch.joomla.org</a> gives
 you the ideal opportunity to do so and have a fully functional Joomla
 site up and running in a matter of minutes.
 
-The process to launch your new Joomla website has never been easier!  
+The process to launch your new Joomla website has never been easier!
 To get started, navigate to the main
 <a href="https://launch.joomla.org/" class="external text"
 target="_blank" rel="noreferrer noopener">launch.joomla.org</a> page and
@@ -59,7 +59,7 @@ alt="Launch-Joomla-homepage-information.png" />
   come from.
 
 Of course, we do require you to agree to our Terms of Service, which you
-can fully read right from the sign up page.  
+can fully read right from the sign up page.
 If you agree to sign up for our marketing campaign, this simply gives us
 permissions to send you marketings emails, this is not a requirement.
 
@@ -103,7 +103,7 @@ target="_blank" rel="noreferrer noopener">issues.joomla.org</a>.
 
 No special skills are required to become a tester! If you have never
 tested pull requests, the Joomla Documentation provides you all the
-[tutorials](https://docs.joomla.org/Testing_Joomla!_patches "Special:MyLanguage/Testing Joomla! patches")
+tutorials
 you need.
 
 Tests are important in an open source project like Joomla as it allows

@@ -27,7 +27,7 @@ Configuración de la política de registro de usuarios
 
 ;
 
-- [Logging in or out of the Administrator
-  back-end](https://docs.joomla.org/J3.x:Logging_in_or_out_of_the_Administrator_back-end "Special:MyLanguage/J3.x:Logging in or out of the Administrator back-end")
-- [Setting user registration
-  policy](https://docs.joomla.org/Setting_user_registration_policy "Special:MyLanguage/Setting user registration policy")
+-  Logging in or out of the Administrator
+  back-end
+-  Setting user registration
+  policy

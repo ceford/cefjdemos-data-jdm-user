@@ -16,12 +16,12 @@ class="thumbimage" decoding="async"
 srcset="https://docs.joomla.org/images/thumb/b/b5/Login_module_j39.png/450px-Login_module_j39.png 1.5x, https://docs.joomla.org/images/thumb/b/b5/Login_module_j39.png/600px-Login_module_j39.png 2x"
 data-file-width="900" data-file-height="520" width="900" height="520" />
 
-To learn more see [Changing the Login Form module
-settings](https://docs.joomla.org/Changing_the_Login_Form_module_settings "Special:MyLanguage/Changing the Login Form module settings");
+To learn more see  Changing the Login Form module
+settings;
 
 ### Voir également
 
-- [Logging in or out of the Administrator
-  back-end](https://docs.joomla.org/J3.x:Logging_in_or_out_of_the_Administrator_back-end "Special:MyLanguage/J3.x:Logging in or out of the Administrator back-end")
-- [Setting user registration
-  policy](https://docs.joomla.org/Setting_user_registration_policy "Special:MyLanguage/Setting user registration policy")
+-  Logging in or out of the Administrator
+  back-end
+-  Setting user registration
+  policy

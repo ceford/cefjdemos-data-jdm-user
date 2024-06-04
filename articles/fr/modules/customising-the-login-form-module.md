@@ -28,8 +28,8 @@ assigned to one or more web pages on your Joomla! site.
 The Login Form module will appear in whatever module position it is
 assigned to in the current template. It is also possible to have a Login
 Form that will appear in place of regular content when a Menu Item is
-clicked. To learn how to do this see [Creating a Login Form menu
-item](https://docs.joomla.org/Screen.menus.edit.15#Internal_Link_-_User "Special:MyLanguage/Screen.menus.edit.15").
+clicked. To learn how to do this see  Creating a Login Form menu
+item.
 
 ## To change the Login Form module settings
 
@@ -37,8 +37,8 @@ To change settings which control the information shown in the Login Form
 module and some aspects of its behaviour, do this:
 
 1.  Log in to the Administrator back-end. To learn how to do this read:
-    [Logging in or out of the Administrator
-    back-end](https://docs.joomla.org/Logging_in_or_out_of_the_Administrator_back-end "Special:MyLanguage/Logging in or out of the Administrator back-end").
+     Logging in or out of the Administrator
+    back-end.
 2.  Click the **Extensions **→** Modules** menu item.
 3.  From the list of Modules find the type one called "Login". There may
     be several pages of Modules listed so you might need to look on
@@ -79,23 +79,23 @@ must be published. To publish the Login Form module:
     is a red cross, it is currently disabled. Click on the red cross to
     enable.
 
-To learn more see [Changing the Login Form module
-settings](https://docs.joomla.org/Changing_the_Login_Form_module_settings "Special:MyLanguage/Changing the Login Form module settings");
+To learn more see  Changing the Login Form module
+settings;
 
 ### See also
 
-- [Logging in or out of the Administrator
-  back-end](https://docs.joomla.org/J3.x:Logging_in_or_out_of_the_Administrator_back-end "Special:MyLanguage/J3.x:Logging in or out of the Administrator back-end")
-- [Setting user registration
-  policy](https://docs.joomla.org/Setting_user_registration_policy "Special:MyLanguage/Setting user registration policy")
+-  Logging in or out of the Administrator
+  back-end
+-  Setting user registration
+  policy
 
 ## To assign the Login Form module to selected web pages
 
 You can make the Login Form module appear on one or more pages by
 assigning it to selected Menu Items. This is done using the fields in
 the Menu Assignment group on the Module Edit screen. To learn how to do
-this see [Changing the Login Form module
-settings](https://docs.joomla.org/Changing_the_Login_Form_module_settings "Special:MyLanguage/Changing the Login Form module settings").
+this see  Changing the Login Form module
+settings.
 The following list describes the settings in the Menu Assignment group.
 
 - **Menus**: Is a radio button field with the following options:
@@ -116,5 +116,5 @@ If you wish to customise the information in the Login Module you will
 need to [navigate to the login module edit page in the Administration
 section of
 Joomla](https://docs.joomla.org/Changing_the_Login_Form_module_settings "Changing the Login Form module settings").
-Then consult [the help screen
-page](https://docs.joomla.org/Help310:Extensions_Module_Manager_Login "Help310:Extensions Module Manager Login")
+Then consult  the help screen
+page

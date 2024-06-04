@@ -13,7 +13,7 @@ Joomla 4. No hay prisa. Asegúrese de que todas sus extensiones estén
 listas para Joomla 4.x. Joomla 3.10.x será compatible hasta el 16 de
 agosto de 2023.
 
-  
+
 Las siguientes son instrucciones paso a paso para migrar su sitio 3.10.x
 a Joomla! 4.x. Si bien hay cientos de escenarios diferentes, esto le
 dará el procedimiento básico a seguir. Es probable que las migraciones
@@ -32,11 +32,11 @@ tienen una actualización con un solo clic. Algunas no es posible. Debe
 revisar cada extensión y determinar qué camino debe seguir con cada una
 para pasar de 3.10 a 4.x. Si aún no lo ha hecho, es posible que le
 interese leer la
-[Autoevaluación](https://docs.joomla.org/Migration_Step_by_Step_Self_Assessment/es "Special:MyLanguage/Migration Step by Step Self Assessment/es")
-y la [Planificación para
-Mini-Migración](https://docs.joomla.org/Planning_for_Mini-Migration_-_Joomla_3.10.x_to_4.x/es "Special:MyLanguage/Planning for Mini-Migration - Joomla 3.10.x to 4.x/es")
-antes de seguir los siguientes pasos.  
-  
+Autoevaluación
+y la  Planificación para
+Mini-Migración
+antes de seguir los siguientes pasos.
+
 Las Extensiones del Núcleo de Joomla! son:
 
 - Categorías
@@ -70,8 +70,8 @@ Las Extensiones del Núcleo de Joomla! son:
     utilizar una herramienta sugerida (consulte las *Herramientas
     sugeridas* en la parte inferior de la página) o puede hacerlo
     manualmente.
-    - [Conceptos básicos sobre copia de seguridad de un sitio web
-      Joomla!](https://docs.joomla.org/Backup_Basics_for_a_Joomla!_Web_Site/es "Special:MyLanguage/Backup Basics for a Joomla! Web Site/es")
+    -  Conceptos básicos sobre copia de seguridad de un sitio web
+      Joomla!
     - [¿Cuáles son las mejores prácticas para las copias de seguridad
       del
       sitio?](https://docs.joomla.org/What_are_the_best_practices_for_site_backups%3F "Special:MyLanguage/What are the best practices for site backups?")
@@ -91,7 +91,7 @@ Las Extensiones del Núcleo de Joomla! son:
       instalación de
       <a href="https://sourceforge.net/projects/xampp/" class="external text"
       target="_blank" rel="nofollow noreferrer noopener">XAMPP</a> en
-      ​​[XAMPP/es](https://docs.joomla.org/XAMPP/es "XAMPP/es"). Sin
+      ​​XAMPP/es. Sin
       embargo,
       <a href="https://www.wampserver.com/en/" class="external text"
       target="_blank" rel="nofollow noreferrer noopener">WAMP</a>,
@@ -130,7 +130,7 @@ Las Extensiones del Núcleo de Joomla! son:
 ### Evaluar Cada Extensión
 
 En su
-[planning](https://docs.joomla.org/Planning_for_Mini-Migration_-_Joomla_3.10.x_to_4.x/es "Special:MyLanguage/Planning for Mini-Migration - Joomla 3.10.x to 4.x/es"),
+planning,
 determinó qué extensiones de terceros se quedaban o no y cómo se
 migrarán. Para esta fase del Paso a Paso, utilizará dos secciones
 diferentes del sitio de manera extensa: la Comprobación de
@@ -235,7 +235,7 @@ actualizar cada una de ellas a la última versión o desinstalarlas.
     sean compatibles con Joomla! 4.x. **¡NOTA!** No podrá desinstalar
     ninguna plantilla que esté configurada como predeterminada. Deberá
     seleccionar una plantilla del Núcleo compatible, como Beez3 o
-    Protostar, y luego desinstalar la plantilla si es necesario.  
+    Protostar, y luego desinstalar la plantilla si es necesario.
     *Otro recordatorio:* **Protostar no es compatible con Joomla 4.x**.
     Tras la migración desaparecerá. Seleccionarlo como predeterminado,
     simplemente le lleva a Joomla 4.x.
@@ -260,11 +260,11 @@ actualizar cada una de ellas a la última versión o desinstalarlas.
       se migre el sitio. Un ejemplo de esto podría ser un plugin de
       contenido. Es muy sencillo, desinstalarlo en 3.10.x, y luego
       instalarlo nuevamente en 4.x.
-    - Mire [Consideraciones sobre la plantilla en la
-      migración](https://docs.joomla.org/Template_Considerations_During_Migration/es "Special:MyLanguage/Template Considerations During Migration/es")
+    - Mire  Consideraciones sobre la plantilla en la
+      migración
       para obtener información más específica sobre plantillas, y
-      [Conversión de una plantilla de una versión de Joomla!
-      anterior](https://docs.joomla.org/J3.x:_Converting_A_Previous_Joomla!_Version_Template/es "Special:MyLanguage/J3.x: Converting A Previous Joomla! Version Template/es").
+       Conversión de una plantilla de una versión de Joomla!
+      anterior.
 
 #### Notas sobre Buscar (com_search)
 
@@ -363,8 +363,8 @@ extensión para instalar. (¡No debería haber ninguna!).
 
 1.  Vaya a la interfaz de su sitio y vea si se visualiza, incluso si no
     es la plantilla adecuada. Si es así, continúe. De lo contrario,
-    consulte [Errores Comunes en la Migración de Joomla 3.10 a
-    4.x](https://docs.joomla.org/Joomla_3.10_to_4.x_Common_Migration_Errors/es "Special:MyLanguage/Joomla 3.10 to 4.x Common Migration Errors/es").
+    consulte  Errores Comunes en la Migración de Joomla 3.10 a
+    4.x.
 2.  Realice una copia de seguridad.
 3.  Instale su nueva plantilla u otras extensiones si las tiene listas
     para instalar. Realice una copia de seguridad a menudo.
@@ -421,4 +421,4 @@ rel="noreferrer noopener">extensión de terceros</a>.
 
 ## Related information
 
-[Pre-Update_Check](https://docs.joomla.org/:Pre-Update_Check "Special:MyLanguage/:Pre-Update Check")
+Pre-Update_Check

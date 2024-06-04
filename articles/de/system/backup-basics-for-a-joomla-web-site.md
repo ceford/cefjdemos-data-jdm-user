@@ -188,5 +188,5 @@ Backend anmelden. Dann deaktiviere alle Plugins unter der
 "twofactorauth" Typen-Gruppe. Benenne anschließend den Ordner
 twofactorauth.BAK wieder zu twofactorauth um.
 
-- Siehe auch: [Tutorial zur
-  Zwei-Faktor-Authentifizierung](https://docs.joomla.org/J3.x:Two_Factor_Authentication "Special:MyLanguage/J3.x:Two Factor Authentication")
+- Siehe auch:  Tutorial zur
+  Zwei-Faktor-Authentifizierung

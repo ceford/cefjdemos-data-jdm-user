@@ -83,7 +83,7 @@ width="532" height="105" alt="SEF-Titles.png" />
 Los microdatos es una forma más avanzada del Etiquetado HTML Semántico,
 que te permite dar más información contextual sobre el contenido y la
 estructura de tu sitio web. Para obtener más información, consulta :
-[Microdatos](https://docs.joomla.org/Microdata "Special:MyLanguage/Microdata").
+Microdatos.
 
 <a href="http://es.wikipedia.org/wiki/HTML_sem%C3%A1ntico" class="extiw"
 title="es.wp:HTML semántico">HTML Semántico</a>

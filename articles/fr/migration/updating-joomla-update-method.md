@@ -7,15 +7,15 @@ simple pour mettre à jour le CMS Joomla. Cette méthode est parfois
 appelée ***Mise à jour en un clic***. Si vous ne parvenez pas à utiliser
 cette méthode du fait de cas d'utilisation spécifique (distributions,
 langages, vitesse de l'hébergement), vous pouvez mettre à jour le CMS
-Joomla! en utilisant la **[méthode
-d'installation](https://docs.joomla.org/J3.x:Updating_Joomla_(Install_Method) "Special:MyLanguage/J3.x:Updating Joomla (Install Method)")**.
+Joomla! en utilisant la ** méthode
+d'installation**.
 
-Cette méthode est adaptée pour  
+Cette méthode est adaptée pour
 
 - Tous les mises à jours Joomla! **3.x.x** à **3.x.x** (mise à jour de
   maintenance)
 
-Cette méthode n'est pas adaptée pour  
+Cette méthode n'est pas adaptée pour
 
 - CMS Joomla! **3.1.2** à **≥ 3.1.3** - voir [Instructions spéciales
   pour les mises à niveaux de la version

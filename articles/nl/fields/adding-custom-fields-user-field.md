@@ -4,49 +4,49 @@
 
 **Artikelen in deze reeks**
 
-1.  [Inleiding](https://docs.joomla.org/J3.x:Adding_custom_fields "Special:MyLanguage/J3.x:Adding custom fields")
-2.  [Parameters voor alle extra
-    velden](https://docs.joomla.org/J3.x:Adding_custom_fields/Parameters_for_all_Custom_Fields "Special:MyLanguage/J3.x:Adding custom fields/Parameters for all Custom Fields")
-3.  [Kalender
-    veld](https://docs.joomla.org/J3.x:Adding_custom_fields/Calendar_Field "Special:MyLanguage/J3.x:Adding custom fields/Calendar Field")
-4.  [Selectievakjes
-    veld](https://docs.joomla.org/J3.x:Adding_custom_fields/Checkboxes_Field "Special:MyLanguage/J3.x:Adding custom fields/Checkboxes Field")
-5.  [Kleur
-    veld](https://docs.joomla.org/J3.x:Adding_custom_fields/Color_Field "Special:MyLanguage/J3.x:Adding custom fields/Color Field")
-6.  [Tekstverwerker
-    veld](https://docs.joomla.org/J3.x:Adding_custom_fields/Editor_Field "Special:MyLanguage/J3.x:Adding custom fields/Editor Field")
-7.  [Integer
-    veld](https://docs.joomla.org/J3.x:Adding_custom_fields/Integer_Field "Special:MyLanguage/J3.x:Adding custom fields/Integer Field")
-8.  [Lijst
-    veld](https://docs.joomla.org/J3.x:Adding_custom_fields/List_Field "Special:MyLanguage/J3.x:Adding custom fields/List Field")
-9.  [Lijst met afbeeldingen
-    veld](https://docs.joomla.org/J3.x:Adding_custom_fields/ListOfImages_Field "Special:MyLanguage/J3.x:Adding custom fields/ListOfImages Field")
-10. [Media
-    veld](https://docs.joomla.org/J3.x:Adding_custom_fields/Media_Field "Special:MyLanguage/J3.x:Adding custom fields/Media Field")
-11. [Keuzerondje
-    veld](https://docs.joomla.org/J3.x:Adding_custom_fields/Radio_Field "Special:MyLanguage/J3.x:Adding custom fields/Radio Field")
-12. [Herhalend
-    veld](https://docs.joomla.org/J3.x:Adding_custom_fields/Repeatable_Field "Special:MyLanguage/J3.x:Adding custom fields/Repeatable Field")
-13. [SQL
-    veld](https://docs.joomla.org/J3.x:Adding_custom_fieldshttps://docs.joomla.org/J3.x:Adding%20custom%20fields/Sql%20Field)
-14. [Tekst
-    veld](https://docs.joomla.org/J3.x:Adding_custom_fields/Text_Field "Special:MyLanguage/J3.x:Adding custom fields/Text Field")
-15. [Tekstvak
-    veld](https://docs.joomla.org/J3.x:Adding_custom_fields/Textarea_Field "Special:MyLanguage/J3.x:Adding custom fields/Textarea Field")
-16. [URL
-    veld](https://docs.joomla.org/J3.x:Adding_custom_fields/Url_Field "Special:MyLanguage/J3.x:Adding custom fields/Url Field")
-17. [Gebruiker
-    veld](https://docs.joomla.org/J3.x:Adding_custom_fields/User_Field "Special:MyLanguage/J3.x:Adding custom fields/User Field")
-18. [Gebruikersgroep
-    veld](https://docs.joomla.org/J3.x:Adding_custom_fields/Usergroup_Field "Special:MyLanguage/J3.x:Adding custom fields/Usergroup Field")
-19. [Hoe kunt u extra velden
-    groeperen](https://docs.joomla.org/J3.x:Adding_custom_fields/How%CC%9E_can_you_group_custom_fields "Special:MyLanguage/J3.x:Adding custom fields/How̞ can you group custom fields")
-20. [Welke componenten ondersteunen extra
-    velden](https://docs.joomla.org/J3.x:Adding_custom_fields/What_components_are_supporting_custom_fields "Special:MyLanguage/J3.x:Adding custom fields/What components are supporting custom fields")
-21. [Implementatie in uw
-    component](https://docs.joomla.org/J3.x:Adding_custom_fields/Implement_into_your_component "Special:MyLanguage/J3.x:Adding custom fields/Implement into your component")
-22. [Extra velden gebruiken in uw
-    overrides](https://docs.joomla.org/J3.x:Adding_custom_fields/Overrides "Special:MyLanguage/J3.x:Adding custom fields/Overrides")
+1.  Inleiding
+2.   Parameters voor alle extra
+    velden
+3.   Kalender
+    veld
+4.   Selectievakjes
+    veld
+5.   Kleur
+    veld
+6.   Tekstverwerker
+    veld
+7.   Integer
+    veld
+8.   Lijst
+    veld
+9.   Lijst met afbeeldingen
+    veld
+10.  Media
+    veld
+11.  Keuzerondje
+    veld
+12.  Herhalend
+    veld
+13.  SQL
+    veld
+14.  Tekst
+    veld
+15.  Tekstvak
+    veld
+16.  URL
+    veld
+17.  Gebruiker
+    veld
+18.  Gebruikersgroep
+    veld
+19.  Hoe kunt u extra velden
+    groeperen
+20.  Welke componenten ondersteunen extra
+    velden
+21.  Implementatie in uw
+    component
+22.  Extra velden gebruiken in uw
+    overrides
 
 ### Gebruiker
 
@@ -59,8 +59,8 @@ Er zijn geen speciale opties bij dit veld.
 
 #### Verwante Informatie
 
-Zie [Gebruiker formulier
-veldtype](https://docs.joomla.org/User_form_field_type "Special:MyLanguage/User form field type")
+Zie  Gebruiker formulier
+veldtype
 
 #### Schermafbeeldingen
 
@@ -102,7 +102,7 @@ alt="User 2-nl.png" />
 
 Op de website kunt u het veld zien zoals op de volgende afbeelding. De
 optie *Automatisch tonen* is verantwoordelijk voor de positie van het
-veld en uw template is verantwoordelijk voor het ontwerp van het veld.  
+veld en uw template is verantwoordelijk voor het ontwerp van het veld.
 Velden worden alleen getoond op de website als er in het artikel
 gegevens in staan. Als het geen verplicht veld is kunt u dat vergetenǃ
 

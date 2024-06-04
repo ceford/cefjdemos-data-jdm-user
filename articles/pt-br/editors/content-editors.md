@@ -30,7 +30,7 @@ alt="Help30-editor-tinymce-advanced-en.png" />
 
 Aprenda sobre as barras de ferramentas, os botões do editor e a
 acessibilidade do
-[TinyMCE](https://docs.joomla.org/Chunk30:TinyMCE "Special:MyLanguage/Chunk30:TinyMCE").
+TinyMCE.
 
 ## Espelho de código
 
@@ -48,8 +48,8 @@ alt="Help25-screenshot-editor-codemirror-example-en.png" />
 O CodeMirror oferece algumas das mesmas vantagens de usar sem editor,
 mas torna um pouco mais fácil trabalhar com código da HTML bruto.
 
-Para configurar as opções: [Plugin do editor
-CodeMirror](https://docs.joomla.org/Help310:Extensions_Plugin_Manager_Edit#Editor_-_CodeMirror "Special:MyLanguage/Help310:Extensions Plugin Manager Edit")
+Para configurar as opções:  Plugin do editor
+CodeMirror
 
 ## Sem editor
 

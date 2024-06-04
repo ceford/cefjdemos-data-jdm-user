@@ -120,8 +120,8 @@ Grund getan werden.
 5\. Überprüft die Erweiterung alle Benutzereingaben, wie z.B. in
 Formularfeldern und URLs?
 
-6\. Prüfen, ob die Erweiterung als [Gefährliche
-Erweiterung](https://docs.joomla.org/What_is_a_vulnerable_extension%3F "Special:MyLanguage/What is a vulnerable extension?")
+6\. Prüfen, ob die Erweiterung als  Gefährliche
+Erweiterung
 gelistet ist.
 
 7\. Verwendet die Erweiterung explizite Pfadnamen beim Aufrufen externer

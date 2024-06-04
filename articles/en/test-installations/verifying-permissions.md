@@ -4,7 +4,7 @@
 
 The following information refers to Unix/Linux based server. If your web
 server is a Microsoft Windows based server(IIS), you should read:
-[How do Windows file permissions work?](https://docs.joomla.org/How_do_Windows_file_permissions_work%3F "How do Windows file permissions work?").
+How do Windows file permissions work?.
 Then apply the applicable recommended settings below to your Windows
 based server.
 
@@ -138,11 +138,11 @@ the World) into a 3 digit "octal" permission number.
   class="mw-redirect"
   title="Where can you learn more about file permissions?">Where can you
   learn more about file permissions?</a>
-- [Why can't you install any
-  extensions?](https://docs.joomla.org/Why_can%27t_you_install_any_extensions%3F "Why can't you install any extensions?")
-- [Why are my file permissions wrong after
-  upgrading](https://docs.joomla.org/Why_are_my_file_permissions_wrong_after_upgrading "Why are my file permissions wrong after upgrading")
-- [What are the recommended file and directory
-  permissions?](https://docs.joomla.org/What_are_the_recommended_file_and_directory_permissions%3F "What are the recommended file and directory permissions?")
-- [How do you recursively adjust file and directory
-  permissions?](https://docs.joomla.org/How_do_you_recursively_adjust_file_and_directory_permissions%3F "How do you recursively adjust file and directory permissions?")
+-  Why can't you install any
+  extensions?
+-  Why are my file permissions wrong after
+  upgrading
+-  What are the recommended file and directory
+  permissions?
+-  How do you recursively adjust file and directory
+  permissions?

@@ -159,14 +159,14 @@ informações sobre o que estiver selecionado.
 
 Nesta série de tutoriais:
 
-- [Gerenciando
-  mídias](https://docs.joomla.org/J4.x:Managing_Media "Special:MyLanguage/J4.x:Managing Media")
-- [Mídia: Carregar, excluir,
-  renomear](https://docs.joomla.org/J4.x:Media:_Upload_Delete_Rename "Special:MyLanguage/J4.x:Media: Upload Delete Rename")
-- [Mídia: corte, redimensionamento, rotação de
-  imagens](https://docs.joomla.org/J4.x:Media:_Image_Crop_Resize_Rotate "Special:MyLanguage/J4.x:Media: Image Crop Resize Rotate")
-- [Mídia:
-  opções](https://docs.joomla.org/J4.x:Media:_Options "Special:MyLanguage/J4.x:Media: Options")
+-  Gerenciando
+  mídias
+-  Mídia: Carregar, excluir,
+  renomear
+-  Mídia: corte, redimensionamento, rotação de
+  imagens
+-  Mídia:
+  opções
 - \[\[S:MyLanguage/J4.x:Media:\_Uploading_SVG_files\|
 
 \]\]

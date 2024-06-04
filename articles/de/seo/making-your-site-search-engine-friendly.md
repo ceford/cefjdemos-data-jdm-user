@@ -37,30 +37,3 @@ Suchergebnissen führt, als wenn Menschen nach Themen suchen.
  
 
 ## Schlüssel SEO Konzepte
-
-[Suchmaschinenfreundliche
-URLs](https://docs.joomla.org/Search_Engine_Friendly_URLs "Special:MyLanguage/Search Engine Friendly URLs")
-
-[Suchmaschinenfreundliche (SEF) URLs
-aktivieren](https://docs.joomla.org/Enabling_Search_Engine_Friendly_(SEF)_URLs "Special:MyLanguage/Enabling Search Engine Friendly (SEF) URLs")
-
-[Verwendung einer
-Sitemap](https://docs.joomla.org/Using_A_Sitemap "Special:MyLanguage/Using A Sitemap")
-
-[Den Titel-Tag
-verwenden](https://docs.joomla.org/Using_The_Title_Tag "Special:MyLanguage/Using The Title Tag")
-
-[Die Meta-Beschreibung
-verwenden](https://docs.joomla.org/Using_The_Meta_Description "Special:MyLanguage/Using The Meta Description")
-
-[Schlüsselwörter
-verwenden](https://docs.joomla.org/Using_Keywords "Special:MyLanguage/Using Keywords")
-
-[Using Semantic HTML
-Markup](https://docs.joomla.org/Semantic_HTML_Markup "Special:MyLanguage/Semantic HTML Markup")
-
-[Linking to other sites and link
-building](https://docs.joomla.org/Linking_To_Other_Sites "Special:MyLanguage/Linking To Other Sites")
-
-[Wichtige SEO Punkte die man wissen
-sollte](https://docs.joomla.org/Important_SEO_Points_To_Remember "Special:MyLanguage/Important SEO Points To Remember")

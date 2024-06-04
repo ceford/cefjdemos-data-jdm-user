@@ -38,7 +38,7 @@ connection error page.
 
 If Apache is not running on your computer consider using a package that
 installs everything you need in one go. See the
-**[XAMPP](https://docs.joomla.org/XAMPP "XAMPP")** tutorial for one way
+**XAMPP** tutorial for one way
 to do that on all three common platforms. Otherwise, install the items
 individually. Look up how to do that for your platform, there is too
 much variation to cover here.

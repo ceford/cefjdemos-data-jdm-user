@@ -13,6 +13,7 @@ getting-started=keyboard-shortcuts.md=https://docs.joomla.org/J4.x:Keyboard_Shor
 
 articles=create-and-manage-article-categories.md=https://docs.joomla.org/J4.x:Create_and_Manage_Article_Categories
 articles=adding-a-new-article.md=https://docs.joomla.org/J4.x:Adding_a_New_Article
+articles=version-history.md=jdocmanual?manual=user&heading=articles&filename=version-history.md
 articles=deleting-an-article.md=https://docs.joomla.org/J4.x:Deleting_an_Article
 articles=featured-articles.md=https://docs.joomla.org/J4.x:Featured_Articles
 articles=how-to-archive-an-article.md=https://docs.joomla.org/J4.x:How_to_Archive_an_Article
@@ -174,6 +175,7 @@ performance=monitoring-site-speed.md=https://docs.joomla.org/J4.x:Monitoring_Sit
 plugins=about-plugins.md=jdocmanual?manual=user&heading=plugins&filename=about-plugins.md
 plugins=plugin-joomla-update-notification.md=https://docs.joomla.org/J4.x:J3.x:Plugin_Joomla_Update_Notification
 
+privacy=privacy-outline.md=Help4.x:Components_Privacy_Outline
 privacy=privacy-setup.md=https://docs.joomla.org/J4.x:Privacy_Setup
 privacy=privacy-workflow.md=https://docs.joomla.org/J4.x:Privacy_Workflow
 privacy=cookie-notification.md=https://docs.joomla.org/J4.x:Cookie_notification

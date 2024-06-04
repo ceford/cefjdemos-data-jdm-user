@@ -9,7 +9,7 @@ creating and parsing URLs in any format, including SEF URLs. This does
 not depend on URL rewriting executed by the web server, so it works even
 if Joomla! runs a server other than Apache with the mod_rewrite module.
 The SEF URLs follow a certain fixed pattern, but the user can define a
-[short descriptive text (alias)](https://docs.joomla.org/Alias "Alias")
+short descriptive text (alias)
 for each segment of the URL.
 
 Internally, the local part of a SEF URL (the part after the domain name)
@@ -22,11 +22,8 @@ on the web server you are using. If you are using shared hosting, it is
 probably Apache. Ask your hosting provider for more information if you
 are uncertain.
 
-Only the most popular web servers have been included on this page. Visit
-[Enabling Search Engine Friendly (SEF) URLs on
-IIS](https://docs.joomla.org/Enabling_Search_Engine_Friendly_(SEF)_URLs_on_IIS "Enabling Search Engine Friendly (SEF) URLs on IIS")
-and [Category:Search Engine Friendly
-URLs](https://docs.joomla.org/Category:Search_Engine_Friendly_URLs "Category:Search Engine Friendly URLs")
+Only the most popular web servers have been included on this page. Visitand  Category:Search Engine Friendly
+URLs
 for more articles.
 
 ## Apache

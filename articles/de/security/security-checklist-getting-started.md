@@ -95,8 +95,8 @@ benutzerauthentifizierten Website genügend Zeit aufzubringen. Er muss
 die Zeit und die Ressourcen zur Hand haben, um auf neue
 Internet-Sicherheitsprobleme entsprechend reagieren zu können.
 
-Die [Top 10 der dümmsten
-Administrator-Tricks](https://docs.joomla.org/Top_10_Stupidest_Administrator_Tricks "Top 10 Stupidest Administrator Tricks")
+Die  Top 10 der dümmsten
+Administrator-Tricks
 ist eine komische und tragische Zusammenfassung der Fehler, die
 unbedingt vermieden werden sollten. Es ist nicht nötig, alles auf die
 harte Tour zu lernen! Abhängig von der eigenen Erfahrung kann die
@@ -173,10 +173,7 @@ den meisten Katastrophen geschützt.
     am besten geeignete Forum verwendet werden, wie z. B. Installation,
     Migration und Aktualisierung, Administration.
 
-Die hilfreichsten Beiträge im Joomla!-Sicherheitsforum werden zu den
-[FAQs zu Sicherheit und
-Leistung](https://docs.joomla.org/Security_and_Performance_FAQs "Security and Performance FAQs")
-hinzugefügt. Viele der Punkte auf dieser Liste werden in den FAQs viel
+Die hilfreichsten Beiträge im Joomla!-Sicherheitsforum werden zu denhinzugefügt. Viele der Punkte auf dieser Liste werden in den FAQs viel
 ausführlicher erklärt.
 
 Für Joomla!-Neulinge eignet sich auch der umfangreiche [Leitfaden für
@@ -235,8 +232,8 @@ Security News abonniert werden. Dafür gibt es mehrere Möglichkeiten:
     einer Webseite nötig sind. Dann sollte eine Person zu Rate gezogen
     werden, die dies bereits getan hat.
 
-*Tipp*: Die augenzwinkernde Beschreibung der [Top 10 der dümmsten
-Administrator-Tricks](https://docs.joomla.org/Top_10_Stupidest_Administrator_Tricks "Top 10 Stupidest Administrator Tricks")
+*Tipp*: Die augenzwinkernde Beschreibung der  Top 10 der dümmsten
+Administrator-Tricks
 zeigt typische Beispiele für das Erlernen von Web-Sicherheit auf die
 harte Tour.
 

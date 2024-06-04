@@ -108,23 +108,23 @@ alt="Stop hand nuvola.svg.png" />Warning!
 
 Die Anwendung von Datei- und Verzeichnisberechtigungen und deren
 Kontrolle hängt vom Betriebssystem des Servers ab und kann komplex sein.
-Mehr Informationen sind unter [empfohlene Berechtigungseinstellungen für
-Joomla!](https://docs.joomla.org/Verifying_permissions#Recommended_settings "Special:MyLanguage/Verifying permissions")
-und [schlechte
-Server-Berechtigungseinstellungen](https://docs.joomla.org/Security_Checklist/You_have_been_hacked_or_defaced#777_Permissions "Special:MyLanguage/Security Checklist/You have been hacked or defaced")
+Mehr Informationen sind unter  empfohlene Berechtigungseinstellungen für
+Joomla!
+und  schlechte
+Server-Berechtigungseinstellungen
 zu finden.
 
 Mehr über Berechtigungen und wie sie über den entsprechenden Link zum
 richtigen Serverbetriebssystem oder zur richtigen Serverkonfiguration
 geändert werden können:
 
-- [Wie funktionieren
-  UNIX-Dateiberechtigungen?](https://docs.joomla.org/How_do_UNIX_file_permissions_work%3F "Special:MyLanguage/How do UNIX file permissions work?")
-- [Wie funktiionieren
-  phpSuExec-Dateiberechtigungen?](https://docs.joomla.org/How_do_phpSuExec_file_permissions_work%3F "Special:MyLanguage/How do phpSuExec file permissions work?")
+-  Wie funktionieren
+  UNIX-Dateiberechtigungen?
+-  Wie funktiionieren
+  phpSuExec-Dateiberechtigungen?
 
 Auf Microsoft Windows basierende Server, IIS(Internet Information
 Server) und PWS (Personal WebServer)
 
-- [Wie funktionieren
-  Windows-Dateiberechtigungen?](https://docs.joomla.org/How_do_Windows_file_permissions_work%3F "Special:MyLanguage/How do Windows file permissions work?")
+-  Wie funktionieren
+  Windows-Dateiberechtigungen?

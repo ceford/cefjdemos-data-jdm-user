@@ -4,11 +4,11 @@
 
 There are a significant number of articles available on Joomla security going
 back many years. Unfortunately, many of them are out of date and perhaps
-misleading. For example, there is a series of [Security Checklist](https://docs.joomla.org/Security_Checklist/Getting_Started) articles not all of which are actually
+misleading. For example, there is a series of Security Checklist articles not all of which are actually
 about security.
 
 This article is based on a Joomla! Community Magazine article by Ahmad Moussa
-in the [April 2021](https://magazine.joomla.org/all-issues/april-2021/best-practices-to-secure-your-joomla-website "") Edition.
+in the April 2021 Edition.
 
 ## Best Practices to Secure your Joomla Website
 
@@ -52,8 +52,8 @@ Step 2: Add the following code to the .htaccess file:
 Step 3: Enter the dedicated IP address you wish to allow access from in place of the xx.xx.xx.xx.
 
 More information about restricting directory access by IP address using
-htaccess can be found in this [Joomla! Documentation](https://docs.joomla.org/How_do_you_restrict_directory_access_by_IP_address_using_htaccess%3F "")
-article. You may also use [security extensions](https://extensions.joomla.org/tags/site-security/ "") that can restrict access to the Joomla admin backend using the IP filtering feature and includes many other features which strengthen your Joomla website security.
+htaccess can be found in this Joomla! Documentation
+article. You may also use security extensions that can restrict access to the Joomla admin backend using the IP filtering feature and includes many other features which strengthen your Joomla website security.
 
 ## 5. Use Secure FTP Connections
 
@@ -63,7 +63,7 @@ Some FTP clients store passwords in plain text or encoded on your computer. Even
 
 ## 6. Take Regular Backups
 
-Save time by preparing for the worst-case scenario in case your website gets attacked. Therefore it is advised to create a complete working [backup](https://docs.joomla.org/Backup_Basics_for_a_Joomla!_Web_Site "") of your Joomla website. A functional backup can restore your website in minutes after a cyber attack.
+Save time by preparing for the worst-case scenario in case your website gets attacked. Therefore it is advised to create a complete working backup of your Joomla website. A functional backup can restore your website in minutes after a cyber attack.
 
 The two main components of a backup are:
 
@@ -110,11 +110,11 @@ It is recommended to use a minimum number of extensions on your website to get t
 
 ## 9. Update PHP Version of your Joomla website
 
-Protect your website from a variety of hacking attacks and strengthen your Joomla site security by updating your site's PHP version to the latest stable release. Make sure to select a PHP version that is compatible with your Joomla templates and extensions to prevent breaking your site. There's a variety of ways to update your PHP version. The main ones are covered in an article in the September 2020 issue of Joomla Community Magazine: [How do I update my PHP version?](https://magazine.joomla.org/all-issues/september-2020/how-do-i-update-my-php-version "").
+Protect your website from a variety of hacking attacks and strengthen your Joomla site security by updating your site's PHP version to the latest stable release. Make sure to select a PHP version that is compatible with your Joomla templates and extensions to prevent breaking your site. There's a variety of ways to update your PHP version. The main ones are covered in an article in the September 2020 issue of Joomla Community Magazine: How do I update my PHP version?.
 
 ## 10. Harden HTTP Security Headers
 
-It is highly recommended to implement or update HTTP security headers as they provide a layer of security for your Joomla site by helping to mitigate attacks and security vulnerabilities. They usually only require a small configuration change on your web server. These headers tell your browser how to behave when handling your site's content. Below are six common [HTTP security headers](https://www.keycdn.com/blog/http-security-headers "") to be reviewed:
+It is highly recommended to implement or update HTTP security headers as they provide a layer of security for your Joomla site by helping to mitigate attacks and security vulnerabilities. They usually only require a small configuration change on your web server. These headers tell your browser how to behave when handling your site's content. Below are six common HTTP security headers to be reviewed:
 
 - Content-Security Policy
 - X-XSS-Protection
@@ -125,7 +125,7 @@ It is highly recommended to implement or update HTTP security headers as they pr
 
 ## 11. Use a Joomla Security Extension
 
-It is necessary to limit the login attempts on the Joomla admin backend to avoid brute force attacks to your Joomla website. This can be implemented by various Joomla security extensions that protect your website administrator backend from hacking attempts. You may find such extensions in the Joomla Extensions [security list category](https://extensions.joomla.org/tags/site-security/ "").
+It is necessary to limit the login attempts on the Joomla admin backend to avoid brute force attacks to your Joomla website. This can be implemented by various Joomla security extensions that protect your website administrator backend from hacking attempts. You may find such extensions in the Joomla Extensions security list category.
 
 ## 12. Choose a Secured Hosting Provider
 
@@ -152,7 +152,7 @@ It’s highly recommended to read all post-installation messages since the Jooml
 
 ## 16. Get to Know the Vulnerable Extensions
 
-Always check the [Vulnerable Extensions List](https://extensions.joomla.org/vulnerable-extensions/about/ "") (VEL) website and its social media pages in order to know the latest security risks and possible patches. It’s recommended to uninstall any extension listed in the Vulnerable Extensions List for which no patch is known to exist. Make sure to update your vulnerable extension whenever its patch is available. If your site uses a vulnerable version of an extension that doesn’t have a patch update, then you are recommended to replace it.
+Always check the Vulnerable Extensions List website and its social media pages in order to know the latest security risks and possible patches. It’s recommended to uninstall any extension listed in the Vulnerable Extensions List for which no patch is known to exist. Make sure to update your vulnerable extension whenever its patch is available. If your site uses a vulnerable version of an extension that doesn’t have a patch update, then you are recommended to replace it.
 Conclusion
 
 Because there will always be risk, Joomla security will remain a continuous process, requiring frequent assessment of possible attack carriers. Website owners and administrators should always improve their website security in order to reduce the risk of a compromise.

@@ -130,8 +130,8 @@ avoir d'excellentes raisons pour utiliser cette technique.
 5\. L'extension doit-elle valider l'ensemble des entrées de
 l'utilisateur, tels que les champs de formulaire et les URL ?
 
-6\. Check here, if the extension is listed as [vulnerable
-extension](https://docs.joomla.org/What_is_a_vulnerable_extension%3F "Special:MyLanguage/What is a vulnerable extension?")
+6\. Check here, if the extension is listed as  vulnerable
+extension
 
 6\. L'extension utilise-t-elle des noms de chemin d'accès explicites
 lors de l'appel de programmes externes ?

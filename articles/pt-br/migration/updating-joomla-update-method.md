@@ -6,15 +6,15 @@ Não apenas este é o método recomendado, como também é o método mais
 fácil de atualizar o CMS Joomla. Ele também é chamado de ***Atualização
 com um clique***. Se você não conseguir utilizá-lo devido a questões
 específicas de uso (distribuições, linguagens, velocidade de servidor),
-você pode atualizar o CMS Joomla usando o **[método de
-instalação](https://docs.joomla.org/J3.x:Updating_Joomla_(Install_Method) "Special:MyLanguage/J3.x:Updating Joomla (Install Method)")**.
+você pode atualizar o CMS Joomla usando o ** método de
+instalação**.
 
-Este método é adequado para  
+Este método é adequado para
 
 - Todas as versões do CMS Joomla **3.x.x** para **3.x.x** - atualizações
   (atualização de manutenção)
 
-Este método não é adequado para  
+Este método não é adequado para
 
 - CMS Joomla **3.1.2** para **≥ 3.1.3** - veja [Instruções Especiais
   para Atualização da Versão

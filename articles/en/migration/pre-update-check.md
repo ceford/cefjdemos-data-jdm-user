@@ -45,8 +45,8 @@ alt="Recommended PHP Settings portion of the Pre-Update Check Component" />
 What's important is to check if anything is red and not compatible with
 Joomla 4.x. If it isn't, you'll need to talk to your host or change
 hosts before migrating to Joomla 4.x. During a migration is a great time
-to change hosts. See the [Migration
-Funnel](https://docs.joomla.org/Why_Migrate "Special:MyLanguage/Why Migrate")
+to change hosts. See the  Migration
+Funnel
 for more information on planning and step-by-step instructions.
 
 ## Extensions Pre-Update Check
@@ -80,8 +80,8 @@ alt="Update Information Unaviable" />
 
 The extensions listed here do not support yet the Joomla Update system
 or atleast do not have an targetplatform tag that indicates support for
-the selected target Joomla Version. (see [Deploying an Update
-Server](https://docs.joomla.org/Deploying_an_Update_Server "Deploying an Update Server"))
+the selected target Joomla Version. (see  Deploying an Update
+Server
 Please contact the developer of the listed extensions to make sure they
 are compatible with 4.x
 

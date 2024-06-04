@@ -91,8 +91,8 @@ attack. Are you willing and able to invest the time it takes to
 administer a dynamic, 24x7, world-accessible, database-driven,
 interactive, user-authenticated website? Do you have the time and
 resources to respond to the constant flow of new Internet security
-issues? The [Top 10 Stupidest Administrator
-Tricks](https://docs.joomla.org/Top_10_Stupidest_Administrator_Tricks "Top 10 Stupidest Administrator Tricks")
+issues? The  Top 10 Stupidest Administrator
+Tricks
 is a comic/tragic look at what can go wrong. Don't learn these tricks
 the hard way! Depending on your own experience, reading the *Stupidest
 Tricks* will either make you laugh or cry. Luckily, there are some
@@ -158,9 +158,8 @@ from most catastrophes.
     to use the the most appropriate board, such as Installation,
     Migration and Updating, Administration.
 
-The most helpful posts in the Joomla! Security Forum are converted into
-[Security and Performance
-FAQs](https://docs.joomla.org/Security_and_Performance_FAQs "Security and Performance FAQs").
+The most helpful posts in the Joomla! Security Forum are converted into Security and Performance
+FAQs.
 Many of the items on this list are explained in much greater detail in
 the FAQs.
 
@@ -210,8 +209,8 @@ Security News. There are several ways to subscribe:
     experienced help from others. If you haven't invested the
     considerable time it takes to learn how to maintain a secure Web
     site, be sure you can consult with someone who has. Read this
-    tongue-in-cheek description of the [Top 10 Stupidest Administrator
-    Tricks](https://docs.joomla.org/Top_10_Stupidest_Administrator_Tricks "Top 10 Stupidest Administrator Tricks")
+    tongue-in-cheek description of the  Top 10 Stupidest Administrator
+    Tricks
     which illustrates typical, blow-by-blow examples of how to learn Web
     security the hard way.
 

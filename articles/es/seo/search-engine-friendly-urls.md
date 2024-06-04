@@ -32,8 +32,8 @@ Un buen ejemplo de enrutamiento es la dirección URL del artículo
 Las URLs amigables a los buscadores, pueden obtenerse mediante la
 activación de la opción "'URLs amigables"' en la "Configuración Global"
 del sitio. Esta opción está activada por defecto desde Joomla! 1.6. Para
-más información véase [Habilitar las URLs Amigables a Buscadores (URLs
-SEF)](https://docs.joomla.org/Enabling_Search_Engine_Friendly_(SEF)_URLs "Special:MyLanguage/Enabling Search Engine Friendly (SEF) URLs").
+más información véase  Habilitar las URLs Amigables a Buscadores (URLs
+SEF).
 
 ## Preguntas frecuentes
 
@@ -129,7 +129,7 @@ elemento de menú. Los otros segmentos se determinan en su totalidad por
 el enrutador del componente que proporciona el tipo de elemento de menú.
 Por ejemplo, el tipo de elemento de menú "Categoría - Blog", es
 proporcionado por el componente
-[Content](https://docs.joomla.org/Content "Special:MyLanguage/Content"),
+Content,
 y por lo tanto el enrutador de ese componente es el responsable de la
 construcción y análisis de los segmentos restantes.
 
@@ -148,8 +148,8 @@ la "única" forma en que un usuario de Joomla! define la ruta que conduce
 a un componente específico. Es posible, sin embargo, crear una ruta sin
 necesidad de mostrarla en el sitio (es decir, en un menú). Un método
 frecuentemente aplicado es, crear un elemento de menú en un menú que no
-se muestra en ninguna parte. Dicho menú se suele llamar un, [menú
-oculto](https://docs.joomla.org/Menu "Special:MyLanguage/Menu").
+se muestra en ninguna parte. Dicho menú se suele llamar un,  menú
+oculto.
 
 El párrafo anterior implica que no es posible hacer una componente
 responsable de el manejo de todas las rutas. Por ejemplo, no es posible
@@ -171,8 +171,8 @@ enrutador de qué componente tiene que utilizar para analizarlo.
 ### Manipulación de Rutas
 
 "En esta sección se describe la implementación del enrutamiento. Si es
-un desarrollador de componentes, vea [Soporte URL SEF en su
-componente](https://docs.joomla.org/Supporting_SEF_URLs_in_your_component "Special:MyLanguage/Supporting SEF URLs in your component")."
+un desarrollador de componentes, vea  Soporte URL SEF en su
+componente."
 
 Las rutas de Joomla se crean y se resuelven mediante <a
 href="https://docs.joomla.org/index.php?title=JRouter&amp;action=edit&amp;redlink=1"
@@ -237,6 +237,6 @@ de crear este mecanismo debe tener un plugin que reemplace la función
 variables necesarias en `$_GET` antes de que el enrutamiento estándar de
 Joomla se realice.
 
-*Ver [Crear un plugin de sistema para argumentar el
-JRouter](https://docs.joomla.org/Creating_a_System_Plugin_to_augment_JRouter "Special:MyLanguage/Creating a System Plugin to augment JRouter")
+*Ver  Crear un plugin de sistema para argumentar el
+JRouter
 como ejemplo.*

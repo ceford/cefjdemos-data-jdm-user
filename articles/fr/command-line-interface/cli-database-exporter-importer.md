@@ -4,9 +4,9 @@ Joomla!  4.0
 
 ## À propos
 
-Avant de mettre à jour Joomla! ou [d'installer une extension
-tierce](https://docs.joomla.org/J4.x:CLI_Update "Special:MyLanguage/J4.x:CLI Update"),
-il est fortement recommandé de sauvegarder votre site.  
+Avant de mettre à jour Joomla! ou  d'installer une extension
+tierce,
+il est fortement recommandé de sauvegarder votre site.
 La Console Joomla! 4.x fournit des commandes pour exporter (sauvegarder)
 et importer (restaurer) votre base de données Joomla!. A noter que cette
 opération ne réalise pas de sauvegarde de votre système de fichiers ;
@@ -22,28 +22,28 @@ connaissances élémentaires d'usage des commandes shell.
 ## Instructions
 
 Se connecter à votre hébergeur et aller au dossier racine de votre
-site.  
+site.
 Je recommande d'utiliser le dossier 'tmp' de Joomla dans votre pour
 avoir les autorisations en lecture/écriture.
 
-- Lister toutes les commandes disponibles de la Console Joomla:  
+- Lister toutes les commandes disponibles de la Console Joomla:
   `php cli/joomla.php list`
-- Exporter la base de données dans le dossier:  
+- Exporter la base de données dans le dossier:
   `php cli/joomla.php database:export --all --folder `
-- Importer la base de données à partir du dossier:  
+- Importer la base de données à partir du dossier:
   `php cli/joomla.php database:import --all --folder `
 
 Vous pouvez aussi:
 
-- Exporter la base de données sous forme de fichier .zip:  
+- Exporter la base de données sous forme de fichier .zip:
   `php cli/joomla.php database:export --all --zip`
-- Exporter une table spécifique:  
+- Exporter une table spécifique:
   `php cli/joomla.php database:export --table `
-- Exporter une table comme un fichier .zip:  
+- Exporter une table comme un fichier .zip:
   `php cli/joomla.php database:export --table --zip`
-- Importer une table:  
+- Importer une table:
   `php cli/joomla.php database:import --table `
-- Si vous avez besoin d'aide:  
+- Si vous avez besoin d'aide:
   `php cli/joomla.php database:export --help`
   `php cli/joomla.php database:import --help`
 
@@ -52,14 +52,14 @@ Vous pouvez aussi:
 Pour faire une sauvegarde complète (avec les dossiers, les fichiers et
 la base de données) de votre site, vous pouvez exécuter ces commandes:
 
-1.  Archiver votre répertoire racine de Joomla:  
+1.  Archiver votre répertoire racine de Joomla:
     `tar --exclude='./tmp/joomla_bak.*' -zcvf tmp/joomla_bak.tgz . > tmp/joomla_bak.log`
-2.  Exporter toute la base de données Joomla:  
+2.  Exporter toute la base de données Joomla:
     `php cli/joomla.php database:export --all --folder tmp/db_bak`
 
 Et pour la restaurer, exécutez ces commandes:
 
-1.  Importer toute la base de données Joomla:  
+1.  Importer toute la base de données Joomla:
     `php cli/joomla.php database:import --all --folder tmp/db_bak`
-2.  Extraire l'archive:  
+2.  Extraire l'archive:
     `tar --recursive-unlink -xvf tmp/joomla_bak.tgz .`

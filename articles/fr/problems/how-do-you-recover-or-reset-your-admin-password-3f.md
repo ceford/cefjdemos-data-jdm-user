@@ -3,8 +3,8 @@
 Récupération d'un mot de passe pour Joomla! 1.5
 
 Cette page ne concerne que les versions 2.5 de Joomla! et supérieures.
-Si vous utilisez toujours Joomla! 1.5  [vous trouverez des instructions
-ici](https://docs.joomla.org/J1.5:How_do_you_recover_or_reset_your_admin_password%3F "Special:MyLanguage/J1.5:How do you recover or reset your admin password?").
+Si vous utilisez toujours Joomla! 1.5   vous trouverez des instructions
+ici.
 
 Habituellement, vous pouvez ajouter, modifier et supprimer des
 utilisateurs et des mots de passe depuis le gestionnaire des
@@ -203,7 +203,7 @@ passe. Votre site peut être piraté si vous ne changez pas le mot de
 passe en une valeur plus sécurisée après connexion. Alors, assurez-vous
 de changer votre mot de passe en une valeur sécurisée après connexion.
 
-  
+
 Les exemples ci-dessus permettent de remplacer le mot de passe par
 "secret". Deux autres valeurs possibles sont indiquées ci-dessous :
 

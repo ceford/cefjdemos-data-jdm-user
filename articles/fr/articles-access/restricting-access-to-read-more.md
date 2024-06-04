@@ -40,9 +40,6 @@ procédez comme suit :
 (Ces options peuvent être remplacées par les paramètres de menu
 correspondants 'ou par les paramètres d'article si les paramètres de
 menu sont configurés pour utiliser les paramètres d'article) - Voir
-[Article
-Options](https://docs.joomla.org/Help32:Menus_Menu_Item_Article_Category_Blog#Article_Options "Special:MyLanguage/Help32:Menus Menu Item Article Category Blog")
-
 **Remarque:** Le texte des articles sans Lire la suite est traité comme
 un "texte d'introduction". Si vous avez des articles qui sont uniquement
 enregistrés mais ne les avez pas affichés sur une lecture, ajoutez-en

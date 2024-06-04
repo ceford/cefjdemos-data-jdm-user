@@ -15,14 +15,14 @@ class="external text" target="_blank" rel="noreferrer noopener"></a> <a
 href="https://docs.joomla.org//docs.joomla.org/index.php?title=Potential_backward_compatibility_issues_in_Joomla_4/de&amp;action=history"
 class="external text" target="_blank" rel="noreferrer noopener">has not
 been edited in several days</a>, please consider helping complete the
-content.  
+content.
 <span class="small">This article was <a
 href="https://docs.joomla.org//docs.joomla.org/index.php?title=Potential_backward_compatibility_issues_in_Joomla_4/de&amp;diff=cur"
 class="external text" target="_blank" rel="noreferrer noopener">last
 edited</a> by
-[Max123kl](https://docs.joomla.org/User:Max123kl "User:Max123kl")
-([talk](https://docs.joomla.org/User_talk:Max123kl "User talk:Max123kl")\|
-[contribs](https://docs.joomla.org/Special:Contributions/Max123kl "Special:Contributions/Max123kl"))
+Max123kl
+(talk\|
+contribs
 5 months ago. *(<a
 href="https://docs.joomla.org//docs.joomla.org/index.php?title=Potential_backward_compatibility_issues_in_Joomla_4/de&amp;action=purge"
 class="external text" target="_blank"
@@ -74,11 +74,11 @@ Verwendung des *invalid default date* von 0000-00-00 00:00:00 in Joomla
 
 ### PHP GMP Erweiterung
 
-Das ist für die Verwendung der Funktion [WebAuthn Passwordless
-Login](https://docs.joomla.org/WebAuthn_Passwordless_Login "WebAuthn Passwordless Login")
+Das ist für die Verwendung der Funktion  WebAuthn Passwordless
+Login
 erforderlich. Hinweis: Die PHP-GMP-Erweiterung ist standardmäßig auf den
-meisten Hosting-Sites installiert. Das [WebAuthn Passwordless
-Login](https://docs.joomla.org/WebAuthn_Passwordless_Login "WebAuthn Passwordless Login")
+meisten Hosting-Sites installiert. Das  WebAuthn Passwordless
+Login
 System-Plugin ist in Joomla 4 auf https-Seiten standardmäßig aktiviert.
 
 ### PHP mcrypt Erweiterung
@@ -351,8 +351,8 @@ nicht eine konkrete Klasse verwenden.
   ab <img src="https://docs.joomla.org/images/a/a7/Compat_icon_3_7.png"
   decoding="async" data-file-width="40" data-file-height="17" width="40"
   height="17" alt="Joomla 3.7" />). Weitere Informationen finden Sie
-  unter [Discover auf welchem Client Ihr Extensionscode
-  läuft](https://docs.joomla.org/J3.x:Discover_on_which_client_your_extension_code_is_running "Special:MyLanguage/J3.x:Discover on which client your extension code is running").
+  unter  Discover auf welchem Client Ihr Extensionscode
+  läuft.
 
 ##### JApplicationSite
 
@@ -1078,7 +1078,7 @@ enthielt.
   die Redirect-Komponente verwenden, um alle internen URLs, die sich
   ändern, zu reparieren. Sie können den 'Modern'-Modus in Joomla 3
   ausprobieren, indem Sie den Anweisungen
-  [hier](https://docs.joomla.org/J3.x:New_Routing_System "Special:MyLanguage/J3.x:New Routing System")
+  hier
   folgen.
 - Die MailTo-Komponente wurde ersatzlos entfernt. Wenn diese
   Funktionalität verwendet wurde, sollte eine alternative Komponente auf
@@ -1111,8 +1111,8 @@ enthielt.
 - Bei Plugins, welche die 3.x-Kompatibilitätsschicht verwenden, ist der
   Name *result* eine geschützte Eigenschaft, sowohl für Eingabeparameter
   als auch für Rückgabewerte. Informationen zum neuen empfohlenen Ansatz
-  für Plugins findet man unter [Ein Plugin für Joomla!
-  erstellen](https://docs.joomla.org/J4.x:Creating_a_Plugin_for_Joomla "Special:MyLanguage/J4.x:Creating a Plugin for Joomla")
+  für Plugins findet man unter  Ein Plugin für Joomla!
+  erstellen
 - Bei Plugins, welche die 3.x-Kompatibilitätsschicht verwenden, muss für
   alle Typ-Hinweise zu Events, die eine Klasse erfordern, **muss** diese
   Klasse automatisch geladen werden, bevor für das Plugin eine Instanz

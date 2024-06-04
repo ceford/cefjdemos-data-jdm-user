@@ -84,7 +84,7 @@ Les microdonnées sont une forme plus avancée du balisage HTML sémantique
 qui vous permet de donner encore plus d'informations contextuelles sur
 le contenu et la structure de votre site web. Pour plus d'informations,
 voir :
-[Microdonnées](https://docs.joomla.org/Microdata "Special:MyLanguage/Microdata").
+Microdonnées.
 
 <a href="http://fr.wikipedia.org/wiki/HTML_s%C3%A9mantique"
 class="extiw" title="fr.wp:HTML sémantique">Article Wikipédia sur le

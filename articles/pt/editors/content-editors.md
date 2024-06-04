@@ -27,7 +27,7 @@ data-file-width="669" data-file-height="114" width="600" height="102"
 alt="Help30-editor-tinymce-advanced-en.png" />
 
 Learn about Toolbars, Editor Buttons and Accessibility of
-[TinyMCE](https://docs.joomla.org/Chunk30:TinyMCE "Special:MyLanguage/Chunk30:TinyMCE").
+TinyMCE.
 
 ## Code Mirror
 
@@ -45,8 +45,8 @@ alt="Help25-screenshot-editor-codemirror-example-en.png" />
 CodeMirror offers some of the same advantages of using No Editor, but
 makes it somewhat easier to work with raw HTML code.
 
-To set options: [CodeMirror Editor
-Plugin](https://docs.joomla.org/Help310:Extensions_Plugin_Manager_Edit#Editor_-_CodeMirror "Special:MyLanguage/Help310:Extensions Plugin Manager Edit")
+To set options:  CodeMirror Editor
+Plugin
 
 ## No editor
 

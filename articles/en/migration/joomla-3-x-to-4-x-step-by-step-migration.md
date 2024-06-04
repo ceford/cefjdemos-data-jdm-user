@@ -24,10 +24,10 @@ extensions.
 2.  Take a backup of your live 3.10.x site. You can use a suggested tool
     (see the *Suggested Tools* at the bottom of page) or you can do this
     manually.
-    - [Backup Basics for a Joomla! Web
-      Site](https://docs.joomla.org/Backup_Basics_for_a_Joomla!_Web_Site "Special:MyLanguage/Backup Basics for a Joomla! Web Site")
-    - [What are the best practices for site
-      backups?](https://docs.joomla.org/What_are_the_best_practices_for_site_backups%3F "Special:MyLanguage/What are the best practices for site backups?")
+    -  Backup Basics for a Joomla! Web
+      Site
+    -  What are the best practices for site
+      backups?
 3.  Make sure your environment meets the
     <a href="https://downloads.joomla.org/technical-requirements"
     rel="noreferrer noopener">technical requirements for Joomla 4</a>
@@ -38,7 +38,7 @@ extensions.
     - A subdomain.
     - A subdirectory.
     - A local device. Joomla has a detailed tutorial on installing
-      [XAMPP](https://docs.joomla.org/XAMPP "XAMPP"). However
+      XAMPP. However
       <a href="https://www.wampserver.com/en/"
       rel="nofollow noreferrer noopener">WAMP</a>,
       <a href="https://www.mamp.info/en/windows/"
@@ -48,10 +48,10 @@ extensions.
       all suitable alternatives.
     - A new hosting account on a temporary domain in the root. (If you
       would like to change hosts in the process of migration.)
-      - Restoring a site on a local device. See [Installing Joomla
-        locally](https://docs.joomla.org/Installing_Joomla_locally "Special:MyLanguage/Installing Joomla locally")
-        and [Setting up your workstation for Joomla
-        development](https://docs.joomla.org/Special:MyLanguage/Setting_up_your_workstation_for_Joomla_development "Setting up your workstation for Joomla development").
+      - Restoring a site on a local device. See  Installing Joomla
+        locally
+        and  Setting up your workstation for Joomla
+        development.
       - Restoring a site with a tool listed at the bottom of the page.
         (Read the developer documentation.)
 6.  In your test location, update your Joomla! 3.10.x instance to the
@@ -76,7 +76,7 @@ extensions.
 ### Assess Each Extension
 
 In your
-[planning](https://docs.joomla.org/Planning_for_Mini-Migration_-_Joomla_3.10.x_to_4.x "Special:MyLanguage/Planning for Mini-Migration - Joomla 3.10.x to 4.x"),
+planning,
 you determined which third-party extensions were staying or going and
 how they migrate. For this portion of the Step by Step, you’ll be using
 two different sections of the site extensively; The Pre-Update Check in
@@ -198,8 +198,8 @@ Components
       site is migrated. An example of this might be a content plugin. It
       is very simple to uninstall it in 3.10.x and then install it again
       in 4.x.
-    - See [Template
-      Considerations](https://docs.joomla.org/Template_Considerations_During_Migration "Special:MyLanguage/Template Considerations During Migration")
+    - See  Template
+      Considerations
       for more specific information on templates and [Converting a
       previous Joomla! Version
       template](https://docs.joomla.org/J3.x:Converting_A_Previous_Joomla!_Version_Template "Special:MyLanguage/J3.x:Converting A Previous Joomla! Version Template")
@@ -296,8 +296,8 @@ installation, continue with the following steps:
 13. In **System **→** Install **→** Discover** see if there are any
     extensions to install. (There shouldn't be any!)
 14. Go to the frontend of your site and see if it shows up even if it’s
-    not the right template. If so, continue. If not, see [common errors
-    during migration](https://docs.joomla.org/Special:MyLanguage/Joomla_3.10_to_4.x_Common_Migration_Errors "Joomla 3.10 to 4.x Common Migration Errors").
+    not the right template. If so, continue. If not, see  common errors
+    during migration.
 15. Take a backup.
 16. Install your new template or other extensions if you have them to
     install. Back up often.

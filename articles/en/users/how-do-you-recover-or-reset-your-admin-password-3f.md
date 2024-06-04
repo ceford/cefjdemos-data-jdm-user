@@ -3,8 +3,8 @@
 Joomla! 2.5 and higher Password Recovery
 
 This page is only for Joomla! 2.5 and higher versions. If you are still
-using Joomla! 1.5  [instructions can be found
-here](https://docs.joomla.org/J1.5:How_do_you_recover_or_reset_your_admin_password%3F "Special:MyLanguage/J1.5:How do you recover or reset your admin password?").
+using Joomla! 1.5   instructions can be found
+here.
 
 Normally, you can add, edit and delete users and passwords from the
 back-end User Manager. To do this, you must be logged in as a member of
@@ -185,7 +185,7 @@ are only for recovery. Your site may be hacked if you do not change the
 password to a secure value after logging in. Be sure you change the
 password to a secure value after logging in.
 
-  
+
 The examples above change the password to "secret". Two other possible
 values are shown below:
 

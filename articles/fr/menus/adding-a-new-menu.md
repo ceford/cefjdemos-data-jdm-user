@@ -1,6 +1,6 @@
 <!-- Filename: J4.x:Adding_a_New_Menu / Display title: Ajouter un nouveau menu -->
 
-Joomla!  4.x <span id="main-portal-heading">**Didacticiel**  
+Joomla!  4.x <span id="main-portal-heading">**Didacticiel**
 Ajouter un nouveau menu</span>
 
 ## Introduction
@@ -117,8 +117,8 @@ alt="J4.x create menu module-en.png" />
 There are many options to choose from in the Menu Module such as
 publishing dates, user access, and sub-menu items just to name a few.
 For detailed information about the Menu Module and all it's parameters
-see: [Module
-Menu](https://docs.joomla.org/Help4.x:Site_Modules:_Menu/en "Special:MyLanguage/Help4.x:Site Modules: Menu/en").
+see:  Module
+Menu.
 
 Once the information has been added click **Save & Close** and you will
 be returned to the Menu Manager.

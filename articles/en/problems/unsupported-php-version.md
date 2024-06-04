@@ -27,4 +27,4 @@ for keeping your site secure. If your host does not offer a version above
 
 If you're developing locally then you need to download an updated
 version of the local hosting tool you are using, for example
-[XAMPP](https://docs.joomla.org/Special:MyLanguage/XAMPP "XAMPP")
+XAMPP

@@ -30,7 +30,7 @@ een positie en laadt u die positie als volgt in het artikel:
     altijd verschijnt, ongeacht hoe de bezoeker bij het artikel gekomen
     is. De module zal niet getoond worden behalve als u het commando om
     de module te laden in een
-    [artikel](https://docs.joomla.org/article "Special:MyLanguage/article")
+    artikel
     zet.
 3.  Bewerk de artikelen waarin u wilt dat de module verschijnt en voeg
     de tekst ***{loadposition mijnpositie}*** toe in het artikel op de

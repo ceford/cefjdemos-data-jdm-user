@@ -36,13 +36,13 @@ Joomla! 4.x Entwicklungszweig enthält, um den Wechsel zur nächsten
 Hauptversion für die Benutzer zu erleichtern. Neu in Joomla 3.10.x ist
 eine herausragende Funktion der Joomla!-Update-Komponente, die beidem
 Mini-Migrationsprozess helfen soll: die
-[Kompatibilitätsprüfung](https://docs.joomla.org/Pre-Update_Check "Special:MyLanguage/Pre-Update Check").
+Kompatibilitätsprüfung.
 Sobald die Website auf 3.10 aktualisiert wurde, kann die
 Kompatibilitätsprüfung die Verträglichkeit der PHP- und SQL-Optionen,
 der Einstellungen und der verwendeten Erweiterungen mit Joomla! 4.0
 untersuchen, sofern die Entwickler der Erweiterungen das
 targetplatform-Tag verwendet haben. Mehr dazu in der Dokumentation
-[Kompatibilitätsprüfung](https://docs.joomla.org/Pre-Update_Check "Special:MyLanguage/Pre-Update Check").
+Kompatibilitätsprüfung.
 
 ## Die Migration planen
 
@@ -84,7 +84,7 @@ werden.
     trotzdem Erweiterungen → Verwalten aufrufen muss. Mehr dazu in der
     Schritt-für-Schritt-Anleitung und der Dokumentation für die
     Komponente
-    [Kompatibilitätsprüfung](https://docs.joomla.org/Pre-Update_Check "Special:MyLanguage/Pre-Update Check").
+    Kompatibilitätsprüfung.
     Dies ist einfach dazu da, sich darauf vorzubereiten, welche
     Erweiterungen von Drittanbietern beibehalten oder ersetzt werden
     sollen.
@@ -105,8 +105,8 @@ werden.
     der Migration wird es gelöscht werden. Die Verwendung des
     Joomla-Core-Templates für Joomla 4.x, Cassiopeia, könnte eine
     mögliche Option sein. Für eine Erweiterung der Template-basierten
-    Betrachtungen, siehe [Überlegungen zum Template bei der
-    Migration](https://docs.joomla.org/Template_Considerations_During_Migration "Special:MyLanguage/Template Considerations During Migration").
+    Betrachtungen, siehe  Überlegungen zum Template bei der
+    Migration.
 10. Wenn das Template gegen ein neues ausgetauscht wird, sind dann neue
     Bilder erforderlich? Wenn beispielsweise die jetzige Website einen
     weißen Hintergrund hat und das Logo oder andere Bilder im

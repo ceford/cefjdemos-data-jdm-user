@@ -103,8 +103,8 @@ Joomla!</a>.
 
 Conheça as etapas importantes a serem seguidas quando seu site for
 comprometido. Uma vez que seu site tenha sido invadido, existem poucos
-atalhos. **([Perguntas
-frequentes](https://docs.joomla.org/Security_and_Performance_FAQs#Help.21_My_site.27s_been_compromised._Now_what.3F "Security and Performance FAQs"))**
+atalhos. **( Perguntas
+frequentes**
 
 ### Redefina sua senha de administrador
 
@@ -113,15 +113,15 @@ fazem isso alterando sua senha de administrador. Se você está bloqueado,
 não entre em pânico! Existe um procedimento simples para redefinir sua
 senha de administrador.
 
-([Perguntas
-frequentes](https://docs.joomla.org/How_do_you_recover_or_reset_your_admin_password%3F/pt-br "How do you recover or reset your admin password?/pt-br"))
+( Perguntas
+frequentes
 
 ### Encontre tentativas de exploração usando o shell do \*NIX
 
 Saiba como verificar arquivos suspeitos e/ou modificados. Saiba como
 verificar os registros brutos do Apache em busca de atividades suspeitas
-em seu site. **([Perguntas
-frequentes](https://docs.joomla.org/Security_and_Performance_FAQs#How_do_I_find_exploits_using_the_.2ANIX_shell.3F "Security and Performance FAQs"))**
+em seu site. **( Perguntas
+frequentes**
 
 ## Sua vez...
 

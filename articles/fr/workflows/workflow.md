@@ -34,12 +34,9 @@ les articles et les regrouper en catégories.
 
 Il existe une page de tutoriel contenant les étapes pour la création de
 votre premier flux de travail:
-[Scenarios](https://docs.joomla.org/Publishing_Workflowhttps://docs.joomla.org/Publishing%20Workflow/Scenarios).  
+Scenarios.
 Vous trouverez plus d'informations sur l'implémentation du composant
 dans d'autres zones de la page du projet Google Summer of Code DOC:
-[Publishing Workflow
-Implementation](https://docs.joomla.org/Publishing_Workflow_Implementation "Special:MyLanguage/Publishing Workflow Implementation")
-
 Vous pouvez désactiver les flux de travail à tout moment en visitant
 "articles" ou "flux de travail" et en cliquant sur "options" en haut à
 droite. Passez à l'onglet "Intégration" et faites défiler la page
@@ -80,14 +77,14 @@ alt="Workflows List" />
     Autorisations (gestion des droits)
 - À côté du titre, vous trouvez l'option de "Gérer" les états du Flux de
   travail (pour plus d'informations, voir
-  [States](https://docs.joomla.org/Publishing_Workflow#States "Special:MyLanguage/Publishing Workflow"))
+  States
 - À côté de "États" est l'option par défaut
 - Vous trouvez une icône de cercle jaune, à côté de "défaut",
   représentant le nombre d'états existants dans ce Flux de travail
 - À côté du cercle jaune se trouve une icône représentant une flèche
   bleue représentant le nombre de transitions existantes dans ce flux de
   travail (pour plus d'informations, voir
-  [Transitions](https://docs.joomla.org/Publishing_Workflow#Transitions "Special:MyLanguage/Publishing Workflow"))
+  Transitions
 - De plus, vous voyez la date de création du Flux de travail, l'auteur
   et un identifiant.
 
@@ -98,7 +95,7 @@ en cliquant sur les états "Gérer". Vous pouvez définir un état par
 défaut (qui doit être à la condition "publié"). En cliquant sur le
 titre, vous pouvez "modifier" l'état.
 
-  
+
 <img
 src="https://docs.joomla.org/images/thumb/a/ac/Stages-en.png/800px-Stages-en.png"
 decoding="async"
@@ -157,8 +154,8 @@ been written but needs to be proofread, you could send an email
 notification to the editor.
 
 You can also add additional message text. This will also allow you to
-use a [language
-string](https://docs.joomla.org/J3.x:Language_Overrides_in_Joomla "J3.x:Language Overrides in Joomla")
+use a  language
+string
 which would make the message text translatable.
 
 The Usergroups option will allow you to define who will receive the
@@ -231,6 +228,6 @@ travail sont exclus de la gestion de version (comme "state" et
 
 Voir également :
 
-- [Publishing Workflow
-  Implementation](https://docs.joomla.org/Publishing_Workflow_Implementation "Special:MyLanguage/Publishing Workflow Implementation")
-- [Scenarios](https://docs.joomla.org/J4.x:Workflowhttps://docs.joomla.org/J4.x:Workflow/Scenarios)
+-  Publishing Workflow
+  Implementation
+- Scenarios

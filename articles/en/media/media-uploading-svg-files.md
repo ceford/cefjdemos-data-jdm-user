@@ -49,6 +49,6 @@ editor) or through an outside tool before they can be uploaded successfully.
 
 **Tip:** these sites will clean svg files created in *Inkscape*:
 
-* [SVG Sanitizer Test](https://svg.enshrined.co.uk/)
-* [SVG Cleaner & Optimizer](https://iconly.io/tools/svg-cleaner)
-* [SVGminify.com](https://www.svgminify.com/)
+* SVG Sanitizer Test
+* SVG Cleaner & Optimizer
+* SVGminify.com

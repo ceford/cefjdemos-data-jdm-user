@@ -225,13 +225,13 @@ Erweiterungscode gewechselt sind:
 Antwort:
 
     Buildfile: /Users/ceford/git/j4xdemos-mod-debugme/build.xml
-     
+
     mod_debugme > main:
           ... Any copied files will be mentioned here
           [zip] Building zip: /Users/ceford/zips/mod_debugme.zip
-     
+
     BUILD FINISHED
-     
+
     Total time: 0.0863 seconds
 
 ## VS-Code-Aufgaben
@@ -268,7 +268,7 @@ können nun die Erweiterung über das Menü „Terminal / Run Build Task“
 erstellen. Das Ergebnis des Befehls sollte im Terminalbereich unter dem
 Bearbeitungsbereich erscheinen.
 
-      *  Executing task: php ~/bin/phing-latest.phar 
+      *  Executing task: php ~/bin/phing-latest.phar
 
     Buildfile: /Users/ceford/git/gitdemo/j4xdemos-mod-debugme/build.xml
 
@@ -436,7 +436,7 @@ Kuchentage?
 
 ## Referenzen
 
-Von Joomla! Dokumentation: [Visual Studio
-Code](https://docs.joomla.org/Visual_Studio_Code "Visual Studio Code")
+Von Joomla! Dokumentation:  Visual Studio
+Code
 behandelt auch die Konfiguration anderer Tools, zum Beispiel CodeSniffer
 und PHPUnit.

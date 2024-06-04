@@ -33,7 +33,7 @@ comme suit :
     visiteur aura atteint l'article. Le module n’apparaîtra pas tant que
     vous n'aurez pas placé la commande permettant de charger le module
     dans un
-    [article](https://docs.joomla.org/article "Special:MyLanguage/article").
+    article.
 3.  Modifiez les articles sur lesquels vous souhaitez voir apparaître le
     module et insérez le texte ***{loadposition myposition}*** dans
     l'article, à l'endroit où vous voulez que le module soit placé.

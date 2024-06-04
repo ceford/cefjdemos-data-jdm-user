@@ -10,8 +10,8 @@ verschiedenen Formaten erzeugen und parsen, darunter auch SEF URLs.
 Dabei ist Joomla nicht vom URL-Rewriting (Apache mod-rewrite Modul) des
 Webservers abhängig. SEF URLs können auch auf jedem Nicht-Apache Server
 generiert werden. SEF URLs haben ein feststehendes Muster. Der Benutzer
-kann jedoch [kurze, beschreibende Texte
-(Aliase)](https://docs.joomla.org/Alias "Alias") für jeden Teil der URL
+kann jedoch  kurze, beschreibende Texte
+(Aliase) für jeden Teil der URL
 definieren.
 
 Intern wird der lokale Teil der SEF URL (der Teil des Domain Namens)
@@ -34,8 +34,8 @@ Beitrags in den Beispieldaten.
 Suchmaschinenfreundliche URLs können durch die Einstellung
 **Suchmaschinenfreundliche URL** in der *Globalen Konfiguration*
 aktiviert werden. Diese Einstellung ist seit Joomla! 1.6 vorhanden.
-Siehe auch [Enabling Search Engine Friendly (SEF)
-URLs](https://docs.joomla.org/Enabling_Search_Engine_Friendly_(SEF)_URLs "Enabling Search Engine Friendly (SEF) URLs")
+Siehe auch  Enabling Search Engine Friendly (SEF)
+URLs
 für weitere Informationen.
 
 ## FAQs
@@ -62,7 +62,7 @@ die ID der Kategorie, bei der Zweiten um die ID des Beitrags).
 der mod_rewrite zum Originalpfad umleiten, ohne es dem Anwender zu
 zeigen.
 
-### Was ist der [Alias](https://docs.joomla.org/Alias "Alias") ? Wie kann man ihn erzeugen?
+### Was ist der Alias ? Wie kann man ihn erzeugen?
 
 Alias-Felder finden sich rechts neben den Titel-Feldern in Beiträgen,
 Kategorien und Menüeinträgen. Joomla! kann den Alias automatisch
@@ -155,7 +155,7 @@ die zu einer spezifischen Komponente führt. Allerdings können Routen
 erstellt werden, ohne sie auf der Website in einem Menü anzuzeigen. Eine
 häufig verwendete Methode besteht in der Erzeugung eines Menüs, welches
 im Frontend nicht angezeigt wird. So ein Menü wird
-[Schattenmenü](https://docs.joomla.org/Menu "Menu") (hidden menu)
+Schattenmenü
 genannt .
 
 Der vorige Abschnitt zeigt, dass es nicht möglich ist, eine einzige

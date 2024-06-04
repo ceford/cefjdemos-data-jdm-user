@@ -15,8 +15,8 @@ localizadores uniformes de recursos (URLs) executada pelo servidor web,
 então funciona mesmo que o Joomla! seja executado um servidor diferente
 do Apache com o módulo mod_rewrite. Os localizadores uniformes de
 recursos (URLs) amigáveis para mecanismos de pesquisas (SEFs) seguem um
-certo padrão fixo, mas o usuário pode definir um [texto descritivo curto
-(alias)](https://docs.joomla.org/Alias/pt-br "Alias/pt-br") para cada
+certo padrão fixo, mas o usuário pode definir um  texto descritivo curto
+(alias) para cada
 segmento dos localizadores uniformes de recursos (URLs).
 
 Internamente, a parte local de um localizador uniforme de recursos (URL)
@@ -74,7 +74,7 @@ Não! Os localizadores uniformes de recursos (URLs) não contêm mais o
 `index.php` pois, internamente, o mod_rewrite só redireciona você para o
 caminho original sem mostrá-lo.
 
-### O que é o valor [alias](https://docs.joomla.org/Alias/pt-br "Alias/pt-br")? E como ele é criado?
+### O que é o valor alias? E como ele é criado?
 
 O alias é listado abaixo do campo "título" em artigos, categorias,
 seções e itens de menu. O Joomla! pode criar automaticamente o alias
@@ -114,7 +114,7 @@ o link para o título do artigo e/ou o link leia mais teria três partes:
 - Além disso, a chave primária para o artigo e o alias do artigo -
   1-laranja;
 
-  
+
 O localizador uniforme de recursos (URL) completo é:
 `http://example.com/produtos/32-fruta/1-laranja`
 
@@ -157,7 +157,7 @@ pesquisas (SEFs) são **roteados através** desse item de menu. Os demais
 segmentos são determinados inteiramente pelo roteador do componente que
 fornece o tipo do item de menu. O tipo de item de menu *Categoria -
 Blog*, por exemplo, é fornecido pelo componente de
-[conteúdo](https://docs.joomla.org/Content/pt-br "Content/pt-br") e,
+conteúdo e,
 portanto, o roteador desse componente é responsável por construir e
 analisar os segmentos restantes.
 

@@ -9,7 +9,7 @@ creating and parsing URLs in any format, including SEF URLs. This does
 not depend on URL rewriting executed by the web server, so it works even
 if Joomla! runs a server other than Apache with the mod_rewrite module.
 The SEF URLs follow a certain fixed pattern, but the user can define a
-[short descriptive text (alias)](https://docs.joomla.org/Alias "Alias")
+short descriptive text (alias)
 for each segment of the URL.
 
 Internally, the local part of a SEF URL (the part after the domain name)
@@ -58,7 +58,7 @@ No! The URL doesn't contain the `index.php` anymore, but internally the
 mod_rewrite will only redirect to the original path without showing it
 to you.
 
-### What is the [Alias](https://docs.joomla.org/Alias "Alias") value? And how does it get created?
+### What is the Alias value? And how does it get created?
 
 Alias is listed beneath the Title field in Articles, Categories,
 Sections and Menu Items. Joomla! can automatically create the alias for
@@ -124,7 +124,7 @@ item. The SEF URL is said to be **routed through** that menu item. The
 other segments are determined entirely by the router of the component
 that provides the type of the menu item. The *Category - Blog* menu item
 type, for example, is provided by the
-[Content](https://docs.joomla.org/Content "Content") component, and
+Content component, and
 therefore that component's router is responsible for building and
 parsing the remaining segments.
 
@@ -141,8 +141,8 @@ It is important to note creating a menu item is the *only* way for a
 Joomla! user to define a route that leads to a specific component. It
 is, however, possible to create a route without showing it on the site
 (in a menu). An often-applied method is to create a menu item in a menu
-that isn't displayed anywhere. Such a menu is usually called a [hidden
-menu](https://docs.joomla.org/Menu "Menu").
+that isn't displayed anywhere. Such a menu is usually called a  hidden
+menu.
 
 The previous paragraph implies that it is not possible to make one
 component responsible for handling all routes. For example, it is not
@@ -236,6 +236,6 @@ create this mechanism you must have a plugin that overrides the
 URL and creates the needed variables in `$_GET` before the standard
 Joomla routing is done.
 
-*Consulte [Criar um Plug-in de Sistema para argumentar
-JRouter](https://docs.joomla.org/Creating_a_System_Plugin_to_augment_JRouter "Special:MyLanguage/Creating a System Plugin to augment JRouter")
+*Consulte  Criar um Plug-in de Sistema para argumentar
+JRouter
 como um exemplo.*

@@ -13,12 +13,12 @@ krijgt) tekstverwerker die gebruikers een vertrouwde tekstverwerker
 interface geeft bij het bewerken van artikelen en andere inhoud. TinyMCE
 kan ingesteld worden met drie verschillende sets werkbalkknoppen: Set 0,
 Set 1 en Set 2. Dit wordt ingesteld als optie in
-[Pluginbeheer](https://docs.joomla.org/Help30:Extensions_Plugin_Manager "Special:MyLanguage/Help30:Extensions Plugin Manager")
+Pluginbeheer
 voor de 'Editor - TinyMCE' plugin.
 
 TinyMCE can be configured with 3 different sets of toolbar buttons
 
-- **Set 2** is assigned to 'Public'. 
+- **Set 2** is assigned to 'Public'.
 - **Set 1** is assigned to the
 'Manager' and 'Registered'.
 - **Set 0** is the most extended toolbar and is by default assigned to
@@ -32,7 +32,7 @@ data-file-width="669" data-file-height="114" width="600" height="102"
 alt="Help30-editor-tinymce-advanced-en.png" />
 
 Learn about Toolbars, Editor Buttons and Accessibility of
-[TinyMCE](https://docs.joomla.org/Chunk30:TinyMCE "Special:MyLanguage/Chunk30:TinyMCE").
+TinyMCE.
 
 ## Code Mirror
 
@@ -50,8 +50,8 @@ alt="Help25-screenshot-editor-codemirror-example-en.png" />
 CodeMirror offers some of the same advantages of using No Editor, but
 makes it somewhat easier to work with raw HTML code.
 
-To set options: [CodeMirror Editor
-Plugin](https://docs.joomla.org/Help310:Extensions_Plugin_Manager_Edit#Editor_-_CodeMirror "Special:MyLanguage/Help310:Extensions Plugin Manager Edit")
+To set options:  CodeMirror Editor
+Plugin
 
 ## Geen tekstverwerker
 

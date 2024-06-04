@@ -43,8 +43,8 @@ install Joomla for the first time.
 ### What are the Top Ten Stupidest Joomla! Security Tricks?
 
 A good question, and sadly one that many did not ask in time. We proudly
-present the [Top 10 Stupidest Administrator
-Tricks](https://docs.joomla.org/Top_10_Stupidest_Administrator_Tricks "Top 10 Stupidest Administrator Tricks").
+present the  Top 10 Stupidest Administrator
+Tricks.
 
 ### How Do I Choose a Quality Hosting Provider?
 
@@ -208,8 +208,8 @@ the database.
 
 ### Where Can I Learn More About File Permissions?
 
-- [Unix Permissions
-  Primer](https://docs.joomla.org/How_do_UNIX_file_permissions_work%3F "How do UNIX file permissions work?")
+-  Unix Permissions
+  Primer
 - <a href="https://docs.joomla.org/Using_phpSuExec" class="mw-redirect"
   title="Using phpSuExec">Using phpSuExec</a>
 - <a href="https://docs.joomla.org/Windows_Permissions_Primer"
@@ -516,7 +516,7 @@ and for directories;
     Group has Read and Execute only
     Other has Read and Execute only
 
-  
+
 Now, things can get a little complicated when we start talking about
 shared Web Servers, the Web Server software will be running with its own
 username and groupname, most servers are configured for them to use
@@ -671,7 +671,7 @@ and for directories,
     Group has Read and Execute only
     Other has Read and Execute only
 
-  
+
 If you have SSH shell access the following commands can be run from the
 command line to reset all files and directories back to the server
 defaults of 755 and 644. Change directories to the top directory (" / ")
@@ -1241,13 +1241,13 @@ with names starting with "phpMyAdmin" to index.php. Be wary of using
 this as it allows a seemingly valid duplicate URL for your homepage. The
 second rule is more safe. It simply returns a 403 response.
 
-  
+
 **Sample Apache Rewrite Rule**
 
     RewriteRule ^phpMyAdmin /index.php [L]
     RewriteRule ^phpMyAdmin - [F]
 
-  
+
 **Some Regular Expression Tips**
 
     ^ Means start of pattern
@@ -1279,7 +1279,7 @@ injection attacks.
 
     php_flag magic_quotes_gpc on
 
-  
+
 *Note that although the magic_quotes_gpc directive adds a layer of
 security, for performance reasons it is not considered a best practice.
 If you have verified that your site correctly filters and validates all
@@ -1464,7 +1464,7 @@ the Web.
     /home/mysite/auth/.htpasswd/
     /home/mysite/auth/.htgroups/
 
-  
+
 5. Create the *.htpasswd* and *.htgroups* files as explained in the
 official Apache HowTo, referenced above. (Since you've read the always
 current and official documentation at Apache.org, we'll spare you the
@@ -1543,7 +1543,7 @@ your Apache configuration (such as on a shared server), you must use
     potential security risks. They offer attackers lots of useful
     information about your server. Always remove such files after use.
 
-  
+
 **More Information**
 
 - <a href="https://www.php.net/configuration.changes"
@@ -1703,12 +1703,12 @@ to view content, even if not all features are loaded.
 
 ### Should PHP run as a CGI script or as an Apache module?
 
-There are two ways to configure Apache to use PHP:  
+There are two ways to configure Apache to use PHP:
 
 1.  Configure Apache to load the PHP interpreter as an *Apache module*
 2.  Configure Apache to run the PHP interpreter as a *CGI binary*
 
-*(PS: Windows IIS normaly configures as CGI by the way)*  
+*(PS: Windows IIS normaly configures as CGI by the way)*
 
 It is the intention of this post to provide you information relating to
 the configuration and recognition of each method. "In general"
@@ -1767,7 +1767,7 @@ PHP"*
 To find out the PHP interpreter mode and to generally test your PHP
 installation and to find out a vast amount of information about your PHP
 environment, supported utilities, applications and settings, you create
-a single PHP file containing *only* the following lines;  
+a single PHP file containing *only* the following lines;
 
     phpinfo();
 
@@ -1786,7 +1786,7 @@ functions for security. No Guarantee's offered...
 
 Again, as above, make a file, name it anything you wish but make sure it
 has the *.php* extension, copy and paste the following lines in to it
-and FTP to your server.  
+and FTP to your server.
 
     <?
     echo "Hostname: ". @php_uname(n) ."";
@@ -1873,13 +1873,13 @@ LoadModule php4_module "c:/php/php4apache.dll"
 
     or (platform dependant)
 
-LoadModule php4_module C:/php/php4apache.dll  
+LoadModule php4_module C:/php/php4apache.dll
 
 ***and***
 
     AddModule mod_php4.c
 
-*or*  
+*or*
 
     AddModule mod_php5.c
 
@@ -1893,24 +1893,24 @@ LoadModule php4_module C:/php/php4apache.dll
 
     LoadModule php5_module     /usr/lib/apache/libphp5.so
 
-**For PHP4**  
+**For PHP4**
 
     LoadModule php4_module     libexec/libphp4.so
 
-*or (platform dependant)*  
-LoadModule php4_module C:/php/php4apache.dll  
+*or (platform dependant)*
+LoadModule php4_module C:/php/php4apache.dll
 
-***and***  
-AddModule mod_php5.c  
+***and***
+AddModule mod_php5.c
 
-*or*  
-AddModule mod_php4.c  
+*or*
+AddModule mod_php4.c
 
-**Note:**  
+**Note:**
 Don't worry that you can't find a "mod_php4.c" or "mod_php5.c" file
 anywhere on your system. That directive does not cause Apache to search
 for the file on your system. For the curious, it specifies the order in
-which the various modules are enabled by the Apache server.  
+which the various modules are enabled by the Apache server.
 
 *If you're using Apache 2.x, you do not have to insert the AddModule
 directive. It's no longer needed in that version. Apache 2.x has its own
@@ -1929,7 +1929,7 @@ simply add them to the list, like this:
 
     AddType application/x-httpd-php .phtml
 
-Run a syntax check and if all is ok, restart Apache...  
+Run a syntax check and if all is ok, restart Apache...
 
 **Running PHP as a CGI binary**
 
@@ -1939,26 +1939,26 @@ configured, unless you now what you are doing you can generate yourself
 "HTTP 500" errors. Search your Apache configuration file for the
 "ScriptAlias" section.
 
-Add the following line below after the ScriptAlias for "cgi-bin".  
+Add the following line below after the ScriptAlias for "cgi-bin".
 
 **Note:**
 
 The location will depend on where PHP is installed on your system, you
 should substitute the appropriate path in place of "c:/php/" (for
-example, "c:/Program Files/php/").  
+example, "c:/Program Files/php/").
 
-ScriptAlias /php/ "c:/php/"  
+ScriptAlias /php/ "c:/php/"
 
 Apache again needs to be configured for the PHP MIME type. Search for
-the "AddType" section, and add the following line after it:  
+the "AddType" section, and add the following line after it:
 
-AddType application/x-httpd-php .php  
+AddType application/x-httpd-php .php
 
 As in the case of running PHP as an Apache module, you can add whatever
 extensions you want Apache to recognise as PHP scripts, such as:
 
-AddType application/x-httpd-php .php3  
-AddType application/x-httpd-php .phtml  
+AddType application/x-httpd-php .php3
+AddType application/x-httpd-php .phtml
 
 Next, you will need to tell the server to execute the PHP executable
 each time it encounters a PHP script. Add the following below any
@@ -1989,11 +1989,11 @@ DirectoryIndex index.html
 
 *change it to*
 
-DirectoryIndex index.html index.php  
-*If you still wish .html files to be executed before .php files*  
-  
-*or*  
-DirectoryIndex index.php index.html  
+DirectoryIndex index.html index.php
+*If you still wish .html files to be executed before .php files*
+
+*or*
+DirectoryIndex index.php index.html
 *If you wish .php files to be executed before .html files*
 
 The next time you access the site or a directory within a site without a

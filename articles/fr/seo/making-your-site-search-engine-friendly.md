@@ -41,30 +41,3 @@ recherchent des sujets.
  
 
 ## Concepts clés du SEO
-
-[About Search Engine Friendly
-URLs](https://docs.joomla.org/Search_Engine_Friendly_URLs "Special:MyLanguage/Search Engine Friendly URLs")
-
-[Enabling SEF
-URLs](https://docs.joomla.org/Enabling_Search_Engine_Friendly_(SEF)_URLs "Special:MyLanguage/Enabling Search Engine Friendly (SEF) URLs")
-
-[Using a
-Sitemap](https://docs.joomla.org/Using_A_Sitemap "Special:MyLanguage/Using A Sitemap")
-
-[Using the Title
-Tag](https://docs.joomla.org/Using_The_Title_Tag "Special:MyLanguage/Using The Title Tag")
-
-[Using the Meta
-Description](https://docs.joomla.org/Using_The_Meta_Description "Special:MyLanguage/Using The Meta Description")
-
-[Using
-Keywords](https://docs.joomla.org/Using_Keywords "Special:MyLanguage/Using Keywords")
-
-[Using Semantic HTML
-Markup](https://docs.joomla.org/Semantic_HTML_Markup "Special:MyLanguage/Semantic HTML Markup")
-
-[Linking to other sites and link
-building](https://docs.joomla.org/Linking_To_Other_Sites "Special:MyLanguage/Linking To Other Sites")
-
-[Important points to
-remember](https://docs.joomla.org/Important_SEO_Points_To_Remember "Special:MyLanguage/Important SEO Points To Remember")

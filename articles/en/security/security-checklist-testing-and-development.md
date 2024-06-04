@@ -95,8 +95,8 @@ Consider using an Integrated Development Environment (IDE). One free IDE
 that many Joomla! developers use is
 <a href="https://code.visualstudio.com/" class="external text"
 target="_blank" rel="nofollow noreferrer noopener">Visual Studio
-Code</a>. See also [Configuring Visual Studio Code for joomla
-development](https://docs.joomla.org/Visual_Studio_Code "Special:MyLanguage/Visual Studio Code")
+Code</a>. See also  Configuring Visual Studio Code for joomla
+development
 for instructions on installing and configuring Visual Studio Code.
 
 ### Use a versioning system

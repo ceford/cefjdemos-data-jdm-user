@@ -7,13 +7,13 @@ om het Joomla CMS te updaten. Soms wordt deze methode aangeduid met
 ***Eén-klik-update***. Als u voor specifieke gevallen hier geen gebruik
 van kunt maken (distributies, talen, host snelheid), dan kunt u het
 Joomla CMS updaten met behulp van de
-**[installatiemethode](https://docs.joomla.org/J3.x:Updating_Joomla_(Install_Method) "Special:MyLanguage/J3.x:Updating Joomla (Install Method)")**.
+**installatiemethode**.
 
-Deze methode is geschikt voor  
+Deze methode is geschikt voor
 
 - Alle Joomla CMS **3.x.x** to **3.x.x** - updates (onderhouds-update)
 
-Deze methode is niet geschikt voor  
+Deze methode is niet geschikt voor
 
 - Joomla CMS **3.1.2** tot **≥ 3.1.3** - zie [Speciale instructies voor
   versie 3.1.2

@@ -1,6 +1,6 @@
 <!-- Filename: Enabling_Search_Engine_Friendly_(SEF)_URLs_on_Apache / Display title: Het inschakelen van Search Engine Friendly (SEF) Url ' s in Apache -->
 
-  
+
 "'Zoekmachine vriendelijk (SEF)"', "'voor mensen leesbaar"' of
 <a href="https://en.wikipedia.org/wiki/Clean_URL" class="extiw"
 title="wikipedia:Clean URL">schone URL's</a> zijn URL's die zinvol zijn
@@ -10,8 +10,8 @@ in staat URL's in alle formaten te creëren, inclusief SEF URL's. Dit is
 onafhankelijk van de URL-rewriting uitgevoerd door de web-server, zodat
 het zelfs werkt als Joomla! draait op een andere server dan met de
 Apache mod_rewrite module. De SEF URL's volgen een bepaald patroon, maar
-de gebruiker kan een [korte beschrijvende tekst
-(alias)](https://docs.joomla.org/Alias "Special:MyLanguage/Alias")
+de gebruiker kan een  korte beschrijvende tekst
+(alias)
 definiëren voor elk deel van de URL.
 
 Intern heet het lokale gedeelte van een SEF URL (het gedeelte achter de

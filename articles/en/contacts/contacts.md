@@ -11,7 +11,7 @@ web site, not necessarily registered users. You may also allow anyone, or
 just registered users, to send e-mails to those people.
 
 As an example of the use of personal data you could look at the WikiPedia page
-on the [Parliamentary committees of the United Kingdom](https://en.wikipedia.org/wiki/Parliamentary_committees_of_the_United_Kingdom). There you will see lists of
+on the Parliamentary committees of the United Kingdom. There you will see lists of
 committees with popup information in individual chair persons. If you follow a
 link to any committee you will see a list of members with selected information
 about each individual. To do something like this in Joomla you would set up

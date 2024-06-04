@@ -9,8 +9,8 @@ mechanism; either your editor's or Joomla!'s.
 
 ## Global Text Editor Coniguration
 
-On the [Administrator
-panel](https://docs.joomla.org/Administrator_(Application) "Administrator (Application)"),
+On the  Administrator
+panel,
 take the following steps to disable filtering:
 
 ### Disable Your Editor

@@ -15,14 +15,14 @@ class="external text" target="_blank" rel="noreferrer noopener"></a> <a
 href="https://docs.joomla.org//docs.joomla.org/index.php?title=Potential_backward_compatibility_issues_in_Joomla_4/fr&amp;action=history"
 class="external text" target="_blank" rel="noreferrer noopener">has not
 been edited in several days</a>, please consider helping complete the
-content.  
+content.
 <span class="small">This article was <a
 href="https://docs.joomla.org//docs.joomla.org/index.php?title=Potential_backward_compatibility_issues_in_Joomla_4/fr&amp;diff=cur"
 class="external text" target="_blank" rel="noreferrer noopener">last
 edited</a> by
-[FuzzyBot](https://docs.joomla.org/User:FuzzyBot "User:FuzzyBot")
-([talk](https://docs.joomla.org/User_talk:FuzzyBot "User talk:FuzzyBot")\|
-[contribs](https://docs.joomla.org/Special:Contributions/FuzzyBot "Special:Contributions/FuzzyBot"))
+FuzzyBot
+(talk\|
+contribs
 5 months ago. *(<a
 href="https://docs.joomla.org//docs.joomla.org/index.php?title=Potential_backward_compatibility_issues_in_Joomla_4/fr&amp;action=purge"
 class="external text" target="_blank"
@@ -76,11 +76,11 @@ dans Joomla 4 est déconseillée.
 
 ### Extension PHP GMP
 
-Ceci est nécessaire pour utiliser la fonction [WebAuthn Passwordless
-Login](https://docs.joomla.org/WebAuthn_Passwordless_Login "WebAuthn Passwordless Login").
+Ceci est nécessaire pour utiliser la fonction  WebAuthn Passwordless
+Login.
 Notez que l'extension PHP GMP est installée par défaut sur la majorité
-des sites d'hébergement. La fonction [WebAuthn Passwordless
-Login](https://docs.joomla.org/WebAuthn_Passwordless_Login "WebAuthn Passwordless Login").
+des sites d'hébergement. La fonction  WebAuthn Passwordless
+Login.
 Le plugin système est activé par défaut dans Joomla 4 sur les sites
 https.
 
@@ -353,8 +353,8 @@ plutôt qu'une classe réelle.
   <img src="https://docs.joomla.org/images/a/a7/Compat_icon_3_7.png"
   decoding="async" data-file-width="40" data-file-height="17" width="40"
   height="17" alt="Joomla 3.7" />). Pour plus d'informations, lisez,
-  s'il vous plaît,[Découvrez sur quel client le code de votre extension
-  s'exécute](https://docs.joomla.org/J3.x:Discover_on_which_client_your_extension_code_is_running "Special:MyLanguage/J3.x:Discover on which client your extension code is running").
+  s'il vous plaît, Découvrez sur quel client le code de votre extension
+  s'exécute.
 
 ##### JApplicationSite
 
@@ -1085,8 +1085,8 @@ fichier.
   retiré en Joomlaǃ 3.7. Vous devez soit utiliser votre fichier
   .htaccess ou bien le composant de redirection pour positionner toute
   URL interne qui change. Vous pouvez essayer le mode 'Modern' de Joomla
-  3 en suivant les instructions du [Nouveau système de
-  routage](https://docs.joomla.org/J3.x:New_Routing_System "Special:MyLanguage/J3.x:New Routing System").
+  3 en suivant les instructions du  Nouveau système de
+  routage.
 - Le composant MailTo a été retiré sans être remplacé. Si vous avez
   utilisé cette fonctionnalité, vous devrez trouver un autre composant
   sur JED.
@@ -1118,8 +1118,8 @@ fichier.
   résultat est une propriété privée autant pour les paramètres d'entrée
   que pour les valeurs de résultat. Pour plus d'information sur
   l'approche recommandée pour créer des plugins, lisez, s'il vous plaît,
-  [Créer un plugin pour
-  Joomla!](https://docs.joomla.org/J4.x:Creating_a_Plugin_for_Joomla "Special:MyLanguage/J4.x:Creating a Plugin for Joomla").
+   Créer un plugin pour
+  Joomla!.
 - Pour les plugins utilisant la couche de compatibilité 3.x, pour tout
   type d'indices pour des événements qui nécessitent une classe, cette
   classe *doit* être autochargée avant que le plugin ne soit instancié.
@@ -1234,8 +1234,8 @@ href="https://groups.google.com/forum/#!topic/joomla-dev-general/1ua9zIqlcVc"
 class="external text" target="_blank"
 rel="nofollow noreferrer noopener">si confus au sujet de l'espace de
 noms et de la demande de renseignements...</a> ou utiliser le fichier
-généré fichier de référence pdf : [File:J! namespace
-reference.pdf](https://docs.joomla.org/File:J!_namespace_reference.pdf "File:J! namespace reference.pdf")
+généré fichier de référence pdf :  File:J! namespace
+reference.pdf
 
 #### Namespace mapping and manifest file name
 

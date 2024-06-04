@@ -26,10 +26,7 @@ doivent être traités individuellement.
 
 Si vous utilisez actuellement Joomla! 2.5 et que vous souhaitez migrer
 vers Joomla! 4.x, vous effectuerez deux (2) mini-migrations. La première
-sera de 2.5 vers 3.10.x. La seconde sera de 3.10.x vers 4.x. Voir
-[Planning for Mini-Migration - Joomla 2.5 to
-4.x](https://docs.joomla.org/Planning_for_Mini-Migration_-_Joomla_2.5_to_4.x "Planning for Mini-Migration - Joomla 2.5 to 4.x")
-pour les liens et la meilleure marche à suivre.
+sera de 2.5 vers 3.10.x. La seconde sera de 3.10.x vers 4.x. Voirpour les liens et la meilleure marche à suivre.
 
 ### Configuration requise
 

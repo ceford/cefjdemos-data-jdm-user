@@ -1,6 +1,6 @@
 <!-- Filename: J4.x:Scheduling_the_publication_of_an_article / Display title: Het plannen van de publicatie van een artikel -->
 
-<span id="main-portal-heading">**Handleiding**  
+<span id="main-portal-heading">**Handleiding**
 Hoe de publicatie van een artikel plannen</span> Joomla!  4.0
 
 ## Inleiding
@@ -53,8 +53,8 @@ the start and finish settings to override the default published state.
 If you are scheduling an existing article:
 
 - Log in to the Administrator Home Dashboard. More on this here:
-  [Logging in or out of the Administrator
-  Dashboard](https://docs.joomla.org/J4.x:Logging_in_to_Joomla "Special:MyLanguage/J4.x:Logging in to Joomla").
+   Logging in or out of the Administrator
+  Dashboard.
 
 \*From the Home Dashboard Site Panel click on Articles or from the
 Sidebar Menu navigate to **Content** then **Articles** to open the

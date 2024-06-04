@@ -82,8 +82,8 @@ Forum</a>.
     to override the output from the Joomla! core</a>, [Understanding
     Output
     Overrides](https://docs.joomla.org/Understanding_Output_Overrides "Special:MyLanguage/Understanding Output Overrides"),
-    [Layout Overrides in
-    Joomla](https://docs.joomla.org/Layout_Overrides_in_Joomla "Special:MyLanguage/Layout Overrides in Joomla")).
+     Layout Overrides in
+    Joomla.
 9.  Check your User Manager. Are you intending to bring them all over?
     Is there clean up required? Perhaps Super Administrators that no
     longer should have access or spam users that need to be deleted? Are
@@ -114,8 +114,8 @@ Forum</a>.
     by the developer? Is the new version of it responsive? Is your
     template a custom template? Or was it heavily customized from a
     third-party template? For an expansion of Template based
-    considerations, see [Template Considerations During
-    Migration](https://docs.joomla.org/Template_Considerations_During_Migration "Special:MyLanguage/Template Considerations During Migration").
+    considerations, see  Template Considerations During
+    Migration.
 5.  If you are changing out your template for a new one, will it require
     any new images? For example, if your current site has a white
     background and your logo or other images are .jpg images with a

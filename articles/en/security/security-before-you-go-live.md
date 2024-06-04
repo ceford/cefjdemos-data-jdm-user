@@ -51,8 +51,8 @@ Category</a>.
 
 1.  Move *configuration.php* outside of your public directory.
 2.  On file permissions, in general never use *777*. Use *755* for
-    directories and *644* for files. See FAQ: [Verifying
-    permissions](https://docs.joomla.org/Verifying_permissions "Verifying permissions")
+    directories and *644* for files. See FAQ:  Verifying
+    permissions
 
 ## Others
 

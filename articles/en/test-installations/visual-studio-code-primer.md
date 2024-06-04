@@ -13,7 +13,7 @@ From Wikipedia:
 
 ## Installation
 
-The [VS Code](https://code.visualstudio.com/ "") site
+The VS Code site
 default page has a drop-down list for each supported platform. The
 chances are that your platform is pre-selected. So download and install
 and you are ready to go.
@@ -26,7 +26,7 @@ completely new to VS Code these are recommended viewing. They only take
 a few minutes.
 
 The VS Code Documentation is available from the *Help / Documentation*
-menu. The [Introductory Videos](https://code.visualstudio.com/docs/getstarted/introvideos "") are well worth viewing. Each takes 2 to 6 minutes and give an excellent
+menu. The Introductory Videos are well worth viewing. Each takes 2 to 6 minutes and give an excellent
 introduction to VS Code features. The official documentation is the place to
 go to if you want to look up specific information.
 
@@ -185,7 +185,7 @@ do two things:
   places in your website folder.
 - generate a new zip file for new installations.
 
-Download and install [Phing](https://www.phing.info/ ""). Other build tools
+Download and install Phing. Other build tools
 are available! You could install Phing in your own bin folder or in a system
 bin folder. You need to note the path to your Phing code. In this
 example it is *~/bin/phing-latest.phar*. You can try it out from the
@@ -391,7 +391,7 @@ Cake days?
 
 ## References
 
-From Joomla! Documentation: [Visual Studio
-Code](https://docs.joomla.org/Visual_Studio_Code "Visual Studio Code")
+From Joomla! Documentation:  Visual Studio
+Code
 also covers configuration of other tools, for example CodeSniffer and
 PHPUnit.

@@ -2,7 +2,7 @@
 
 A **vulnerable extension** is one that has been found to contain (or
 contribute to) a
-[security](https://docs.joomla.org/security "Special:MyLanguage/security")
+security
 vulnerability.
 
 Vulnerable extensions are not necessarily poorly-coded. As the Web

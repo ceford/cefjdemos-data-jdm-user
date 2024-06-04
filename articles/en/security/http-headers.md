@@ -3,7 +3,7 @@
 ## Magazine Article
 
 This article is based on a Joomla! Community Magazine article by Brendan Hedges
-in the [May 2022](https://magazine.joomla.org/all-issues/may-2022/joomla-new-http-headers-plugin-for-j4 "") Edition.
+in the May 2022 Edition.
 
 Although written for Joomla 4 the content applies equally to Joola 5.
 
@@ -202,7 +202,7 @@ Joomla’s HTTP Headers plugin addresses this issue by allowing you to choose fr
 
 ![Joomla http headers 9](../../../images/en/security/http-headers-plugins-headers-referer-policy-setting.png "")
 
-Let’s take a look at these. There’s an excellent description of them on the [Mozilla Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy "") page which describes them as:
+Let’s take a look at these. There’s an excellent description of them on the Mozilla Headers page which describes them as:
 
 * **no-referrer**<br>
     The Referrer Header will be omitted: sent requests do not include any referrer information.
@@ -283,58 +283,58 @@ You can obtain more about each feature on the Mozilla Developers website.
 #### Content-Security-Policy (list)
 
 The Content-Security-Policy response header allows websites to control resources the user may load for each webpage. Policies mostly specify server origins and script endpoints. This helps guard against cross-site scripting attacks.
-[Mozilla: Content-Security-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy "")
+Mozilla: Content-Security-Policy
 
 #### Content-Security-Policy-Report-Only
 
 The HTTP Content-Security-Policy-Report-Only response header allows web developers to experiment with policies by monitoring (but not enforcing) their effects.
-[Mozilla: Content-Security-Policy-Report-Only](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy-Report-Only "")
+Mozilla: Content-Security-Policy-Report-Only
 
 #### Cross-Origin-Opener-Policy (COOP)
 
 The HTTP Cross-Origin-Opener-Policy (COOP) response header allows you to ensure a top-level document does not share a browsing context group with cross-origin documents.
-[Mozilla: Cross-Origin-Opener-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Opener-Policy "")
+Mozilla: Cross-Origin-Opener-Policy
 
 COOP will process-isolate your document and potential attackers can't access your global object if they were to open it in a pop-up, preventing a set of cross-origin attacks dubbed **XS-Leaks**.
 
 #### Expect-CT (To Be Discontinued)
 
 The Expect-CT header lets sites opt in to reporting and/or enforcement of Certificate Transparency requirements, to prevent the use of misissued certificates for that site from going unnoticed.
-[Mozilla: Expect-CT (To Be Discontinued)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expect-CT "")
+Mozilla: Expect-CT (To Be Discontinued)
 
 #### Feature-Policy (Now Deprecated)
 
 The HTTP Feature-Policy header provides a mechanism to allow and deny the use of browser features in its own frame, and in content within any &lt;iframe&gt; elements in the document.
-[Mozilla: Feature-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy "")
+Mozilla: Feature-Policy
 
 #### Permissions-Policy
 
 This is the replacement for the Feature-Policy above.
-[Mozilla: Permissions-Policy (Replaces Feature Policy Above)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy "")
+Mozilla: Permissions-Policy (Replaces Feature Policy Above)
 
 #### Referrer-Policy (in list)
 
 The Referrer-Policy HTTP header controls how much referrer information (sent with the Referrer header) should be included with requests.
-[Mozilla: Referrer-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy "")
+Mozilla: Referrer-Policy
 
 #### Report-To
 
 Part of the Content-Security-Policy. The Content-Security-Policy Report-To HTTP response header field instructs the user agent to store reporting endpoints for an origin.
-[Mozilla: Report-To](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy "")
+Mozilla: Report-To
 
 The report-to directive is intended to replace the deprecated report-uri directive, report-to is not supported in most browsers yet.
 
 #### Strict-Transport-Security
 
 The HTTP Strict-Transport-Security response header (often abbreviated as HSTS) informs browsers that the site should only be accessed using HTTPS, and that any future attempts to access it using HTTP should automatically be converted to HTTPS.
-[Mozilla: Strict-Transport-Security](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security "")
+Mozilla: Strict-Transport-Security
 
 This is more secure than simply configuring a HTTP to HTTPS (301) redirect on your server, where the initial HTTP connection is still vulnerable to a man-in-the-middle attack.
 
 #### X-Frame-Options (in list)
 
 The X-Frame-Options HTTP response header indicates whether a browser should be allowed to render a page in a&lt;frame&gt;, &lt;iframe&gt;, &lt;embed&gt; or&lt;object&gt;, or not. Sites can use this to avoid click-jacking attacks, by ensuring that their content is not embedded into other sites.
-[Mozilla: X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options "")
+Mozilla: X-Frame-Options
 
 The added security is provided only if the user accessing the document is using a browser that supports X-Frame-Options.
 
@@ -379,7 +379,7 @@ For example:
 * GNU (http://www.gnu.org/)
 * The University of Washington (http://www.washington.edu/)
 
-According to [w3techs.com](https://w3techs.com/technologies/details/ce-httpsdefault#:~:text=Default%20protocol%20https%20is%20used%20by%2079.2%25%20of%20all%20the%20websites "") about 20% of all websites are still running only on HTTP.
+According to w3techs.com about 20% of all websites are still running only on HTTP.
 
 **So, why is this an issue?**
 
@@ -399,11 +399,11 @@ As you already know, the whole point of HTTPS is to introduce a secure connectio
 
 But, did you know that unless your **HTTPS SSL Certificate** uses **TLS**, your ‘secure’ connection is not as secure as you would expect? Non TLS HTTPS connections are still **vulnerable to man-in-the-middle attacks**.
 
-Although an old blog post, this [article](https://scotthelme.co.uk/wifi-pineapple-karma-sslstrip/ "") explains nicely how a man-in-the-middle attack works.
+Although an old blog post, this article explains nicely how a man-in-the-middle attack works.
 
-Browsers have [widely adopted TLS](https://caniuse.com/?search=tls "") these days, but the latest version (1.3) is not as widely supported by browsers as its predecessor (1.2).
+Browsers have widely adopted TLS.
 
-And, TLS 1.3 is not directly compatible with previous versions unless it’s being run in [compatibility mode](https://www.ibm.com/docs/en/sdk-java-technology/8?topic=handshake-compatibility-risks-known-issues ""). Which could pose a problem for some.
+And, TLS 1.3 is not directly compatible with previous versions unless it’s being run in compatibility mode. Which could pose a problem for some.
 
 ![tls certicate information](../../../images/en/security/http-headers-plugins-headers-tls.png "")
 
@@ -423,7 +423,7 @@ There’s a solution to this weakness in the HTTP Headers HSTS settings, activat
 
 Which will add the ‘Preload’ tag to the response header.
 
-In the settings, [there’s also a link](https://hstspreload.org/ "") to **include your website domain in Chrome's HTTP Strict Transport Security (HSTS) preload list**. This is a list that’s hard coded into many modern browsers. The list informs the browser that the connection to example.com is only to be made via HTTPS. Thus removing the need to even make the initial connection via HTTP.
+In the settings, there’s also a link preload list**. This is a list that’s hard coded into many modern browsers. The list informs the browser that the connection to example.com is only to be made via HTTPS. Thus removing the need to even make the initial connection via HTTP.
 
 ![hsts preload](../../../images/en/security/http-headers-plugins-headers-enter-domain.png "")
 
@@ -503,14 +503,14 @@ Adding these external sources would be easier to implement on a new website as y
 
 When adding directives to your Content Security Policy in the HTTP Headers Plugin, there are a **series of core values** you can use to define what should be explicitly loaded by the browser. These are the basic ones to get your first Content Security Policy set up.
 
-Other options are available for some of the more advanced directives, a fuller list and examples of their usage can be found at the [Content Security Policy (CSP) Quick Reference Guide](https://content-security-policy.com/ "") website.
+Other options are available for some of the more advanced directives, a fuller list and examples of their usage can be found at the Content Security Policy (CSP) Quick Reference Guide website.
 
 * **'none'** blocks the use of this type of resource.
 * **'self'** matches the current origin (but not subdomains).
 * **'unsafe-inline'** allows the use of inline JS and CSS.
 * **'unsafe-eval'** allows the use of mechanisms like eval().
 
-So, let’s take a look at some of those directives. Here is a list of some of the directives that are available in the Joomla HTTP Headers plugin, along with a brief description, [courtesy of Content Security Policy](https://content-security-policy.com/ ""). I’d recommend you visit this website for more information and examples.
+So, let’s take a look at some of those directives. Here is a list of some of the directives that are available in the Joomla HTTP Headers plugin, along with a brief description, courtesy of Content Security Policy. I’d recommend you visit this website for more information and examples.
 
 <dl>
 <dt>default-src</dt>
@@ -700,7 +700,7 @@ Adding hashes to your inline code is a good way to whitelist them in the HTTP he
 If you change your JavaScript, you’ll need to recalculate your hash and change the value in the CSP directive.
 
 If you have problems getting your hashes to work, there are 3 common problems,
-you can find solutions in the [Using a hash with CSP](https://content-security-policy.com/hash/ "")
+you can find solutions in the Using a hash with CSP
 web page.
 
 Strict Dynamic
@@ -764,15 +764,15 @@ The plugin is Enabled by default.
 * The Referrer-Policy is initially set to: strict-origin-when-cross-origin.
 * The Cross-Origin-Opener-Policy is initially set to same-origin.
 
-If you’ve read this far and thought “That’s not fair, what about J3?”, “Why can’t we have the same features in Joomla 3?”. Well, the good news is, you can. Although you’ll have to [download the plugin from the [JED](https://extensions.joomla.org/extension/httpheader ""), and install it. The J3 plugin comes with most of the same features as the J4 version, and it’s written by the same team that’s behind the J4 version which is now included in the core :).
+If you’ve read this far and thought “That’s not fair, what about J3?”, “Why can’t we have the same features in Joomla 3?”. Well, the good news is, you can. Although you’ll have to download the plugin from the [JED.
 
 When you’ve set up your HTTP headers with the Joomla 4 plugin, you can test
-your HTTP Headers at the [Security Headers](https://securityheaders.com/) web
+your HTTP Headers at the Security Headers web
 site.
 
 How did you score?
 
-Be aware that activation of the HTTP Headers plugin may have [unexpected actions](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/script-src "") on the front end.
+Be aware that activation of the HTTP Headers plugin may have unexpected actions on the front end.
 
 Finally, I'd like to thank Tobias Zulauf & Ced Keiflin for their input in getting this article finished in time!
 <!--

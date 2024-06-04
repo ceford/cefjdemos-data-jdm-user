@@ -174,6 +174,6 @@ back-end. Then disable all plugins under the *twofactorauth* group.
 Finally, rename the *plugins/twofactorauth.BAK* folder of your site to
 *twofactorauth*.
 
-- See also the [Two Factor
-  Authentication](https://docs.joomla.org/J3.x:Two_Factor_Authentication "Special:MyLanguage/J3.x:Two Factor Authentication")
+- See also the  Two Factor
+  Authentication
   tutorial.

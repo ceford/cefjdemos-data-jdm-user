@@ -7,10 +7,7 @@ srcset="https://docs.joomla.org/images/thumb/4/41/Stop_hand_nuvola.svg.png/38px-
 data-file-width="40" data-file-height="40" width="25" height="25"
 alt="Stop hand nuvola.svg.png" />Warning!
 
-From Joomla 3.5 you can no longer use this to update Joomla, use
-[Components Joomla!
-Update](https://docs.joomla.org/Help39:Components_Joomla_Update "Special:MyLanguage/Help39:Components Joomla Update")
-instead.
+From Joomla 3.5 you can no longer use this to update Joomla, useinstead.
 
 In some cases it may not be possible to use the Extension Manager:
 Update method to update your site. One reason for this might be that you

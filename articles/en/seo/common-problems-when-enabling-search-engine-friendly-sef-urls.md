@@ -26,7 +26,7 @@ your Joomla! root directory WILL BE IGNORED. The directive needed is:
 
 If you are using IIS check out these links which may be useful:
 
-- [IIS](https://docs.joomla.org/IIS "IIS")
+- IIS
 - <a href="https://docs.joomla.org/IIS6_and_SEF_URLs_using_Joomla_1.5x"
   class="mw-redirect" title="IIS6 and SEF URLs using Joomla 1.5x">IIS6 and
   SEF URLs using Joomla 1.5x</a>

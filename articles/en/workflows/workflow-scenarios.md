@@ -51,8 +51,8 @@ part. Answer these questions to help you plan:
 
 ### Create New Users (or edit existing Users)
 
-Using the directions on [create your new
-**Users**](https://docs.joomla.org/Adding_a_new_user "Special:MyLanguage/Adding a new user").
+Using the directions on  create your new
+**Users**.
 
 1.  Create **User(s)** and assign them to the *Blog Posters* **User
     Group**.
@@ -133,8 +133,8 @@ of Transitions for the Workflow.
 9.  Click Save & Close.
 
 For more information on ACL and assigning permissions to User Groups,
-see the [ACL
-Tutorial](https://docs.joomla.org/Special:MyLanguage/J3.x:Access_Control_List_Tutorial "Access Control List Tutorial").
+see the  ACL
+Tutorial.
 
 ### Setting up Notifications
 
@@ -193,7 +193,7 @@ Docs can be edited or added to by anyone with an account.
 
 See also:
 
-- [Publishing Workflow
-  Implementation](https://docs.joomla.org/Publishing_Workflow_Implementation "Special:MyLanguage/Publishing Workflow Implementation")
-- [Publishing
-  Workflow](https://docs.joomla.org/Publishing_Workflow "Special:MyLanguage/Publishing Workflow")
+-  Publishing Workflow
+  Implementation
+-  Publishing
+  Workflow

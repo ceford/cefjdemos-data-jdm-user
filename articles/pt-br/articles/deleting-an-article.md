@@ -1,6 +1,6 @@
 <!-- Filename: J4.x:Deleting_an_Article / Display title: Excluindo um artigo -->
 
-<span id="main-portal-heading">**Tutorial**  
+<span id="main-portal-heading">**Tutorial**
 Como excluir um artigo</span> Joomla!  4.0
 
 ## Introdução
@@ -27,16 +27,15 @@ Considere por que você deseja excluir o artigo:
 
 - Inicie uma sessão no painel inicial do administrador. Mais informações
   sobre isso aqui:
-
-[Entrar ou sair do painel do
-administrador](https://docs.joomla.org/J4.x:Logging_in_to_Joomla "Special:MyLanguage/J4.x:Logging in to Joomla").
+ Entrar ou sair do painel do
+administrador.
 
 - No menu da barra lateral navegue até **conteúdo** e depois **artigos**
   para abrir a **lista de artigos**.
 - Clique na caixa de seleção para selecionar o artigo que deseja
   excluir.
 
-  
+
 <img
 src="https://docs.joomla.org/images/thumb/d/db/J4x_select_and_delete_article-en.png/800px-J4x_select_and_delete_article-en.png"
 class="thumbborder" decoding="async"
@@ -50,7 +49,7 @@ barra de ferramentas.
 Clique no botão de **ações** e depois clique em **lixeira** no menu
 suspenso.
 
-  
+
 <img
 src="https://docs.joomla.org/images/thumb/9/96/J4x_delete_article_confirmed-en.png/800px-J4x_delete_article_confirmed-en.png"
 class="thumbborder" decoding="async"

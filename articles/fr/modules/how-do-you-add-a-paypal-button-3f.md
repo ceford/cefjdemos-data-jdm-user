@@ -11,8 +11,8 @@ Il est généralement préférable de créer un module HTML personnalisé
 plutôt que de simplement coller le code dans un article. De cette façon,
 vous pouvez placer le lien en position de module sur autant de pages que
 vous le souhaitez. Vous pouvez également placer le module à l'intérieur
-d'un article en utilisant la commande [{loadposition
-myposition}](https://docs.joomla.org/How_do_you_put_a_module_inside_an_article%3F "Special:MyLanguage/How do you put a module inside an article?").
+d'un article en utilisant la commande  {loadposition
+myposition}.
 
 ## Documentation technique PayPal
 

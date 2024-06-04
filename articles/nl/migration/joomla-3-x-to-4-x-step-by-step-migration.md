@@ -13,7 +13,7 @@ een eerdere versie zit zorg er dan voor dat u eerst upgrade naar Joomla
 extensies klaar zijn voor Joomla 4.x. Joomla 3.10.x wordt tot 16
 augustus 2023 ondersteund.
 
-  
+
 Het volgende zijn stap-voor-stap instructies om uw 3.10.x website naar
 Joomla! 4.x te migreren. Hoewel er honderden verschillende scenario's
 zijn, geeft dit de te volgen basis-procedure. Zeer complexe migraties
@@ -31,10 +31,10 @@ beheergedeelte van Joomla. Veel extensies van derden hebben ook een
 één-klik upgrade. Sommigen niet. Bij iedere extensie moet gekeken worden
 welk pad gevolgd moet worden om van 3.10 naar 4.x te gaan. Als dat nog
 niet gedaan is, kan dit
-[Zelfonderzoek](https://docs.joomla.org/Migration_Step_by_Step_Self_Assessment "Special:MyLanguage/Migration Step by Step Self Assessment")
-en deze [Planning voor 3.10 naar 4.x
-migratie](https://docs.joomla.org/Planning_for_Mini-Migration_-_Joomla_3.10.x_to_4.x "Special:MyLanguage/Planning for Mini-Migration - Joomla 3.10.x to 4.x")
-gelezen worden voor onderstaande stappen te volgen.  
+Zelfonderzoek
+en deze  Planning voor 3.10 naar 4.x
+migratie
+gelezen worden voor onderstaande stappen te volgen.
 Joomla! core extensies zijn:
 
 - Categorieën
@@ -66,10 +66,10 @@ Joomla! core extensies zijn:
 2.  Maak een backup van de live 3.10.x site. U kunt een aanbevolen
     hulpmiddel gebruiken (zie de *Aanbevolen hulpmiddelen* onderaan de
     pagina) of doe het handmatig.
-    - [Backup basis voor een Joomla!
-      website](https://docs.joomla.org/Backup_Basics_for_a_Joomla!_Web_Site "Special:MyLanguage/Backup Basics for a Joomla! Web Site")
-    - [Wat zijn de best practices voor site
-      backups?](https://docs.joomla.org/What_are_the_best_practices_for_site_backups%3F "Special:MyLanguage/What are the best practices for site backups?")
+    -  Backup basis voor een Joomla!
+      website
+    -  Wat zijn de best practices voor site
+      backups?
 3.  Zorg ervoor dat de omgeving voldoet aan de
     <a href="https://downloads.joomla.org/technical-requirements"
     class="external text" target="_blank"
@@ -85,7 +85,7 @@ Joomla! core extensies zijn:
       over het installeren van
       <a href="https://sourceforge.net/projects/xampp/" class="external text"
       target="_blank" rel="nofollow noreferrer noopener">XAMPP</a> op
-      [XAMPP](https://docs.joomla.org/XAMPP "XAMPP"). Echter
+      XAMPP. Echter
       <a href="https://www.wampserver.com/en/" class="external text"
       target="_blank" rel="nofollow noreferrer noopener">WAMP</a>,
       <a href="https://www.mamp.info/en/windows/" class="external text"
@@ -95,10 +95,10 @@ Joomla! core extensies zijn:
       geschikte alternatieven.
     - Een nieuw hosting account op een tijdelijk domein in de root. (Als
       van host wordt gewijzigd tijdens het het migratieproces.)
-      - Restoren van een site op een lokaal device. Zie [Joomla lokaal
-        installeren](https://docs.joomla.org/Installing_Joomla_locally "Special:MyLanguage/Installing Joomla locally")
-        en [Het instellen van het werkstation voor
-        Joomla-ontwikkeling](https://docs.joomla.org/Setting_up_your_workstation_for_Joomla_development "Special:MyLanguage/Setting up your workstation for Joomla development").
+      - Restoren van een site op een lokaal device. Zie  Joomla lokaal
+        installeren
+        en  Het instellen van het werkstation voor
+        Joomla-ontwikkeling.
       - Restoren van een website met een hulpmiddel onderaan de pagina.
         (Lees de ontwikkelaars documentatie.)
 6.  Op de test locatie, update de Joomla! 3.10.x versie naar de nieuwste
@@ -124,7 +124,7 @@ Joomla! core extensies zijn:
 ### Beoordeel elke extensie
 
 In de
-[planning](https://docs.joomla.org/Planning_for_Mini-Migration_-_Joomla_3.10.x_to_4.x "Special:MyLanguage/Planning for Mini-Migration - Joomla 3.10.x to 4.x"),
+planning,
 bepaalde u welke extensies van derden blijven of verdwijnen en hoe ze
 migreren. Voor dit deel van de stap-voor-stap migratie gebruikt u twee
 verschillende secties van de site uitgebreid; De pre-update-controle in
@@ -225,7 +225,7 @@ Componenten
     niet compatiebel zijn met Joomla! 4.x. **NOTE!** U kunt een template
     dat Standaard is niet deïnstalleren . U moet een core ondersteund
     template selecteren zoals Beez3 of Protostar en dan het template
-    deïnstalleren.  
+    deïnstalleren.
     *Denk hier ook aan:* **Protostar is niet compatibel met Joomla
     4.x**. Na migratie verdwijnt het. Het als standaard selecteren
     brengt u naar Joomla 4.x.
@@ -249,8 +249,8 @@ Componenten
       4.x versie als de site gemigreerd is. Een voorbeeld hiervan kan
       een inhoud plugin zijn. Het is heel eenvoudig om hem in 3.10.x te
       de-installeren en opnieuw in 4.x te installeren.
-    - Zie [Template
-      overwegingen](https://docs.joomla.org/Template_Considerations_During_Migration "Special:MyLanguage/Template Considerations During Migration")
+    - Zie  Template
+      overwegingen
       voor meer specifieke informatie over templates en [Converteren van
       een template uit een eerdere Joomla!
       versie](https://docs.joomla.org/J3.x:Converting_A_Previous_Joomla!_Version_Template "Special:MyLanguage/J3.x:Converting A Previous Joomla! Version Template")
@@ -347,8 +347,8 @@ installatie, door met de volgende stappen:
     extensies zijn om te installeren. (Er zouden er geen moeten zijn!)
 14. Ga naar de website en kijk of hij zichtbaar wordt, zelfs als het
     niet het juiste template is. Ga verder als hij zichtbaar wordt. Zo
-    niet, kijk bij [Veel voorkomende fouten tijdens
-    migratie](https://docs.joomla.org/Joomla_3.10_to_4.x_Common_Migration_Errors "Special:MyLanguage/Joomla 3.10 to 4.x Common Migration Errors").
+    niet, kijk bij  Veel voorkomende fouten tijdens
+    migratie.
 15. Maak een back-up.
 16. Installeer het nieuwe template of andere extensies als die
     geïnstalleerd moeten worden. Maak vaak een back-up aan.
@@ -400,6 +400,3 @@ hulpmiddel/extensie van derden</a> te gebruiken.
   hulpmiddelen</a>.
 
 ## Verwante informatie
-
-[Voor-update
-controle](https://docs.joomla.org/:Pre-Update_Check "Special:MyLanguage/:Pre-Update Check")

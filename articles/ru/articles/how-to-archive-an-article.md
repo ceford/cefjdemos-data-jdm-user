@@ -1,6 +1,6 @@
 <!-- Filename: J4.x:How_to_Archive_an_Article / Display title: How to Archive an Article -->
 
-Joomla!  4.x **<span class="mw-content-ltr" lang="en" dir="ltr">How To  
+Joomla!  4.x **<span class="mw-content-ltr" lang="en" dir="ltr">How To
 Archive Articles</span>**
 
 ## Introduction
@@ -114,16 +114,10 @@ alt="J4.x filter article list-en.png" />
 There is a Menu Item type of **Articles \> Archived Article** that you
 can use to create a link in your menu to archived articles.
 
-[Further
-Information](https://docs.joomla.org/J4.x:How_to_Create_a_Menu_Item_to_View_Archived_Articles "Special:MyLanguage/J4.x:How to Create a Menu Item to View Archived Articles")
-
 ### To view from the frontend via a module
 
 There is a module type **Articles – Archived** that you can use to
 display in a one of your website template module positions.
-
-[Further
-Information](https://docs.joomla.org/J4.x:How_to_Show_a_Calendar_Month_List_of_Archived_Articles_Using_a_Module "Special:MyLanguage/J4.x:How to Show a Calendar Month List of Archived Articles Using a Module")
 
 ## Un-archive Articles
 

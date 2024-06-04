@@ -11,10 +11,7 @@ classificações nos mecanismos de pesquisas, criando grandes volumes de
 vínculos recíprocos com sites em um curto período de tempo. Na tentativa
 de resolver esse problema, os mecanismos de pesquisas atualizam
 regularmente seus algoritmos e penalizam todos os sites que estão
-operando fora de suas diretrizes de práticas recomendadas (consulte
-[Atualizações do
-Google](https://docs.joomla.org/Google_Updates "Special:MyLanguage/Google Updates")
-para obter mais informações).
+operando fora de suas diretrizes de práticas recomendadas (consultepara obter mais informações).
 
 ### Construção de vínculos segura
 
@@ -33,7 +30,7 @@ Joomla!](https://docs.joomla.org/Main_Page/pt-br "Main Page/pt-br")
 seria uma indicação clara de que o vínculo está direcionando as pessoas
 para a página inicial do Projeto de documentação do Joomla!. Se o link
 fosse escrito como
-[aqui](https://docs.joomla.org/Main_Page/pt-br "Main Page/pt-br"), não
+aqui, não
 fica tão claro qual página você pode estar visitando - e como você não
 usou nenhuma palavra-chave da página de destino, o site deles não obterá
 o melhor benefício do seu vínculo.

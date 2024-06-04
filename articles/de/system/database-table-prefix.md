@@ -2,7 +2,7 @@
 
 Der Datenbanktabellenpräfix ist eine Zeichenkette (wenige Zeichen lang),
 die vor den Namen der
-Joomla!-[Tabelle](https://docs.joomla.org/tables "Special:MyLanguage/tables")
+Joomla!-Tabelle
 gesetzt wird. Die Nutzung des Präfix erlaubt es, mehrere
 Joomla!-Installationen in nur einer Datenbank zu betreiben.
 
@@ -13,11 +13,11 @@ Joomla!-Erweiterung, wie Akeeba Admin Tools, voraus und könnte mit einer
 Ausfallzeit verbunden sein.
 
 Entwickler von
-[Erweiterungen](https://docs.joomla.org/Extension "Special:MyLanguage/Extension")
+Erweiterungen
 benötigen die Zeichenkette `#__`, um den Präfix wiederzugeben. Dies wird
 dann zur Laufzeit von Joomla! durch den richtigen Präfix ersetzt.
 
 ## Siehe auch
 
-- [Erstellung einer Datenbank für
-  Joomla](https://docs.joomla.org/Creating_a_Database_for_Joomla! "Special:MyLanguage/Creating a Database for Joomla!")
+-  Erstellung einer Datenbank für
+  Joomla

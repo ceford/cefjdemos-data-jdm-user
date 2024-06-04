@@ -13,9 +13,8 @@ obtienes), que permite a los usuarios una interfaz de procesamiento de
 texto amigable, a la hora de editar artículos y otros contenidos.
 TinyMCE puede ser configurado con tres grupos distintos de botones en la
 barra de herramientas: avanzado, simple y extendido. Para modificar este
-parámetro, lo encuentras en el plugín 'Editor - TinyMCE', en el
-[Administratos de
-plugins](https://docs.joomla.org/Help30:Extensions_Plugin_Manager "Special:MyLanguage/Help30:Extensions Plugin Manager").
+parámetro, lo encuentras en el plugín 'Editor - TinyMCE', en el Administratos de
+plugins.
 
 TinyMCE can be configured with 3 different sets of toolbar buttons
 
@@ -33,7 +32,7 @@ data-file-width="669" data-file-height="114" width="600" height="102"
 alt="Help30-editor-tinymce-advanced-en.png" />
 
 Learn about Toolbars, Editor Buttons and Accessibility of
-[TinyMCE](https://docs.joomla.org/Chunk30:TinyMCE "Special:MyLanguage/Chunk30:TinyMCE").
+TinyMCE.
 
 ## Code Mirror
 
@@ -51,8 +50,8 @@ alt="Help25-screenshot-editor-codemirror-example-en.png" />
 CodeMirror offers some of the same advantages of using No Editor, but
 makes it somewhat easier to work with raw HTML code.
 
-To set options: [CodeMirror Editor
-Plugin](https://docs.joomla.org/Help310:Extensions_Plugin_Manager_Edit#Editor_-_CodeMirror "Special:MyLanguage/Help310:Extensions Plugin Manager Edit")
+To set options:  CodeMirror Editor
+Plugin
 
 ## Sin editor
 

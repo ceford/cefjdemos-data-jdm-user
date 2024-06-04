@@ -4,8 +4,8 @@ To change settings which control the information shown in the Login Form
 module and some aspects of its behaviour, do this:
 
 1.  Log in to the Administrator back-end. To learn how to do this read:
-    [Logging in or out of the Administrator
-    back-end](https://docs.joomla.org/Logging_in_or_out_of_the_Administrator_back-end "Special:MyLanguage/Logging in or out of the Administrator back-end").
+     Logging in or out of the Administrator
+    back-end.
 2.  Click the **Extensions **→** Modules** menu item.
 3.  From the list of Modules find the type one called "Login". There may
     be several pages of Modules listed so you might need to look on

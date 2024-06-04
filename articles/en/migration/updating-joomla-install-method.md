@@ -1,7 +1,7 @@
 <!-- Filename: J3.x:Updating_Joomla_(Install_Method) / Display title: Updating Joomla (Install Method) -->
 
-The recommended way to update Joomla! is to use [Components Joomla!
-Update](https://docs.joomla.org/Help39:Components_Joomla_Update "Special:MyLanguage/Help39:Components Joomla Update")
+The recommended way to update Joomla! is to use  Components Joomla!
+Update
 <img
 src="https://docs.joomla.org/images/thumb/4/41/Stop_hand_nuvola.svg.png/25px-Stop_hand_nuvola.svg.png"
 decoding="async"
@@ -9,10 +9,7 @@ srcset="https://docs.joomla.org/images/thumb/4/41/Stop_hand_nuvola.svg.png/38px-
 data-file-width="40" data-file-height="40" width="25" height="25"
 alt="Stop hand nuvola.svg.png" />Warning!
 
-From Joomla 3.5 you can no longer use this to update Joomla, use
-[Components Joomla!
-Update](https://docs.joomla.org/Help39:Components_Joomla_Update "Special:MyLanguage/Help39:Components Joomla Update")
-instead.
+From Joomla 3.5 you can no longer use this to update Joomla, useinstead.
 
 **Note!** The methods discussed in this article apply to old, outdated
 and unsupported versions of Joomla! and are to be used entirely at your

@@ -11,8 +11,8 @@ Generalmente es preferible crear un módulo de HTML Personalizado en
 lugar de simplemente pegar el código en un artículo. De esta manera
 puedes poner el enlace en una posición de módulo en las páginas que
 quieras. También puedes poner el módulo dentro de un artículo mediante
-el comando [{loadposition
-myposition}](https://docs.joomla.org/How_do_you_put_a_module_inside_an_article%3F "Special:MyLanguage/How do you put a module inside an article?").
+el comando  {loadposition
+myposition}.
 
 ## Documentación técnica de PayPal
 

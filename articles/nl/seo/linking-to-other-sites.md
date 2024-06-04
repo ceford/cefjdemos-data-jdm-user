@@ -10,10 +10,7 @@ activiteit, en straffen websites zwaar af, welke op kunstmatige wijze
 hun zoekmachine ranking te verhogen door grote volumes van wederkerige
 links met websites binnen een korte tijd. In een poging dit probleem aan
 te pakken, updaten zoekmachines geregeld hun algoritmen, en bestraffen
-iedere site die ze vinden die buiten hun praktijk richtlijnen valt. (Zie
-[Google
-Updates](https://docs.joomla.org/Google_Updates "Special:MyLanguage/Google Updates")
-voor meer informatie.)
+iedere site die ze vinden die buiten hun praktijk richtlijnen valt. (Zievoor meer informatie.)
 
 ### Veilige link-building
 
@@ -26,11 +23,11 @@ moeten op enige wijze betrekking hebben naar je site.
 
 Iedere link die op je website staat welke leid naar een externe bron
 moet duidelijk aangeven aan je bezoekers waar ze naar linken zonder dat
-zij als 'spam' gezien worden - bijvoorbeeld [Joomla! Documentatie
-Project](https://docs.joomla.org/Main_Page "Main Page") zal een
+zij als 'spam' gezien worden - bijvoorbeeld  Joomla! Documentatie
+Project zal een
 duidelijke indicatie zijn dat de link mensen leidt naar de homepagina
 van het Joomla! Documentatie Project. Als de link wordt geschreven als
-[hier](https://docs.joomla.org/Main_Page "Main Page") is het niet zo
+hier is het niet zo
 duidelijk welke pagina je bezoekt - en als je nog geen enkele
 zoekwoorden van de landing pagina hebt gebruikt, zal hun site niet de
 beste voordelen halen uit jouw link.
@@ -58,8 +55,8 @@ omgeving op je website linkt) en ook op externe links naar andere sites.
 
 ### Een waarschuwing
 
-Het is belangrijk op te merken dat met de recente updates naar [Google's
-algoritmen](https://docs.joomla.org/Google_Updates "Special:MyLanguage/Google Updates")
+Het is belangrijk op te merken dat met de recente updates naar  Google's
+algoritmen
 (Panda genaamd, en meer recent Penquin), sites met een onnatuurlijke
 link-profiel kunnen worden gedegradeerd in de ranking in zoekmachine
 posities. Een van de hoofd factoren in de Penguin update gerichte

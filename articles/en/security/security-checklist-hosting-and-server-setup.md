@@ -92,7 +92,7 @@ for all situations. Check this
 <a href="https://resources.joomla.org/en/category/hosting-providers"
 class="external text" target="_blank" rel="noreferrer noopener">list of
 hosts</a> who meet the security requirements of a typical Joomla site.
-([FAQ](https://docs.joomla.org/Security_and_Performance_FAQs#How_do_I_choose_a_quality_hosting_provider.3F "Special:MyLanguage/Security and Performance FAQs"))
+(FAQ
 
 ### Shared server risks
 
@@ -105,8 +105,8 @@ appropriate for securing sites on shared server environments.
 
 ### Use Apache .htaccess
 
-*See also [.htaccess
-examples](https://docs.joomla.org/htaccess_examples_(security) "Special:MyLanguage/htaccess examples (security)")*
+*See also  .htaccess
+examples*
 
 Block typical exploit attempts with local Apache *.htaccess* files. This
 option is not enabled on all servers. Check with your host if you run
@@ -115,8 +115,8 @@ directories, such as administrator, restrict access to sensitive
 directories by IP Address, and depending on your server's configuration,
 you may be able to increase security by switching to PHP7.
 
-Joomla ships with a [preconfigured
-.htaccess](https://docs.joomla.org/Preconfigured_htaccess "Special:MyLanguage/Preconfigured htaccess")
+Joomla ships with a  preconfigured
+.htaccess
 file, but \*you\* need to choose to use it. The file is called
 htaccess.txt. To use it, rename it to .htaccess and place it in the root
 of your site using FTP. One important point to note is that as the
@@ -146,20 +146,20 @@ or a similar configuration.
 The two best tutorials and explanations on permissions, ownerships and
 their relations are from this official Joomla doc page:
 
-- [File
-  Permissions](https://docs.joomla.org/Where_can_you_learn_more_about_file_permissions%3F "Special:MyLanguage/Where can you learn more about file permissions?")
-- [File ownership
-  advice](https://docs.joomla.org/Why_can%27t_you_install_any_extensions%3F#File_ownership_advice_from_ianmac "Special:MyLanguage/Why can't you install any extensions?")
+-  File
+  Permissions
+-  File ownership
+  advice
 
 Specific topics to read would be the following two:
 
-- [Unix Permissions
-  Primer](https://docs.joomla.org/How_do_UNIX_file_permissions_work%3F "Special:MyLanguage/How do UNIX file permissions work?")
+-  Unix Permissions
+  Primer
 
 And for information on phpSuExec and similar implementations:
 
-- [Using
-  phpSuExec](https://docs.joomla.org/Using_phpSuExec "Special:MyLanguage/Using phpSuExec")
+-  Using
+  phpSuExec
 
 ### Use Apache mod_security
 
@@ -299,8 +299,8 @@ Adjust the *magic_quotes_gpc* directive as needed for your site.
 - The recommended settings for Joomla! 1.0.x is ON to protect against
   poorly-written third-party extensions.
 
-For more information, see either [Magic quotes and
-security](https://docs.joomla.org/Magic_quotes_and_security "Special:MyLanguage/Magic quotes and security")
+For more information, see either  Magic quotes and
+security
 or <a href="http://php.net/magic_quotes" class="external text"
 target="_blank" rel="nofollow noreferrer noopener">PHP Manual, Chapter
 31. Magic Quotes</a>.
@@ -382,7 +382,7 @@ allow_url_include</a>
        Proper setup will have this:
                     allow_url_fopen = 1
                   allow_url_include = 0
-      
+
        PHP default: allow_url_fopen is enabled
        PHP default: allow_url_include is disabled
 
@@ -428,8 +428,8 @@ secured the server your site is on; and that they or you perform regular
 (weekly) security updates to keep the server up to date. Check you have
 jail shell. A rule of thumb is the less you pay, the less they care.
 
-More information on file permissions can be found here: [File
-permissions](https://docs.joomla.org/Security_Checklist/Where_can_you_learn_more_about_file_permissions%3F "Special:MyLanguage/Security Checklist/Where can you learn more about file permissions?")
+More information on file permissions can be found here:  File
+permissions
 
 ## Setup a backup and recovery process
 

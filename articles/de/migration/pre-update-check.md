@@ -49,8 +49,8 @@ alt="Empfohlene PHP-Einstellungen der Komponente „Kompatibilitätsprüfung“"
 Wichtig ist, dass Sie überprüfen, ob irgendetwas rot markiert ist und
 mit Joomla 4.x nicht kompatibel sein wird. Wenn das der Fall ist, müssen
 Sie mit Ihrem Hoster sprechen oder den Hoster wechseln, bevor Sie auf
-Joomla 4.x migrieren können. Siehe auch [Warum
-Migrieren](https://docs.joomla.org/Why_Migrate "Special:MyLanguage/Why Migrate")
+Joomla 4.x migrieren können. Siehe auch  Warum
+Migrieren
 für weitere Informationen zur Planung und
 Schritt-für-Schritt-Anleitungen.
 
@@ -61,8 +61,8 @@ Erweiterungen von Drittanbietern.
 
 Die Liste ist in Abschnitte unterteilt, die auf dem Tag *targetplatform*
 basieren, den Erweiterungen, die gerade benutzt werden oder nicht. Für
-Entwickler, siehe auch [Einsatz eines
-Update-Servers](https://docs.joomla.org/Deploying_an_Update_Server "Special:MyLanguage/Deploying an Update Server")
+Entwickler, siehe auch  Einsatz eines
+Update-Servers
 für weitere Informationen über diese Tags und wie man einen Update
 Server einrichtet. Für weitere Informationen über das Joomla
 Update-System, siehe die Seiten <a
@@ -87,8 +87,8 @@ alt="Update-Informationen nicht verfügbar" />
 Die hier aufgeführten Erweiterungen unterstützen noch nicht das
 Joomla-Update-System oder haben zumindest keinen targetplatform-Tag, der
 die Unterstützung für die ausgewählte Ziel-Joomla-Version anzeigt.
-(siehe [Einen Update-Server
-bereitstellen](https://docs.joomla.org/Deploying_an_Update_Server/de "Deploying an Update Server/de"))
+(siehe  Einen Update-Server
+bereitstellen
 Zur Überprüfung der Kompatibilität mit 4.x sollte der Entwickler der
 aufgeführten Erweiterungen kontaktiert werden.
 

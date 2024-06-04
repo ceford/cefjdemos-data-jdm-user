@@ -8,8 +8,8 @@ data-file-width="200" data-file-height="80" width="25" height="10"
 alt="Merge-icon.png" />Merge Notice
 
 It has been suggested that this article or section be merged with
-*[Backup Basics for a Joomla! Web
-Site](https://docs.joomla.org/Backup_Basics_for_a_Joomla!_Web_Site "Backup Basics for a Joomla! Web Site")*.
+* Backup Basics for a Joomla! Web
+Site*.
 (<a
 href="https://docs.joomla.org/index.php?title=Talk:What_are_the_best_practices_for_site_backups%3F&amp;action=edit&amp;redlink=1"
 class="new"

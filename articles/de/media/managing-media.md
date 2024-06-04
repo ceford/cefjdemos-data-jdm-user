@@ -145,13 +145,13 @@ about whatever is selected.
 
 In this series of tutorials:
 
-- [Managing
-  Media](https://docs.joomla.org/J4.x:Managing_Media "Special:MyLanguage/J4.x:Managing Media")
-- [Media: Upload Delete
-  Rename](https://docs.joomla.org/J4.x:Media:_Upload_Delete_Rename "Special:MyLanguage/J4.x:Media: Upload Delete Rename")
-- [Media: Image Crop Resize
-  Rotate](https://docs.joomla.org/J4.x:Media:_Image_Crop_Resize_Rotate "Special:MyLanguage/J4.x:Media: Image Crop Resize Rotate")
-- [Media:
-  Options](https://docs.joomla.org/J4.x:Media:_Options "Special:MyLanguage/J4.x:Media: Options")
-- [Media: Uploading SVG
-  files](https://docs.joomla.org/J4.x:Media:_Uploading_SVG_files "Special:MyLanguage/J4.x:Media: Uploading SVG files")
+-  Managing
+  Media
+-  Media: Upload Delete
+  Rename
+-  Media: Image Crop Resize
+  Rotate
+-  Media:
+  Options
+-  Media: Uploading SVG
+  files

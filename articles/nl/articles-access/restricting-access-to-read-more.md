@@ -38,8 +38,8 @@ de toegang tot het volledige artikel te beperken:
 
 (Deze opties kunnen overschreven worden in de overeenkomstige
 menu-instellingen of, door artikelinstellingen als de menu-instellingen
-ingesteld staan om de artikelinstellingen te gebruiken) - Zie [Artikel
-opties](https://docs.joomla.org/Help32:Menus_Menu_Item_Article_Category_Blog#Article_Options "Special:MyLanguage/Help32:Menus Menu Item Article Category Blog")
+ingesteld staan om de artikelinstellingen te gebruiken) - Zie  Artikel
+opties
 
 **Let op:** Tekst in artikelen zonder 'Lees meer' wordt beschouwd als
 'intro tekst'. Als u artikelen heeft voor alleen geregistreerde

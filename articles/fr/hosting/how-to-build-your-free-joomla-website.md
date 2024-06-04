@@ -30,7 +30,7 @@ donne l'occasion idéale de le faire et d'avoir un site Joomla pleinement
 fonctionnel et opérationnel en quelques minutes seulement.
 
 Le processus de lancement de votre nouveau site Web Joomla n'a jamais
-été aussi simple !  
+été aussi simple !
 Pour commencer, rendez-vous sur
 <a href="https://launch.joomla.org/" class="external text"
 target="_blank" rel="noreferrer noopener">launch.joomla.org</a> et
@@ -55,7 +55,7 @@ alt="Launch-Joomla-homepage-information.png" />
 
 Bien entendu, nous vous demandons d'accepter nos conditions
 d'utilisation, que vous pouvez lire dans leur intégralité à partir de la
-page d'inscription.  
+page d'inscription.
 Si vous acceptez de vous inscrire à notre campagne de marketing, cela
 nous donne simplement la permission de vous envoyer des e-mails de
 marketing, ce n'est pas une obligation.
@@ -102,7 +102,7 @@ target="_blank" rel="noreferrer noopener">issues.joomla.org</a>.
 Aucune compétence particulière n'est requise pour devenir testeur ! Si
 vous n'avez jamais testé de *pull request*, la documentation Joomla vous
 fournit tous les
-[didacticiels](https://docs.joomla.org/Testing_Joomla!_patches "Special:MyLanguage/Testing Joomla! patches")
+didacticiels
 nécessaires.
 
 Les tests sont importants dans un projet open source comme Joomla car

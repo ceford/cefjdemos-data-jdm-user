@@ -20,14 +20,14 @@ zu halten.
 Wenn von einer früheren Joomla-Version vor 4.x aktualisiert wird, müssen
 folgende Punkte beachtet werden:
 
-- [Potential backward compatibility issues in Joomla
-  4](https://docs.joomla.org/Potential_backward_compatibility_issues_in_Joomla_4 "Special:MyLanguage/Potential backward compatibility issues in Joomla 4")
+-  Potential backward compatibility issues in Joomla
+  4
 
-- [Joomla 3.x to 4.x Step by Step
-  Migration](https://docs.joomla.org/Joomla_3.x_to_4.x_Step_by_Step_Migration "Special:MyLanguage/Joomla 3.x to 4.x Step by Step Migration")
+-  Joomla 3.x to 4.x Step by Step
+  Migration
 
-- Updating 1.x or 2.x to 3.x: use [Updating Joomla (Install
-  Method)](https://docs.joomla.org/J3.x:Updating_Joomla_(Install_Method) "Special:MyLanguage/J3.x:Updating Joomla (Install Method)").
+- Updating 1.x or 2.x to 3.x: use  Updating Joomla (Install
+  Method).
 
 ## Zugriff auf die Update Komponente
 
@@ -354,13 +354,13 @@ If the information displayed is incorrect please check the following:
 - The update information may be out of date. Go to System, Update,
   Extensions and click on Check For Updates. Then go back to System,
   Update, Joomla and see if the extension now appears as compatible or if
-  you are told than a compatible update to it is available. 
+  you are told than a compatible update to it is available.
 - The update
   sites information in Joomla is corrupt. Go to System, Update, Update
   Sites and click on Rebuild. Then go to System, Update, Joomla and click
   on Options. Select the Testing update channel. Click on Save & Close.
   Click on Options again. Select the Default or Joomla Next update channel
-  — depending on your preference — and click on Save & Close. 
+  — depending on your preference — and click on Save & Close.
 - Your host
   prevents making outbound HTTP/HTTPS requests at all or restricts them to
   predefined allowed IP addresses. This will prevent Joomla from
@@ -370,11 +370,11 @@ If the information displayed is incorrect please check the following:
   make requests to these URLs. Please note that some of these URLs may
   point to a CDN, meaning that the exact IP address will be different
   depending on where the world you are trying to access this URL from. Do
-  tell your host; they will know what to do with this information. 
+  tell your host; they will know what to do with this information.
 - Your
   host may have an outdated SSL library which does not understand the
   modern TLS certificates used by most third party extension developers'
-  update sites. Please ask your host about it. 
+  update sites. Please ask your host about it.
 - You may have “orphaned”
   extensions. Most modern Joomla extensions are delivered as ‘package’
   type extensions which include two or more related extensions. When
@@ -390,7 +390,7 @@ If the information displayed is incorrect please check the following:
   use of packages in extensions. In this case even updating the extension
   will NOT update the package association. There is currently no solution
   to this except determining manually the compatibility of extensions with
-  each Joomla version. 
+  each Joomla version.
 - In some cases the number of requests Joomla
   sends to your server as it determines compatibility for each extension
   may overwhelm the server and trigger a Denial of Service protection. In
@@ -422,7 +422,7 @@ reasons:
   hosting control panel is not always realtime, i.e. it may ‘lag’ several
   minutes or hours behind the actual disk space usage on your site.
   Moreover, further limits may be imposed by your host. If unsure, please
-  ask your host. 
+  ask your host.
 - Your host prevents making outbound HTTPS requests at
   all or restricts them to predefined allowed IP addresses. Please ask
   them to allow outbound HTTP requests to
@@ -430,7 +430,7 @@ reasons:
   rel="nofollow noreferrer noopener">https://github.com`</a>. This is a
   CDN, meaning that the exact IP address will be different depending on
   where the world you are trying to access this URL from. Do tell your
-  host; they will know what to do with this information. 
+  host; they will know what to do with this information.
 - Your host may
   have an outdated SSL library which does not understand the modern TLS
   certificates used by GitHub. Please ask your host about it.
@@ -463,30 +463,30 @@ reasons:
 - If you can access the file but extracting the update fails
   immediately there is a different server protection on your site which
   prevents the request to \`extract.php\` from being handled by that file.
-  Please contact your host about this. 
-- If you are using CloudFlare go to Rules and create a new Page Rule. Set 
-  the If URL Matches to /administrator/components/com_joomlaupdate/extract.php and Then The Settings Are to “Disable Security” and on a new line ”Cache 
-  Level”,‘Bypass’. Set the Order to First. Click on Save and Deploy. This 
-  ensures that CloudFlare will not try to block the update extraction. 
+  Please contact your host about this.
+- If you are using CloudFlare go to Rules and create a new Page Rule. Set
+  the If URL Matches to /administrator/components/com_joomlaupdate/extract.php and Then The Settings Are to “Disable Security” and on a new line ”Cache
+  Level”,‘Bypass’. Set the Order to First. Click on Save and Deploy. This
+  ensures that CloudFlare will not try to block the update extraction.
 - The
   update ZIP file is corrupt or truncated. This could happen if
   downloading the update file failed with an error. Go back and retry. See
-  also the previous section. 
+  also the previous section.
 - If you are using upload and update i.e.
   you uploaded the update ZIP file yourself please make sure that you are
   using only the official Joomla Update ZIP files. The extraction script
   only supports a subset of the ZIP archive format used by the official
-  update ZIP files. 
+  update ZIP files.
 - Did you run out of disk space? Please check the
-  section above. 
+  section above.
 - Is the ownership and permissions of all files correct?
   Joomla needs write access to all of its files and folders. If unsure,
   ask your host. There is no specific set of “good” permissions! The
   permissions needed depend on the ownership of your files and which
-  system user the web server runs under. 
+  system user the web server runs under.
 - Did you lose network
   connectivity or your network has very high latency? It's possible that
-  the request fails because of that. 
+  the request fails because of that.
 - The extraction takes place by
   making consecutive requests to the aforementioned extract.php file. Each
   request is set up to take between 3 and 4 seconds. The process repeats

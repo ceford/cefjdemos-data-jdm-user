@@ -1,6 +1,6 @@
 <!-- Filename: J4.x:Adding_a_New_Article / Display title: Einen neuen Beitrag hinzufügen -->
 
-Joomla!  4.0 <span id="main-portal-heading">**Tutorial**  
+Joomla!  4.0 <span id="main-portal-heading">**Tutorial**
 Einen neuen Beitrag anlegen</span>
 
 ## Einführung
@@ -14,7 +14,7 @@ Standard-Joomla-Installation unter Verwendung des Standard-Editors.
 
 Für weitere Informationen über die verschiedenen Editoren, die in Joomla
 verfügbar sind, siehe:
-[Inhaltseditoren](https://docs.joomla.org/Content_creators#Inhaltseditoren "Special:MyLanguage/Content creators").
+Inhaltseditoren.
 
 Bevor wir beginnen, sollte neben dem Inhalt auch die Kategorie und
 mögliche Schlagwörter feststehen, die dem Beitrag zugeordnet werden
@@ -79,8 +79,8 @@ Informationen zu speichern:
     gelassen wird, erstellt Joomla den Alias selbstständig, wenn der
     Artikel gespeichert wird. Der Alias wird verwendet, um auf den
     Artikel zu verweisen und ist wichtig für die
-    [suchmaschinenfreundlichen
-    URLs](https://docs.joomla.org/Search_Engine_Friendly_URLs "Special:MyLanguage/Search Engine Friendly URLs").
+     suchmaschinenfreundlichen
+    URLs.
     Der Alias kann auch von anderen Website-Funktionen wie Plugins und
     Modulen verwendet werden, um den Artikel zu finden.
 2.  Wählen Sie eine **Kategorie**. Siehe Artikel-Einstellungen weiter

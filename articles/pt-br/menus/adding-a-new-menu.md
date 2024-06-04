@@ -1,6 +1,6 @@
 <!-- Filename: J4.x:Adding_a_New_Menu / Display title: Adição de um novo menu -->
 
-Joomla!  4.x <span id="main-portal-heading">**Tutorial**  
+Joomla!  4.x <span id="main-portal-heading">**Tutorial**
 Como adicionar um novo menu</span>
 
 ## Introdução
@@ -120,8 +120,8 @@ alt="J4.x create menu module-en.png" />
 Há muitas opções para escolher nos módulos para menus, como datas
 relacionadas às publicações, acessos dos usuários e itens que serão
 submenus, apenas para citar alguns. Para informações detalhadas sobre os
-módulo para menus e todos os seus parâmetros consulte: [Módulo para
-menus](https://docs.joomla.org/Help4.x:Site_Modules:_Menu/pt-br "Special:MyLanguage/Help4.x:Site Modules: Menu/pt-br").
+módulo para menus e todos os seus parâmetros consulte:  Módulo para
+menus.
 
 Depois que as informações forem adicionadas, acione (clique em) **Salvar
 e fechar** e você retornará ao gerenciador dos menus.

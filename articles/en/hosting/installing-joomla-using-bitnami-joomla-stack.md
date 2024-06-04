@@ -204,5 +204,5 @@ launch the application.
 
 ### Installing Joomla! manually
 
-Follow the instructions outlined in the article [Installing
-Joomla](https://docs.joomla.org/J3.x:Installing_Joomla "J3.x:Installing Joomla").
+Follow the instructions outlined in the article  Installing
+Joomla.

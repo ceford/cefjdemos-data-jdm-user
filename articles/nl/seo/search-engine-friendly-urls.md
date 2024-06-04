@@ -9,8 +9,8 @@ in staat URL's in alle formaten te creëren, inclusief SEF URL's. Dit is
 onafhankelijk van de URL-rewriting uitgevoerd door de web-server, zodat
 het zelfs werkt als Joomla! draait op een andere server dan met de
 Apache mod_rewrite module. De SEF URL's volgen een bepaald patroon, maar
-de gebruiker kan een [korte beschrijvende tekst
-(alias)](https://docs.joomla.org/Alias "Special:MyLanguage/Alias")
+de gebruiker kan een  korte beschrijvende tekst
+(alias)
 definiëren voor elk deel van de URL.
 
 Intern heet het lokale gedeelte van een SEF URL (het gedeelte achter de
@@ -30,10 +30,7 @@ Joomla!" artikel in de voorbeelddata.
 
 Zoekmachine vriendelijke URL's kunnen worden geactiveerd door het
 inschakelen van de "'Zoekmachine vriendelijke URL's" optie bij de
-"Algemene instellingen". Deze optie is standaard sinds Joomla! 1.6. Zie
-[Inschakelen van zoekmachine vriendelijke (SEF)
-URL's](https://docs.joomla.org/Enabling_Search_Engine_Friendly_(SEF)_URLs "Special:MyLanguage/Enabling Search Engine Friendly (SEF) URLs")
-voor meer informatie.
+"Algemene instellingen". Deze optie is standaard sinds Joomla! 1.6. Zievoor meer informatie.
 
 ## Veel gestelde vragen (Faq)
 
@@ -240,9 +237,6 @@ die de `JPlugin::onAfterInitialise()` functie overschrijft. Deze functie
 ontleedt de URL en maakt de noodzakelijke variabelen aan in `$_GET` voor
 de standaard Joomla routering wordt uitgevoerd.
 
-"Zie [Het maken van een Systeem plugin om JRouter uit te
-breiden](https://docs.joomla.org/Creating_a_System_Plugin_to_augment_JRouter "Special:MyLanguage/Creating a System Plugin to augment JRouter")
+"Zie  Het maken van een Systeem plugin om JRouter uit te
+breiden
 als voorbeeld."
-
-[Categorie:Zoekmachine vriendelijke
-URL's](https://docs.joomla.org/Category:Search_Engine_Friendly_URLs "Special:MyLanguage/Category:Search Engine Friendly URLs")

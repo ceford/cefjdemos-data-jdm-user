@@ -8,8 +8,8 @@ como un embudo. En la parte inferior de cada página hay hasta dos
 opciones para llevarle a la siguiente etapa. ¡Aquí están todos las
 razones para dar el paso a Joomla 4.x!
 
-Antes que nada, debes comprobar la [versión de
-Joomla!](https://docs.joomla.org/How_to_check_the_Joomla_version%3F "Special:MyLanguage/How to check the Joomla version?")
+Antes que nada, debes comprobar la  versión de
+Joomla!
 sobre la que corre tu sitio web.
 
 ## ¿Por qué debo migrar?

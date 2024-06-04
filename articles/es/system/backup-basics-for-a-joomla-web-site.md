@@ -191,5 +191,5 @@ sitio web del Lado Servidor. A continuación, desactiva todos los plugins
 del grupo "twofactorauth". Finalmente, cambia el nombre de la carpeta
 plugins/twofactorauth.BAK de tu sitio de nuevo a twofactorauth.
 
-- Ver también: [Tutorial Autenticación de Dos
-  factores](https://docs.joomla.org/J3.x:Two_Factor_Authentication "Special:MyLanguage/J3.x:Two Factor Authentication")
+- Ver también:  Tutorial Autenticación de Dos
+  factores

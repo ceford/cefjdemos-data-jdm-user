@@ -13,7 +13,7 @@ alt="Stop hand nuvola.svg.png" />Warning!
 your extensions are ready for Joomla 4.x. Joomla 3.10.x will be
 supported until 16 August 2023.
 
-  
+
 Ниже приведены пошаговые инструкции по переносу вашего сайта 3.10.x на
 Joomla! 4.x. Хотя существуют сотни различных сценариев, это даст вам
 базовое понятие, которому нужно следовать. Скорее всего миграция может
@@ -30,10 +30,10 @@ Joomla! 4.x. Хотя существуют сотни различных сце�
 Вам нужно проверить каждое расширение что бы определить по какому пути
 будет происходить его переход с 3.10 на 4.x. Если вы еще этого не
 сделали, возможно, вам будет интересно перед выполнением следующих шагов
-прочитать [Миграция шаг за шагом -
-Самооценка](https://docs.joomla.org/Migration_Step_by_Step_Self_Assessment "Special:MyLanguage/Migration Step by Step Self Assessment")
-and [Планирование миграции с 3.10 на
-4.x](https://docs.joomla.org/Planning_for_Mini-Migration_-_Joomla_3.10.x_to_4.x "Special:MyLanguage/Planning for Mini-Migration - Joomla 3.10.x to 4.x").
+прочитать  Миграция шаг за шагом -
+Самооценка
+and  Планирование миграции с 3.10 на
+4.x.
 
 Встроенные расширения Joomla!:
 
@@ -64,10 +64,10 @@ and [Планирование миграции с 3.10 на
 2.  Сделайте резервную копию вашего действующего сайта 3.10.x. Вы можете
     использовать рекомендованный инструмент (см. «Предлагаемые
     инструменты» внизу страницы) или сделайте это вручную.
-    - [Joomla! Основы резервного
-      копирования](https://docs.joomla.org/Backup_Basics_for_a_Joomla!_Web_Site "Special:MyLanguage/Backup Basics for a Joomla! Web Site")
-    - [Основные рекомендации по резервному копированию
-      сайтов?](https://docs.joomla.org/What_are_the_best_practices_for_site_backups%3F "Special:MyLanguage/What are the best practices for site backups?")
+    -  Joomla! Основы резервного
+      копирования
+    -  Основные рекомендации по резервному копированию
+      сайтов?
 3.  Прежде чем продолжить, убедитесь, что ваша среда соответствует
     <a href="https://downloads.joomla.org/technical-requirements"
     class="external text" target="_blank"
@@ -82,7 +82,7 @@ and [Планирование миграции с 3.10 на
     установке
     <a href="http://sourceforge.net/projects/xampp/" class="external text"
     target="_blank" rel="nofollow noreferrer noopener">XAMPP</a> в
-    [XAMPP](https://docs.joomla.org/XAMPP "XAMPP").
+    XAMPP.
     <a href="https://www.wampserver.com/en/" class="external text"
     target="_blank" rel="nofollow noreferrer noopener">WAMP</a>,
     <a href="https://www.mamp.info/en/windows/" class="external text"
@@ -95,8 +95,8 @@ and [Планирование миграции с 3.10 на
 10. \*\* Восстановление сайта на локальном устройстве. См. [Установка
     Joomla
     локально](https://docs.joomla.org/Installing_Joomla_locally "Special:MyLanguage/Installing Joomla locally")
-    и [Настройка вашей рабочей станции для разработки
-    Joomla](https://docs.joomla.org/Setting_up_your_workstation_for_Joomla_development "Special:MyLanguage/Setting up your workstation for Joomla development").
+    и  Настройка вашей рабочей станции для разработки
+    Joomla.
 11. \*\* Восстановление сайта с помощью инструмента, указанного внизу
     страницы. (Прочтите документацию разработчика.)
 12. В вашем тестовом месте обновите Joomla! 3.10.x до последней версии.
@@ -224,7 +224,7 @@ title="Planning for Mini-Migration - Joomla 3.10 to 4.x (page does not exist)">�
     not in use or not compatible with Joomla! 4.x. **NOTE!** You will
     not be able to uninstall any template that is set as default. You
     will need to select a Core supported template like Beez3 or
-    Protostar and then uninstall the template if you need to do so.  
+    Protostar and then uninstall the template if you need to do so.
     *Another reminder:* **Protostar is not compatible with Joomla 4.x**.
     Upon migration it will disappear. Selecting it as default simply
     gets you to Joomla 4.x.
@@ -248,8 +248,8 @@ title="Planning for Mini-Migration - Joomla 3.10 to 4.x (page does not exist)">�
       site is migrated. An example of this might be a content plugin. It
       is very simple to uninstall it in 3.10.x and then install it again
       in 4.x.
-    - See [Template
-      Considerations](https://docs.joomla.org/Template_Considerations_During_Migration "Special:MyLanguage/Template Considerations During Migration")
+    - See  Template
+      Considerations
       for more specific information on templates and [Converting a
       previous Joomla! Version
       template](https://docs.joomla.org/J3.x:Converting_A_Previous_Joomla!_Version_Template "Special:MyLanguage/J3.x:Converting A Previous Joomla! Version Template")
@@ -399,4 +399,4 @@ party extension</a>.
 
 ## Related information
 
-[Pre-Update_Check](https://docs.joomla.org/:Pre-Update_Check "Special:MyLanguage/:Pre-Update Check")
+Pre-Update_Check

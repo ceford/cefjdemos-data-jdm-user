@@ -37,7 +37,7 @@ título:
 - Marca tus títulos, pero hazlo de manera concisa y en relación con el
   contenido que se está sirviendo
 - Utiliza
-  [robots.txt](https://docs.joomla.org/robots.txt_file "Special:MyLanguage/robots.txt file")
+  robots.txt
   cuidadosamente, no impidas que los motores de búsqueda visiten tu
   sitio web
 

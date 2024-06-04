@@ -56,8 +56,8 @@ wichtigste Teil. Diese Fragen sollten bei der Planung nützlich sein:
 
 ### Neuen Benutzer anlegen (oder vorhandenen Benutzer bearbeiten)
 
-Using the directions on [create your new
-**Users**](https://docs.joomla.org/Adding_a_new_user "Special:MyLanguage/Adding a new user").
+Using the directions on  create your new
+**Users**.
 
 1.  **Benutzer** anlegen und diese(n) der **Benutzergruppe**
     *Blog-Autor* zuordnen.
@@ -140,8 +140,8 @@ of Transitions for the Workflow.
 9.  Click Save & Close.
 
 For more information on ACL and assigning permissions to User Groups,
-see the [ACL
-Tutorial](https://docs.joomla.org/J3.x:Access_Control_List_Tutorial "Special:MyLanguage/J3.x:Access Control List Tutorial").
+see the  ACL
+Tutorial.
 
 ### Setting up Notifications
 
@@ -164,15 +164,15 @@ publish them.
 ### To set it up so that Users can Post and Approve from the frontend
 
 1.  Create a **Menu Item** for the **Menu Item Type** Login so that your
-    Blog Posters can login.  
+    Blog Posters can login.
     **Menus** **→** *Choose or create a
-    menu* **→** New **→** **Users** **→** **Login**  
+    menu* **→** New **→** **Users** **→** **Login**
     OR
-2.  Create a module for Login so that your Blog Posters can login.  
+2.  Create a module for Login so that your Blog Posters can login.
     **Extensions** **→** **Modules** **→** New **→** **Login**
 3.  Add a **Menu Item** to a Menu that displays only for the
-    **Registered User Group** to Add an article  
-    **Menu Item Type Articles** **→** **Create Article**  
+    **Registered User Group** to Add an article
+    **Menu Item Type Articles** **→** **Create Article**
     **NOTE**: this will display for all Registered Users unless you
     create an Access Level for your Blog Poster User Group and select
     this in the Menu Item under Access.
@@ -200,7 +200,7 @@ Docs can be edited or added to by anyone with an account.
 
 See also:
 
-- [Publishing Workflow
-  Implementation](https://docs.joomla.org/Publishing_Workflow_Implementation "Special:MyLanguage/Publishing Workflow Implementation")
-- [Publishing
-  Workflow](https://docs.joomla.org/Publishing_Workflow "Special:MyLanguage/Publishing Workflow")
+-  Publishing Workflow
+  Implementation
+-  Publishing
+  Workflow

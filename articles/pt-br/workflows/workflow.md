@@ -34,12 +34,9 @@ os artigos e agrupá-los em categorias.
 
 Há uma página de tutorial contendo os passos para a criação de seu
 primeiro fluxo de trabalho:
-[Cenários](https://docs.joomla.org/J4.x:Workflowhttps://docs.joomla.org/J4.x:Workflow/Scenarios).  
+Cenários.
 Você pode encontrar mais informações sobre a implementação do componente
 em outras áreas na página do Google summer of code project DOC:
-[Implementação do fluxo de trabalho de
-publicação](https://docs.joomla.org/Publishing_Workflow_Implementation "Special:MyLanguage/Publishing Workflow Implementation")
-
 Você pode desativar fluxos de trabalho a qualquer momento visitando
 "artigos" ou "fluxos de trabalho" e clicando em "opções" no canto
 superior direito. Alterne para a guia de "integração" e role para baixo
@@ -82,14 +79,14 @@ alt="Workflows List" />
     permissões (gerenciamento de direitos)
 - Ao lado do título, você encontra a opção de *gerenciar* os passos do
   fluxo de trabalho (para obter mais informações, consulte
-  [Estágios](https://docs.joomla.org/Publishing_Workflow#Stages "Special:MyLanguage/Publishing Workflow"))
+  Estágios
 - Ao lado dos "estágios" está a opção padrão
 - Você encontra um ícone amarelo, ao lado de "padrão", representando o
   número de estágios existentes neste fluxo de trabalho
 - Ao lado do círculo amarelo está um ícone azul que representa o número
   de transições existentes neste fluxo de trabalho (para mais
   informações consulte
-  [Transições](https://docs.joomla.org/Publishing_Workflow#Transitions "Special:MyLanguage/Publishing Workflow"))
+  Transições
 - Você também pode ver o identificador (ID) do fluxo de trabalho.
 
 ## Estágios
@@ -98,7 +95,7 @@ Os estágios são acessados através do contêiner "lista de fluxos de
 trabalho" clicando no ícone amarelo que mostra o número de estágios.
 Você pode editar o nome de um estágio clicando nele.
 
-  
+
 <img
 src="https://docs.joomla.org/images/thumb/a/ac/Stages-en.png/800px-Stages-en.png"
 decoding="async"
@@ -157,8 +154,8 @@ mas precisa ser revisado, você pode enviar uma notificação por e-mail ao
 editor.
 
 Você também pode adicionar texto de mensagem adicional. Isso também
-permitirá que você use uma [string de
-linguagem](https://docs.joomla.org/J3.x:Language_Overrides_in_Joomla "J3.x:Language Overrides in Joomla")
+permitirá que você use uma  string de
+linguagem
 que tornaria o texto da mensagem traduzível.
 
 A opção de grupos de usuários permitirá definir quem receberá a
@@ -230,6 +227,6 @@ fluxo de trabalho são excluídos do controle de versão (como "estado" e
 
 Consulte também:
 
-- [Implementação do fluxo de trabalho de
-  publicação](https://docs.joomla.org/Publishing_Workflow_Implementation "Special:MyLanguage/Publishing Workflow Implementation")
-- [Cenários](https://docs.joomla.org/J4.x:Workflowhttps://docs.joomla.org/J4.x:Workflow/Scenarios)
+-  Implementação do fluxo de trabalho de
+  publicação
+- Cenários

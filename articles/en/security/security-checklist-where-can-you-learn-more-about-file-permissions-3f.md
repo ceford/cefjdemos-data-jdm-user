@@ -108,23 +108,23 @@ alt="Stop hand nuvola.svg.png" />Warning!
 
 The application of file permissions, directory permissions and their
 control depends on the operating system of the server and can be
-complex. Please read about the [recommended permission settings for
-Joomla!](https://docs.joomla.org/Verifying_permissions#Recommended_settings "Verifying permissions")
-or [bad server
-permission](https://docs.joomla.org/Security_Checklist/You_have_been_hacked_or_defaced#777_Permissions "Security Checklist/You have been hacked or defaced")
+complex. Please read about the  recommended permission settings for
+Joomla!
+or  bad server
+permission
 settings.
 
 Please read more about permissions and how to change them using the
 appropriate link to the correct server operating system or
 configuration:
 
-- [How do UNIX file permissions
-  work?](https://docs.joomla.org/How_do_UNIX_file_permissions_work%3F "How do UNIX file permissions work?")
-- [How do phpSuExec file permissions
-  work?](https://docs.joomla.org/How_do_phpSuExec_file_permissions_work%3F "How do phpSuExec file permissions work?")
+-  How do UNIX file permissions
+  work?
+-  How do phpSuExec file permissions
+  work?
 
 Microsoft Windows based servers, the IIS(Internet Information Server)
 and PWS(Personal WebServer)
 
-- [How do Windows file permissions
-  work?](https://docs.joomla.org/How_do_Windows_file_permissions_work%3F "How do Windows file permissions work?")
+-  How do Windows file permissions
+  work?

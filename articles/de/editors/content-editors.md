@@ -13,13 +13,13 @@ Benutzern eine gewohnte Word-Oberfläche zur Verfügung stellt, wenn
 Beiträge oder andere Elemente bearbeitet werden. TinyMCE kann mit drei
 unterschiedlichen Voreinstellungen der Werkzeugleiste konfiguriert
 werden. Voreinstellung 0, Voreinstellung 1 und Voreinstellung 2. Die
-Einstellung erfolgt im [Plugin
-Manager](https://docs.joomla.org/Help30:Extensions_Plugin_Manager "Special:MyLanguage/Help30:Extensions Plugin Manager")
+Einstellung erfolgt im  Plugin
+Manager
 für das " Editor - TinyMCE"-Plugin.
 
 TinyMCE can be configured with 3 different sets of toolbar buttons
 
-- **Set 2** is assigned to 'Public'. 
+- **Set 2** is assigned to 'Public'.
 - **Set 1** is assigned to the
 'Manager' and 'Registered'.
 - **Set 0** is the most extended toolbar and is by default assigned to
@@ -33,7 +33,7 @@ data-file-width="669" data-file-height="114" width="600" height="102"
 alt="Help30-editor-tinymce-advanced-en.png" />
 
 Learn about Toolbars, Editor Buttons and Accessibility of
-[TinyMCE](https://docs.joomla.org/Chunk30:TinyMCE "Special:MyLanguage/Chunk30:TinyMCE").
+TinyMCE.
 
 ## Code Mirror
 
@@ -51,8 +51,8 @@ alt="Help25-screenshot-editor-codemirror-example-en.png" />
 CodeMirror offers some of the same advantages of using No Editor, but
 makes it somewhat easier to work with raw HTML code.
 
-To set options: [CodeMirror Editor
-Plugin](https://docs.joomla.org/Help310:Extensions_Plugin_Manager_Edit#Editor_-_CodeMirror "Special:MyLanguage/Help310:Extensions Plugin Manager Edit")
+To set options:  CodeMirror Editor
+Plugin
 
 ## Kein Editor
 

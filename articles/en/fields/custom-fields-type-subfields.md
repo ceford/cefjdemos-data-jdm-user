@@ -9,8 +9,8 @@ Custom fields in Joomla! is a technology to extend various item types
 could e.g. extend a content article with a text field named
 *fact_checked_by*, and every content article would then get a text field
 where the administrator could enter a name. For a basic introduction
-into this topic see [J3.x:Adding custom
-fields](https://docs.joomla.org/J3.x:Adding_custom_fields "J3.x:Adding custom fields").
+into this topic see  J3.x:Adding custom
+fields.
 
 This wiki page is an introduction into a specific type of custom fields,
 called *subfields*. The type of a custom field defines it's behavior -

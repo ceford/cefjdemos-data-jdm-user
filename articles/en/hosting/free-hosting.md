@@ -6,7 +6,7 @@ joomla.com is a domain name used to allow individuals to create personal instanc
 
 ## Launching your first Joomla.com site
 
-If you are new to Joomla and would like to see it in action without downloading and setting it up yourself the process to launch your new Joomla website has never been easier! To get started, navigate to the main [launch.joomla.org](https://launch.joomla.org) page and enter the information requested in the sequence of forms, mostly appearing in pop-up dialog boxes.
+If you are new to Joomla and would like to see it in action without downloading and setting it up yourself the process to launch your new Joomla website has never been easier! To get started, navigate to the main launch.joomla.org page and enter the information requested in the sequence of forms, mostly appearing in pop-up dialog boxes.
 
 ### Step 1: Enter a suitable subdomain name
 
@@ -83,7 +83,7 @@ Since most of the platform’s functionality overlaps with that of the Joomla! C
 
 ### Test upcoming releases with joomla.com
 
-Tests are important in an open source project like Joomla as they provide quality assurance for upcoming releases. You can help with testing of new features and bug fixes by installing the [Joomla Patchtester](https://github.com/joomla-extensions/patchtester/releases) extension in your free Joomla site. No special skills are required to become a tester! If you have never tested pull requests, the Joomla Documentation provides all the [tutorials](https://docs.joomla.org/Special:MyLanguage/Testing_Joomla!_patches) you need. So be part of it, start testing Joomla today.
+Tests are important in an open source project like Joomla as they provide quality assurance for upcoming releases. You can help with testing of new features and bug fixes by installing the Joomla Patchtester](https://github.com/joomla-extensions/patchtester/releases) extension in your free Joomla site. No special skills are required to become a tester! If you have never tested pull requests, the Joomla Documentation provides all the [tutorials you need. So be part of it, start testing Joomla today.
 
 <p class="center">
 <img alt="Joomla patch tester" src="https://docs.joomla.org/images/thumb/a/ab/Launch-Joomla-patch-tester.png/800px-Launch-Joomla-patch-tester.png" decoding="async" width="800" height="384" srcset="https://docs.joomla.org/images/thumb/a/ab/Launch-Joomla-patch-tester.png/1200px-Launch-Joomla-patch-tester.png 1.5x, https://docs.joomla.org/images/a/ab/Launch-Joomla-patch-tester.png 2x" data-file-width="1440" data-file-height="691" class="border">

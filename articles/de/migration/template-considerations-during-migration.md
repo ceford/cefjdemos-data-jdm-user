@@ -11,11 +11,11 @@ alt="Copyedit.png" />This Article Needs Your Help
 the Joomla! Documentation Wiki by <a
 href="https://docs.joomla.org//docs.joomla.org/index.php?title=Template_Considerations_During_Migration/de&amp;action=edit"
 class="external text" target="_blank"
-rel="noreferrer noopener">contributing to it</a>.  
+rel="noreferrer noopener">contributing to it</a>.
 <span class="small">More pages that need help similar to this one are
-[here](https://docs.joomla.org/Category:Needs_updating "Category:Needs updating").</span>
+here.</span>
 <span class="small">**NOTE-If you feel the need is satistified, please
-remove this notice.**</span>*  
+remove this notice.**</span>*
 **Reason:** See section 3.4 and 4
 
 Templates können manchmal die geplanten Abläufe einer Migration
@@ -117,7 +117,7 @@ Wenn das fehlschlägt, dann muss entweder:
 *Punkt 1* ist selbsterklärend. Entweder man wählt ein Template eines
 kommerziellen Anbieters oder man passt das Standard-Template von
 Cassiopeia (mehr zu Cassiopeia weiter unten) an, das mit Joomla 4.x
-installiert wird.  
+installiert wird.
 *Punkt 2* ist nicht so einfach. Um ein bestehendes Template so zu
 konvertieren, dass es mit Joomla 3 (und zukünftig mit Joomla 4)
 kompatibel ist, siehe den folgenden Abschnitt.
@@ -126,13 +126,13 @@ kompatibel ist, siehe den folgenden Abschnitt.
 
 ### Template-Konvertierung von 1,5 nach 3.x
 
-- [Template Migration von Joomla! 1.5 nach
-  3.x](https://docs.joomla.org/Migrating_a_Template_from_Joomla_1.5_to_3.x "Special:MyLanguage/Migrating a Template from Joomla 1.5 to 3.x")
+-  Template Migration von Joomla! 1.5 nach
+  3.x
 
 ### Template Umwandlungen von 1.5 nach 2.5
 
-- [Upgrading a Joomla 1.5 template to Joomla
-  2.5](https://docs.joomla.org/Upgrading_a_Joomla_1.5_template_to_Joomla_2.5 "Special:MyLanguage/Upgrading a Joomla 1.5 template to Joomla 2.5")
+-  Upgrading a Joomla 1.5 template to Joomla
+  2.5
 - <a
   href="http://magazine.joomla.org/issues/issue-may-2012/item/740-How-to-convert-Joomla-15-template-to-Joomla-25"
   class="external free" target="_blank"
@@ -140,8 +140,8 @@ kompatibel ist, siehe den folgenden Abschnitt.
 
 ### Template Umwandlungen von 2.5 nach 3.x
 
-- [J3.x:Konvertieren eines Templates von einer früheren Joomla!
-  Version](https://docs.joomla.org/J3.x:Converting_A_Previous_Joomla!_Version_Template "Special:MyLanguage/J3.x:Converting A Previous Joomla! Version Template")
+-  J3.x:Konvertieren eines Templates von einer früheren Joomla!
+  Version
 - <a
   href="http://stackoverflow.com/questions/16055707/convert-joomla-2-5-template-to-3-0"
   class="external free" target="_blank"

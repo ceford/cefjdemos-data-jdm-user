@@ -11,11 +11,11 @@ alt="Copyedit.png" />This Article Needs Your Help
 Joomla! Documentation Wiki by <a
 href="https://docs.joomla.org//docs.joomla.org/index.php?title=How_do_Windows_file_permissions_work%3F/pt-br&amp;action=edit"
 class="external text" target="_blank"
-rel="noreferrer noopener">contributing to it</a>.  
+rel="noreferrer noopener">contributing to it</a>.
 <span class="small">More pages that need help similar to this one are
-[here](https://docs.joomla.org/Category:Needs_review "Category:Needs review").</span>
+here.</span>
 <span class="small">**NOTE-If you feel the need is satistified, please
-remove this notice.**</span>*  
+remove this notice.**</span>*
 **Reason:** A better title is probably in order too. Something like
 **Windows Server Permissions for Joomla! Installations** or something
 similar and less wordy.
@@ -173,7 +173,7 @@ usar 644, isso equivale a:
 
    O proprietário deste arquivo pode ler e gravar nele.
 
-   O grupo do proprietário pode ler o arquivo.  
+   O grupo do proprietário pode ler o arquivo.
 
    Todos os outros podem ler o arquivo.
 
@@ -193,7 +193,7 @@ Windows ou do NTFS, mas mais uma compreensão de como as permissões
 numeradas de estilo UNIX/Linux comumente citadas se correlacionam em uma
 máquina com um NTFS.
 
-   
+ 
 Os arquivos que são colocados na pasta raiz www ou public_html, ou em
 qualquer diretório para o qual seu site (www.domain.com.au ou localhost)
 aponta em seu disco rígido, devem ser de propriedade de sua conta de
@@ -213,7 +213,7 @@ As práticas de segurança comumente usadas sugerem que todos os
 
        **Outros :** Apenas leitura
 
-  
+
     **Todos os diretórios/pastas** devem ter as permissões a seguir.
 
        **Proprietário  :** Ler, gravar e executar
@@ -222,7 +222,7 @@ As práticas de segurança comumente usadas sugerem que todos os
 
        **Outros :** Ler e executar
 
-  
+
 *Indiscutivelmente, isso não é necessariamente a segurança "ótima", mas
 um equilíbrio deve ser alcançado entre segurança, funcionalidade e
 capacidade de manutenção.*
@@ -235,7 +235,7 @@ permissões de "Ler" e "Gravar" em um diretório, mas não de "Executar",
 não poderá ver o conteúdo do diretório e também poderá ter problemas ao
 tentar executar o arquivo por meio de um navegador web.
 
-  
+
 Infelizmente, é necessário um pouco de compreensão das permissões do
 UNIX/Linux para equacioná-las/correlacioná-las totalmente com as
 permissões do Windows, a seguinte "folha de dicas" deve ajudar;
@@ -321,7 +321,7 @@ comumente)<br />
 </tbody>
 </table>
 
-  
+
 
 Então, como um exemplo de comparação com os modos do Unix, quando você é
 citado algo como 644, agora você precisa dividir isso em três entidades:
@@ -332,7 +332,7 @@ O primeiro número representa as permissões dos "**Proprietários**", o
 segundo representa as permissões do "**Grupo**" e a terceira, as
 permissões dos "**Outros**".
 
-  
+
 Assim, o equivalente do Windows seria algo como;
 
   **Owner** (6) : **Ler e gravar**

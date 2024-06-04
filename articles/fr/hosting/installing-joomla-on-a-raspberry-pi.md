@@ -15,14 +15,14 @@ class="external text" target="_blank" rel="noreferrer noopener"></a> <a
 href="https://docs.joomla.org//docs.joomla.org/index.php?title=Installing_Joomla_on_a_Raspberry_Pi/fr&amp;action=history"
 class="external text" target="_blank" rel="noreferrer noopener">has not
 been edited in several days</a>, please consider helping complete the
-content.  
+content.
 <span class="small">This article was <a
 href="https://docs.joomla.org//docs.joomla.org/index.php?title=Installing_Joomla_on_a_Raspberry_Pi/fr&amp;diff=cur"
 class="external text" target="_blank" rel="noreferrer noopener">last
 edited</a> by
-[FuzzyBot](https://docs.joomla.org/User:FuzzyBot "User:FuzzyBot")
-([talk](https://docs.joomla.org/User_talk:FuzzyBot "User talk:FuzzyBot")\|
-[contribs](https://docs.joomla.org/Special:Contributions/FuzzyBot "Special:Contributions/FuzzyBot"))
+FuzzyBot
+(talk\|
+contribs
 3 years ago. *(<a
 href="https://docs.joomla.org//docs.joomla.org/index.php?title=Installing_Joomla_on_a_Raspberry_Pi/fr&amp;action=purge"
 class="external text" target="_blank"
@@ -136,7 +136,7 @@ class="external text" target="_blank"
 rel="nofollow noreferrer noopener">Installing Operating System Images on
 Linux</a>
 
-  
+
 **WARNING for raspbian stretch version** : to have a ssh server working
 from boot you need to create an empty file ssh on the root partition.
 
@@ -177,13 +177,13 @@ To log into our Raspberry Pi, we'll use the command **ssh**.
 The first time you'll connect to it, it will show something like:
 
     The authenticity of host '192.168.0.35 (192.168.0.35)' can't be established.
-    ECDSA key fingerprint is 42:42:42:42:42:42:42:42:42:42:42:42:42:42:42:42. 
+    ECDSA key fingerprint is 42:42:42:42:42:42:42:42:42:42:42:42:42:42:42:42.
     Are you sure you want to continue connecting (yes/no)?
 
 We'll choose "**Yes**"
 
     Warning: Permanently added '192.168.0.35' (ECDSA) to the list of known hosts.
-    pi@192.168.0.35's password: 
+    pi@192.168.0.35's password:
 
 and use the **default password**: **raspberry** which on successful
 login will show:
@@ -194,7 +194,7 @@ login will show:
 
     Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
     permitted by applicable law.
-    pi@raspberrypi:~ $ 
+    pi@raspberrypi:~ $
 
 We can configure the Raspberry Pi using a text interface via:
 
@@ -271,7 +271,7 @@ needs to work) with
 We'll get a message like:
 
     Reading package lists... Done
-    Building dependency tree       
+    Building dependency tree
     Reading state information... Done
     The following extra packages will be installed:
      fontconfig-config fonts-dejavu-core libfontconfig1 libgd3 libjbig0 libtiff5 libvpx1 libxpm4 libxslt1.1 nginx-common nginx-full
@@ -295,7 +295,7 @@ see a message like:
     Welcome to nginx on Debian!
     If you see this page, the nginx web server is successfully installed and working on Debian. Further configuration is required.
     For online documentation and support please refer to nginx.org
-    Please use the reportbug tool to report bugs in the nginx package with Debian. 
+    Please use the reportbug tool to report bugs in the nginx package with Debian.
     However, check existing bug reports before reporting a  new bug.
     Thank you for using debian and nginx.
 
@@ -496,12 +496,12 @@ use a static IP address:
 
 change
 
-    iface eth0 inet static 
+    iface eth0 inet static
 
 to
 
-    iface eth0 inet static 
-    address 192.168.0.35 
+    iface eth0 inet static
+    address 192.168.0.35
     netmask 255.255.255.0
     gateway 192.168.0.1
 
