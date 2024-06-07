@@ -70,5 +70,5 @@ file. Add the styles in the **Advanced** tab of the Modules: Login edit form.
 
 If you wish to change the information shown in the Login form you can create
 a template override. See the section on
-[Template Overrides](jdocmanual?manual=user&heading=templates&filename=template-overrides.md)
+[Template Overrides](jdocmanual?article=user/templates/template-overrides)
 for further details.

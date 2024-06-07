@@ -27,7 +27,7 @@ the dropdown list.
 
 There are a number of parameters you can change – you can find out more
 detailed information in the
-[Help](jdocmanual?manual=help&heading=menu-items&filename=menu-item-article-archived.md "Menu Item: Archived Article") screen.
+[Help](jdocmanual?article=help/menu-items/menu-item-article-archived "Menu Item: Archived Article") screen.
 
 After saving, the new menu item it will appear in the Site menu in the order
 added or the order adjusted by drag and drop or in this menu edit form.

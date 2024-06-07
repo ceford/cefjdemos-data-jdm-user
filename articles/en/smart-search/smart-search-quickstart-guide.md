@@ -85,7 +85,7 @@ the item and then pressing the Unpublish button.
 **IMPORTANT NOTE**: If your site has a large amount of content, or
 particularly large content items, or has restricted disk space, you
 should read about [Smart Search on large
-sites](jdocmanual?manual=user&heading=smart-search&filename=smart-search-on-large-sites.md "Smart Search on large sites").
+sites](jdocmanual?article=user/smart-search/smart-search-on-large-sites "Smart Search on large sites").
 
 ## Exposing Smart Search to Site Users
 

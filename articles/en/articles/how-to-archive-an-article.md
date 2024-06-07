@@ -99,13 +99,13 @@ Return to the default article list view by selecting the **Clear** button.
 
 ### To view from the frontend via a menu
 
-There is an [Archived Articles](jdocmanual?manual=user&heading=menus&filename=menu-item-type-archived-articles.md "Internal link")
+There is an [Archived Articles](jdocmanual?article=user/menus/menu-item-type-archived-articles "")
 menu item type that you can use to create a link in your menu to archived
 articles.
 
 ### To view from the frontend via a module
 
-There is an  [Articles – Archived](jdocmanual?manual=user&heading=modules&filename=articles-archived-module.md "Internal link")
+There is an  [Articles – Archived](jdocmanual?article=user/modules/articles-archived-module "")
 module type that you can use to display in a one of your website template
 module positions.
 

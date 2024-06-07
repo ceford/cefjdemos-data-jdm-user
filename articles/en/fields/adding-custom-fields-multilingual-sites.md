@@ -15,7 +15,7 @@ exmple field is named Car. Clearly, more fields can be added for other
 favourite things, such as food or films.
 
 To follow this example it is assumed that you have set up a multilingual site
-as described in the [Multilingual Sites](jdocmanual?manual=user&heading=languages&filename=setup-a-multilingual-site.md "Multlingual Sites")
+as described in the [Multilingual Sites](jdocmanual?article=user/languages/setup-a-multilingual-site "Multlingual Sites")
 tutorial.
 
 ## Language Constants

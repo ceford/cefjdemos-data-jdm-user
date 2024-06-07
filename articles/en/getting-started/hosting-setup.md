@@ -66,7 +66,7 @@ and frequent pleas to upgrade to a paid plan. And the free plan needs to be
 renewed every 30 days or it will be terminated. The following article shows
 the steps required to set up a free Joomla site.
 
-* [Free Joomla Hosting](jdocmanual?manual=user&heading=hosting&filename=free-hosting.md)
+* [Free Joomla Hosting](jdocmanual?article=user/hosting/free-hosting "")
 
 If you find you like Joomla you are can update to a paid plan or look elsewhere
 for a hosting service suited to your needs and budget.
@@ -132,7 +132,7 @@ usually a few hours.
 The following article shows what to expect if you purchase a hosting plan that
 includes a cPanel user interface.
 
-* [cPanel Hosting](jdocmanual?manual=documenter&heading=hosting&filename=cpanel-hosting.md "Internal link")
+* [cPanel Hosting](jdocmanual?article=user/hosting/cpanel-hosting "cPanel Hosting")
 
 ## VPS Hosting
 
@@ -158,6 +158,6 @@ it is fairly easy to follow simple instructions.
 The following articles describe how to set up local hosting on different types
 of desktop or laptop computers:
 
-* [Local Hosting on Windows](jdocmanual?manual=user&heading=hosting&filename=local-hosting-on-windows.md "Internal link") for Windows only
-* [Local Hosting with XAMPP](jdocmanual?manual=user&heading=hosting&filename=local-hosting-with-xampp.md "Internal link") for Linux, Mac and Windows.
-* [Local Hosting on Linux](jdocmanual?manual=user&heading=hosting&filename=local-hosting-on-linux.md "Internal link")
+* [Local Hosting on Windows](jdocmanual?article=user/hosting/local-hosting-on-windows "Local Hosting on Windows") for Windows only
+* [Local Hosting with XAMPP](jdocmanual?article=user/hosting/local-hosting-with-xampp "Local Hosting with XAMPP") for Linux, Mac and Windows.
+* [Local Hosting on Linux](jdocmanual?article=user/hosting/local-hosting-on-linux "Local Hosting on Linux")

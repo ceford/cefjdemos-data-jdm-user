@@ -35,8 +35,8 @@ unpredictable problems.
 ### Database Setup
 
 If you have not yet set up a database do it now. It is covered for a cPanel
-hosting service in the  cPanel Hosting](jdocmanual?manual=user&heading=hosting&filename=cpanel-hosting.md) tutorial. There is also a [Creating a Database for
-Joomla!
+hosting service in the [cPanel Hosting](jdocmanual?article=user/hosting/cpanel-hosting "cPanel Hosting") tutorial. There is also a *Creating a Database for
+Joomla!*
 tutorial that covers localhost and phpMyAdmin methods.
 
 You will need to note basic database information needed when the actual

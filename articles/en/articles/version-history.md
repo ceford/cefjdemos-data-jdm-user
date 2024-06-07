@@ -1,4 +1,4 @@
-<!-- Filename: Help4.x:Components_Version_History / Display title: Components Version History -->
+<!-- Filename: Help4.x:Components_Version_History / Display title: Version History -->
 
 ## Description
 
