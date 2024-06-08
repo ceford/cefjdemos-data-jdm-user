@@ -9,11 +9,10 @@ user=getting-started=hosting-setup.md
 user=getting-started=installing-joomla.md
 user=getting-started=logging-in-to-joomla.md
 user=getting-started=articles-and-categories.md
-user=getting-started=getting-started-adding-an-article.md
-user=getting-started=getting-started-adding-a-category.md
-user=getting-started=getting-started-adding-a-menu-item.md
-user=getting-started=getting-started-adding-a-module.md
-user=getting-started=getting-started-site-and-administrator-templates.md
+user=getting-started=adding-an-article.md
+user=getting-started=adding-a-category.md
+user=getting-started=adding-a-menu-item.md
+user=getting-started=adding-a-module.md
 user=getting-started=keyboard-shortcuts.md
 
 heading=articles=Articles

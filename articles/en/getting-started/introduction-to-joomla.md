@@ -39,6 +39,19 @@ If Cassiopeia is not quite right for your site, there are hundreds of
 other templates available from third party suppliers, both free and
 commercial.
 
+#### Cassiopeia Features to notice
+
+- The top blue bar is the *Header*, typically containing a Logo and a
+  Company name. You can add an image to use as a logo and change
+  Cassiopeia to whatever you want.
+- The boxes to the right labeled *Main Menu* and *Login Form* are
+  examples of modules. The grey bar containing *You are here:* is a
+  *Breadcrumb* module. It shows where you are in a page tree, useful in
+  complex sites.
+- *Home* is where the content appears. In a new installation this is a
+  list of *Featured Articles*. But there are no articles yet so it is
+  empty. First job: create an article and mark it *Featured*.
+
 ### Administrator Template - Atum
 
 This template is not seen by the public so it is rarely necessary to
@@ -48,6 +61,23 @@ seek an alternative.
 
 You can configure what appears on various dashboards but that is best
 left until experience warrants a change.
+
+#### Atum Features to notice
+
+- At the top is the Title bar containing the Joomla Logo, the Title of
+  the page on display and a group of Information icons. They are on
+  every page but disabled on Edit pages. To find out what they do: try
+  them.
+- The default page is the *Home Dashboard*. It contains panels grouping
+  together often used Management features. You can add and remove panels
+  as you please. And you can add items to panels and remove items too.
+- The column to the left is the *Administrator Menu*. This provides
+  access to the most commonly used features. The right bracket marker
+  (\>) indicates that this menu opens to reveal more items. The group of
+  four squares marker opens a dashboard that also contains panels
+  grouping together commonly used features.
+- The Toggle button collapses or expands the menu on demand to provide
+  more workspace.
 
 ## Extensions
 

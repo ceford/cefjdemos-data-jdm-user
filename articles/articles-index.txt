@@ -4,11 +4,10 @@ getting-started=hosting-setup.md=https://docs.joomla.org/J4.x:Hosting_Setup
 getting-started=installing-joomla.md=https://docs.joomla.org/J4.x:Installing_Joomla
 getting-started=logging-in-to-joomla.md=https://docs.joomla.org/J4.x:Logging_in_to_Joomla
 getting-started=articles-and-categories.md=https://docs.joomla.org/J4.x:Articles_and_categories
-getting-started=getting-started-adding-an-article.md=https://docs.joomla.org/J4.x:Getting_Started:_Adding_an_Article
-getting-started=getting-started-adding-a-category.md=https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Category
-getting-started=getting-started-adding-a-menu-item.md=https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Menu_Getting Started: Adding a Menu mw
-getting-started=getting-started-adding-a-module.md=https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Module
-getting-started=getting-started-site-and-administrator-templates.md=https://docs.joomla.org/J4.x:Getting_Started:_Site_and_Administrator_templates
+getting-started=adding-an-article.md=https://docs.joomla.org/J4.x:Getting_Started:_Adding_an_Article
+getting-started=adding-a-category.md=https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Category
+getting-started=adding-a-menu-item.md=https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Menu_Getting Started: Adding a Menu mw
+getting-started=adding-a-module.md=https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Module
 getting-started=keyboard-shortcuts.md=https://docs.joomla.org/J4.x:Keyboard_Shortcuts
 
 articles=create-and-manage-article-categories.md=https://docs.joomla.org/J4.x:Create_and_Manage_Article_Categories
