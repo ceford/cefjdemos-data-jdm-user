@@ -304,15 +304,13 @@ As indicated above, menu item layouts take priority over component or
 category alternative layouts.
 
 Translation of alternative menu items is done with the following tags in
-the XML files. The format is `"TPL_"___`
-
-\_. For example, these lines below will translate the title, option, and
+the XML files. The format is `"TPL_"<template name>_<component>_<view>_<menu item name>_<tag type>`. For example, these lines below will translate the title, option, and
 description for an alternative menu item called "catmenuitem".
-
+```
     TPL_CASSIOPEIA_COM_CONTENT_CATEGORY_VIEW_CATMENUITEM_TITLE="cassiopeia Custom Category Layout"
     TPL_CASSIOPEIA_COM_CONTENT_CATEGORY_VIEW_CATMENUITEM_OPTION="cassiopeia Custom"
     TPL_CASSIOPEIA_COM_CONTENT_CATEGORY_VIEW_CATMENUITEM_DESC="Description for cassiopeia custom category layout."
-
+```
 These strings have to be added to
 `administrator/language/overrides/en-GB.override.ini` but you can use
 the Language Overrides form described above.

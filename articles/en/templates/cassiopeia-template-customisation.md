@@ -325,17 +325,3 @@ src="https://docs.joomla.org/images/5/55/J4x-cassiopeia_template_customisation_c
 class="thumbborder" decoding="async" data-file-width="720"
 data-file-height="264" width="720" height="264"
 alt="Child Template Files" />
-
-## Further Information
-
--  Template
-  Basics
--  Cassiopeia Template Folders and
-  Files
--  Template
-  Overrides
--  Template
-  Layouts
--  Cassiopeia Template Simplified - A Case
-  Study -
-  a simple template based on Cassiopeia
